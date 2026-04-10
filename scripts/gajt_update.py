@@ -260,7 +260,7 @@ def aggregate_company_skills(company_cfg, skill_dict):
     if ats_type == 'greenhouse':
         jobs = data.get('jobs', [])
     elif ats_type == 'ashby':
-        jobs = data.get('jobPostings', [])
+        jobs = data.get('jobs', []) or data.get('jobPostings', [])
     elif ats_type == 'lever':
         jobs = data if isinstance(data, list) else data.get('data', [])
 
