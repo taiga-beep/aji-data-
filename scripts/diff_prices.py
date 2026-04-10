@@ -301,7 +301,7 @@ def main():
 
     # summary.json 生成
     summary = {
-        "lastUpdated": jst_now.strftime("%Y-%m-%dT%H:%M:%SZ").replace(jst_now.strftime("%H:%M:%S"), "07:00:00"),
+        "lastUpdated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "totalModels": len([m for m in models_with_diff if not m.get("isRemoved", False)]),
         "todayChanges": changes,
         "models": models_with_diff,
