@@ -87,28 +87,16 @@
       "Claude",
       "Multimodal",
       "GPT",
+      "Python",
       "LLM",
       "Kubernetes",
       "SQL",
-      "Prompt Engineering",
-      "BigQuery",
-      "AI Agent",
-      "Airflow"
+      "Transformer",
+      "MCP",
+      "Prompt Engineering"
     ],
-    "droppedSkills": [
-      "vLLM",
-      "LangChain"
-    ],
-    "trendingSkills": [
-      {
-        "skill": "Python",
-        "deltaPct": 96
-      },
-      {
-        "skill": "Transformer",
-        "deltaPct": 34
-      }
-    ]
+    "droppedSkills": [],
+    "trendingSkills": []
   },
   "openai": {
     "slug": "openai",
@@ -196,28 +184,19 @@
       "Copilot": 1
     },
     "newSkills": [
+      "Python",
+      "OpenAI API",
+      "Kubernetes",
+      "SQL",
+      "LLM",
       "Multimodal",
       "GPT",
       "Terraform",
-      "Sora",
-      "PyTorch",
-      "Spark",
-      "RLHF",
-      "Docker",
-      "Kafka",
-      "TensorFlow"
+      "Fine-tuning",
+      "Sora"
     ],
     "droppedSkills": [],
-    "trendingSkills": [
-      {
-        "skill": "Python",
-        "deltaPct": 68
-      },
-      {
-        "skill": "OpenAI API",
-        "deltaPct": 20
-      }
-    ]
+    "trendingSkills": []
   },
   "xai": {
     "slug": "xai",
@@ -297,20 +276,18 @@
       "Sora": 1
     },
     "newSkills": [
+      "Python",
+      "Kubernetes",
+      "Multimodal",
       "Terraform",
       "Spark",
       "Docker",
       "PyTorch",
+      "LLM",
       "Kafka",
-      "SQL",
-      "Ray",
-      "Fine-tuning",
-      "gRPC",
-      "TensorFlow"
+      "SQL"
     ],
-    "droppedSkills": [
-      "Transformer"
-    ],
+    "droppedSkills": [],
     "trendingSkills": []
   },
   "mistral": {
@@ -390,36 +367,19 @@
       "Redis": 1
     },
     "newSkills": [
+      "Mistral",
+      "Python",
+      "Fine-tuning",
       "LLM",
       "Kubernetes",
       "PyTorch",
+      "RAG",
       "Docker",
       "Terraform",
-      "JAX",
-      "SQL",
-      "LangChain",
-      "Multimodal",
-      "Transformer"
+      "JAX"
     ],
     "droppedSkills": [],
-    "trendingSkills": [
-      {
-        "skill": "Mistral",
-        "deltaPct": 5573
-      },
-      {
-        "skill": "Python",
-        "deltaPct": 232
-      },
-      {
-        "skill": "RAG",
-        "deltaPct": 110
-      },
-      {
-        "skill": "Fine-tuning",
-        "deltaPct": 89
-      }
-    ]
+    "trendingSkills": []
   },
   "cohere": {
     "slug": "cohere",
@@ -511,34 +471,19 @@
       "BigQuery": 1
     },
     "newSkills": [
+      "RAG",
+      "LLM",
+      "Python",
       "Kubernetes",
       "JAX",
       "PyTorch",
       "Multimodal",
       "TensorFlow",
       "Docker",
-      "vLLM",
-      "Ray",
-      "Terraform",
-      "Spark"
+      "Fine-tuning"
     ],
-    "droppedSkills": [
-      "Embeddings"
-    ],
-    "trendingSkills": [
-      {
-        "skill": "RAG",
-        "deltaPct": 280
-      },
-      {
-        "skill": "Python",
-        "deltaPct": 129
-      },
-      {
-        "skill": "LLM",
-        "deltaPct": 120
-      }
-    ]
+    "droppedSkills": [],
+    "trendingSkills": []
   },
   "perplexity": {
     "slug": "perplexity",
@@ -622,32 +567,19 @@
       "Kafka": 1
     },
     "newSkills": [
+      "Python",
+      "LLM",
+      "Kubernetes",
       "PyTorch",
       "SQL",
       "PostgreSQL",
       "Multimodal",
       "Docker",
-      "Redis",
-      "FastAPI",
-      "TensorFlow",
-      "Snowflake",
-      "Spark"
+      "RAG",
+      "Redis"
     ],
     "droppedSkills": [],
-    "trendingSkills": [
-      {
-        "skill": "Python",
-        "deltaPct": 228
-      },
-      {
-        "skill": "LLM",
-        "deltaPct": 207
-      },
-      {
-        "skill": "Kubernetes",
-        "deltaPct": 108
-      }
-    ]
+    "trendingSkills": []
   },
   "runway": {
     "slug": "runway",
@@ -669,10 +601,11 @@
       "SQL": 2,
       "Kubernetes": 1
     },
-    "newSkills": [],
-    "droppedSkills": [
-      "Python"
+    "newSkills": [
+      "SQL",
+      "Kubernetes"
     ],
+    "droppedSkills": [],
     "trendingSkills": []
   },
   "elevenlabs": {
@@ -741,23 +674,18 @@
       "Claude": 1
     },
     "newSkills": [
+      "ElevenLabs",
+      "Voice AI",
+      "Python",
+      "LLM",
       "SQL",
       "MCP",
+      "Kubernetes",
       "Fine-tuning",
       "Kafka",
-      "Redis",
-      "Docker",
-      "Multimodal",
-      "Terraform",
-      "dbt",
-      "Claude"
+      "Redis"
     ],
     "droppedSkills": [],
-    "trendingSkills": [
-      {
-        "skill": "ElevenLabs",
-        "deltaPct": 1743
-      }
-    ]
+    "trendingSkills": []
   }
 }

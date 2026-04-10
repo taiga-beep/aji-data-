@@ -590,13 +590,19 @@ def main():
         'globalTopRisers': [{'skill': sk, 'deltaPct': dp} for sk, dp in top_risers],
     }
 
-    # --- 9. japanLag (静的データ継承) ---
+    # --- 9. japanLag (静的データ継承 — {entries: [...]} 形式) ---
     japan_lag = None
     if os.path.exists(SUMMARY_FILE):
         try:
             with open(SUMMARY_FILE, encoding='utf-8') as f:
                 old = json.load(f)
-            japan_lag = old.get('japanLag')
+            jl = old.get('japanLag')
+            if jl is not None:
+                # フラット配列なら {entries: [...]} にラップ
+                if isinstance(jl, list):
+                    japan_lag = {'entries': jl}
+                else:
+                    japan_lag = jl
         except (json.JSONDecodeError, OSError):
             pass
 
