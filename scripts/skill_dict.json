@@ -1,0 +1,26 @@
+{
+  "LLM・基盤モデル": [
+    "LLM", "GPT", "Claude", "Gemini", "Llama", "Mistral", "BERT",
+    "Transformer", "Foundation Model", "RAG", "RLHF", "Fine-tuning",
+    "Prompt Engineering", "MCP", "LangChain", "LlamaIndex",
+    "Semantic Kernel", "Retrieval Augmented Generation"
+  ],
+  "MLエンジニアリング": [
+    "PyTorch", "TensorFlow", "JAX", "Keras", "Hugging Face", "ONNX",
+    "TensorRT", "vLLM", "Triton", "MLflow", "Kubeflow",
+    "Weights & Biases", "WandB"
+  ],
+  "データ・インフラ": [
+    "Python", "SQL", "Spark", "dbt", "Airflow", "Kafka", "Pinecone",
+    "Weaviate", "Chroma", "Redis", "PostgreSQL", "BigQuery", "Snowflake"
+  ],
+  "クラウド・デプロイ": [
+    "AWS SageMaker", "Google Vertex AI", "Azure ML", "Kubernetes",
+    "Docker", "Terraform", "FastAPI", "gRPC"
+  ],
+  "エージェント・マルチモーダル": [
+    "AI Agent", "Multi-Agent", "Computer Vision", "Multimodal",
+    "Voice AI", "OpenAI API", "Anthropic API", "Cursor", "Copilot",
+    "Replit", "Midjourney", "Stable Diffusion", "Sora", "ElevenLabs"
+  ]
+}

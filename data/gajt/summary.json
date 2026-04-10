@@ -1,0 +1,323 @@
+{
+  "lastUpdated": "2026-04-10T07:30:00Z",
+  "meta": {
+    "lastVerified": "2026-04-10",
+    "sourceUrls": [
+      "https://remoteok.com/api",
+      "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+    ],
+    "totalJobsScanned": 20480,
+    "updateCycleHours": 24,
+    "nextUpdateISO": "2026-04-11T07:30:00Z"
+  },
+  "streakDays": 2,
+  "monthlyRanking": [
+    { "rank": 1,  "skill": "LangChain",           "category": "LLM・基盤モデル",           "currentMonth": 284, "prevMonth": 201, "changePct": 41.3, "changeDir": "up" },
+    { "rank": 2,  "skill": "RAG",                  "category": "LLM・基盤モデル",           "currentMonth": 312, "prevMonth": 226, "changePct": 38.1, "changeDir": "up" },
+    { "rank": 3,  "skill": "MCP",                  "category": "LLM・基盤モデル",           "currentMonth": 87,  "prevMonth": 63,  "changePct": 38.1, "changeDir": "up" },
+    { "rank": 4,  "skill": "AI Agent",             "category": "エージェント・マルチモーダル", "currentMonth": 198, "prevMonth": 149, "changePct": 32.9, "changeDir": "up" },
+    { "rank": 5,  "skill": "Multi-Agent",          "category": "エージェント・マルチモーダル", "currentMonth": 143, "prevMonth": 108, "changePct": 32.4, "changeDir": "up" },
+    { "rank": 6,  "skill": "vLLM",                 "category": "MLエンジニアリング",         "currentMonth": 96,  "prevMonth": 73,  "changePct": 31.5, "changeDir": "up" },
+    { "rank": 7,  "skill": "LlamaIndex",           "category": "LLM・基盤モデル",           "currentMonth": 117, "prevMonth": 94,  "changePct": 24.5, "changeDir": "up" },
+    { "rank": 8,  "skill": "Fine-tuning",          "category": "LLM・基盤モデル",           "currentMonth": 189, "prevMonth": 155, "changePct": 21.9, "changeDir": "up" },
+    { "rank": 9,  "skill": "Hugging Face",         "category": "MLエンジニアリング",         "currentMonth": 267, "prevMonth": 224, "changePct": 19.2, "changeDir": "up" },
+    { "rank": 10, "skill": "Pinecone",             "category": "データ・インフラ",           "currentMonth": 134, "prevMonth": 113, "changePct": 18.6, "changeDir": "up" },
+    { "rank": 11, "skill": "Weaviate",             "category": "データ・インフラ",           "currentMonth": 98,  "prevMonth": 83,  "changePct": 18.1, "changeDir": "up" },
+    { "rank": 12, "skill": "FastAPI",              "category": "クラウド・デプロイ",         "currentMonth": 321, "prevMonth": 279, "changePct": 15.1, "changeDir": "up" },
+    { "rank": 13, "skill": "PyTorch",              "category": "MLエンジニアリング",         "currentMonth": 487, "prevMonth": 451, "changePct": 8.0,  "changeDir": "up" },
+    { "rank": 14, "skill": "Python",               "category": "データ・インフラ",           "currentMonth": 1243,"prevMonth": 1198,"changePct": 3.8,  "changeDir": "up" },
+    { "rank": 15, "skill": "Kubernetes",           "category": "クラウド・デプロイ",         "currentMonth": 298, "prevMonth": 301, "changePct": -1.0, "changeDir": "down" },
+    { "rank": 16, "skill": "TensorFlow",           "category": "MLエンジニアリング",         "currentMonth": 203, "prevMonth": 231, "changePct": -12.1,"changeDir": "down" },
+    { "rank": 17, "skill": "BERT",                 "category": "LLM・基盤モデル",           "currentMonth": 87,  "prevMonth": 102, "changePct": -14.7,"changeDir": "down" },
+    { "rank": 18, "skill": "Prompt Engineering",  "category": "LLM・基盤モデル",           "currentMonth": 134, "prevMonth": 178, "changePct": -24.7,"changeDir": "down" },
+    { "rank": 19, "skill": "Stable Diffusion",    "category": "エージェント・マルチモーダル", "currentMonth": 56,  "prevMonth": 79,  "changePct": -29.1,"changeDir": "down" },
+    { "rank": 20, "skill": "Keras",               "category": "MLエンジニアリング",         "currentMonth": 89,  "prevMonth": 128, "changePct": -30.5,"changeDir": "down" }
+  ],
+  "calendarHeatmap": [
+    { "date": "2026-03-11", "totalAiJobs": 312, "topSkill": "PyTorch" },
+    { "date": "2026-03-12", "totalAiJobs": 287, "topSkill": "Python" },
+    { "date": "2026-03-13", "totalAiJobs": 298, "topSkill": "LangChain" },
+    { "date": "2026-03-14", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-15", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-16", "totalAiJobs": 334, "topSkill": "RAG" },
+    { "date": "2026-03-17", "totalAiJobs": 356, "topSkill": "RAG" },
+    { "date": "2026-03-18", "totalAiJobs": 341, "topSkill": "LangChain" },
+    { "date": "2026-03-19", "totalAiJobs": 303, "topSkill": "Python" },
+    { "date": "2026-03-20", "totalAiJobs": 289, "topSkill": "FastAPI" },
+    { "date": "2026-03-21", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-22", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-23", "totalAiJobs": 367, "topSkill": "LangChain" },
+    { "date": "2026-03-24", "totalAiJobs": 389, "topSkill": "RAG" },
+    { "date": "2026-03-25", "totalAiJobs": 412, "topSkill": "MCP" },
+    { "date": "2026-03-26", "totalAiJobs": 398, "topSkill": "RAG" },
+    { "date": "2026-03-27", "totalAiJobs": 345, "topSkill": "LangChain" },
+    { "date": "2026-03-28", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-29", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-03-30", "totalAiJobs": 423, "topSkill": "AI Agent" },
+    { "date": "2026-03-31", "totalAiJobs": 445, "topSkill": "AI Agent" },
+    { "date": "2026-04-01", "totalAiJobs": 467, "topSkill": "LangChain" },
+    { "date": "2026-04-02", "totalAiJobs": 489, "topSkill": "RAG" },
+    { "date": "2026-04-03", "totalAiJobs": 456, "topSkill": "LangChain" },
+    { "date": "2026-04-04", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-04-05", "totalAiJobs": 0,   "topSkill": "" },
+    { "date": "2026-04-06", "totalAiJobs": 512, "topSkill": "MCP" },
+    { "date": "2026-04-07", "totalAiJobs": 534, "topSkill": "MCP" },
+    { "date": "2026-04-08", "totalAiJobs": 498, "topSkill": "RAG" },
+    { "date": "2026-04-09", "totalAiJobs": 521, "topSkill": "LangChain" }
+  ],
+  "weeklyTopThree": {
+    "weekOf": "2026-04-07",
+    "skills": ["LangChain", "RAG", "MCP"],
+    "percentages": [41.3, 38.1, 38.1],
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LangChain +41.3%\n2位: RAG +38.1%\n3位: MCP +38.1%\n（2026-04-07週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+  },
+  "kpi": {
+    "totalAiJobsThisMonth": 4823,
+    "aiJobRatioPct": 23.6,
+    "topRisingSkill": { "name": "LangChain", "changePct": 41.3 },
+    "topFallingSkill": { "name": "Keras", "changePct": -30.5 }
+  },
+  "companyWeekly": {
+    "weekOf": "2026-04-07",
+    "lastVerified": "2026-04-10",
+    "companies": [
+      {
+        "slug": "anthropic",
+        "name": "Anthropic",
+        "atsType": "greenhouse",
+        "careersUrl": "https://www.anthropic.com/jobs",
+        "jobCount": 127,
+        "topSkills": [
+          {"skill": "Python",      "count": 89},
+          {"skill": "PyTorch",     "count": 67},
+          {"skill": "RLHF",        "count": 54},
+          {"skill": "RAG",         "count": 48},
+          {"skill": "MCP",         "count": 41},
+          {"skill": "Transformer", "count": 38},
+          {"skill": "Fine-tuning", "count": 35},
+          {"skill": "vLLM",        "count": 29},
+          {"skill": "LangChain",   "count": 24},
+          {"skill": "JAX",         "count": 19}
+        ],
+        "newSkills": ["MCP", "Agentic RAG"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "vLLM",        "deltaPct": 45},
+          {"skill": "MCP",         "deltaPct": 38},
+          {"skill": "Agentic RAG", "deltaPct": 31}
+        ]
+      },
+      {
+        "slug": "openai",
+        "name": "OpenAI",
+        "atsType": "ashby",
+        "careersUrl": "https://openai.com/careers",
+        "jobCount": 214,
+        "topSkills": [
+          {"skill": "Python",      "count": 156},
+          {"skill": "PyTorch",     "count": 112},
+          {"skill": "RAG",         "count": 87},
+          {"skill": "Fine-tuning", "count": 76},
+          {"skill": "AI Agent",    "count": 68},
+          {"skill": "Transformer", "count": 61},
+          {"skill": "vLLM",        "count": 43},
+          {"skill": "Multi-Agent", "count": 38},
+          {"skill": "FastAPI",     "count": 31},
+          {"skill": "Hugging Face","count": 24}
+        ],
+        "newSkills": ["Agentic RAG", "vLLM"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "AI Agent",    "deltaPct": 38},
+          {"skill": "vLLM",        "deltaPct": 32},
+          {"skill": "Multi-Agent", "deltaPct": 27}
+        ]
+      },
+      {
+        "slug": "xai",
+        "name": "xAI",
+        "atsType": "greenhouse",
+        "careersUrl": "https://x.ai/careers",
+        "jobCount": 89,
+        "topSkills": [
+          {"skill": "Python",      "count": 71},
+          {"skill": "PyTorch",     "count": 58},
+          {"skill": "JAX",         "count": 44},
+          {"skill": "Transformer", "count": 39},
+          {"skill": "RLHF",        "count": 34},
+          {"skill": "Fine-tuning", "count": 29},
+          {"skill": "Ray",         "count": 24},
+          {"skill": "vLLM",        "count": 19},
+          {"skill": "Multi-Agent", "count": 14},
+          {"skill": "MCP",         "count": 9}
+        ],
+        "newSkills": ["Ray", "MCP"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "Ray",         "deltaPct": 40},
+          {"skill": "JAX",         "deltaPct": 28},
+          {"skill": "vLLM",        "deltaPct": 22}
+        ]
+      },
+      {
+        "slug": "mistral",
+        "name": "Mistral AI",
+        "atsType": "lever",
+        "careersUrl": "https://mistral.ai/careers",
+        "jobCount": 43,
+        "topSkills": [
+          {"skill": "Python",      "count": 38},
+          {"skill": "PyTorch",     "count": 29},
+          {"skill": "Transformer", "count": 24},
+          {"skill": "Fine-tuning", "count": 21},
+          {"skill": "RAG",         "count": 18},
+          {"skill": "vLLM",        "count": 15},
+          {"skill": "FastAPI",     "count": 12},
+          {"skill": "Hugging Face","count": 10},
+          {"skill": "MCP",         "count": 7},
+          {"skill": "JAX",         "count": 5}
+        ],
+        "newSkills": ["MCP"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "vLLM",        "deltaPct": 36},
+          {"skill": "MCP",         "deltaPct": 28},
+          {"skill": "RAG",         "deltaPct": 20}
+        ]
+      },
+      {
+        "slug": "cohere",
+        "name": "Cohere",
+        "atsType": "ashby",
+        "careersUrl": "https://cohere.com/careers",
+        "jobCount": 67,
+        "topSkills": [
+          {"skill": "Python",       "count": 54},
+          {"skill": "RAG",          "count": 43},
+          {"skill": "PyTorch",      "count": 38},
+          {"skill": "LangChain",    "count": 31},
+          {"skill": "FastAPI",      "count": 26},
+          {"skill": "Fine-tuning",  "count": 22},
+          {"skill": "Hugging Face", "count": 18},
+          {"skill": "AI Agent",     "count": 14},
+          {"skill": "Agentic RAG",  "count": 11},
+          {"skill": "vLLM",         "count": 8}
+        ],
+        "newSkills": ["Agentic RAG"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "Agentic RAG",  "deltaPct": 35},
+          {"skill": "AI Agent",     "deltaPct": 24},
+          {"skill": "vLLM",         "deltaPct": 20}
+        ]
+      },
+      {
+        "slug": "perplexity",
+        "name": "Perplexity",
+        "atsType": "ashby",
+        "careersUrl": "https://www.perplexity.ai/careers",
+        "jobCount": 31,
+        "topSkills": [
+          {"skill": "Python",      "count": 28},
+          {"skill": "RAG",         "count": 22},
+          {"skill": "AI Agent",    "count": 17},
+          {"skill": "FastAPI",     "count": 14},
+          {"skill": "LangChain",   "count": 11},
+          {"skill": "vLLM",        "count": 9},
+          {"skill": "Agentic RAG", "count": 7},
+          {"skill": "Multi-Agent", "count": 5},
+          {"skill": "PyTorch",     "count": 4},
+          {"skill": "MCP",         "count": 3}
+        ],
+        "newSkills": ["Agentic RAG", "MCP"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "AI Agent",    "deltaPct": 42},
+          {"skill": "Agentic RAG", "deltaPct": 33},
+          {"skill": "vLLM",        "deltaPct": 25}
+        ]
+      },
+      {
+        "slug": "runway",
+        "name": "Runway",
+        "atsType": "ashby",
+        "careersUrl": "https://runwayml.com/careers",
+        "jobCount": 28,
+        "topSkills": [
+          {"skill": "Python",      "count": 24},
+          {"skill": "PyTorch",     "count": 19},
+          {"skill": "Transformer", "count": 16},
+          {"skill": "Fine-tuning", "count": 13},
+          {"skill": "FastAPI",     "count": 10},
+          {"skill": "RAG",         "count": 7},
+          {"skill": "Hugging Face","count": 6},
+          {"skill": "vLLM",        "count": 4},
+          {"skill": "AI Agent",    "count": 3},
+          {"skill": "LangChain",   "count": 2}
+        ],
+        "newSkills": ["vLLM"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "vLLM",        "deltaPct": 30},
+          {"skill": "Fine-tuning", "deltaPct": 22},
+          {"skill": "Transformer", "deltaPct": 18}
+        ]
+      },
+      {
+        "slug": "elevenlabs",
+        "name": "ElevenLabs",
+        "atsType": "ashby",
+        "careersUrl": "https://elevenlabs.io/careers",
+        "jobCount": 19,
+        "topSkills": [
+          {"skill": "Python",      "count": 16},
+          {"skill": "PyTorch",     "count": 12},
+          {"skill": "FastAPI",     "count": 9},
+          {"skill": "Transformer", "count": 7},
+          {"skill": "Fine-tuning", "count": 6},
+          {"skill": "Hugging Face","count": 5},
+          {"skill": "RAG",         "count": 4},
+          {"skill": "vLLM",        "count": 3},
+          {"skill": "AI Agent",    "count": 2},
+          {"skill": "LangChain",   "count": 1}
+        ],
+        "newSkills": ["vLLM"],
+        "droppedSkills": [],
+        "trendingSkills": [
+          {"skill": "vLLM",        "deltaPct": 28},
+          {"skill": "FastAPI",     "deltaPct": 20},
+          {"skill": "Fine-tuning", "deltaPct": 15}
+        ]
+      }
+    ],
+    "globalNewSkills": ["MCP", "Agentic RAG", "vLLM", "Ray", "Mojo"],
+    "globalTopRisers": [
+      {"skill": "vLLM",        "deltaPct": 45},
+      {"skill": "MCP",         "deltaPct": 38},
+      {"skill": "Agentic RAG", "deltaPct": 31},
+      {"skill": "Ray",         "deltaPct": 27},
+      {"skill": "Mojo",        "deltaPct": 22}
+    ]
+  },
+  "japanLag": {
+    "lastVerified": "2026-04-09",
+    "note": "初期値はGoogle Trends過去データに基づく推定。今後毎週更新で実測値に置換される。",
+    "entries": [
+      { "skill": "vLLM",        "globalFirst": "2024-01-08", "japanFirst": "2024-07-15", "lagDays": 188, "isEstimate": true },
+      { "skill": "MCP",         "globalFirst": "2024-11-25", "japanFirst": "2025-02-10", "lagDays": 77,  "isEstimate": true },
+      { "skill": "Agentic RAG", "globalFirst": "2024-06-17", "japanFirst": "2024-12-02", "lagDays": 168, "isEstimate": true },
+      { "skill": "Ray",         "globalFirst": "2023-03-13", "japanFirst": "2023-09-18", "lagDays": 189, "isEstimate": true },
+      { "skill": "Mojo",        "globalFirst": "2023-05-22", "japanFirst": "2023-09-04", "lagDays": 105, "isEstimate": true },
+      { "skill": "LangChain",   "globalFirst": "2023-02-27", "japanFirst": "2023-07-03", "lagDays": 126, "isEstimate": true },
+      { "skill": "RAG",         "globalFirst": "2023-09-11", "japanFirst": "2024-01-15", "lagDays": 126, "isEstimate": true },
+      { "skill": "AI Agent",    "globalFirst": "2024-01-15", "japanFirst": "2024-06-10", "lagDays": 147, "isEstimate": true },
+      { "skill": "Multi-Agent", "globalFirst": "2024-02-19", "japanFirst": "2024-08-05", "lagDays": 168, "isEstimate": true },
+      { "skill": "Fine-tuning", "globalFirst": "2023-04-03", "japanFirst": "2023-09-11", "lagDays": 161, "isEstimate": true },
+      { "skill": "PyTorch",     "globalFirst": "2022-11-07", "japanFirst": "2023-03-06", "lagDays": 119, "isEstimate": true },
+      { "skill": "FastAPI",     "globalFirst": "2022-10-10", "japanFirst": "2023-02-27", "lagDays": 140, "isEstimate": true },
+      { "skill": "Hugging Face","globalFirst": "2022-12-05", "japanFirst": "2023-04-10", "lagDays": 126, "isEstimate": true },
+      { "skill": "JAX",         "globalFirst": "2023-01-09", "japanFirst": "2023-05-22", "lagDays": 133, "isEstimate": true },
+      { "skill": "Transformer", "globalFirst": "2022-08-22", "japanFirst": "2022-12-12", "lagDays": 112, "isEstimate": true }
+    ]
+  }
+}

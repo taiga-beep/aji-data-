@@ -1,0 +1,30 @@
+name: Fetch GAJT Data
+
+on:
+  schedule:
+    - cron: '30 7 * * *'  # 毎日 07:30 UTC = 16:30 JST（OPTの30分後）
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run GAJT update script
+        run: python scripts/gajt_update.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "gajt update $(date +%Y-%m-%d)"
+          git push
