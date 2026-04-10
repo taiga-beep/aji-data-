@@ -4,19 +4,19 @@
     "name": "Anthropic",
     "atsType": "greenhouse",
     "careersUrl": "https://www.anthropic.com/jobs",
-    "jobCount": 425,
+    "jobCount": 427,
     "topSkills": [
       {
         "skill": "Claude",
-        "count": 791
+        "count": 792
       },
       {
         "skill": "Multimodal",
-        "count": 432
+        "count": 434
       },
       {
         "skill": "GPT",
-        "count": 425
+        "count": 427
       },
       {
         "skill": "Python",
@@ -48,9 +48,9 @@
       }
     ],
     "skillCounts": {
-      "Claude": 791,
-      "Multimodal": 432,
-      "GPT": 425,
+      "Claude": 792,
+      "Multimodal": 434,
+      "GPT": 427,
       "Python": 147,
       "LLM": 145,
       "Kubernetes": 48,
@@ -103,15 +103,15 @@
     "name": "OpenAI",
     "atsType": "ashby",
     "careersUrl": "https://openai.com/careers",
-    "jobCount": 645,
+    "jobCount": 642,
     "topSkills": [
       {
         "skill": "Python",
-        "count": 201
+        "count": 200
       },
       {
         "skill": "OpenAI API",
-        "count": 84
+        "count": 80
       },
       {
         "skill": "Kubernetes",
@@ -147,8 +147,8 @@
       }
     ],
     "skillCounts": {
-      "Python": 201,
-      "OpenAI API": 84,
+      "Python": 200,
+      "OpenAI API": 80,
       "Kubernetes": 75,
       "SQL": 59,
       "LLM": 53,
