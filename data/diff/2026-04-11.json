@@ -1,0 +1,47 @@
+[
+  {
+    "id": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "z-ai",
+    "inputPrice": 0.95,
+    "outputPrice": 3.15,
+    "contextLength": 202752,
+    "priceCategory": "budget",
+    "prevInputPrice": 1.26,
+    "prevOutputPrice": 3.96,
+    "priceChangePercent": -24.6,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775578025
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "google",
+    "inputPrice": 0.12,
+    "outputPrice": 0.4,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.13,
+    "prevOutputPrice": 0.4,
+    "priceChangePercent": -7.69,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775227989
+  },
+  {
+    "id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "name": "Meta: Llama 3.2 11B Vision Instruct",
+    "provider": "meta-llama",
+    "inputPrice": 0.245,
+    "outputPrice": 0.245,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.049,
+    "prevOutputPrice": 0.049,
+    "priceChangePercent": 400.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1727222400
+  }
+]
