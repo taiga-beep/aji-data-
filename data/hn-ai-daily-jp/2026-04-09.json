@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-04-11T08:20:03.944338Z",
+  "date_utc": "2026-04-09",
+  "threads": [
+    {
+      "id": "47701233",
+      "rank": 1,
+      "title": "Claude mixes up who said what",
+      "title_ja": "クロードが誰が何を言ったか混同する",
+      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47701233",
+      "author": "sixhobbits",
+      "points": 454,
+      "num_comments": 345,
+      "created_at": "2026-04-09T09:25:28Z",
+      "time_jst": "18:25",
+      "summary_jp": "【概要】\nClaudeがユーザーとAI自身の発言を混同する問題が報告され、LLM（大規模言語モデル）における根本的な設計欠陥を示唆している。この問題は単なるバグではなく、AIエージェントの自己参照的な推論を可能にする危険な仕組みを露呈させている。\n\n【論点の分解】\n\n**問題の本質**：Claudeが会話文脈内でユーザーの発言とAI自身の応答を区別できず混同するケースが確認された。これは表面的なエラーではなく、LLMアーキテクチャの構造的な脆弱性を反映している。長時間の会話ではChatGPTでも同様の現象が観察され、プロンプトと応答、さらにはシステムプロンプトまで混同される傾向がある。\n\n**エージェント動作への危機性**：複数のコメンテーターが指摘する通り、この自己混同能力はAIエージェントが自らの出力に基づいて意思決定する際に特に危険である。自身の発言を外部の情報源と誤認識することで、誤った確信を強化するループが生成される可能性がある。\n\n**現在の対症療法的対応の限界**：プロンプトエンジニアリングで「○○をするな」という指示を繰り返し追加する手法は、SQL injectionへの初期的な対応と同様に表面的な修正に過ぎないとの指摘がある。根本的な設計改善なしに安全性保証は得られない。\n\n**業界全体の広がる懸念**：この問題がClaudeに限定されず、現在のLLMクラス全体に広く存在する可能性が複数の実務者から示唆されている。\n\n【注目コメント】\n\n（@RugnirViking）「恐ろしい。AIが世界を支配するという意味ではなく、このバグのクラスがAIに自身と合意することを可能にする点で恐ろしい。これこそがエージェントの最悪の動作の源泉になる」\n\n（@Latty）「LLMプロンプトに関することすべてが、数十年前のSQL injection対策でregex使ってinputをサニタイズしようとしていた時代を思い起こさせる。保証なく欠陥を上塗りしているだけ」",
+      "top_comments": [
+        {
+          "author": "RugnirViking",
+          "text": "terrifying. not in any \"ai takes over the world\" sense but more in the sense that this class of bug lets it agree with itself which is always where the worst behavior of agents comes from.",
+          "created_at": "2026-04-09T10:07:27.000Z"
+        },
+        {
+          "author": "lelandfe",
+          "text": "In chats that run long enough on ChatGPT, you'll see it begin to confuse prompts and responses, and eventually even confuse both for its system prompt. I suspect this sort of problem exists widely in AI.",
+          "created_at": "2026-04-09T10:08:21.000Z"
+        }
+      ],
+      "director_note": "# 私の読み方\n\nClaudeが自身の発言とユーザーの発言を混同する問題は、日本の金融・医療システムにLLMエージェントを組み込もうとしている企業にとって、設計段階での致命的な検証ポイントになると考える。私がこのスレで重視したのは、複数ベンダー（OpenAI・Anthropic等）で同じ構造的脆弱性が存在している点だ。プロンプト指示の積み重ねで対処できないなら、金融機関や医療機関の現場では「LLMエージェントは自律判断させない」という実装上の制約が必須になる。数年前のSQL injection対策との比較は、今のプロンプトエンジニアリング頼みの安全保証戦略が根本的に不十分だという警告である。導入検討企業は、ベンダーの安全性主張より自社の検証体制を優先すべき局面に入っている。"
+    },
+    {
+      "id": "47700972",
+      "rank": 2,
+      "title": "Reallocating $100/Month Claude Code Spend to Zed and OpenRouter",
+      "title_ja": "Claude月間100ドルの支出をZedとOpenRouterに変更",
+      "url": "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/",
+      "hn_url": "https://news.ycombinator.com/item?id=47700972",
+      "author": "kisamoto",
+      "points": 341,
+      "num_comments": 231,
+      "created_at": "2026-04-09T08:55:18Z",
+      "time_jst": "17:55",
+      "summary_jp": "【概要】\n開発者がClaude Codeの月100ドルの支出をZedエディタとOpenRouterへ振り替える戦略について論じるスレッド。複数モデルの利用コスト最適化と各サービスの手数料構造が主な検討対象となっている。\n\n【論点の分解】\nまず手数料問題が指摘されている。OpenRouterは取引額の5.5%の手数料を課すため、実際の支出効率を考慮する必要がある点が複数ユーザーから提起されている。\n\n次に使用量報告の矛盾が問題として浮上している。ccusageツールを使用した利用者の報告では、月100ドルのクレジットで実際には月600ドル相当の使用量が記録されるケースが存在し、同一モデルの継続利用を考えると価値提案として機能していない可能性が指摘されている。\n\nさらにOpenRouterのクレジット有効期限ポリシーについて、利用者側から「365日のルールが絶対ではなく、サービス側の裁量で保有権が留保されている」との指摘がある。これはクレジット管理の予測可能性に関わる重要な懸念である。\n\n全体として、複数プロバイダの併用による粒度の細かいコスト最適化と、各サービスの透明性・信頼性のトレードオフが実務的な意思決定の課題として浮かび上がっている。\n\n【注目コメント】\n（@Computer0）「ccusageツールで月100ドルのクレジットが月600ドル分の使用量として計上される。同じモデルを継続利用したい場合、これは良い価値提案ではない」\n\n（@hhthrowaway1230）「OpenRouterは5.5%の手数料を課しているのではないか」",
+      "top_comments": [
+        {
+          "author": "hhthrowaway1230",
+          "text": "note: doesn't openrouter charge 5.5% fee?",
+          "created_at": "2026-04-09T10:07:39.000Z"
+        },
+        {
+          "author": "Computer0",
+          "text": "When I use the tool ccusage it says I use $600 of usage a month for my $100. I don’t know that this is a good value proposition for me if I want to stay with the same model, half the reason I use Claude code, personally.",
+          "created_at": "2026-04-09T10:16:18.000Z"
+        }
+      ],
+      "director_note": "Anthropic公式のClaude CodeからOpenRouterへの乗り換え検討は、日本のAI開発現場で起きる「マルチプロバイダ管理の複雑化」の先行事例として読める。私が注目したのは、ccusageツールで月100ドル=月600ドル相当という報告だ。これは単なるコスト最適化ではなく、利用量と請求額の乖離が実運用でどう顕在化するかを示唆している。OpenRouterの5.5%手数料とクレジット365日有効期限の「裁量的留保」は、複数プロバイダ併用時のリスク分散と管理負荷のトレードオフを浮き彫りにする。日本の受託開発では月単位の予算管理が厳しいため、透明性の低いAPIプロバイダ乗り換えは慎重に検討する必要がある。"
+    },
+    {
+      "id": "47704881",
+      "rank": 3,
+      "title": "The Vercel plugin on Claude Code wants to read your prompts",
+      "title_ja": "Claude Codeの Vercel プラグインがプロンプトを読み取ろうとしています",
+      "url": "https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry",
+      "hn_url": "https://news.ycombinator.com/item?id=47704881",
+      "author": "akshay2603",
+      "points": 269,
+      "num_comments": 111,
+      "created_at": "2026-04-09T15:17:27Z",
+      "time_jst": "00:17",
+      "summary_jp": "【概要】\nClaude CodeのVercelプラグインがユーザーのプロンプトを読み取る機能について、スコープを超えた広範なテレメトリ収集の問題が指摘されている。プラグインの権限モデルと情報漏洩のリスクが中心的な議論となっている。\n\n【論点の分解】\n\n**プラグイン設計の問題**\nVercelプラグインは、VercelやNext.jsと無関係なセッションにもスキルが注入され、すべてのリポジトリのあらゆるプロンプトとツール呼び出しに対してトリガールールが評価される。本来のスコープを大きく超えて動作している実装上の欠陥が報告されている。\n\n**権限モデルの課題**\n複数のプラグイン・エージェント拡張機能で共通する構造的問題として「全か無か」の権限モデルが存在する。一度インストールすると、プラグインはすべてのセッション・プロンプトに対して完全なコンテキストアクセスを得る。OAuthスコープやコンテナサンドボックス化といった既存のセキュリティ実装パターンと比較すると、大幅に権限が広い設計になっている。\n\n**実務的な懸念**\nユーザーは特定プロジェクト向けのプラグインをインストールしても、他プロジェクトの機密情報が無意識に読み取られるリスクに直面する。プロンプト内容の詳細な分析が可能な仕組みが、テレメトリやデータ収集に悪用される可能性が存在する。\n\n【注目コメント】\n\n（@michiosw）「これはエージェントプラグイン・拡張機能で繰り返し見られるより広いパターン。権限モデルが『全か無か』。プラグインをインストールすると、あらゆるセッション・あらゆるプロンプトに対して完全なコンテキストを得る。OAuthスコープやコンテナサンドボックス化との比較を考えると、このアプローチでCIを出荷することはない」\n\n（@embedding-shape）「Vercelとは無関係なセッションにスキルが注入され、すべてのスキルのトリガールールがあらゆるプロンプト・ツール呼び出しで評価される。Vercelスコープ内かどうかに関わらず、すべてのリポジトリで発動する」",
+      "top_comments": [
+        {
+          "author": "embedding-shape",
+          "text": "> skills are injected into sessions that have nothing to do with Vercel, Next.js, or this plugin's scope\n> every skill's trigger rules get evaluated on every prompt and every tool call in every repo, regardless of whether Vercel is in scope\n> For users working across multiple projects (some Verce...",
+          "created_at": "2026-04-09T15:52:36.000Z"
+        },
+        {
+          "author": "infecto",
+          "text": "Every single scam website I have gotten from spam text messages is being hosted on vercel. Not surprising.",
+          "created_at": "2026-04-09T15:53:43.000Z"
+        }
+      ],
+      "director_note": "Claude Codeのプラグイン権限モデルが「全か無か」設計になっている問題は、日本の開発現場で急速に広がるAIコーディング支援ツールの導入時に同じ轍を踏む予兆として読める。私が注視しているのは、OAuthスコープやコンテナサンドボックス化といった既存セキュリティパターンとの比較が明示されていることだ。これは単なる技術的欠陥ではなく、AI拡張機能の権限設計が従来のセキュリティ規約よりも劣後していることを意味する。受託開発やスタートアップがGitHub Copilot拡張やClaude統合ツールを導入する際、契約段階で「プラグイン実行時のスコープ限定」を明文化できていないプロジェクトがほとんどだ。プロジェクト固有の秘匿情報が全セッションで読み取られるリスクに対抗するには、インストール前に情報セキュリティチームによるプラグイン監査プロセスを組み込むべき段階に来ている。"
+    },
+    {
+      "id": "47701572",
+      "rank": 4,
+      "title": "Wit, unker, Git: The lost medieval pronouns of English intimacy",
+      "title_ja": "機知、語り手、ギット：失われた英語の中世親密代名詞",
+      "url": "https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us",
+      "hn_url": "https://news.ycombinator.com/item?id=47701572",
+      "author": "eigenspace",
+      "points": 212,
+      "num_comments": 144,
+      "created_at": "2026-04-09T10:10:19Z",
+      "time_jst": "19:10",
+      "summary_jp": "# 【概要】\n中世英語の失われた親密性を表す代名詞（wit、unker、git）について、言語学的背景と現代言語との関連性を論じるスレッド。歴史言語学の観点から、これらの双数形代名詞の消滅過程と言語系統的な興味深さが議論されている。\n\n# 【論点の分解】\n\n**言語学的価値**：中世英語には「あなたたち二人」を指す専用の双数形代名詞が存在した。gitは「あなた二人」、unkはドイツ語のuns/unserと音韻的に近似しており、インド・ヨーロッパ言語族の共通の言語体系を反映している。コメント欄では、Wiktionaryの言語系統分析における音韻根の相違（n̥s対n̥h）に関する議論も見られ、言語学的な深掘りが行われている。\n\n**現代言語との比較**：ドイツ語などの現代ゲルマン言語に残存する双数的特徴との対比が注目されている。英語でこれらの形式が消滅した理由や、言語進化における特定の文法カテゴリの喪失メカニズムが考察の対象となっている。\n\n**親密性表現の言語化**：かつて文法的に区別されていた「二人だけの関係」という概念が、現代英語では明示的な代名詞では表現できなくなった点が指摘されている。この喪失は言語の粗粒化を示唆している。\n\n# 【注目コメント】\n\n（@markus_zhang）「gitはあなた二人を意味する」\n\n（@nhgiang）「あなた二人で追加（add）し、あなた二人でコミット（commit）し、あなた二人でプッシュ（push）する」——gitの現代的な技術用語との同音異義性をユーモアで指摘。",
+      "top_comments": [
+        {
+          "author": "markus_zhang",
+          "text": "For anyone curious as me:\ngit means You two.",
+          "created_at": "2026-04-09T11:13:05.000Z"
+        },
+        {
+          "author": "frogulis",
+          "text": "Boy that unc&#x2F;uncer looks tantalisingly close to modern German uns&#x2F;unser. Wiktionary seems to have it descending from a different PIE root, n̥s vs n̥h -- I'm not at all familiar with PIE though.",
+          "created_at": "2026-04-09T11:13:08.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47707632",
+      "rank": 5,
+      "title": "Instant 1.0, a backend for AI-coded apps",
+      "title_ja": "AI生成アプリ向けバックエンド「Instant 1.0」",
+      "url": "https://www.instantdb.com/essays/architecture",
+      "hn_url": "https://news.ycombinator.com/item?id=47707632",
+      "author": "stopachka",
+      "points": 208,
+      "num_comments": 111,
+      "created_at": "2026-04-09T18:30:59Z",
+      "time_jst": "03:30",
+      "summary_jp": "【概要】\nInstantDB 1.0はAIコード生成アプリケーション向けのバックエンド基盤として発表されたもので、リアルタイムデータベース機能とリレーショナルクエリ実行の両立実現が評価されている。同時にローカルファースト機能との位置づけやコンソールUI改善への指摘も挙がっている。\n\n【論点の分解】\nまず機能面では、リアルタイムデータベースとリレーショナルクエリ実行の同時実装が技術的な成果として指摘されている。複雑な要件を実現することは容易でないため、この両立達成は実装の課題解決を示すものとして認識されている。\n\n次に製品戦略面での疑問が提示されている。InstantDBが従来掲げていたローカルファースト（local-first）なアーキテクチャコンセプトと、今回のAI角度の強調との関係性が明確でないという指摘である。新たなマーケティング施策なのか、製品基本方針の転換なのかが不透明な状況が見られている。\n\n実装利用面では、プロトタイプ開発での採用に好意的な反応がある一方、ドキュメント提供の不完全さ（404エラー）が実務的な課題として報告されている。開発者が実際に試用する際の障壁となっている状態が示唆されている。\n\n最後にコンソールUIについて、インフラストラクチャおよびウェブサイトと比較して改善の余地があるとの意見も挙がっており、全体体験の一貫性向上が期待されている。\n\n【注目コメント】\n（@jamest）「リレーショナルクエリとリアルタイムを確実に実現しており、これは小さなことではない。ただしコンソールは残りのインフラやウェブサイトと比べて開発力が注がれていないように感じる。1.0ローンチをおめでとう。Instantでのビルド継続に期待している」\n\n（@chrysoprace）「InstantDBはもはやローカルファースト指向ではないのか、それともAI角度は単なるマーケティングなのか」",
+      "top_comments": [
+        {
+          "author": "ladon86",
+          "text": "Looks very nice! I'll give it a spin for prototypes.\nWould love to check out &#x2F;docs but it's currently a 404.",
+          "created_at": "2026-04-09T22:16:46.000Z"
+        },
+        {
+          "author": "chrysoprace",
+          "text": "Is InstantDB no longer about local-first or is the AI angle just a marketing thing?",
+          "created_at": "2026-04-09T22:21:22.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47709130",
+      "rank": 6,
+      "title": "Reverse engineering Gemini's SynthID detection",
+      "title_ja": "Gemini SynthIDの検出を逆算する",
+      "url": "https://github.com/aloshdenny/reverse-SynthID",
+      "hn_url": "https://news.ycombinator.com/item?id=47709130",
+      "author": "_tk_",
+      "points": 169,
+      "num_comments": 54,
+      "created_at": "2026-04-09T20:10:25Z",
+      "time_jst": "05:10",
+      "summary_jp": "【概要】\nGoogleのGeminiに搭載されるSynthID（AI生成画像の検出技術）のリバースエンジニアリングプロジェクトが公開され、検出回避方法に関する技術的議論が展開されている。同時に、検出回避ツールの公開と「研究目的」表示の矛盾性が指摘されている。\n\n【論点の分解】\n技術的には、SynthIDの脆弱性が複数報告されている。純黒・純白画像を利用した多解像度ウォーターマーク抽出方法や、ダウンスケール・アップスケール処理による検出回避が可能であることが確認されている。これらは検証可能な技術的発見として機能している。\n\n一方、倫理的観点での矛盾が指摘されている。プロジェクトはAI生成画像を人間作成として偽る行為に対する警告を掲載している一方で、pipでインストール可能なCLIツールとして「aggressive」「maximum」といった強度設定を備えた実用的なウォーターマーク除去ツールを提供している。これは「研究活動」と「実用的な回避ツール配布」の境界を曖昧にしており、意図と実装のギャップを露呈させている。\n\n実務的には、検出技術の限界が明白になることで、企業のAI透明性戦略に課題が生じる可能性がある。同時に、AI生成コンテンツの真正性検証の信頼性が問われることになる。\n\n【注目コメント】\n（@refulgentis）「警告文で『AI生成コンテンツを人間作成と偽るな』と記されているが、プロジェクトはウォーターマーク除去CLIをpipでインストール可能にし、『aggressive』『maximum』という強度設定を用意している。これは研究と実装が矛盾していないか」\n\n（@kelsey98765431）「ダウンスケール後にアップスケールするだけでウォーターマークが除去される」",
+      "top_comments": [
+        {
+          "author": "andrewmcwatters",
+          "text": "> We're actively collecting pure black and pure white images generated by Nano Banana Pro to improve multi-resolution watermark extraction.\nOh hey, neat. I mentioned this specific method of extracting SynthID a while back.[1]\nGlad to see someone take it up.\n[1]: https:&#x2F;&#x2F;news.ycombinator...",
+          "created_at": "2026-04-09T20:51:27.000Z"
+        },
+        {
+          "author": "refulgentis",
+          "text": "It says not to use these tools to misrepresent AI-generated content as human-created. But the project is a watermark removal tool with a pip-installable CLI and strength settings named \"aggressive\" and \"maximum.\" Calling this research while shipping turnkey watermark stripping is trying to have i...",
+          "created_at": "2026-04-09T20:55:57.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47705413",
+      "rank": 7,
+      "title": "Show HN: I built a Cargo-like build tool for C/C++",
+      "title_ja": "「Show HN: C/C++向けのCargoのようなビルドツールを作りました」",
+      "url": "https://github.com/randerson112/craft",
+      "hn_url": "https://news.ycombinator.com/item?id=47705413",
+      "author": "randerson_112",
+      "points": 167,
+      "num_comments": 160,
+      "created_at": "2026-04-09T16:04:54Z",
+      "time_jst": "01:04",
+      "summary_jp": "【概要】\nRust のパッケージマネージャー Cargo に着想を得た C/C++ 向けビルドツール「Craft」の開発者が GitHub で公開。従来の複雑な CMake ワークフローを簡素化するツールの設計思想と実装課題が論じられている。\n\n【論点の分解】\n\n**依存関係管理の実装課題**\nヘッダファイルやビルド指示の検出方法について、標準的なレイアウト規約が存在するか否かが議論の中心となっている。C/C++ エコシステムでは Rust と異なり業界統一の慣例が確立されていないため、ツール側での柔軟な対応が必須となる点が指摘されている。\n\n**設計フィロソフィーの相違**\n懐疑派からは「メタ・メタビルドシステム」の問題点が提起されている。CMake のラッパーやコード生成ではなく、完全置換を目指すべきという主張が示され、単なるツール追加ではなく根本的な設計理念の転換が求められていることが示唆される。\n\n**類似プロジェクトの並立**\n同様のアプローチで開発されたビルドツールが複数存在し、各開発者が異なる実装方針（例：Deno ベース等）を採用している現状が挙げられている。鶏卵問題など具体的な技術的課題も共有されており、課題解決へのコミュニティベースのアプローチが模索されている。\n\n【注目コメント】\n\n（@duped）「メタ・メタビルドシステムに根本的な問題がある。CMake を生成・ラップするべきではなく、置換すべき」\n\n（@wg0）「ヘッダファイルとライブラリのビルド指示の位置をどう特定するのか。期待するレイアウトか業界標準があるのか」",
+      "top_comments": [
+        {
+          "author": "wg0",
+          "text": "Yesterday I had to wrestle with CMake.\nBut how this tool figures out where the header files and build instructions for the libraries are that are included? Any expected layout or industry wide consensus?",
+          "created_at": "2026-04-09T16:22:10.000Z"
+        },
+        {
+          "author": "duped",
+          "text": "FWIW: there is something fundamentally wrong with a meta-meta build system. I don't think you should bother generating or wrapping CMake, you should be replacing it.",
+          "created_at": "2026-04-09T16:31:33.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47702196",
+      "rank": 8,
+      "title": "Show HN: CSS Studio. Design by hand, code by agent",
+      "title_ja": "CSS Studio：手描きデザインを自動コード化",
+      "url": "https://cssstudio.ai",
+      "hn_url": "https://news.ycombinator.com/item?id=47702196",
+      "author": "SirHound",
+      "points": 162,
+      "num_comments": 99,
+      "created_at": "2026-04-09T11:23:31Z",
+      "time_jst": "20:23",
+      "summary_jp": "【概要】\nCSS Studioは手書きデザインをコード化するAIエージェント機能を持つツール。Hacker Newsで162ポイントを獲得し、99件のコメントが付いており、製品の有用性と提示方法に関する実務的な議論が展開されている。\n\n【論点の分解】\nまず競合比較の観点では、既存のFigmaのAI設計ツールとの差別化が問われている。ramon156はFigmaのAI機能が基本的にGPT統合であり使いやすいと指摘しており、CSS Studioがどのような競争優位性を持つのか明確でないとの指摘が含まれている。\n\n次にUX/プレゼンテーションの課題が複数指摘されている。evancaineは製品の実際の動作を示す30秒動画をランディングページに配置すべきと主張。テキストのみでは、ユーザーが具体的な価値を理解できず、CTA（Call to Action）クリック率が低下するとの実務的観点が示されている。\n\nさらにデザイン品質の懸念がある。tyleo指摘によれば、ランディングページのスタイルがLLM生成コンテンツ特有の没個性さを感じさせ、デザイン製品としてはブランドパーソナリティが不足しているとしている。AI産業での視認性を重視する場合、生成AIに頼るのではなく人的デザイン介入が必要という批判である。\n\n【注目コメント】\n（@evancaine）「30秒の製品デモンストレーション動画をランディングページに直接配置すべき。テキストだけではユーザーは『Get Started』『Buy Now』をクリックしない。30秒動画はテキストより100倍効果的」\n\n（@tyleo）「ランディングページがLLMが生成したコンテンツの典型的なスタイルに見える。デザイン製品として、より個性的なブランド表現が必要。ランディングページは人手で最適化すべき」",
+      "top_comments": [
+        {
+          "author": "ramon156",
+          "text": "I'll be the boogeyman, how does this compare to Figma's AI Design tool? I've had an easy experience with it, although it's just a GPT wrapper.",
+          "created_at": "2026-04-09T11:59:47.000Z"
+        },
+        {
+          "author": "evancaine",
+          "text": "Congrats on the launch.\nNow put a giant, 30 second video of the product being used, directly below \"Design by hand.Code by agent.\"\nNo one is clicking Get Started or Buy Now until they know what the product is, and a 30 second video is 100x better than any amount of text.",
+          "created_at": "2026-04-09T12:02:07.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47704443",
+      "rank": 9,
+      "title": "Study found that young adults have grown less hopeful and more angry about AI",
+      "title_ja": "AI技術への若年層の懸念増加：希望の喪失と怒りの高まり",
+      "url": "https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47704443",
+      "author": "elsewhen",
+      "points": 136,
+      "num_comments": 181,
+      "created_at": "2026-04-09T14:44:16Z",
+      "time_jst": "23:44",
+      "summary_jp": "【概要】\nギャラップ調査でGen Z（若年成人）のAIに対する希望感が低下し怒りが増加している傾向が報告され、その背景にある雇用機会の喪失とAIに対する認識のギャップについて議論されている。\n\n【論点の分解】\n\n**雇用市場への直接的影響**\n複数のコメント投稿者が、AIの台頭により新卒採用やインターンシップの募集が減少している実態を指摘している。組織内でもジュニアレベルの採用を抑制し、AI活用にシフトしているケースが報告されており、Gen Zが職業キャリアの起点となるエントリーレベル職を失うリスクに直面している現状が強調されている。\n\n**認識と実態のズレ**\n一方、現在の雇用難がAIの直接的な影響ではなく、ソフト景気後退の影響である可能性も指摘されている。しかし若年層がAIを雇用減少の主因として認識されるよう「マーケティング」されているという批判も存在し、メディアや世論形成による認識操作への懸念が示されている。\n\n**世代間の不公平性**\n退職世代がAI時代の恩恵を享受する一方で、キャリア形成段階の若年層が負の影響を被るという世代間格差への不満が表明されている。この構造的な不公平が若年層の絶望感と怒りを増幅させているとの見方が示唆されている。\n\n【注目コメント】\n\n（@aurareturn）「我々の組織でも、ジュニアとインターンの採用をほぼ完全に停止した。AIの活用をますます増やしている。Gen Zの大多数がAIに脅威を感じる理由は理解できる」\n\n（@justonepost2）「最良のシナリオでもリアルタイムで失われた世代を生み出している。これは今後2年でさらに明確になるだろう」",
+      "top_comments": [
+        {
+          "author": "aurareturn",
+          "text": "If I'm Gen Z, especially someone who is graduating or just graduated, I'd be very angry at AI too.\nEven in our own organization, we've almost stopped hiring juniors and interns completely. We just leverage AI more and more.\nSo I can understand how most Gen Zs feel threatened by AI.\nThere are basi...",
+          "created_at": "2026-04-09T14:50:49.000Z"
+        },
+        {
+          "author": "justonepost2",
+          "text": "We are, in the best case scenario, minting a lost generation in real time. This will become increasingly clear over the next 2 years.\nMeanwhile, simonw and his retiree friends are having the \"time of their lives\", so that's good I guess :)",
+          "created_at": "2026-04-09T16:07:05.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47700460",
+      "rank": 10,
+      "title": "Ask HN: What are you building that's not AI related?",
+      "title_ja": "HN質問：AIではない、あなたが構築しているものは何ですか？",
+      "url": null,
+      "hn_url": "https://news.ycombinator.com/item?id=47700460",
+      "author": "meander_water",
+      "points": 134,
+      "num_comments": 184,
+      "created_at": "2026-04-09T07:39:47Z",
+      "time_jst": "16:39",
+      "summary_jp": "# AI Japan Index要約レポート\n\n【概要】\nHacker Newsで「AI以外に何を開発しているか」というテーマで、AIに依存しないソフトウェアプロジェクトの開発事例が共有されている。非AI領域での実装ニーズと技術的関心の存在を示唆するスレッドである。\n\n【論点の分解】\n\n**従来型システム開発の継続的需要**\nスレッドから見えるのは、AIブームの中でも根強く存在する非AI領域のソフトウェア需要である。タスク管理、言語設計、Webスクリプティングなど、基礎的で汎用的なツール開発が依然として活発である点は、AIが万能ではなく、従来技術の改善と新規開発の両者が並行して進むことを示している。\n\n**言語・ランタイム設計への関心**\nコメントに見られる新しいプログラミング言語やスクリプト言語の開発は、既存言語の制約（依存関係の多さ、実行時の重さなど）への対抗ノーズを反映している。Pascalの思想をモダナイズする試み、最小限のランタイムと単一実行ファイルの実現を目指す実装など、効率性と簡潔性の追求が特徴である。\n\n**開発者コミュニティの多様性**\n134ポイント・184コメントという高いエンゲージメント数は、開発者コミュニティがAI関連以外のテーマに対しても強い関心を持つことを示唆している。GitHub上での公開と進行中のメジャーリリース予定の報告から、実務的で実装志向の開発が継続されていることが確認できる。\n\n【注目コメント】\n\n（@austin-cheney）「Windows Task Managerに似たツールを構築中。Linuxでも動作し、WebサーバーとDockerコンテナの起動・監視・ビジュアルダッシュボード表示が可能。AIは一切使用していない」\n\n（@dejv）「新しいプログラミング言語開発。Pascalの良い思想を採り入れながらモダナイズしている。最小限のランタイム、手動メモリ管理、単一の小さい実行ファイル、依存関係なし。コンパイラ自体はSwiftで書き、バックエンドにQBEを使用」",
+      "top_comments": [
+        {
+          "author": "austin-cheney",
+          "text": "I am building something similar to Windows Task Manager but it also works on Linux, launches&#x2F;monitors web servers, and provides a visual dashboard for docker containers.\nhttps:&#x2F;&#x2F;github.com&#x2F;prettydiff&#x2F;aphorio\nThis project makes no use of AI.",
+          "created_at": "2026-04-09T08:27:08.000Z"
+        },
+        {
+          "author": "dejv",
+          "text": "New programming language.\nTook some good ideas of Pascal and making it more modern. Minimal runtime, manual memory management, single (small) executable, no dependencies. Compiler itself is written in Swift and I am using QBE as a backend ATM.",
+          "created_at": "2026-04-09T08:37:56.000Z"
+        }
+      ],
+      "director_note": null
+    }
+  ]
+}

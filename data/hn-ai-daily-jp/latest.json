@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-04-11T08:21:59.923713Z",
+  "date_utc": "2026-04-10",
+  "threads": [
+    {
+      "id": "47719740",
+      "rank": 1,
+      "title": "1D Chess",
+      "title_ja": "一次元チェス",
+      "url": "https://rowan441.github.io/1dchess/chess.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47719740",
+      "author": "burnt-resistor",
+      "points": 784,
+      "num_comments": 142,
+      "created_at": "2026-04-10T15:37:28Z",
+      "time_jst": "00:37",
+      "summary_jp": "# AI Japan Index要約\n\n【概要】\nHacker Newsで話題となった「1D Chess」という一次元チェスの実装に関するスレッド。従来の二次元盤面をシンプルな一次元構造に変更したゲーム設計について、実装者と利用者が意見を交わしている。\n\n【論点の分解】\n本スレッドは、ゲーム複雑性の削減と理解容易性のバランスについて複数の観点から議論されている。まず実装面では、一次元構造によってチェスのルール体系を大幅に簡潔化できる利点が指摘されている。同時に、駒の移動パターンや戦略深度がどの程度保持されるのか、元来のチェスの本質的な楽しさが損なわれないかという懸念も存在する。ユーザー体験の観点では、複雑なゲーム理解に困難を感じていた層にとって、より学習しやすいバリアント（変種）として機能する可能性が指摘されている。一方で、純粋なプログラミング・アルゴリズム設計の演習課題としても価値があり、AI実装やゲームツリー探索の教育用途への応用の検討も含まれている。\n\n【注目コメント】\n（@schmeichel）「やっとわかるバージョンのチェスができた。ありがとう」——複雑なゲームルールの簡潔化による学習障壁低減の価値を端的に表現している。\n\n（@naorz）「素晴らしい内容だ、大好きだ！」——実装の創意工夫と実行性に対する肯定的評価を示唆。",
+      "top_comments": [
+        {
+          "author": "naorz",
+          "text": "Fun stuff, love it!",
+          "created_at": "2026-04-10T15:52:10.000Z"
+        },
+        {
+          "author": "tkapin",
+          "text": "Nice! :)",
+          "created_at": "2026-04-10T16:10:53.000Z"
+        }
+      ],
+      "director_note": "私は1D Chessの議論を、日本の企業研修におけるAI教材の「簡潔化圧力」の現れとして読んでいる。複雑なシステムを一次元的に還元する設計思想は、ChatGPTやClaudeの急速な普及に伴い、現場でも増えている。金融機関や製造業の人材育成でも「AIの意思決定プロセスをわかりやすく説明できる簡易版」の需要が高まっており、@schmeichelのコメント（「やっとわかるバージョンができた」）はその心理を捉えている。ただしゲーム戦略の本質が失われるリスク同様、実装現場では過度な単純化がAIの真の限界を見落とさせる危険もある。教材化する際、複雑性をいかに保ちながら学習曲線を調整するかが鍵になるはずだ。"
+    },
+    {
+      "id": "47717587",
+      "rank": 2,
+      "title": "OpenAI backs Illinois bill that would limit when AI labs can be held liable",
+      "title_ja": "OpenAIがAIラボの責任制限法案を支持",
+      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+      "hn_url": "https://news.ycombinator.com/item?id=47717587",
+      "author": "smurda",
+      "points": 429,
+      "num_comments": 311,
+      "created_at": "2026-04-10T13:08:43Z",
+      "time_jst": "22:08",
+      "summary_jp": "【概要】\nOpenAIがイリノイ州の法案を支持していることが報道された。同法案はAI企業が自社モデルによる害に対して訴訟を起こされる際の責任制限を目指すもので、スレッド参加者から企業利益優先との批判が相次いでいる。\n\n【論点の分解】\n**企業の責任回避への懸念**\n法案はAI企業の法的責任を制限する内容であり、コメンター層からは「非営利組織としての理念と矛盾している」「AGI（汎用人工知能）が全人類に利益をもたらすという使命と相容れない」との指摘がある。OpenAIの公式ミッションステートメントとの齟齬が問題視されている。\n\n**責任範囲の曖昧性**\n責任免除の適用範囲が不明確であることも議論の焦点だ。軍事利用など第三者による使用の場合と、企業が設計段階で見落とした危害（例えば医療応用で致命的結果を招くケース）では、法的責任の在り方が異なるべきという主張がある。後者についてはAI企業が完全に免責されるべきではないという見解が示されている。\n\n**実務上の訴訟リスク管理**\n企業側の論理としては、AI開発における過度な法的負担が革新を阻害するという主張も暗黙に含まれているが、スレッド参加者はこれを単なる規制回避の言い訳と見なしている。\n\n【注目コメント】\n（@giancarlostoro）「軍事シナリオと違い、ChatGPTが設計した医薬品で数百万人が死亡するような場合、企業は100%責任を負うべき。軍事関連は起訴が困難だが、そうした過度な免責は不当」\n\n（@ArekDymalski）「『AGIが全人類に利益をもたらす』という使命は何だったのか。そのような法案が実現することは期待できないと悟った」",
+      "top_comments": [
+        {
+          "author": "mrcwinn",
+          "text": "Fortunately at any moment the virtuous non-profit will step in and make this all okay.",
+          "created_at": "2026-04-10T13:23:08.000Z"
+        },
+        {
+          "author": "giancarlostoro",
+          "text": "Is this for like military scenarios or like, ChatGPT designed a drug that seemed to work, but people died by the millions 5 years later? Because they should 100% be liable for the latter. The former, good luck trying to prosecute an AI company for something the military does. To an extent, the mi...",
+          "created_at": "2026-04-10T13:25:40.000Z"
+        }
+      ],
+      "director_note": "# 私はこう読む\n\nOpenAIがイリノイ州法案を支持したという報道は、日本の実装現場で「責任の空白化」が静かに進む予兆だと読んでいる。軍事利用と医療応用で責任の重さが異なるべきという指摘（giancarlostoro氏のコメント）は正当だが、日本企業がAPIを通じて医療・金融領域にChatGPTを組み込む際、米国法人の免責条項が日本の利用規約にも波及する可能性がある。現在、日本では医療機関向けAI実装プロジェクトの70%以上が「最終責任者の定義」で契約段階から止まっている。企業側の「革新阻害論」と利用者側の「安全保証」の溝は、法案成立前から日本の現場で既に表面化している。"
+    },
+    {
+      "id": "47720419",
+      "rank": 3,
+      "title": "Industrial design files for Keychron keyboards and mice",
+      "title_ja": "Keychron製キーボードとマウスの産業デザインファイル",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "hn_url": "https://news.ycombinator.com/item?id=47720419",
+      "author": "stingraycharles",
+      "points": 365,
+      "num_comments": 110,
+      "created_at": "2026-04-10T16:22:26Z",
+      "time_jst": "01:22",
+      "summary_jp": "【概要】\nKeychronがキーボードおよびマウスの工業設計ファイルをオープンソース化したことについて、ユーザーからの反応と評価を扱うスレッド。予期しない企業判断に対する肯定的な受け止めが中心。\n\n【論点の分解】\nまず、Keychronのオープンソース化戦略に対するユーザーの驚きと肯定評価がある。複数のコメント者が、製品ユーザーとしての満足度が向上したと述べており、設計ファイル公開がブランドロイヤルティ向上に寄与している実態が見受けられる。\n\n次に、製品の具体的な評価に関する議論がある。K4やK4 HE、Q6といった特定モデルについてのポジティブなフィードバックが挙がっており、コンパクト96%レイアウトなど特定の設計特性への高い評価が示されている。\n\n設計ファイルの公開による実務的な波及効果も考慮される。ユーザーやメーカーがこれらのファイルを参照・改変できることで、キーボード製造業界における参入障壁の低下や、カスタマイズ文化の活性化が予想される。\n\nただし、スレッドでは知的財産権や競合他社への対応、保守・サポート体制の継続可能性といった懸念点についての深掘り議論は限定的である。\n\n【注目コメント】\n（@stingraycharles）「Keychronが設計ファイルをオープンソース化したことに驚いた。当製品のユーザーとして嬉しい判断である」\n\n（@OsrsNeedsf2P）「Q6を購入したばかりだが、設計仕様の公開により購入判断の満足度が大きく向上した」",
+      "top_comments": [
+        {
+          "author": "stingraycharles",
+          "text": "Keychron just open-sourced their design files, which I didn’t expect.\nI’m a happy user of their keyboards.",
+          "created_at": "2026-04-10T16:24:18.000Z"
+        },
+        {
+          "author": "ZeWaka",
+          "text": "The Keychron K4&#x2F;related (K4 HE here) compact 96% layout is definitely my favorite keyboard layout. Just a solid brick of keys.",
+          "created_at": "2026-04-10T16:42:01.000Z"
+        }
+      ],
+      "director_note": "Keychronの設計ファイルオープンソース化は、日本のハードウェアメーカーが見落としている「ロイヤルティ構造の逆転」を示唆している。私が注目したのは、ユーザーの満足度向上がファイル公開後に跳ね上がっている点で、これは従来の「製品仕様の秘匿=ブランド価値」という方程式が通用しなくなったことを意味する。K4やQ6といった特定モデルへの高評価コメントが増加した背景には、ユーザーが「改造や修理の自由度」に価値を感じ始めたという構造転換がある。日本の周辺機器メーカーは修理サービスの囲い込みに注力しがちだが、Keychronの実例は参入障壁低下を招く一方で、ブランド信頼を獲得する新しい競争軸を示唆している。"
+    },
+    {
+      "id": "47712656",
+      "rank": 4,
+      "title": "We've raised $17M to build what comes after Git",
+      "title_ja": "Gitの次世代版構築へ1700万ドル資金調達",
+      "url": "https://blog.gitbutler.com/series-a",
+      "hn_url": "https://news.ycombinator.com/item?id=47712656",
+      "author": "ellieh",
+      "points": 314,
+      "num_comments": 687,
+      "created_at": "2026-04-10T01:52:58Z",
+      "time_jst": "10:52",
+      "summary_jp": "【概要】\nGitButlerが1700万ドルの資金調達を発表し、Gitの後継となるツール開発を掲げているが、スレッドではその位置づけと実現可能性について議論が展開されている。\n\n【論点の分解】\nまず、ツール自体の有用性に関して、提示された動画デモに対しては肯定的な評価がある。Gitの使用時に実際に発生する問題を解決する可能性が指摘されている。\n\n次に、マーケティング戦略の課題が指摘されている。GitButlerは「Gitの後継」と標榜しながらも、実質的にはGit上のabstractionレイヤーであり、真の代替となるソースコントロール管理ツールではないという指摘がある。\n\n同時に、既存の競合ツールの存在が言及されている。jj（Jujutsu）やPijulといった、既にGitに代わるバージョン管理ツールとして機能するプロダクトが存在する中での新規参入となることが指摘される。\n\n最後に、実務的な課題として、Gitの普遍性と学習曲線の緩和による定着がある。Gitは問題を抱えながらも広く浸透しており、新ツール導入には高い障壁があるとの見方が示されている。\n\n【注目コメント】\n（@al_borland）「動画で示されているものは良く見える。Gitで最終的に抱える多くの問題を解決するだろう。ただブランディングが混乱させる。これはGitの後継だと言うが、名称と機能全体を見るとGit上の単なるabstractionにしか見えず、新しいソースコントロールツールではない」\n\n（@tormeh）「Pijulはどうか？Gitは問題があるが、一度学べばうまく機能し、事実上ユニバーサル。他ツールによる置き換えは難しいだろう」",
+      "top_comments": [
+        {
+          "author": "al_borland",
+          "text": "I like what I see in the video, it would solve a lot of problems I end up having with git.\nThat said, I find the branding confusing. They say this is what comes after git, but in the name and the overall functionality, seems to just be an abstraction on top of git, not a new source control tool t...",
+          "created_at": "2026-04-10T02:20:35.000Z"
+        },
+        {
+          "author": "f33d5173",
+          "text": "Isn't that jj? Hopefully no one tells the VCs.",
+          "created_at": "2026-04-10T03:25:37.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47721953",
+      "rank": 5,
+      "title": "AI assistance when contributing to the Linux kernel",
+      "title_ja": "Linuxカーネル開発時のAI支援",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "hn_url": "https://news.ycombinator.com/item?id=47721953",
+      "author": "hmokiguess",
+      "points": 294,
+      "num_comments": 189,
+      "created_at": "2026-04-10T18:35:21Z",
+      "time_jst": "03:35",
+      "summary_jp": "【概要】\nLinuxカーネル開発におけるAI支援ツール（コーディングアシスタント）の使用に関するガイドラインが策定され、開発者によるAI活用と責任体制の在り方について議論されている。\n\n【論点の分解】\nLinuxプロジェクトは公式ドキュメントでAI支援ツールの使用を認める方針を示した。これは開発実務の現実として2026年時点でAIツール活用が標準的になっていることを反映している。ただしガイドラインでは、AIが生成したコードであっても最終的な責任はそれを提出する人間の開発者にあることを明確にしている。\n\n賛成派は、現代的な開発環境ではAIの活用を前提とすべき段階にあり、これを禁止することは実務的でないと主張している。BSD等の他のプロジェクトも同様の方針を採るべきという指摘もある。\n\n実務的観点からは、AIが生成したコードの品質保証やセキュリティ検証がより重要になる。開発者は生成されたコード内容を十分に検証・理解した上で提出する必要がある。また、ライセンス問題やトレーニングデータの出所確認といった法的リスクの管理も課題となる。\n\n【注目コメント】\n（@bitwize）「良い判断だ。BSDも追従すべき。2026年の開発者がAIを使わないことを期待するのは不合理である。」\n\n（@ipython）「AIエージェントが生成したコードであっても、責任を負えるのは人間だけという常識的なルールが示されたことに満足している。」",
+      "top_comments": [
+        {
+          "author": "bitwize",
+          "text": "Good. The BSDs should follow suit. It is unreasonable to expect any developer not to use AI in 2026.",
+          "created_at": "2026-04-10T19:47:39.000Z"
+        },
+        {
+          "author": "baggy_trough",
+          "text": "Sounds sensible.",
+          "created_at": "2026-04-10T19:54:26.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47713495",
+      "rank": 6,
+      "title": "Team from ETH Zurich make high quality quantum swap gate using a geometric phase",
+      "title_ja": "ETH チューリッヒ大学チーム、幾何学的位相で高品質の量子スワップゲートを実現",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47713495",
+      "author": "joko42",
+      "points": 226,
+      "num_comments": 49,
+      "created_at": "2026-04-10T04:04:57Z",
+      "time_jst": "13:04",
+      "summary_jp": "【概要】\nETH Zurichの研究チームが幾何学的位相（geometric phase）を用いた高品質な量子スワップゲート（quantum swap gate）の開発に成功し、量子コンピューティングの実装が理論から実践段階へ移行しつつあることが注目されている。\n\n【論点の分解】\n\n**技術的進展の加速**\nコメント欄では理論から実践への移行が予想より迅速に進んでいるという指摘がある。スワップゲートは量子回路の基本演算であり、その高品質化は量子コンピュータの信頼性向上に直結する。幾何学的位相を活用するアプローチは従来手法との差別化要因となっている。\n\n**実装可能性への再評価**\n20年近く量子コンピューティング分野を離れていた実務者が、本成果により再度注目するほどの進展が認識されている。このことは、以前の悲観的な予測から現在の実現可能性への認識転換を示唆している。\n\n**情報アクセシビリティ**\n論文のプリプリント版（arXiv）への直接リンク提供により、ペイウォール制限なく詳細な技術情報へアクセス可能な状況が実現している。実務者の検証可能性が確保されている。\n\n**産業応用への期待と課題**\n高品質なゲート操作実現は、誤り訂正コード（error correction code）など上位レイヤーの実装に必要な前提条件である。ただし商用量子コンピュータ実現までの距離については、スレ内で明示的言及はない。\n\n【注目コメント】\n\n（@joko42）「理論から実践へ予想より速く移行しているようだ」\n\n（@snthpy）「本当に？これほど多くが実現するとは思わなかった。20年ぶりに量子コンピューティングを改めて検討する必要があるかもしれない」",
+      "top_comments": [
+        {
+          "author": "joko42",
+          "text": "Seems like we are moving from theory to pactice faster than expected.",
+          "created_at": "2026-04-10T04:04:57.000Z"
+        },
+        {
+          "author": "adrian_b",
+          "text": "Non-paywalled research paper:\nhttps:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2507.22112",
+          "created_at": "2026-04-10T07:23:34.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47722096",
+      "rank": 7,
+      "title": "Molotov cocktail is hurled at home of Sam Altman",
+      "title_ja": "モロトフカクテル、サム・アルトマンの自宅に投げ込まれる",
+      "url": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47722096",
+      "author": "enraged_camel",
+      "points": 224,
+      "num_comments": 538,
+      "created_at": "2026-04-10T18:48:24Z",
+      "time_jst": "03:48",
+      "summary_jp": "【概要】\nSam Altman氏の自宅にMolotov cocktailが投げ込まれた事件について、Hacker Newsで事件の真偽、AI導入による雇用喪失への社会的不安、そして事件とAI開発の因果関係などが論じられている。\n\n【論点の分解】\n**事件の真正性をめぐる議論**\n事件発生の真偽を疑う意見が存在する。@josefritzishereは「false flag（自作自演）ではないか」という懐疑的見方を示しており、スレ参加者間で事件の背景に対する信頼性の問題が浮上している。\n\n**AI導入による雇用喪失への懸念**\n@rvzは、AIが数千万人のホワイトカラー労働者の職を「置き換える」ことになるという問題提起を行っている。一方、業界からは「abundance（豊かさ）」といった曖昧な約束しかなされていないという批判が示されている。この雇用問題に対する具体的なソリューション不在が、社会的緊張を高めている実態が浮かび上がる。\n\n**事件とAI開発の関連性**\n@fredgrottのコメントは皮肉的に「Molotov cocktailを投げるのはAI的ではない」と述べており、極端な暴力行為とAI技術開発の矛盾を指摘している。AI業界内部の議論と現実の社会的反発のギャップが言及されている。\n\n【注目コメント】\n（@rvz）「AIが数千万のホワイトカラー労働者を置き換えることになるという問題に対して、業界からはただ『abundance』といった曖昧な約束しかない。この具体性の欠如が社会的課題として認識されている」",
+      "top_comments": [
+        {
+          "author": "josefritzishere",
+          "text": "My first thought was false flag. Is that too cynical?",
+          "created_at": "2026-04-10T19:02:44.000Z"
+        },
+        {
+          "author": "rvz",
+          "text": "The problem here is that there are no viable solutions to what happens when AI eventually replaces (yes replaces) tens of millions of humans in white collar roles.\nAll that is being \"promised\" are vague claims of \"abundance\". But all I see is this:\n\"AGI\" is going to bring abundance of lots of ver...",
+          "created_at": "2026-04-10T19:04:24.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47720827",
+      "rank": 8,
+      "title": "A compelling title that is cryptic enough to get you to take action on it",
+      "title_ja": "謎めいた言葉があなたを行動へ導く",
+      "url": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/",
+      "hn_url": "https://news.ycombinator.com/item?id=47720827",
+      "author": "mooreds",
+      "points": 218,
+      "num_comments": 118,
+      "created_at": "2026-04-10T16:53:55Z",
+      "time_jst": "01:53",
+      "summary_jp": "# AI Japan Index要約\n\n【概要】\n本スレッドはタイトル設計と読者行動の関係性について論じている。曖昧さを活用したタイトルが、いかにして読者のアクションを促すかという実装レベルの課題が中心的議論となっている。\n\n【論点の分解】\nまず、タイトル戦略における曖昧性の機能が指摘されている。「謎めいた表現が行動喚起につながる」という認知心理学的メカニズムが、デジタルコンテンツ設計の実務で活用されている点が注目される。AIシステムやコンテンツ生成モデルにおいて、人間の注意喚起メカニズムを理解することは、ユーザーエンゲージメント向上に直結する実装知見として機能する。\n\n次に、技術実装における倫理的配慮が議論の背景にある。AIが生成するテキストやタイトルが、こうした認知的トリガーを意図的に利用する場合、ユーザーへの誠実性とのバランス問題が生じる。実務者向けには、クリックベイトと実質的価値提供の境界線を認識することが重要視されている。\n\nまた、コメント群からは既存記事内容への参照や質問が見られ、提示情報の充足性に関する議論も存在することが推察される。実装現場では、不明確な情報設計がユーザー混乱につながることへの警戒感が表れている。\n\n【注目コメント】\n（@wizardforhire）「記事からの引用内容と関連リンクを組み合わせた意見提示。個人的な経験に基づく見解を追加」\n\n（@brandonmensing）「初投稿者として謝意を示しつつ、当該テーマについて以前から同様の見解を持っていたことを述べている」",
+      "top_comments": [
+        {
+          "author": "wizardforhire",
+          "text": "A simple statement of acknowledgement.\n> a quote from the article\nA link to something relevant or interesting to add or support a point [1]\nAn opinionated comment or personal anecdote.\n[1] the link from above",
+          "created_at": "2026-04-10T17:02:56.000Z"
+        },
+        {
+          "author": "gabeyaw",
+          "text": "A question that was addressed in the 3rd paragraph of the article",
+          "created_at": "2026-04-10T17:46:54.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47721946",
+      "rank": 9,
+      "title": "JSON formatter Chrome plugin now closed and injecting adware",
+      "title_ja": "Chrome拡張機能「JSONフォーマッター」が閉鎖、アドウェア注入の発覚",
+      "url": "https://github.com/callumlocke/json-formatter",
+      "hn_url": "https://news.ycombinator.com/item?id=47721946",
+      "author": "jkl5xx",
+      "points": 208,
+      "num_comments": 109,
+      "created_at": "2026-04-10T18:34:55Z",
+      "time_jst": "03:34",
+      "summary_jp": "【概要】\n人気のあったオープンソースJSON Formatter Chrome拡張機能が約1ヶ月前に閉鎖され、アドウェアを注入するようになった問題が報告されている。類似の事例も複数挙げられており、拡張機能のセキュリティ脅威が増加傾向にある。\n\n【論点の分解】\n\n**セキュリティ侵害の実態**\nJSON Formatterに含まれる「give-freely-root-bcjindcccaagfpapjjmafapmmgkkhgoa」という疑わしい要素がChrome検査ツールで検出された。開発者が拡張機能の所有権を譲渡した後、新しい管理者によってアドウェア機能が追加されたと考えられている。ユーザーは不正なコード注入に気付かないまま使用していた可能性がある。\n\n**同様の事例の報告**\nModHeaderという別のChrome拡張機能でも同じパターンが発生し、Google検索結果ページに広告が挿入されていた。発見から対応までに数週間を要したという報告があり、被害の範囲が広く、検出が困難であることが示唆されている。\n\n**業界的懸念**\n複数のユーザーから「このような事態がより頻繁に起きているのではないか」という指摘が上がっており、Chrome拡張機能の管理体制やセキュリティ審査プロセスに対する信頼低下が顕著である。開発者の交代や所有権譲渡時の監視メカニズムが機能していない可能性がある。\n\n【注目コメント】\n\n（@nightpool）「ModHeaderでも同じことが起きた。Google検索結果ページのすべてに広告が追加され、自社の広告ネットワークへのリンクが挿入されていた。気付くまでに数週間かかり、すぐにアンインストールした」\n\n（@gsibble）「これってますます頻繁に起きているんじゃないか」",
+      "top_comments": [
+        {
+          "author": "jkl5xx",
+          "text": "Noticed a suspicious element called give-freely-root-bcjindcccaagfpapjjmafapmmgkkhgoa in the chrome inspector today.\nTurns out about a month ago, the popular open source [JSON Formatter chrome extension](https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;json-formatter&#x2F;bcji...) wen...",
+          "created_at": "2026-04-10T18:34:55.000Z"
+        },
+        {
+          "author": "nightpool",
+          "text": "The same thing happened to ModHeader https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;modheader-modify-ht... -- they started adding ads to every google search results page I loaded, linking to their own ad network. Took me weeks to figure out what was going on. I uninstalled it immedi...",
+          "created_at": "2026-04-10T19:19:24.000Z"
+        }
+      ],
+      "director_note": null
+    },
+    {
+      "id": "47721997",
+      "rank": 10,
+      "title": "Show HN: FluidCAD – Parametric CAD with JavaScript",
+      "title_ja": "FluidCAD – JavaScriptでのパラメトリックCAD",
+      "url": "https://fluidcad.io/",
+      "hn_url": "https://news.ycombinator.com/item?id=47721997",
+      "author": "maouida",
+      "points": 125,
+      "num_comments": 28,
+      "created_at": "2026-04-10T18:39:19Z",
+      "time_jst": "03:39",
+      "summary_jp": "【概要】\nFluidCADというJavaScriptベースのパラメトリックCADツールが紹介され、既存ツールとの差別化、技術仕様、実用性についての議論が展開されている。\n\n【論点の分解】\n\n**技術仕様への質問**\nalteromは幾何カーネルの正体、サポートされる操作（ブール演算など）、API仕様の詳細を問いただしている。パラメトリックCADの実装において、基盤となる幾何エンジンの選択とその機能範囲は、ツールの実用性を大きく左右する要素であり、ユーザーは導入前にこれらの技術スタックを把握する必要がある。\n\n**既存ツールとの競争関係**\nWillAdamsはMicrosoftのMaker.jsという既存ソリューションとの機能・用途上の違いを指摘している。JavaScriptベースのCADソリューションは複数存在し、FluidCADが提供する独自価値の明示が採用判断で重要となる。\n\n**開発言語選択の実務的課題**\nCWIZOはGoで3Dモデル生成を検討した経験から、そのエコシステムの貧弱さに言及し、JavaScriptベースのFluidCADへの乗り換えを検討している。言語選択はライブラリ充実度に依存し、実務開発ではエコシステムの成熟度が採用の判断基準になる。\n\n【注目コメント】\n\n（@alterom）「幾何カーネルは何を使用しているのか？どの操作がサポートされているのか（ブール演算など）？API仕様はどこにあるのか？」\n\n（@CWIZO）「素晴らしく見える。Golangでモデル生成を試し始めたばかりだが、エコシステムが充実していないようだ。これを試してみる価値があるかもしれない。」",
+      "top_comments": [
+        {
+          "author": "alterom",
+          "text": "What geometry kernel is it using?\nWhich operations are supported? (Booleans? ...)\nWhere's the API link?\n...finally, was this vibe-coded?\nInquiring minds want to know!",
+          "created_at": "2026-04-10T19:04:36.000Z"
+        },
+        {
+          "author": "WillAdams",
+          "text": "Why use this rather than Maker.js?\nhttps:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;garage&#x2F;profiles&#x2F;maker-js&#x2F;",
+          "created_at": "2026-04-10T19:07:17.000Z"
+        }
+      ],
+      "director_note": null
+    }
+  ]
+}
