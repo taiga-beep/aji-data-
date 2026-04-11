@@ -3,7 +3,7 @@
   "tool_name_en": "Reddit AI Weekly",
   "tool_id": "reddit-ai-weekly",
   "tagline": "Redditで今週AIについて何が話されたか、本音まで読む週刊レポート",
-  "generated_at": "2026-04-11T22:00:00+09:00",
+  "generated_at": "2026-04-12T01:21:01+09:00",
   "generated_by": "Claude Sonnet 4.5 (Claude Code session / 3-axis union + deep-read v3)",
   "source_type": "reddit",
   "methodology": {
@@ -58,9 +58,18 @@
       "quote_original": "Iran bursting the AI bubble would be so random and funny. But legit, it's hard to see how that wouldn't be a crisis for OpenAI that seriously derails them.",
       "quote_ja": "イランが AI バブルを弾けさせるって展開、無茶苦茶だけど面白い。冗談抜きで、もしこれが実行されたら OpenAI は本気で詰む。",
       "top_comments_ja": [
-        {"score": 12018, "body_excerpt_ja": "『楽しい時間の邪魔をしないでくれ』— 最上位コメントは皮肉の一言で、この脅迫を真剣に受け止めていない空気が反映されている。"},
-        {"score": 7074, "body_excerpt_ja": "『うわ、これはビジネス的にまずいな』— データセンター建設コストが国家リスクに晒されていることへの冷静な反応。"},
-        {"score": 4610, "body_excerpt_ja": "『イランが AI バブル弾けさせるの面白すぎるけど、ガチで起きたら OpenAI は立ち直れない』— 揶揄と本気の懸念が同居。"}
+        {
+          "score": 12018,
+          "body_excerpt_ja": "『楽しい時間の邪魔をしないでくれ』— 最上位コメントは皮肉の一言で、この脅迫を真剣に受け止めていない空気が反映されている。"
+        },
+        {
+          "score": 7074,
+          "body_excerpt_ja": "『うわ、これはビジネス的にまずいな』— データセンター建設コストが国家リスクに晒されていることへの冷静な反応。"
+        },
+        {
+          "score": 4610,
+          "body_excerpt_ja": "『イランが AI バブル弾けさせるの面白すぎるけど、ガチで起きたら OpenAI は立ち直れない』— 揶揄と本気の懸念が同居。"
+        }
       ],
       "mizuoka_note": "『AI インフラは中東のど真ん中に建っている』という不安はずっと潜在的にあったが、今週初めて国家レベルの脅迫として表面化した。OpenAI の物理資産リスクに対する空気が変わる起点になる可能性がある。"
     },
@@ -77,9 +86,18 @@
       "quote_original": "I mean, the lead developer and some other board members wanted him gone, while another left and created Anthropic. He's a sales guy with more money in his mind.",
       "quote_ja": "要するに、リード開発者や理事の一部は彼を追い出したかったし、離れた一人は Anthropic を作った。彼はセールスマンで、頭の中は金のことばかりだ。",
       "top_comments_ja": [
-        {"score": 3049, "body_excerpt_ja": "『Anthropic を作った人は正しい判断をした』『Altman はセールスマンで頭の中は金だけ』という見方がトップに来ている。"},
-        {"score": 1405, "body_excerpt_ja": "『Stargate が失敗すれば OpenAI は棺桶に釘を打たれる』— イランの脅迫報道と重ねて語られている。"},
-        {"score": 743, "body_excerpt_ja": "『つまり二枚舌のクソ野郎ってこと? 驚きだよ、驚きだよ!』— 皮肉を込めた『誰も驚いていない』空気の表明。"}
+        {
+          "score": 3049,
+          "body_excerpt_ja": "『Anthropic を作った人は正しい判断をした』『Altman はセールスマンで頭の中は金だけ』という見方がトップに来ている。"
+        },
+        {
+          "score": 1405,
+          "body_excerpt_ja": "『Stargate が失敗すれば OpenAI は棺桶に釘を打たれる』— イランの脅迫報道と重ねて語られている。"
+        },
+        {
+          "score": 743,
+          "body_excerpt_ja": "『つまり二枚舌のクソ野郎ってこと? 驚きだよ、驚きだよ!』— 皮肉を込めた『誰も驚いていない』空気の表明。"
+        }
       ],
       "mizuoka_note": "2023 年の解雇未遂のときは『技術者と経営者の思想の違い』という語り口が多かったが、New Yorker の調査記事以降、Reddit 上では『政治家型セールスマン vs 技術者』という冷たい構図が定着している。この記事をきっかけに空気の変化が一段加速した。"
     },
@@ -96,9 +114,18 @@
       "quote_original": "The majority of AI rollouts that I've seen have been 'Please guys, find any problem that we can solve with AI. Anything, please. Just do something, the executives don't have any ideas either but we need AI.'",
       "quote_ja": "見てきた AI 導入の大半は、こんな感じだ。『頼むから AI で解けそうな問題を何でもいいから探してくれ。経営陣もアイデアがないんだ、でも AI はやらなきゃいけない』。",
       "top_comments_ja": [
-        {"score": 5553, "body_excerpt_ja": "経営陣に AI の使い道が見えていないから若手に押し付ける、というトップコメントが 5,500up で共感を集めている。"},
-        {"score": 2982, "body_excerpt_ja": "『ボス:AI 統合どうなってる?』『Gen Z:ちょっとした旅路ですね』という冷笑ジョーク。"},
-        {"score": 2792, "body_excerpt_ja": "『AI はゴミでインチキだから、支配層がサボタージュ話をプロパガンダとして流している』という陰謀論寄りの反応も多数。"}
+        {
+          "score": 5553,
+          "body_excerpt_ja": "経営陣に AI の使い道が見えていないから若手に押し付ける、というトップコメントが 5,500up で共感を集めている。"
+        },
+        {
+          "score": 2982,
+          "body_excerpt_ja": "『ボス:AI 統合どうなってる?』『Gen Z:ちょっとした旅路ですね』という冷笑ジョーク。"
+        },
+        {
+          "score": 2792,
+          "body_excerpt_ja": "『AI はゴミでインチキだから、支配層がサボタージュ話をプロパガンダとして流している』という陰謀論寄りの反応も多数。"
+        }
       ],
       "mizuoka_note": "記事のフレームは『若者の反発』だが、Reddit のコメント欄が語っているのは『そもそも経営側が AI で何をしたいか分かっていない』という話だ。日本で『AI 導入プロジェクト』の仕事をしている人は、同じ構造を海外でも全く同じ言葉で語られているのを眺める価値がある。"
     },
@@ -115,9 +142,18 @@
       "quote_original": "not surprising. it's not his job to write code. his job is to fly around the world and convince private capital people to throw a hundred billion dollars at openai, then get the fuck out of the way and let guys like brockman cook.",
       "quote_ja": "別に驚かない。彼の仕事はコードを書くことじゃない。世界中を飛び回って投資家に 1,000 億ドル出させて、あとは Brockman のような技術者に任せて口を挟まない、それが仕事だ。",
       "top_comments_ja": [
-        {"score": 6125, "body_excerpt_ja": "『CEO が技術者である必要はない、セールスに徹してブロックマンに任せろ』という擁護側の声がトップ。"},
-        {"score": 1206, "body_excerpt_ja": "『ML 用語で詰まる』は AI 関連企業の CEO のほぼ全員に当てはまる、という業界内のリアルなコメント。"},
-        {"score": 1102, "body_excerpt_ja": "『ザッカーバーグやゲイツのように技術と経営を両方持っている CEO はごく少数、普通は片方だけ』という冷静な整理。"}
+        {
+          "score": 6125,
+          "body_excerpt_ja": "『CEO が技術者である必要はない、セールスに徹してブロックマンに任せろ』という擁護側の声がトップ。"
+        },
+        {
+          "score": 1206,
+          "body_excerpt_ja": "『ML 用語で詰まる』は AI 関連企業の CEO のほぼ全員に当てはまる、という業界内のリアルなコメント。"
+        },
+        {
+          "score": 1102,
+          "body_excerpt_ja": "『ザッカーバーグやゲイツのように技術と経営を両方持っている CEO はごく少数、普通は片方だけ』という冷静な整理。"
+        }
       ],
       "mizuoka_note": "この記事が r/ChatGPT(=ユーザー寄りサブ)で 17,000up を取ったことが重要。技術サブ(r/MachineLearning 等)ではなく、ChatGPT を毎日使う一般ユーザー側で『Altman への敬意』が急速に薄れていることを示している。"
     },
@@ -134,9 +170,18 @@
       "quote_original": "There's nothing to trust. He's a salesman and a fundraiser through and through. If you trust him to say or do anything honest you're a fool.",
       "quote_ja": "信じるべきものは何もない。彼は骨の髄までセールスマンで資金調達人だ。彼が何か誠実なことを言う・するだろうと信じる奴はバカだ。",
       "top_comments_ja": [
-        {"score": 4502, "body_excerpt_ja": "『世界中の貧しい人の眼球を集めてデータベースを作りたがってる奴だぞ、信じるわけがない』(World coin を揶揄)。"},
-        {"score": 1491, "body_excerpt_ja": "『2023 年に解雇を試みた板を、社員が全員で擁護する手紙を出したのが間違いだった』という後悔の声。"},
-        {"score": 947, "body_excerpt_ja": "『彼が誠実な発言をすると期待する方が愚か』という冷めた総括がトップに来ている。"}
+        {
+          "score": 4502,
+          "body_excerpt_ja": "『世界中の貧しい人の眼球を集めてデータベースを作りたがってる奴だぞ、信じるわけがない』(World coin を揶揄)。"
+        },
+        {
+          "score": 1491,
+          "body_excerpt_ja": "『2023 年に解雇を試みた板を、社員が全員で擁護する手紙を出したのが間違いだった』という後悔の声。"
+        },
+        {
+          "score": 947,
+          "body_excerpt_ja": "『彼が誠実な発言をすると期待する方が愚か』という冷めた総括がトップに来ている。"
+        }
       ],
       "mizuoka_note": null
     },
@@ -153,9 +198,18 @@
       "quote_original": "I don't see how it can even be considered art if it wasn't created by a human.",
       "quote_ja": "そもそも人間が作っていないものを『アート』と呼ぶこと自体が理解できない。",
       "top_comments_ja": [
-        {"score": 2906, "body_excerpt_ja": "『人間が作っていない時点でアートとは呼べない』という立場がトップ。研究結果を肯定する形の反応。"},
-        {"score": 908, "body_excerpt_ja": "『なぜ人間が人間寄りのバイアスを克服する必要があるのか?』— 研究側の前提を拒否する声。"},
-        {"score": 348, "body_excerpt_ja": "『最近はどんな創作にも批判的になっている、コンテンツが氾濫しすぎた』という疲弊の声。"}
+        {
+          "score": 2906,
+          "body_excerpt_ja": "『人間が作っていない時点でアートとは呼べない』という立場がトップ。研究結果を肯定する形の反応。"
+        },
+        {
+          "score": 908,
+          "body_excerpt_ja": "『なぜ人間が人間寄りのバイアスを克服する必要があるのか?』— 研究側の前提を拒否する声。"
+        },
+        {
+          "score": 348,
+          "body_excerpt_ja": "『最近はどんな創作にも批判的になっている、コンテンツが氾濫しすぎた』という疲弊の声。"
+        }
       ],
       "mizuoka_note": null
     },
@@ -172,9 +226,18 @@
       "quote_original": "weirdest timeline",
       "quote_ja": "一番ヘンな時間線に来てしまった。",
       "top_comments_ja": [
-        {"score": 2156, "body_excerpt_ja": "『一番ヘンな時間線』— 誰もが最初に思う感想がトップに。"},
-        {"score": 1030, "body_excerpt_ja": "『What the fuck』— 一言だけで 1,030up を集めた困惑。"},
-        {"score": 1021, "body_excerpt_ja": "『Ja Rule はいつ AI メモリモデルを出すんだ?』(有名人のリリースというフォーマットへの皮肉)。"}
+        {
+          "score": 2156,
+          "body_excerpt_ja": "『一番ヘンな時間線』— 誰もが最初に思う感想がトップに。"
+        },
+        {
+          "score": 1030,
+          "body_excerpt_ja": "『What the fuck』— 一言だけで 1,030up を集めた困惑。"
+        },
+        {
+          "score": 1021,
+          "body_excerpt_ja": "『Ja Rule はいつ AI メモリモデルを出すんだ?』(有名人のリリースというフォーマットへの皮肉)。"
+        }
       ],
       "mizuoka_note": null
     },
@@ -191,9 +254,18 @@
       "quote_original": "Here's our useless AI that must be installed on your computer and integrated into all of your applications and browsers! Don't talk to it!",
       "quote_ja": "『これがうちの使い物にならない AI だ。あなたのパソコンに強制インストールされて全アプリとブラウザに統合される! でも話しかけないで!』",
       "top_comments_ja": [
-        {"score": 2969, "body_excerpt_ja": "『全アプリに強制統合するのに〈話しかけるな〉はさすがにおかしい』がトップ。"},
-        {"score": 1280, "body_excerpt_ja": "『将来訴訟から逃げるための免責事項だろう、うまく行くとは思えないが』という法務目線の指摘。"},
-        {"score": 646, "body_excerpt_ja": "『Microsoft は AI すらまともにできない』"}
+        {
+          "score": 2969,
+          "body_excerpt_ja": "『全アプリに強制統合するのに〈話しかけるな〉はさすがにおかしい』がトップ。"
+        },
+        {
+          "score": 1280,
+          "body_excerpt_ja": "『将来訴訟から逃げるための免責事項だろう、うまく行くとは思えないが』という法務目線の指摘。"
+        },
+        {
+          "score": 646,
+          "body_excerpt_ja": "『Microsoft は AI すらまともにできない』"
+        }
       ],
       "mizuoka_note": null
     },
@@ -210,28 +282,18 @@
       "quote_original": "# almost 50% of affected positions CLAIMED TO BE cut due to AI",
       "quote_ja": "タイトルは『AI が理由で切られた』だが、正確には『AI が理由だと主張されている』だ。",
       "top_comments_ja": [
-        {"score": 1866, "body_excerpt_ja": "『AI のせい〉ではなく〈AI のせいだと主張している〉が正しい表現』という言い換えが 1,866up。"},
-        {"score": 1719, "body_excerpt_ja": "『Block が 2 月に従業員の 40% を〈AI 効率化〉で切ったが、彼らは BTC 8,500 枚持っていて 6 ヶ月で 600M ドル失っている』— 本当の理由は別だと指摘。"},
-        {"score": 478, "body_excerpt_ja": "『景気は関税・戦争・経営失敗で悪く、AI は実際には誰も置き換えていない』"}
-      ],
-      "mizuoka_note": null
-    },
-    {
-      "rank": 10,
-      "title_original": "Hallucinated citations are polluting the scientific literature",
-      "title_ja": "2025 年の科学論文が AI の『幻覚引用』で汚染されている — Nature 分析",
-      "url": "https://www.reddit.com/r/technology/comments/1sd0khs/hallucinated_citations_are_polluting_the/",
-      "source": "r/technology",
-      "score": 6218,
-      "num_comments": 406,
-      "ai_topic_center": "科学論文の AI 幻覚引用問題",
-      "summary_ja": "Nature の分析で、2025 年に発表された数万件の科学論文が AI の生成した『存在しない引用』を含んでいる可能性が示された。査読プロセスの機能不全と、AI 生成の参考文献をチェックする手段の欠如が問題化している。",
-      "quote_original": "It makes me question how rigorously citations were verified pre-AI.",
-      "quote_ja": "そもそも AI 以前の時代も、どれだけ引用がちゃんとチェックされていたのか疑問だ。",
-      "top_comments_ja": [
-        {"score": 1103, "body_excerpt_ja": "『AI 以前の時代も本当に厳しく引用チェックしていたのか疑問』という根本的な問い直し。"},
-        {"score": 239, "body_excerpt_ja": "『引用は査読者が必ずチェックし、捏造が見つかった機関はブラックリストにすべき』"},
-        {"score": 180, "body_excerpt_ja": "『DOI と引用管理ソフトがあるのだから完全な捏造は言い訳にならない』"}
+        {
+          "score": 1866,
+          "body_excerpt_ja": "『AI のせい〉ではなく〈AI のせいだと主張している〉が正しい表現』という言い換えが 1,866up。"
+        },
+        {
+          "score": 1719,
+          "body_excerpt_ja": "『Block が 2 月に従業員の 40% を〈AI 効率化〉で切ったが、彼らは BTC 8,500 枚持っていて 6 ヶ月で 600M ドル失っている』— 本当の理由は別だと指摘。"
+        },
+        {
+          "score": 478,
+          "body_excerpt_ja": "『景気は関税・戦争・経営失敗で悪く、AI は実際には誰も置き換えていない』"
+        }
       ],
       "mizuoka_note": null
     }
@@ -251,9 +313,18 @@
       "quote_original": "The social contract doesn't extend to those who would destroy it.",
       "quote_ja": "社会契約は『社会契約を破壊しようとする側』には及ばない。",
       "top_comments_ja": [
-        {"score": 1543, "body_excerpt_ja": "『社会契約は社会契約を破壊する側には適用されない』という強い同情拒否がトップ。"},
-        {"score": 850, "body_excerpt_ja": "『ChatGPT で〈火炎瓶作成を有効化〉ボタンを押したのかな? だから AI の責任を取りたがらないんだね』という毒のあるジョーク。"},
-        {"score": 716, "body_excerpt_ja": "Altman 自身のブログの一節を引用して『彼が同じ人間を〈資源〉としてしか見ていないことが透けて見える』との指摘。"}
+        {
+          "score": 1543,
+          "body_excerpt_ja": "『社会契約は社会契約を破壊する側には適用されない』という強い同情拒否がトップ。"
+        },
+        {
+          "score": 850,
+          "body_excerpt_ja": "『ChatGPT で〈火炎瓶作成を有効化〉ボタンを押したのかな? だから AI の責任を取りたがらないんだね』という毒のあるジョーク。"
+        },
+        {
+          "score": 716,
+          "body_excerpt_ja": "Altman 自身のブログの一節を引用して『彼が同じ人間を〈資源〉としてしか見ていないことが透けて見える』との指摘。"
+        }
       ],
       "mizuoka_note": "これが今週の『空気が変わった』瞬間だった。バズ層では Altman への批判記事が順位を埋めたが、本音層側のこのスレでは『同情できない』と書いているのが OpenAI 批判者ではなく、普通の r/technology の読者層だった点が重い。火炎瓶事件そのものを擁護する声が 1,500up を集めている光景は、AI 業界にとって今までにない景色だ。"
     },
@@ -271,9 +342,12 @@
       "quote_original": "You can be against AI without associating with them. But it's hard when they have taken over your movement. As an outsider, there is only so much I can do to clean your house.",
       "quote_ja": "AI に反対しながら『彼ら』と一緒にされないことは可能だ。でも運動の主導権を取られてしまうと難しい。部外者の立場から君の家を掃除できる範囲は限られている。",
       "top_comments_ja": [
-        {"score": 0, "body_excerpt_ja": "(このスレッドのコメント欄は投稿本文への長文反論で構成されており、短い引用で抜き出せる『代表トップコメント』が存在しない構造)"}
+        {
+          "score": 0,
+          "body_excerpt_ja": "(このスレッドのコメント欄は投稿本文への長文反論で構成されており、短い引用で抜き出せる『代表トップコメント』が存在しない構造)"
+        }
       ],
-      "mizuoka_note": "この投稿が今週の『本音層 TOP 5』で 2 位なのは、score 254 なのに comments 670、つまり ratio 2.638 という『拡散はしていないがコメント欄だけが燃えている』状態だったから。score ベースのランキングでは絶対に見つからない層で、今週の反 AI 運動の内部分裂が一番生々しく出ているスレだった。"
+      "mizuoka_note": "この投稿が今週の『本音層 TOP 5』で 2 位なのは、score 254 なのに comments 670、つまり ratio 2.638 という『拡散はしていないがコメント欄だけが燃えている』状態だったから。score ベースのランキングではまず見つからない層で、今週の反 AI 運動の内部分裂が一番生々しく出ているスレだった。"
     },
     {
       "rank": 3,
@@ -289,9 +363,18 @@
       "quote_original": "If you're anti AI: If we all lived in a vacuum, and your job is automated, you should celebrate that you are no longer bound by a job. But we do not live in a vacuum. You have bills to pay.",
       "quote_ja": "反 AI 派へ: もし全員が真空中で生きているなら、仕事が自動化されたら『もう仕事に縛られない』と祝うべきだ。でも現実は真空じゃない。請求書を払わなければならない。",
       "top_comments_ja": [
-        {"score": 108, "body_excerpt_ja": "『西側社会の最大の問題は資本主義だ』がトップコメント。"},
-        {"score": 27, "body_excerpt_ja": "『資本主義下の AI は搾取を増やし人間性を削る。社会主義下の AI は搾取を減らし人間性を増やす』— UBI と AI の接続議論。"},
-        {"score": 14, "body_excerpt_ja": "『そう、資本主義が悪い』という短い同意が複数並ぶ。"}
+        {
+          "score": 108,
+          "body_excerpt_ja": "『西側社会の最大の問題は資本主義だ』がトップコメント。"
+        },
+        {
+          "score": 27,
+          "body_excerpt_ja": "『資本主義下の AI は搾取を増やし人間性を削る。社会主義下の AI は搾取を減らし人間性を増やす』— UBI と AI の接続議論。"
+        },
+        {
+          "score": 14,
+          "body_excerpt_ja": "『そう、資本主義が悪い』という短い同意が複数並ぶ。"
+        }
       ],
       "mizuoka_note": null
     },
@@ -309,9 +392,18 @@
       "quote_original": "violence is not how we settle ideological disputes in a civilized society.",
       "quote_ja": "文明社会では、イデオロギー対立を暴力で決着させるべきではない。",
       "top_comments_ja": [
-        {"score": 16, "body_excerpt_ja": "『エコーチェンバーは本当に最悪だ、理性的な声を排除して純粋な熱狂だけが残る』"},
-        {"score": 6, "body_excerpt_ja": "『火炎瓶は擁護しないが、Altman への不満をイデオロギーだけに押し込めるのは誠実ではない』という中立派の声。"},
-        {"score": 4, "body_excerpt_ja": "『AI が特別好きなわけではないが、暴力的になる理由は何もない』"}
+        {
+          "score": 16,
+          "body_excerpt_ja": "『エコーチェンバーは本当に最悪だ、理性的な声を排除して純粋な熱狂だけが残る』"
+        },
+        {
+          "score": 6,
+          "body_excerpt_ja": "『火炎瓶は擁護しないが、Altman への不満をイデオロギーだけに押し込めるのは誠実ではない』という中立派の声。"
+        },
+        {
+          "score": 4,
+          "body_excerpt_ja": "『AI が特別好きなわけではないが、暴力的になる理由は何もない』"
+        }
       ],
       "mizuoka_note": null
     },
@@ -329,11 +421,20 @@
       "quote_original": "If 'this never happened,' then 'pick up a pencil' wouldn't happen either.",
       "quote_ja": "『これは起こらなかった』と言うなら、『鉛筆を手に取る』ことも起こらなかったはずだろう。",
       "top_comments_ja": [
-        {"score": 37, "body_excerpt_ja": "『彼らはアートの門番だ、口には出さないけど。縛られないアートという物語を壊したくないから』"},
-        {"score": 17, "body_excerpt_ja": "『カメラマンに〈君が撮ったんじゃない、カメラが撮ったんだ〉と言うようなものだ』という反論。"},
-        {"score": 16, "body_excerpt_ja": "『AI で描くのは自分で描いていない、AI が描いているんだ』という対立側コメント。"}
+        {
+          "score": 37,
+          "body_excerpt_ja": "『彼らはアートの門番だ、口には出さないけど。縛られないアートという物語を壊したくないから』"
+        },
+        {
+          "score": 17,
+          "body_excerpt_ja": "『カメラマンに〈君が撮ったんじゃない、カメラが撮ったんだ〉と言うようなものだ』という反論。"
+        },
+        {
+          "score": 16,
+          "body_excerpt_ja": "『AI で描くのは自分で描いていない、AI が描いているんだ』という対立側コメント。"
+        }
       ],
-      "mizuoka_note": "score 0 なのに comments 565 という数字は、従来型のランキングでは絶対に拾えない典型例。この 1 本のために本音層という仕組みを作った、と言ってもいい。拡散はゼロでも、コメント欄では今週の AI vs アート論争が一番激しく殴り合われている。"
+      "mizuoka_note": "score 0 なのに comments 565 という数字は、従来型のランキングではまず拾えない典型例。この 1 本のために本音層という仕組みを作った、と言ってもいい。拡散はゼロでも、コメント欄では今週の AI vs アート論争が一番激しく殴り合われている。"
     }
   ]
 }
