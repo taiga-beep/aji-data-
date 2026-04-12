@@ -3592,9 +3592,9 @@
     "outputPrice": 0.56,
     "contextLength": 128000,
     "priceCategory": "budget",
-    "prevInputPrice": 0.03,
-    "prevOutputPrice": 0.11,
-    "priceChangePercent": 1066.67,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1742238937

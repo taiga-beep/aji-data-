@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-11T09:10:51Z",
+  "lastUpdated": "2026-04-12T09:33:19Z",
   "totalModels": 350,
   "todayChanges": {
-    "priceDown": 2,
+    "priceDown": 0,
     "priceUp": 1,
     "newModels": 0,
     "removedModels": 0
@@ -31,9 +31,9 @@
       "outputPrice": 3.15,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": 1.26,
-      "prevOutputPrice": 3.96,
-      "priceChangePercent": -24.6,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775578025
@@ -61,9 +61,9 @@
       "outputPrice": 0.4,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.13,
-      "prevOutputPrice": 0.4,
-      "priceChangePercent": -7.69,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -3597,13 +3597,13 @@
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
       "provider": "mistralai",
-      "inputPrice": 0.03,
-      "outputPrice": 0.11,
-      "contextLength": 131072,
+      "inputPrice": 0.35,
+      "outputPrice": 0.56,
+      "contextLength": 128000,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.03,
+      "prevOutputPrice": 0.11,
+      "priceChangePercent": 1066.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1742238937
@@ -4606,9 +4606,9 @@
       "outputPrice": 0.245,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.049,
-      "prevOutputPrice": 0.049,
-      "priceChangePercent": 400.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1727222400
@@ -5262,15 +5262,18 @@
   "history": {
     "dates": [
       "2026-04-10",
-      "2026-04-11"
+      "2026-04-11",
+      "2026-04-12"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
         "inputPrices": [
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0
         ]
@@ -5278,9 +5281,11 @@
       "openai/gpt-4o-mini": {
         "inputPrices": [
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6
         ]
@@ -5288,9 +5293,11 @@
       "anthropic/claude-3.5-sonnet": {
         "inputPrices": [
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null
         ]
@@ -5298,9 +5305,11 @@
       "anthropic/claude-3-haiku": {
         "inputPrices": [
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25
         ]
@@ -5308,9 +5317,11 @@
       "google/gemini-1.5-pro": {
         "inputPrices": [
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null
         ]
@@ -5318,9 +5329,11 @@
       "google/gemini-1.5-flash": {
         "inputPrices": [
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null
         ]
@@ -5328,9 +5341,11 @@
       "meta-llama/llama-3.1-70b-instruct": {
         "inputPrices": [
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4
         ]
@@ -5338,9 +5353,11 @@
       "meta-llama/llama-3.1-405b-instruct": {
         "inputPrices": [
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null
         ]
@@ -5348,9 +5365,11 @@
       "mistralai/mistral-large": {
         "inputPrices": [
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0
         ]
@@ -5358,9 +5377,11 @@
       "mistralai/mixtral-8x7b-instruct": {
         "inputPrices": [
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54
         ]
