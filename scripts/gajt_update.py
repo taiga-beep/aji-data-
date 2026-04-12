@@ -181,6 +181,40 @@ def extract_skills_from_text(text, skill_dict):
     return counts
 
 
+# Ver 2.1: AI関連求人判定用キーワード (厳密マッチ)
+AI_JOB_REGEX = re.compile(
+    r'\b(ai|ml|llm|llms|genai|gen\s*ai|generative\s*ai|gpt|claude|gemini|'
+    r'nlp|machine\s*learning|deep\s*learning|artificial\s*intelligence|'
+    r'rag|vector\s*db|transformer|fine[\s\-]?tuning|prompt\s*engineering)\b',
+    re.IGNORECASE
+)
+
+
+def _job_text_for_ai(j):
+    """Remote OK / WWR 求人の AI判定用テキストを抽出 (タイトル+description+tags)"""
+    if not isinstance(j, dict):
+        return ''
+    parts = [
+        str(j.get('position', '') or ''),
+        str(j.get('title', '') or ''),
+        str(j.get('description', '') or ''),
+    ]
+    tags = j.get('tags', [])
+    if isinstance(tags, list):
+        parts.append(' '.join(str(t) for t in tags))
+    elif isinstance(tags, str):
+        parts.append(tags)
+    return ' '.join(parts)
+
+
+def is_ai_job(j):
+    """求人がAI関連か厳密判定する (タイトル/description/tagsへの正規表現マッチ)"""
+    text = _job_text_for_ai(j)
+    if not text:
+        return False
+    return bool(AI_JOB_REGEX.search(text))
+
+
 # ---------------------------------------------------------------------------
 # Step 1: Remote OK + WWR 求人取得
 # ---------------------------------------------------------------------------
@@ -274,8 +308,9 @@ def aggregate_company_skills(company_cfg, skill_dict):
             text = extract_jd_text_lever(job)
 
         job_skills = extract_skills_from_text(text, skill_dict)
-        for sk, cnt in job_skills.items():
-            total_skill_counts[sk] = total_skill_counts.get(sk, 0) + cnt
+        # Ver 2.1: 求人数ベース集計 — 同一JD内での重複出現は1件としてカウント
+        for sk in job_skills.keys():
+            total_skill_counts[sk] = total_skill_counts.get(sk, 0) + 1
 
     sorted_skills = sorted(total_skill_counts.items(), key=lambda x: x[1], reverse=True)
     top_skills = [{'skill': sk, 'count': cnt} for sk, cnt in sorted_skills[:10]]
@@ -283,6 +318,7 @@ def aggregate_company_skills(company_cfg, skill_dict):
     return {
         'slug':       slug,
         'name':       company_cfg['name'],
+        'company':    company_cfg['name'],   # fix_ver2.md 互換フィールド (Ver 2.1)
         'atsType':    ats_type,
         'careersUrl': company_cfg['careersUrl'],
         'jobCount':   len(jobs),
@@ -294,16 +330,26 @@ def aggregate_company_skills(company_cfg, skill_dict):
 # ---------------------------------------------------------------------------
 # Step 3: スナップショット差分計算
 # ---------------------------------------------------------------------------
-def load_prev_snapshot(snap_dir, prefix=''):
+def load_prev_snapshot(snap_dir, prefix='', today_str=None):
+    """
+    Ver 2.1: 前日スナップショットを読み込む。
+    - 呼び出し時は「当日スナップショットをまだ保存していない」タイミング想定
+      → files[-1] が前日分 = 最も新しい「前日ファイル」
+    - 冪等性確保のため当日ファイルは除外 (再実行時の自己参照防止)
+    """
     if not os.path.exists(snap_dir):
         return {}
     files = sorted([
         f for f in os.listdir(snap_dir)
         if f.startswith(prefix) and f.endswith('.json')
     ])
-    if len(files) < 2:
+    # 当日ファイルを除外 (冪等再実行対策)
+    if today_str:
+        today_file = f'{today_str}.json'
+        files = [f for f in files if f != today_file]
+    if not files:
         return {}
-    prev_file = files[-2]
+    prev_file = files[-1]  # Ver 2.1: 最も新しい残存ファイル = 前日分
     path = os.path.join(snap_dir, prev_file)
     try:
         with open(path, encoding='utf-8') as f:
@@ -335,19 +381,29 @@ def compute_company_diffs(this_company, prev_snapshot):
 # ---------------------------------------------------------------------------
 # Step 4: カレンダーヒートマップ (直近30日スナップショットから生成)
 # ---------------------------------------------------------------------------
-def build_calendar_heatmap(today_utc, prev_jobs_snap, ro_jobs, wwr_jobs):
+def build_calendar_heatmap(today_utc, prev_jobs_snap, ro_jobs, wwr_jobs, skill_dict):
     """
     直近30日分のカレンダーヒートマップを生成する。
     today_utc: datetime.date
     prev_jobs_snap: 前日の jobs snapshot (dict) またはNone
+    skill_dict: topSkill計算用のスキル辞書
     """
     today_str = today_utc.isoformat()
 
-    # 当日分 (取得済み)
-    todays_total = sum(
-        1 for j in (ro_jobs + wwr_jobs)
-        if 'ai' in str(j).lower()
-    )
+    # Ver 2.1: 当日分 AI求人 (厳密判定)
+    ai_jobs_today = [j for j in (ro_jobs + wwr_jobs) if is_ai_job(j)]
+    todays_total = len(ai_jobs_today)
+
+    # Ver 2.1: 当日AI求人からの最頻出スキルを topSkill に設定
+    todays_top_skill = ''
+    if ai_jobs_today:
+        skill_tally = {}
+        for j in ai_jobs_today:
+            text = _job_text_for_ai(j)
+            for sk in extract_skills_from_text(text, skill_dict).keys():
+                skill_tally[sk] = skill_tally.get(sk, 0) + 1
+        if skill_tally:
+            todays_top_skill = max(skill_tally.items(), key=lambda x: x[1])[0]
 
     # 既存 summary.json から heatmap を継承し、当日を追加 or 更新
     existing_heatmap = []
@@ -364,7 +420,7 @@ def build_calendar_heatmap(today_utc, prev_jobs_snap, ro_jobs, wwr_jobs):
     hmap[today_str] = {
         'date': today_str,
         'totalAiJobs': todays_total,
-        'topSkill': '',
+        'topSkill': todays_top_skill,
     }
 
     # 直近30日だけ残す
@@ -400,21 +456,20 @@ def compute_streak(today_str):
 # ---------------------------------------------------------------------------
 def build_monthly_ranking(skill_dict, all_jobs):
     """
-    当日取得した全求人のスキル集計から monthlyRanking を生成。
+    当日取得した AI求人のみ のスキル集計から monthlyRanking を生成。
     前月比は既存 summary.json の monthlyRanking から継承。
+    Ver 2.1: is_ai_job() で AI求人に厳密フィルタしてから集計。
     """
-    # 当月スキル集計
+    # Ver 2.1: AI求人のみに絞り込み
+    ai_jobs = [j for j in all_jobs if is_ai_job(j)]
+
+    # 当月スキル集計 (求人数ベース: 1求人につき1カウント)
     curr_counts = {}
-    for j in all_jobs:
-        text = ' '.join([
-            str(j.get('position', '')),
-            str(j.get('title', '')),
-            str(j.get('description', '')),
-            str(j.get('tags', '')),
-        ])
+    for j in ai_jobs:
+        text = _job_text_for_ai(j)
         job_skills = extract_skills_from_text(text, skill_dict)
-        for sk, cnt in job_skills.items():
-            curr_counts[sk] = curr_counts.get(sk, 0) + cnt
+        for sk in job_skills.keys():
+            curr_counts[sk] = curr_counts.get(sk, 0) + 1
 
     # 前月比 (既存 summary.json から)
     prev_counts = {}
@@ -493,29 +548,39 @@ def main():
     monthly_ranking = build_monthly_ranking(skill_dict, all_jobs)
     print(f'  ランキング: {len(monthly_ranking)} スキル')
 
-    # --- 4. カレンダーヒートマップ ---
-    calendar_heatmap = build_calendar_heatmap(today_d, None, ro_jobs, wwr_jobs)
+    # --- 4. カレンダーヒートマップ (Ver 2.1: skill_dict を渡して topSkill 計算) ---
+    calendar_heatmap = build_calendar_heatmap(today_d, None, ro_jobs, wwr_jobs, skill_dict)
 
     # --- 5. streak ---
     streak_days = compute_streak(today_str)
 
     # --- 6. weeklyTopThree ---
     top3 = monthly_ranking[:3] if len(monthly_ranking) >= 3 else monthly_ranking
-    s1 = top3[0]['skill']   if len(top3) > 0 else ''
+    s1 = top3[0]['skill']     if len(top3) > 0 else ''
     p1 = top3[0]['changePct'] if len(top3) > 0 else 0
-    s2 = top3[1]['skill']   if len(top3) > 1 else ''
+    s2 = top3[1]['skill']     if len(top3) > 1 else ''
     p2 = top3[1]['changePct'] if len(top3) > 1 else 0
-    s3 = top3[2]['skill']   if len(top3) > 2 else ''
+    s3 = top3[2]['skill']     if len(top3) > 2 else ''
     p3 = top3[2]['changePct'] if len(top3) > 2 else 0
     week_of = (today_d - datetime.timedelta(days=today_d.weekday())).isoformat()
+
+    def _fmt_pct(v):
+        """Ver 2.1: 正なら '+N.N%'、負なら '-N.N%' (符号は値に任せる)"""
+        return ('+' if v >= 0 else '') + ('{0}%'.format(v))
+
     x_template = (
         '今週の海外AI求人スキルTop3\n'
-        '1位: {s1} +{p1}%\n'
-        '2位: {s2} +{p2}%\n'
-        '3位: {s3} +{p3}%\n'
+        '1位: {s1} {f1}\n'
+        '2位: {s2} {f2}\n'
+        '3位: {s3} {f3}\n'
         '（{w}週 / Remote OK+WWR集計）\n'
         '#AIスキル #生成AI'
-    ).format(s1=s1, p1=p1, s2=s2, p2=p2, s3=s3, p3=p3, w=week_of)
+    ).format(
+        s1=s1, f1=_fmt_pct(p1),
+        s2=s2, f2=_fmt_pct(p2),
+        s3=s3, f3=_fmt_pct(p3),
+        w=week_of,
+    )
 
     weekly_top_three = {
         'weekOf':        week_of,
@@ -524,15 +589,22 @@ def main():
         'xPostTemplate': x_template,
     }
 
-    # --- 7. KPI ---
-    ai_jobs_total = sum(d.get('totalAiJobs', 0) for d in calendar_heatmap)
-    ai_ratio_pct  = round(ai_jobs_total / max(total_scanned, 1) * 100, 1)
+    # --- 7. KPI (Ver 2.1: 当日単体の比率に統一) ---
+    # totalAiJobsThisMonth は月内のAI求人累計 (カレンダー全日合計)
+    ai_jobs_total_month = sum(d.get('totalAiJobs', 0) for d in calendar_heatmap)
+    # aiJobRatioPct は「当日スキャンした全求人のうちAI求人が占める割合」(当日単体・0-100)
+    todays_ai_count = 0
+    for _e in calendar_heatmap:
+        if _e.get('date') == today_str:
+            todays_ai_count = _e.get('totalAiJobs', 0)
+            break
+    ai_ratio_pct  = round(todays_ai_count / max(total_scanned, 1) * 100, 1)
     up_skills     = [r for r in monthly_ranking if r['changeDir'] == 'up']
     down_skills   = [r for r in monthly_ranking if r['changeDir'] == 'down']
     top_rising    = max(up_skills,   key=lambda x: x['changePct'],  default=None)
     top_falling   = min(down_skills, key=lambda x: x['changePct'],  default=None)
     kpi = {
-        'totalAiJobsThisMonth': ai_jobs_total,
+        'totalAiJobsThisMonth': ai_jobs_total_month,
         'aiJobRatioPct':        ai_ratio_pct,
         'topRisingSkill':  {'name': top_rising['skill'],  'changePct': top_rising['changePct']}  if top_rising  else {'name': '-', 'changePct': 0},
         'topFallingSkill': {'name': top_falling['skill'], 'changePct': top_falling['changePct']} if top_falling else {'name': '-', 'changePct': 0},
@@ -540,7 +612,7 @@ def main():
 
     # --- 8. 8社 ATS API 取得 ---
     print('[gajt_update] 8社 ATS API 取得中...')
-    prev_comp_snap = load_prev_snapshot(COMP_SNAP_DIR)
+    prev_comp_snap = load_prev_snapshot(COMP_SNAP_DIR, today_str=today_str)
     companies_result = []
     for cfg in COMPANIES:
         result = aggregate_company_skills(cfg, skill_dict)
