@@ -143,7 +143,11 @@ def fetch_xml(url, retries=RETRY_MAX):
 
 
 def load_skill_dict():
-    """skill_dict.json を読み込む。EXTRA_SKILLS を補完する。"""
+    """
+    skill_dict.json を読み込む。EXTRA_SKILLS を補完する。
+    Ver 2.1: カテゴリマップも同時に返す (skill_dict, category_map)
+    """
+    category_map = {}  # {canonical_skill: category_name}
     if not os.path.exists(SKILL_DICT_FILE):
         print(f'[WARN] skill_dict.json not found: {SKILL_DICT_FILE}', file=sys.stderr)
         base = {}
@@ -156,17 +160,26 @@ def load_skill_dict():
         if raw:
             first_val = next(iter(raw.values()))
             if isinstance(first_val, list):
-                # カテゴリ辞書形式 → フラット化（スキル名をそのまま使う）
-                for _cat, skills in raw.items():
+                # カテゴリ辞書形式 → フラット化しつつカテゴリ対応を保持
+                for cat, skills in raw.items():
                     for sk in skills:
                         base[sk] = sk
+                        category_map[sk] = cat
             else:
                 base = raw
 
     for sk in EXTRA_SKILLS:
         if sk not in base:
             base[sk] = sk
-    return base
+        if sk not in category_map:
+            # EXTRA_SKILLS のカテゴリ推定 (Ver 2.1)
+            if sk in ('vLLM', 'Ray', 'Triton', 'JAX', 'Mojo'):
+                category_map[sk] = 'MLエンジニアリング'
+            elif sk in ('MCP', 'Agentic RAG'):
+                category_map[sk] = 'エージェント・マルチモーダル'
+            else:
+                category_map[sk] = ''
+    return base, category_map
 
 
 def extract_skills_from_text(text, skill_dict):
@@ -454,12 +467,17 @@ def compute_streak(today_str):
 # ---------------------------------------------------------------------------
 # Step 6: monthlyRanking (スナップショットから集計)
 # ---------------------------------------------------------------------------
-def build_monthly_ranking(skill_dict, all_jobs):
+def build_monthly_ranking(skill_dict, all_jobs, category_map=None):
     """
     当日取得した AI求人のみ のスキル集計から monthlyRanking を生成。
     前月比は既存 summary.json の monthlyRanking から継承。
-    Ver 2.1: is_ai_job() で AI求人に厳密フィルタしてから集計。
+    Ver 2.1:
+      - is_ai_job() で AI求人に厳密フィルタしてから集計
+      - category_map から各スキルのカテゴリを埋める (フィルタボタン動作用)
     """
+    if category_map is None:
+        category_map = {}
+
     # Ver 2.1: AI求人のみに絞り込み
     ai_jobs = [j for j in all_jobs if is_ai_job(j)]
 
@@ -494,7 +512,7 @@ def build_monthly_ranking(skill_dict, all_jobs):
         ranking.append({
             'rank':         idx + 1,
             'skill':        skill,
-            'category':     '',
+            'category':     category_map.get(skill, ''),   # Ver 2.1
             'currentMonth': curr_cnt,
             'prevMonth':    prev_cnt,
             'changePct':    change_pct,
@@ -513,9 +531,9 @@ def main():
 
     print(f'[gajt_update] 実行日時 UTC: {utc_now.strftime("%Y-%m-%d %H:%M:%S")}')
 
-    # --- 1. スキル辞書ロード ---
-    skill_dict = load_skill_dict()
-    print(f'[gajt_update] スキル辞書: {len(skill_dict)} パターン')
+    # --- 1. スキル辞書ロード (Ver 2.1: カテゴリマップも取得) ---
+    skill_dict, category_map = load_skill_dict()
+    print(f'[gajt_update] スキル辞書: {len(skill_dict)} パターン / カテゴリ: {len(set(category_map.values()))}種')
 
     # --- 2. Remote OK + WWR 取得 ---
     print('[gajt_update] Remote OK 取得中...')
@@ -543,9 +561,9 @@ def main():
         }, f, ensure_ascii=False, indent=2)
     print(f'[gajt_update] スナップショット保存: {snap_path}')
 
-    # --- 3. monthlyRanking 生成 ---
+    # --- 3. monthlyRanking 生成 (Ver 2.1: category_map 渡し) ---
     print('[gajt_update] monthlyRanking 集計中...')
-    monthly_ranking = build_monthly_ranking(skill_dict, all_jobs)
+    monthly_ranking = build_monthly_ranking(skill_dict, all_jobs, category_map)
     print(f'  ランキング: {len(monthly_ranking)} スキル')
 
     # --- 4. カレンダーヒートマップ (Ver 2.1: skill_dict を渡して topSkill 計算) ---

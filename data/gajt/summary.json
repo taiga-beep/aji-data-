@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T00:04:28Z",
+  "lastUpdated": "2026-04-12T00:16:58Z",
   "meta": {
     "lastVerified": "2026-04-12",
     "sourceUrls": [
@@ -8,122 +8,122 @@
     ],
     "totalJobsScanned": 121,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-04-13T00:04:28Z"
+    "nextUpdateISO": "2026-04-13T00:16:58Z"
   },
-  "streakDays": 4,
+  "streakDays": 5,
   "monthlyRanking": [
     {
       "rank": 1,
       "skill": "Python",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 11,
-      "prevMonth": 28,
-      "changePct": -60.7,
-      "changeDir": "down"
+      "prevMonth": 11,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 2,
       "skill": "PostgreSQL",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 10,
-      "prevMonth": 19,
-      "changePct": -47.4,
-      "changeDir": "down"
+      "prevMonth": 10,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
       "skill": "Claude",
-      "category": "",
+      "category": "LLM・基盤モデル",
       "currentMonth": 7,
-      "prevMonth": 8,
-      "changePct": -12.5,
-      "changeDir": "down"
+      "prevMonth": 7,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 4,
       "skill": "SQL",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 6,
-      "prevMonth": 15,
-      "changePct": -60.0,
-      "changeDir": "down"
+      "prevMonth": 6,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 5,
       "skill": "Cursor",
-      "category": "",
+      "category": "エージェント・マルチモーダル",
       "currentMonth": 5,
-      "prevMonth": 9,
-      "changePct": -44.4,
-      "changeDir": "down"
+      "prevMonth": 5,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 6,
       "skill": "LLM",
-      "category": "",
+      "category": "LLM・基盤モデル",
       "currentMonth": 5,
-      "prevMonth": 6,
-      "changePct": -16.7,
-      "changeDir": "down"
+      "prevMonth": 5,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 7,
       "skill": "Kafka",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 5,
-      "changePct": -20.0,
-      "changeDir": "down"
+      "prevMonth": 4,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 8,
       "skill": "Redis",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 5,
-      "changePct": -20.0,
-      "changeDir": "down"
+      "prevMonth": 4,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 9,
       "skill": "Kubernetes",
-      "category": "",
+      "category": "クラウド・デプロイ",
       "currentMonth": 3,
-      "prevMonth": 4,
-      "changePct": -25.0,
-      "changeDir": "down"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 10,
       "skill": "Docker",
-      "category": "",
+      "category": "クラウド・デプロイ",
       "currentMonth": 3,
-      "prevMonth": 6,
-      "changePct": -50.0,
-      "changeDir": "down"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 11,
       "skill": "BigQuery",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 5,
-      "changePct": -60.0,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 12,
       "skill": "Snowflake",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 3,
-      "changePct": -33.3,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 13,
       "skill": "Computer Vision",
-      "category": "",
+      "category": "エージェント・マルチモーダル",
       "currentMonth": 2,
       "prevMonth": 2,
       "changePct": 0.0,
@@ -132,16 +132,16 @@
     {
       "rank": 14,
       "skill": "Terraform",
-      "category": "",
+      "category": "クラウド・デプロイ",
       "currentMonth": 2,
-      "prevMonth": 3,
-      "changePct": -33.3,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 15,
       "skill": "Prompt Engineering",
-      "category": "",
+      "category": "LLM・基盤モデル",
       "currentMonth": 2,
       "prevMonth": 2,
       "changePct": 0.0,
@@ -150,16 +150,16 @@
     {
       "rank": 16,
       "skill": "Gemini",
-      "category": "",
+      "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 3,
-      "changePct": -33.3,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 17,
       "skill": "MCP",
-      "category": "",
+      "category": "LLM・基盤モデル",
       "currentMonth": 1,
       "prevMonth": 1,
       "changePct": 0.0,
@@ -168,7 +168,7 @@
     {
       "rank": 18,
       "skill": "Pinecone",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 1,
       "prevMonth": 1,
       "changePct": 0.0,
@@ -177,7 +177,7 @@
     {
       "rank": 19,
       "skill": "Weaviate",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 1,
       "prevMonth": 1,
       "changePct": 0.0,
@@ -186,9 +186,9 @@
     {
       "rank": 20,
       "skill": "dbt",
-      "category": "",
+      "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     }
@@ -218,11 +218,11 @@
       "Claude"
     ],
     "percentages": [
-      -60.7,
-      -47.4,
-      -12.5
+      0.0,
+      0.0,
+      0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Python -60.7%\n2位: PostgreSQL -47.4%\n3位: Claude -12.5%\n（2026-04-06週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Python +0.0%\n2位: PostgreSQL +0.0%\n3位: Claude +0.0%\n（2026-04-06週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
     "totalAiJobsThisMonth": 266,
@@ -232,8 +232,8 @@
       "changePct": 0
     },
     "topFallingSkill": {
-      "name": "Python",
-      "changePct": -60.7
+      "name": "-",
+      "changePct": 0
     }
   },
   "companyWeekly": {
