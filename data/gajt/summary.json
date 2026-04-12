@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T00:16:58Z",
+  "lastUpdated": "2026-04-12T00:50:01Z",
   "meta": {
     "lastVerified": "2026-04-12",
     "sourceUrls": [
@@ -8,16 +8,16 @@
     ],
     "totalJobsScanned": 121,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-04-13T00:16:58Z"
+    "nextUpdateISO": "2026-04-13T00:50:01Z"
   },
-  "streakDays": 5,
+  "streakDays": 6,
   "monthlyRanking": [
     {
       "rank": 1,
       "skill": "Python",
       "category": "データ・インフラ",
       "currentMonth": 11,
-      "prevMonth": 11,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -26,7 +26,7 @@
       "skill": "PostgreSQL",
       "category": "データ・インフラ",
       "currentMonth": 10,
-      "prevMonth": 10,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -35,7 +35,7 @@
       "skill": "Claude",
       "category": "LLM・基盤モデル",
       "currentMonth": 7,
-      "prevMonth": 7,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -44,7 +44,7 @@
       "skill": "SQL",
       "category": "データ・インフラ",
       "currentMonth": 6,
-      "prevMonth": 6,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -53,7 +53,7 @@
       "skill": "Cursor",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 5,
-      "prevMonth": 5,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -62,7 +62,7 @@
       "skill": "LLM",
       "category": "LLM・基盤モデル",
       "currentMonth": 5,
-      "prevMonth": 5,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -71,7 +71,7 @@
       "skill": "Kafka",
       "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 4,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -80,7 +80,7 @@
       "skill": "Redis",
       "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 4,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -89,7 +89,7 @@
       "skill": "Kubernetes",
       "category": "クラウド・デプロイ",
       "currentMonth": 3,
-      "prevMonth": 3,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -98,7 +98,7 @@
       "skill": "Docker",
       "category": "クラウド・デプロイ",
       "currentMonth": 3,
-      "prevMonth": 3,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -107,7 +107,7 @@
       "skill": "BigQuery",
       "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -116,7 +116,7 @@
       "skill": "Snowflake",
       "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -125,7 +125,7 @@
       "skill": "Computer Vision",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -134,7 +134,7 @@
       "skill": "Terraform",
       "category": "クラウド・デプロイ",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -143,7 +143,7 @@
       "skill": "Prompt Engineering",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -152,7 +152,7 @@
       "skill": "Gemini",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 2,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -161,7 +161,7 @@
       "skill": "MCP",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 1,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -170,7 +170,7 @@
       "skill": "Pinecone",
       "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 1,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -179,7 +179,7 @@
       "skill": "Weaviate",
       "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 1,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -188,7 +188,7 @@
       "skill": "dbt",
       "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 1,
+      "prevMonth": 0,
       "changePct": 0.0,
       "changeDir": "flat"
     }

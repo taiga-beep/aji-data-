@@ -35,6 +35,7 @@ DATA_DIR       = os.path.join(BASE_DIR, 'data', 'gajt')
 SNAPSHOTS_DIR  = os.path.join(DATA_DIR, 'snapshots')
 COMP_SNAP_DIR  = os.path.join(DATA_DIR, 'company_snapshots')
 SUMMARY_FILE   = os.path.join(DATA_DIR, 'summary.json')
+SKILL_HISTORY_FILE = os.path.join(DATA_DIR, 'skill_counts_history.json')  # Ver 2.2: 日付履歴ベース prev_counts
 SKILL_DICT_FILE = os.path.join(BASE_DIR, 'scripts', 'skill_dict.json')
 
 for d in [DATA_DIR, SNAPSHOTS_DIR, COMP_SNAP_DIR]:
@@ -372,9 +373,18 @@ def load_prev_snapshot(snap_dir, prefix='', today_str=None):
 
 
 def compute_company_diffs(this_company, prev_snapshot):
+    """
+    Ver 2.2: bootstrap 検知を追加。
+    - prev_snapshot が空 or 当該企業のレコードなし → 全て空配列 (「初日扱い」)
+      ※「全スキルが new」と誤表示するのを防ぐ
+    """
     slug = this_company['slug']
     prev = prev_snapshot.get(slug, {}).get('skillCounts', {})
     curr = this_company.get('skillCounts', {})
+
+    # Ver 2.2: bootstrap 保護 — prev が空なら diff 計算を skip
+    if not prev:
+        return [], [], []
 
     new_skills     = [sk for sk, cnt in curr.items() if cnt > 0 if prev.get(sk, 0) == 0]
     dropped_skills = [sk for sk, cnt in prev.items() if cnt > 0 if curr.get(sk, 0) == 0]
@@ -467,10 +477,41 @@ def compute_streak(today_str):
 # ---------------------------------------------------------------------------
 # Step 6: monthlyRanking (スナップショットから集計)
 # ---------------------------------------------------------------------------
-def build_monthly_ranking(skill_dict, all_jobs, category_map=None):
+def load_skill_history():
     """
-    当日取得した AI求人のみ のスキル集計から monthlyRanking を生成。
-    前月比は既存 summary.json の monthlyRanking から継承。
+    Ver 2.2: スキル集計履歴を読み込む。
+    形式: {"YYYY-MM-DD": {"Python": 11, "Claude": 7, ...}, ...}
+    """
+    if not os.path.exists(SKILL_HISTORY_FILE):
+        return {}
+    try:
+        with open(SKILL_HISTORY_FILE, encoding='utf-8') as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_skill_history(history, max_days=60):
+    """
+    Ver 2.2: スキル集計履歴を保存（最新60日保持）。
+    """
+    sorted_dates = sorted(history.keys(), reverse=True)[:max_days]
+    trimmed = {d: history[d] for d in sorted_dates}
+    with open(SKILL_HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(trimmed, f, ensure_ascii=False, indent=2)
+
+
+def build_monthly_ranking(skill_dict, all_jobs, today_str, category_map=None):
+    """
+    当日取得した AI求人のみ のスキル集計から AI求人スキルランキング（前日比）を生成。
+
+    Ver 2.2 (2026-04-12):
+      - prev_counts を日付ベースの skill_counts_history.json から取得
+      - 「今日 (today_str) より厳密に前の最新日」を prev として採用
+      - 同日再実行は curr_counts で上書き（冪等）
+      - summary.json 自己参照を完全解消
+
     Ver 2.1:
       - is_ai_job() で AI求人に厳密フィルタしてから集計
       - category_map から各スキルのカテゴリを埋める (フィルタボタン動作用)
@@ -481,7 +522,7 @@ def build_monthly_ranking(skill_dict, all_jobs, category_map=None):
     # Ver 2.1: AI求人のみに絞り込み
     ai_jobs = [j for j in all_jobs if is_ai_job(j)]
 
-    # 当月スキル集計 (求人数ベース: 1求人につき1カウント)
+    # 当日スキル集計 (求人数ベース: 1求人につき1カウント — presence flag)
     curr_counts = {}
     for j in ai_jobs:
         text = _job_text_for_ai(j)
@@ -489,16 +530,18 @@ def build_monthly_ranking(skill_dict, all_jobs, category_map=None):
         for sk in job_skills.keys():
             curr_counts[sk] = curr_counts.get(sk, 0) + 1
 
-    # 前月比 (既存 summary.json から)
-    prev_counts = {}
-    if os.path.exists(SUMMARY_FILE):
-        try:
-            with open(SUMMARY_FILE, encoding='utf-8') as f:
-                old = json.load(f)
-            for r in old.get('monthlyRanking', []):
-                prev_counts[r['skill']] = r.get('currentMonth', 0)
-        except (json.JSONDecodeError, OSError):
-            pass
+    # Ver 2.2: 履歴ファイルから prev (今日より厳密に前の最新日) を取得
+    history = load_skill_history()
+    prev_day = None
+    for d in sorted(history.keys(), reverse=True):
+        if d < today_str:
+            prev_day = d
+            break
+    prev_counts = history.get(prev_day, {}) if prev_day else {}
+
+    # Ver 2.2: 今日のカウントを履歴に書き込み（同日再実行は上書き = 冪等）
+    history[today_str] = dict(curr_counts)
+    save_skill_history(history)
 
     sorted_skills = sorted(curr_counts.items(), key=lambda x: x[1], reverse=True)
     ranking = []
@@ -513,8 +556,8 @@ def build_monthly_ranking(skill_dict, all_jobs, category_map=None):
             'rank':         idx + 1,
             'skill':        skill,
             'category':     category_map.get(skill, ''),   # Ver 2.1
-            'currentMonth': curr_cnt,
-            'prevMonth':    prev_cnt,
+            'currentMonth': curr_cnt,    # legacy key name — 実態は「当日AI求人数」
+            'prevMonth':    prev_cnt,    # legacy key name — 実態は「前日AI求人数」
             'changePct':    change_pct,
             'changeDir':    change_dir,
         })
@@ -561,9 +604,9 @@ def main():
         }, f, ensure_ascii=False, indent=2)
     print(f'[gajt_update] スナップショット保存: {snap_path}')
 
-    # --- 3. monthlyRanking 生成 (Ver 2.1: category_map 渡し) ---
-    print('[gajt_update] monthlyRanking 集計中...')
-    monthly_ranking = build_monthly_ranking(skill_dict, all_jobs, category_map)
+    # --- 3. monthlyRanking 生成 (Ver 2.2: today_str で日付履歴から prev 取得) ---
+    print('[gajt_update] AI求人スキルランキング集計中...')
+    monthly_ranking = build_monthly_ranking(skill_dict, all_jobs, today_str, category_map)
     print(f'  ランキング: {len(monthly_ranking)} スキル')
 
     # --- 4. カレンダーヒートマップ (Ver 2.1: skill_dict を渡して topSkill 計算) ---
