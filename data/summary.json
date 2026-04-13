@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-12T09:33:19Z",
-  "totalModels": 350,
+  "lastUpdated": "2026-04-13T09:00:56Z",
+  "totalModels": 349,
   "todayChanges": {
     "priceDown": 0,
-    "priceUp": 1,
+    "priceUp": 2,
     "newModels": 0,
-    "removedModels": 0
+    "removedModels": 1
   },
   "models": [
     {
@@ -269,7 +269,7 @@
       "provider": "minimax",
       "inputPrice": 0.3,
       "outputPrice": 1.2,
-      "contextLength": 204800,
+      "contextLength": 196608,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -762,13 +762,13 @@
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "provider": "qwen",
-      "inputPrice": 0.12,
-      "outputPrice": 0.75,
+      "inputPrice": 0.15,
+      "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.12,
+      "prevOutputPrice": 0.75,
+      "priceChangePercent": 25.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1770164101
@@ -3072,13 +3072,13 @@
       "id": "deepseek/deepseek-r1-0528",
       "name": "DeepSeek: R1 0528",
       "provider": "deepseek",
-      "inputPrice": 0.45,
+      "inputPrice": 0.5,
       "outputPrice": 2.15,
       "contextLength": 163840,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.45,
+      "prevOutputPrice": 2.15,
+      "priceChangePercent": 11.11,
       "isNew": false,
       "isRemoved": false,
       "created": 1748455170
@@ -3444,21 +3444,6 @@
       "created": 1744651369
     },
     {
-      "id": "eleutherai/llemma_7b",
-      "name": "EleutherAI: Llemma 7b",
-      "provider": "eleutherai",
-      "inputPrice": 0.8,
-      "outputPrice": 1.2,
-      "contextLength": 4096,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1744643225
-    },
-    {
       "id": "alfredpros/codellama-7b-instruct-solidity",
       "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
       "provider": "alfredpros",
@@ -3601,9 +3586,9 @@
       "outputPrice": 0.56,
       "contextLength": 128000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.03,
-      "prevOutputPrice": 0.11,
-      "priceChangePercent": 1066.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1742238937
@@ -4509,8 +4494,8 @@
       "created": 1728950400
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-productivity",
+      "name": "Inflection: Inflection 3 Productivity",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4524,8 +4509,8 @@
       "created": 1728604800
     },
     {
-      "id": "inflection/inflection-3-productivity",
-      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-pi",
+      "name": "Inflection: Inflection 3 Pi",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -5034,13 +5019,13 @@
       "created": 1708905600
     },
     {
-      "id": "openai/gpt-3.5-turbo-0613",
-      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
       "provider": "openai",
-      "inputPrice": 1.0,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "inputPrice": 10.0,
+      "outputPrice": 30.0,
+      "contextLength": 128000,
+      "priceCategory": "flagship",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5049,13 +5034,13 @@
       "created": 1706140800
     },
     {
-      "id": "openai/gpt-4-turbo-preview",
-      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "provider": "openai",
-      "inputPrice": 10.0,
-      "outputPrice": 30.0,
-      "contextLength": 128000,
-      "priceCategory": "flagship",
+      "inputPrice": 1.0,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5124,13 +5109,13 @@
       "created": 1699228800
     },
     {
-      "id": "mistralai/mistral-7b-instruct-v0.1",
-      "name": "Mistral: Mistral 7B Instruct v0.1",
-      "provider": "mistralai",
-      "inputPrice": 0.11,
-      "outputPrice": 0.19,
-      "contextLength": 2824,
-      "priceCategory": "budget",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "openai",
+      "inputPrice": 1.5,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5139,13 +5124,13 @@
       "created": 1695859200
     },
     {
-      "id": "openai/gpt-3.5-turbo-instruct",
-      "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "provider": "openai",
-      "inputPrice": 1.5,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "provider": "mistralai",
+      "inputPrice": 0.11,
+      "outputPrice": 0.19,
+      "contextLength": 2824,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5229,6 +5214,21 @@
       "created": 1685232000
     },
     {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "provider": "openai",
+      "inputPrice": 30.0,
+      "outputPrice": 60.0,
+      "contextLength": 8191,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1685232000
+    },
+    {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
       "provider": "openai",
@@ -5244,35 +5244,38 @@
       "created": 1685232000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
-      "provider": "openai",
-      "inputPrice": 30.0,
-      "outputPrice": 60.0,
-      "contextLength": 8191,
-      "priceCategory": "flagship",
+      "id": "eleutherai/llemma_7b",
+      "name": "EleutherAI: Llemma 7b",
+      "provider": "eleutherai",
+      "inputPrice": 0.8,
+      "outputPrice": 1.2,
+      "contextLength": 4096,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
-      "isRemoved": false,
-      "created": 1685232000
+      "isRemoved": true,
+      "created": 1744643225
     }
   ],
   "history": {
     "dates": [
       "2026-04-10",
       "2026-04-11",
-      "2026-04-12"
+      "2026-04-12",
+      "2026-04-13"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
         "inputPrices": [
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0
@@ -5282,9 +5285,11 @@
         "inputPrices": [
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6
@@ -5294,9 +5299,11 @@
         "inputPrices": [
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null
@@ -5306,9 +5313,11 @@
         "inputPrices": [
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25
@@ -5318,9 +5327,11 @@
         "inputPrices": [
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null
@@ -5330,9 +5341,11 @@
         "inputPrices": [
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null
@@ -5342,9 +5355,11 @@
         "inputPrices": [
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4
@@ -5354,9 +5369,11 @@
         "inputPrices": [
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null
@@ -5366,9 +5383,11 @@
         "inputPrices": [
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0
@@ -5378,9 +5397,11 @@
         "inputPrices": [
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54
