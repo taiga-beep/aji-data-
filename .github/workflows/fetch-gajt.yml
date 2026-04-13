@@ -2,7 +2,8 @@ name: Fetch GAJT Data
 
 on:
   schedule:
-    - cron: '30 7 * * *'  # 毎日 07:30 UTC = 16:30 JST（OPTの30分後）
+    - cron: '30 7 * * *'   # 主スケジュール: 07:30 UTC = 16:30 JST
+    - cron: '30 9 * * *'   # バックアップ: 09:30 UTC = 18:30 JST（主が失敗時の保険）
   workflow_dispatch:
 
 jobs:
@@ -11,17 +12,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check if already updated today
+        id: check
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "data/gajt/snapshots/${TODAY}.json" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Already updated today (${TODAY}). Skipping."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "No update yet for ${TODAY}. Proceeding."
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.skip != 'true'
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: steps.check.outputs.skip != 'true'
         run: pip install requests
 
       - name: Run GAJT update script
+        if: steps.check.outputs.skip != 'true'
         run: python scripts/gajt_update.py
 
       - name: Commit and push data
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

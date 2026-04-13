@@ -2,8 +2,9 @@ name: Fetch OpenRouter Prices
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 毎日07:00 UTC = 16:00 JST
-  workflow_dispatch:     # 手動トリガー（テスト用）
+    - cron: '0 7 * * *'   # 主スケジュール: 07:00 UTC = 16:00 JST
+    - cron: '0 9 * * *'   # バックアップ: 09:00 UTC = 18:00 JST（主が失敗時の保険）
+  workflow_dispatch:       # 手動トリガー
 
 jobs:
   fetch:
@@ -13,19 +14,34 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check if already updated today
+        id: check
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "data/snapshots/${TODAY}.json" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Already updated today (${TODAY}). Skipping."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "No update yet for ${TODAY}. Proceeding."
+          fi
+
       - name: Setup Python
+        if: steps.check.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        if: steps.check.outputs.skip != 'true'
+        run: pip install requests
 
       - name: Fetch & Diff prices
+        if: steps.check.outputs.skip != 'true'
         run: python scripts/diff_prices.py
 
       - name: Commit and push data
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
