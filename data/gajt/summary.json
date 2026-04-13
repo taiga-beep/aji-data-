@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T09:00:56Z",
+  "lastUpdated": "2026-04-13T09:45:38Z",
   "meta": {
     "lastVerified": "2026-04-13",
     "sourceUrls": [
@@ -8,9 +8,9 @@
     ],
     "totalJobsScanned": 120,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-04-14T09:00:56Z"
+    "nextUpdateISO": "2026-04-14T09:45:38Z"
   },
-  "streakDays": 8,
+  "streakDays": 9,
   "monthlyRanking": [
     {
       "rank": 1,
@@ -309,11 +309,11 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 641,
+        "jobCount": 640,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 188
+            "count": 187
           },
           {
             "skill": "OpenAI API",
@@ -415,11 +415,11 @@
         "company": "Mistral AI",
         "atsType": "lever",
         "careersUrl": "https://mistral.ai/careers",
-        "jobCount": 147,
+        "jobCount": 145,
         "topSkills": [
           {
             "skill": "Mistral",
-            "count": 143
+            "count": 141
           },
           {
             "skill": "Python",
