@@ -1,21 +1,29 @@
 name: Fetch GAJT Data
 
-# 1000% Reliability Design v2 (2026-04-14)
-# - 3-flight schedule: 09:30 / 11:30 / 13:30 UTC daily (30min offset from OPT to avoid push collision)
-# - Idempotent: each flight skips if today already succeeded
+# 10000% Reliability Design v2 (2026-04-14 朝シフト版)
+# - 3-flight schedule (JST 朝シフト): 08:00 / 11:00 / 14:00 JST daily
+#   (30min offset from OPT to avoid push collision)
+# - Idempotent: each flight skips if today (JST) already succeeded
 # - Internal retry: 3 attempts with exponential backoff (handles ATS API timeouts)
 # - No local PC dependency
+# - Date basis: JST全統一 (gajt_update.py も JST化済)
 
 on:
   schedule:
-    - cron: '30 9 * * *'    # 1st flight: 09:30 UTC = 18:30 JST
-    - cron: '30 11 * * *'   # 2nd flight: 11:30 UTC = 20:30 JST (auto-recovery)
-    - cron: '30 13 * * *'   # 3rd flight: 13:30 UTC = 22:30 JST (final recovery)
+    # JST 08:00 = UTC 前日 23:00
+    - cron: '0 23 * * *'    # 1st flight: 23:00 UTC = 08:00 JST (翌朝)
+    # JST 11:00 = UTC 02:00
+    - cron: '0 2 * * *'     # 2nd flight: 02:00 UTC = 11:00 JST (auto-recovery)
+    # JST 14:00 = UTC 05:00
+    - cron: '0 5 * * *'     # 3rd flight: 05:00 UTC = 14:00 JST (final recovery)
   workflow_dispatch:
 
 concurrency:
   group: fetch-gajt
   cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo   # 全step JST強制（冪等ガード日付ミスマッチ防止）
 
 jobs:
   fetch:
@@ -32,16 +40,17 @@ jobs:
       - name: Pull latest (prevent rebase conflicts)
         run: git pull --rebase origin main
 
-      - name: Check idempotency (skip if today already done)
+      - name: Check idempotency (skip if today JST already done)
         id: check
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          echo "JST TODAY: ${TODAY}"
           if [ -f "data/gajt/snapshots/${TODAY}.json" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "✅ Already updated today (${TODAY}). Skipping."
+            echo "✅ Already updated today JST (${TODAY}). Skipping."
           else
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "🔄 No update yet for ${TODAY}. Proceeding."
+            echo "🔄 No update yet for JST ${TODAY}. Proceeding."
           fi
 
       - uses: actions/setup-python@v5
@@ -87,7 +96,8 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "gajt update $(date -u +%Y-%m-%d) [auto]"
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          git commit -m "gajt update ${TODAY} [auto]"
           MAX_PUSH=3
           for i in $(seq 1 $MAX_PUSH); do
             echo "=== Push attempt $i ==="

@@ -568,11 +568,17 @@ def build_monthly_ranking(skill_dict, all_jobs, today_str, category_map=None):
 # メイン
 # ---------------------------------------------------------------------------
 def main():
-    utc_now   = datetime.datetime.now(timezone.utc)
-    today_str = utc_now.strftime('%Y-%m-%d')
+    # JST基準に統一 (2026-04-14 v2 朝シフト対応)
+    # OPT(diff_prices.py) は既にJSTベース。GAJT も JST に揃えることで
+    # 朝7:30JST発火時 (UTC前日22:30) の冪等ガード日付ミスマッチを防ぐ
+    JST = timezone(timedelta(hours=9))
+    jst_now   = datetime.datetime.now(JST)
+    today_str = jst_now.strftime('%Y-%m-%d')
     today_d   = datetime.date.fromisoformat(today_str)
+    # 互換性のため utc_now も残す（ログ用途のみ）
+    utc_now   = datetime.datetime.now(timezone.utc)
 
-    print(f'[gajt_update] 実行日時 UTC: {utc_now.strftime("%Y-%m-%d %H:%M:%S")}')
+    print(f'[gajt_update] 実行日時 JST: {jst_now.strftime("%Y-%m-%d %H:%M:%S")} / UTC: {utc_now.strftime("%Y-%m-%d %H:%M:%S")}')
 
     # --- 1. スキル辞書ロード (Ver 2.1: カテゴリマップも取得) ---
     skill_dict, category_map = load_skill_dict()

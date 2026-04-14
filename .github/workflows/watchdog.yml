@@ -1,14 +1,19 @@
 name: Data Freshness Watchdog
 
-# Watchdog (最終救援便) - 2026-04-14
+# Watchdog (最終救援便) - 2026-04-14 朝シフト版
 # Purpose: If all 3 regular flights failed for OPT or GAJT, this watchdog
-#          fires at 14:00 UTC (23:00 JST) and forcibly re-triggers them.
+#          fires at 06:00 UTC (15:00 JST) and forcibly re-triggers them.
+#          (全3便終了後に発火: 最終便 05:00 UTC + 1時間バッファ)
 # This is NOT a failure notification — it's a physical recovery mechanism.
+# Date basis: JST全統一
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # 14:00 UTC = 23:00 JST daily (after all 3 flights)
+    - cron: '0 6 * * *'   # 06:00 UTC = 15:00 JST daily (after all 3 flights + 1h buffer)
   workflow_dispatch:
+
+env:
+  TZ: Asia/Tokyo
 
 jobs:
   check:
@@ -24,7 +29,8 @@ jobs:
       - name: Check OPT freshness
         id: opt_check
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          echo "JST TODAY: ${TODAY}"
           if [ -f "data/snapshots/${TODAY}.json" ]; then
             echo "opt_stale=false" >> $GITHUB_OUTPUT
             echo "✅ OPT fresh (${TODAY} snapshot exists)"
@@ -36,7 +42,7 @@ jobs:
       - name: Check GAJT freshness
         id: gajt_check
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
           if [ -f "data/gajt/snapshots/${TODAY}.json" ]; then
             echo "gajt_stale=false" >> $GITHUB_OUTPUT
             echo "✅ GAJT fresh (${TODAY} snapshot exists)"
@@ -65,12 +71,12 @@ jobs:
         if: steps.opt_check.outputs.opt_stale == 'true' || steps.gajt_check.outputs.gajt_stale == 'true'
         run: |
           mkdir -p data/watchdog
-          TODAY=$(date -u +%Y-%m-%d)
-          TIME=$(date -u +%H:%M:%SZ)
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          TIME=$(TZ=Asia/Tokyo date +%H:%M:%S)
           cat > data/watchdog/${TODAY}_recovery.json <<EOF
           {
-            "date": "${TODAY}",
-            "triggered_at": "${TIME}",
+            "date_jst": "${TODAY}",
+            "triggered_at_jst": "${TIME}",
             "opt_stale": ${{ steps.opt_check.outputs.opt_stale }},
             "gajt_stale": ${{ steps.gajt_check.outputs.gajt_stale }},
             "action": "forced workflow_dispatch"
