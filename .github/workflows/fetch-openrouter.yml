@@ -1,30 +1,48 @@
 name: Fetch OpenRouter Prices
 
+# 1000% Reliability Design v2 (2026-04-14)
+# - 3-flight schedule: 09:00 / 11:00 / 13:00 UTC daily
+# - Idempotent: each flight skips if today already succeeded
+# - Internal retry: 3 attempts with exponential backoff
+# - No local PC dependency — fully autonomous on GitHub infrastructure
+
 on:
   schedule:
-    # 主スケジュールはローカルTask Scheduler (16:00 JST) に移行済み
-    # GitHub Actionsはバックアップのみ（ローカル失敗時の保険）
-    - cron: '0 9 * * *'   # バックアップ: 09:00 UTC = 18:00 JST
-  workflow_dispatch:       # 手動トリガー
+    - cron: '0 9 * * *'    # 1st flight: 09:00 UTC = 18:00 JST
+    - cron: '0 11 * * *'   # 2nd flight: 11:00 UTC = 20:00 JST (auto-recovery)
+    - cron: '0 13 * * *'   # 3rd flight: 13:00 UTC = 22:00 JST (final recovery)
+  workflow_dispatch:       # Manual trigger (emergency/director use)
+
+concurrency:
+  group: fetch-openrouter
+  cancel-in-progress: false
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check if already updated today
+      - name: Pull latest (prevent rebase conflicts)
+        run: git pull --rebase origin main
+
+      - name: Check idempotency (skip if today already done)
         id: check
         run: |
           TODAY=$(date -u +%Y-%m-%d)
           if [ -f "data/snapshots/${TODAY}.json" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Already updated today (${TODAY}). Skipping."
+            echo "✅ Already updated today (${TODAY}). Skipping."
           else
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "No update yet for ${TODAY}. Proceeding."
+            echo "🔄 No update yet for ${TODAY}. Proceeding."
           fi
 
       - name: Setup Python
@@ -37,15 +55,52 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: pip install requests
 
-      - name: Fetch & Diff prices
-        if: steps.check.outputs.skip != 'true'
-        run: python scripts/diff_prices.py
-
-      - name: Commit and push data
+      - name: Fetch & Diff prices (retry 3 times with backoff)
         if: steps.check.outputs.skip != 'true'
         run: |
+          set +e
+          MAX_ATTEMPTS=3
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Attempt $i of $MAX_ATTEMPTS ==="
+            python scripts/diff_prices.py
+            RESULT=$?
+            if [ $RESULT -eq 0 ]; then
+              echo "✅ Success on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Attempt $i failed (exit=$RESULT)"
+            if [ $i -lt $MAX_ATTEMPTS ]; then
+              SLEEP=$((i * 30))
+              echo "Sleeping ${SLEEP}s before retry..."
+              sleep $SLEEP
+            fi
+          done
+          echo "❌ All $MAX_ATTEMPTS attempts failed"
+          exit 1
+
+      - name: Commit and push with rebase retry
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          set +e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "price update $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "price update $(date -u +%Y-%m-%d) [auto]"
+          MAX_PUSH=3
+          for i in $(seq 1 $MAX_PUSH); do
+            echo "=== Push attempt $i ==="
+            git pull --rebase origin main
+            git push origin main
+            if [ $? -eq 0 ]; then
+              echo "✅ Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Push attempt $i failed"
+            sleep $((i * 10))
+          done
+          echo "❌ All push attempts failed"
+          exit 1

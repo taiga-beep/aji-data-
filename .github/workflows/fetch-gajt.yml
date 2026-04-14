@@ -1,28 +1,47 @@
 name: Fetch GAJT Data
 
+# 1000% Reliability Design v2 (2026-04-14)
+# - 3-flight schedule: 09:30 / 11:30 / 13:30 UTC daily (30min offset from OPT to avoid push collision)
+# - Idempotent: each flight skips if today already succeeded
+# - Internal retry: 3 attempts with exponential backoff (handles ATS API timeouts)
+# - No local PC dependency
+
 on:
   schedule:
-    # 主スケジュールはローカルTask Scheduler (16:00 JST) に移行済み
-    # GitHub Actionsはバックアップのみ（ローカル失敗時の保険）
-    - cron: '30 9 * * *'   # バックアップ: 09:30 UTC = 18:30 JST
+    - cron: '30 9 * * *'    # 1st flight: 09:30 UTC = 18:30 JST
+    - cron: '30 11 * * *'   # 2nd flight: 11:30 UTC = 20:30 JST (auto-recovery)
+    - cron: '30 13 * * *'   # 3rd flight: 13:30 UTC = 22:30 JST (final recovery)
   workflow_dispatch:
+
+concurrency:
+  group: fetch-gajt
+  cancel-in-progress: false
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20   # ATS API scraping can be slow
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check if already updated today
+      - name: Pull latest (prevent rebase conflicts)
+        run: git pull --rebase origin main
+
+      - name: Check idempotency (skip if today already done)
         id: check
         run: |
           TODAY=$(date -u +%Y-%m-%d)
           if [ -f "data/gajt/snapshots/${TODAY}.json" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Already updated today (${TODAY}). Skipping."
+            echo "✅ Already updated today (${TODAY}). Skipping."
           else
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "No update yet for ${TODAY}. Proceeding."
+            echo "🔄 No update yet for ${TODAY}. Proceeding."
           fi
 
       - uses: actions/setup-python@v5
@@ -34,15 +53,52 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: pip install requests
 
-      - name: Run GAJT update script
-        if: steps.check.outputs.skip != 'true'
-        run: python scripts/gajt_update.py
-
-      - name: Commit and push data
+      - name: Run GAJT update (retry 3 times with backoff)
         if: steps.check.outputs.skip != 'true'
         run: |
+          set +e
+          MAX_ATTEMPTS=3
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Attempt $i of $MAX_ATTEMPTS ==="
+            python scripts/gajt_update.py
+            RESULT=$?
+            if [ $RESULT -eq 0 ]; then
+              echo "✅ Success on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Attempt $i failed (exit=$RESULT) — likely ATS API timeout"
+            if [ $i -lt $MAX_ATTEMPTS ]; then
+              SLEEP=$((i * 60))
+              echo "Sleeping ${SLEEP}s before retry..."
+              sleep $SLEEP
+            fi
+          done
+          echo "❌ All $MAX_ATTEMPTS attempts failed"
+          exit 1
+
+      - name: Commit and push with rebase retry
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          set +e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "gajt update $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "gajt update $(date -u +%Y-%m-%d) [auto]"
+          MAX_PUSH=3
+          for i in $(seq 1 $MAX_PUSH); do
+            echo "=== Push attempt $i ==="
+            git pull --rebase origin main
+            git push origin main
+            if [ $? -eq 0 ]; then
+              echo "✅ Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Push attempt $i failed"
+            sleep $((i * 10))
+          done
+          echo "❌ All push attempts failed"
+          exit 1
