@@ -1,0 +1,62 @@
+[
+  {
+    "id": "openrouter/elephant-alpha",
+    "name": "Elephant",
+    "provider": "openrouter",
+    "inputPrice": 0.0,
+    "outputPrice": 0.0,
+    "contextLength": 262144,
+    "priceCategory": "free",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1776052598
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "google",
+    "inputPrice": 0.08,
+    "outputPrice": 0.35,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.12,
+    "prevOutputPrice": 0.4,
+    "priceChangePercent": -33.33,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775227989
+  },
+  {
+    "id": "google/gemma-4-31b-it",
+    "name": "Google: Gemma 4 31B",
+    "provider": "google",
+    "inputPrice": 0.13,
+    "outputPrice": 0.38,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.14,
+    "prevOutputPrice": 0.4,
+    "priceChangePercent": -7.14,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775148486
+  },
+  {
+    "id": "meituan/longcat-flash-chat",
+    "name": "Meituan: LongCat Flash Chat",
+    "provider": "meituan",
+    "inputPrice": 0.2,
+    "outputPrice": 0.8,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": false,
+    "isRemoved": true,
+    "created": 1757427658
+  }
+]

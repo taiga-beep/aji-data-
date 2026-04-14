@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1776052598
   },
@@ -67,9 +67,9 @@
     "outputPrice": 0.35,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.12,
-    "prevOutputPrice": 0.4,
-    "priceChangePercent": -33.33,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1775227989
@@ -97,9 +97,9 @@
     "outputPrice": 0.38,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.14,
-    "prevOutputPrice": 0.4,
-    "priceChangePercent": -7.14,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1775148486
@@ -5233,20 +5233,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "meituan/longcat-flash-chat",
-    "name": "Meituan: LongCat Flash Chat",
-    "provider": "meituan",
-    "inputPrice": 0.2,
-    "outputPrice": 0.8,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1757427658
   }
 ]
