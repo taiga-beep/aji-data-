@@ -1,21 +1,24 @@
 name: Fetch OpenRouter Prices
 
-# 10000% Reliability Design v2 (2026-04-14 朝シフト版)
-# - 3-flight schedule (JST 朝シフト): 07:30 / 10:30 / 13:30 JST daily
-# - Idempotent: each flight skips if today (JST) already succeeded
+# 1000% Reliability Design v3 (2026-04-15 多重化版)
+# - Schedule 多重化: 各便を +7min でダブルショット化 (scheduler揺らぎ耐性)
+# - 本便は 07:30/10:30/13:30 JST、バックアップは 07:37/10:37/13:37 JST
+# - Idempotent: 各ショットは今日(JST)完了済みなら skip
 # - Internal retry: 3 attempts with exponential backoff
-# - No local PC dependency — fully autonomous on GitHub infrastructure
-# - Date basis: JST全統一 (diff_prices.py も JST)
+# - GitHub単一依存ではなくなった: 層5 (Windows Task Scheduler 15:30 JST) + 層6 (Director /prime) が救援
 
 on:
   schedule:
-    # JST 07:30 = UTC 前日 22:30 → cron: '30 22 * * *'
-    - cron: '30 22 * * *'   # 1st flight: 22:30 UTC = 07:30 JST (翌朝)
-    # JST 10:30 = UTC 01:30
-    - cron: '30 1 * * *'    # 2nd flight: 01:30 UTC = 10:30 JST (auto-recovery)
-    # JST 13:30 = UTC 04:30
-    - cron: '30 4 * * *'    # 3rd flight: 04:30 UTC = 13:30 JST (final recovery)
-  workflow_dispatch:       # Manual trigger (emergency/director use)
+    # 1st flight: 07:30 / 07:37 JST
+    - cron: '30 22 * * *'   # 22:30 UTC = 07:30 JST
+    - cron: '37 22 * * *'   # 22:37 UTC = 07:37 JST (backup shot)
+    # 2nd flight: 10:30 / 10:37 JST
+    - cron: '30 1 * * *'    # 01:30 UTC = 10:30 JST
+    - cron: '37 1 * * *'    # 01:37 UTC = 10:37 JST
+    # 3rd flight: 13:30 / 13:37 JST
+    - cron: '30 4 * * *'    # 04:30 UTC = 13:30 JST
+    - cron: '37 4 * * *'    # 04:37 UTC = 13:37 JST
+  workflow_dispatch:       # Manual trigger
 
 concurrency:
   group: fetch-openrouter

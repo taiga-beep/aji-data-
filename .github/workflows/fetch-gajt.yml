@@ -1,21 +1,23 @@
 name: Fetch GAJT Data
 
-# 10000% Reliability Design v2 (2026-04-14 朝シフト版)
-# - 3-flight schedule (JST 朝シフト): 08:00 / 11:00 / 14:00 JST daily
-#   (30min offset from OPT to avoid push collision)
-# - Idempotent: each flight skips if today (JST) already succeeded
-# - Internal retry: 3 attempts with exponential backoff (handles ATS API timeouts)
-# - No local PC dependency
-# - Date basis: JST全統一 (gajt_update.py も JST化済)
+# 1000% Reliability Design v3 (2026-04-15 多重化版)
+# - Schedule 多重化: 各便を +7min でダブルショット化 (scheduler揺らぎ耐性)
+# - 本便は 08:00/11:00/14:00 JST、バックアップは 08:07/11:07/14:07 JST
+# - OPT と 30min offset でpush衝突回避
+# - Idempotent: 各ショットは今日(JST)完了済みなら skip
+# - GitHub単一依存ではない: 層5 (Windows Task Scheduler) + 層6 (Director) が救援
 
 on:
   schedule:
-    # JST 08:00 = UTC 前日 23:00
-    - cron: '0 23 * * *'    # 1st flight: 23:00 UTC = 08:00 JST (翌朝)
-    # JST 11:00 = UTC 02:00
-    - cron: '0 2 * * *'     # 2nd flight: 02:00 UTC = 11:00 JST (auto-recovery)
-    # JST 14:00 = UTC 05:00
-    - cron: '0 5 * * *'     # 3rd flight: 05:00 UTC = 14:00 JST (final recovery)
+    # 1st flight: 08:00 / 08:07 JST
+    - cron: '0 23 * * *'    # 23:00 UTC = 08:00 JST
+    - cron: '7 23 * * *'    # 23:07 UTC = 08:07 JST (backup shot)
+    # 2nd flight: 11:00 / 11:07 JST
+    - cron: '0 2 * * *'     # 02:00 UTC = 11:00 JST
+    - cron: '7 2 * * *'     # 02:07 UTC = 11:07 JST
+    # 3rd flight: 14:00 / 14:07 JST
+    - cron: '0 5 * * *'     # 05:00 UTC = 14:00 JST
+    - cron: '7 5 * * *'     # 05:07 UTC = 14:07 JST
   workflow_dispatch:
 
 concurrency:
