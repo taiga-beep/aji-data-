@@ -1,0 +1,32 @@
+[
+  {
+    "id": "google/gemma-3n-e4b-it",
+    "name": "Google: Gemma 3n 4B",
+    "provider": "google",
+    "inputPrice": 0.06,
+    "outputPrice": 0.12,
+    "contextLength": 32768,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.02,
+    "prevOutputPrice": 0.04,
+    "priceChangePercent": 200.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1747776824
+  },
+  {
+    "id": "meta-llama/llama-guard-4-12b:free",
+    "name": "Meta: Llama Guard 4 12B (free)",
+    "provider": "meta-llama",
+    "inputPrice": 0.0,
+    "outputPrice": 0.0,
+    "contextLength": 163840,
+    "priceCategory": "free",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1745975193
+  }
+]
