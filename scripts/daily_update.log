@@ -1,0 +1,65 @@
+[2026/04/13 18:47:21.68] === START === 
+From https://github.com/taiga-beep/aji-data-
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[2026/04/13 18:47:22.50] Running diff_prices.py 
+[diff_prices.py] 実行日時 (JST): 2026-04-13 18:47:22
+[diff_prices.py] OpenRouter API からデータ取得中...
+[diff_prices.py] 取得モデル数: 349
+[diff_prices.py] 前日スナップショット読み込み: 350 モデル
+[diff_prices.py] 値下げ: 0件, 値上げ: 2件, 新規: 0件, 削除: 1件
+[diff_prices.py] スナップショット保存: data\snapshots/2026-04-13.json
+[diff_prices.py] 差分ファイル保存: data\diff\2026-04-13.json
+[diff_prices.py] latest.json 保存完了
+[diff_prices.py] summary.json 保存完了 (data\summary.json)
+[diff_prices.py] 完了
+[2026/04/13 18:47:23.02] OK: diff_prices.py 
+[2026/04/13 18:47:23.03] Running gajt_update.py 
+[gajt_update] 実行日時 UTC: 2026-04-13 09:47:23
+[gajt_update] スキル辞書: 69 パターン / カテゴリ: 5種
+[gajt_update] Remote OK 取得中...
+  Remote OK: 95 件
+[gajt_update] WWR RSS 取得中...
+  WWR: 25 件
+[gajt_update] スナップショット保存: C:\Users\1943b\Desktop\openrouter-price-data\data\gajt\snapshots\2026-04-13.json
+[gajt_update] AI求人スキルランキング集計中...
+  ランキング: 20 スキル
+[gajt_update] 8社 ATS API 取得中...
+  Fetching Anthropic (greenhouse) ...
+  Fetching OpenAI (ashby) ...
+  Fetching xAI (greenhouse) ...
+  Fetching Mistral AI (lever) ...
+  Fetching Cohere (ashby) ...
+  Fetching Perplexity (ashby) ...
+  Fetching Runway (ashby) ...
+  Fetching ElevenLabs (ashby) ...
+[gajt_update] 企業スナップショット保存: C:\Users\1943b\Desktop\openrouter-price-data\data\gajt\company_snapshots\2026-04-13.json
+[gajt_update] summary.json 保存完了: C:\Users\1943b\Desktop\openrouter-price-data\data\gajt\summary.json
+  streak=10, scanned=120, ranking=20件
+[gajt_update] 完了
+[2026/04/13 18:47:59.27] OK: gajt_update.py 
+[2026/04/13 18:47:59.39] Committing changes 
+[main 262efc4] daily update 2026-04-13
+ 5 files changed, 176 insertions(+), 176 deletions(-)
+To https://github.com/taiga-beep/aji-data-.git
+   c1a1fb9..262efc4  main -> main
+[2026/04/13 18:47:59.39] FAIL: git push 
+[2026/04/13 18:48:01.54] === END === 
+[2026/04/14 16:00:00.91] === START === 
+From https://github.com/taiga-beep/aji-data-
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[2026/04/14 16:00:02.17] Running diff_prices.py 
+[diff_prices.py] 実行日時 (JST): 2026-04-14 16:00:02
+[diff_prices.py] OpenRouter API からデータ取得中...
+[diff_prices.py] 取得モデル数: 349
+[diff_prices.py] 前日スナップショット読み込み: 349 モデル
+[diff_prices.py] 値下げ: 2件, 値上げ: 0件, 新規: 1件, 削除: 1件
+[diff_prices.py] スナップショット保存: data\snapshots/2026-04-14.json
+[diff_prices.py] 差分ファイル保存: data\diff\2026-04-14.json
+[diff_prices.py] latest.json 保存完了
+[diff_prices.py] summary.json 保存完了 (data\summary.json)
+[diff_prices.py] 完了
+[2026/04/14 16:00:02.59] OK: diff_prices.py 
+[2026/04/14 16:00:02.59] Running gajt_update.py 
+^C
