@@ -1,0 +1,62 @@
+[
+  {
+    "id": "anthropic/claude-opus-4.7",
+    "name": "Anthropic: Claude Opus 4.7",
+    "provider": "anthropic",
+    "inputPrice": 5.0,
+    "outputPrice": 25.0,
+    "contextLength": 1000000,
+    "priceCategory": "mid",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1776351100
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "google",
+    "inputPrice": 0.07,
+    "outputPrice": 0.4,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.08,
+    "prevOutputPrice": 0.35,
+    "priceChangePercent": -12.5,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775227989
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "provider": "qwen",
+    "inputPrice": 0.13,
+    "outputPrice": 0.6,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.1495,
+    "prevOutputPrice": 1.495,
+    "priceChangePercent": -13.04,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1753449557
+  },
+  {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "provider": "qwen",
+    "inputPrice": 0.25,
+    "outputPrice": 0.75,
+    "contextLength": 32000,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.8,
+    "prevOutputPrice": 0.8,
+    "priceChangePercent": -68.75,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1738410311
+  }
+]
