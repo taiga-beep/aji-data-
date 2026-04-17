@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-16T22:16:21Z",
-  "totalModels": 346,
+  "lastUpdated": "2026-04-17T22:04:10Z",
+  "totalModels": 345,
   "todayChanges": {
     "priceDown": 3,
-    "priceUp": 0,
-    "newModels": 1,
-    "removedModels": 0
+    "priceUp": 2,
+    "newModels": 0,
+    "removedModels": 1
   },
   "models": [
     {
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776351100
     },
@@ -87,13 +87,13 @@
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
-      "inputPrice": 0.07,
-      "outputPrice": 0.4,
+      "inputPrice": 0.08,
+      "outputPrice": 0.35,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.08,
-      "prevOutputPrice": 0.35,
-      "priceChangePercent": -12.5,
+      "prevInputPrice": 0.07,
+      "prevOutputPrice": 0.4,
+      "priceChangePercent": 14.29,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -387,13 +387,13 @@
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
-      "inputPrice": 0.1,
-      "outputPrice": 0.5,
+      "inputPrice": 0.09,
+      "outputPrice": 0.45,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.1,
+      "prevOutputPrice": 0.5,
+      "priceChangePercent": -10.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1773245239
@@ -417,13 +417,13 @@
       "id": "qwen/qwen3.5-9b",
       "name": "Qwen: Qwen3.5-9B",
       "provider": "qwen",
-      "inputPrice": 0.05,
+      "inputPrice": 0.1,
       "outputPrice": 0.15,
-      "contextLength": 256000,
+      "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.05,
+      "prevOutputPrice": 0.15,
+      "priceChangePercent": 100.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1773152396
@@ -852,13 +852,13 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "MoonshotAI: Kimi K2.5",
       "provider": "moonshotai",
-      "inputPrice": 0.3827,
-      "outputPrice": 1.72,
-      "contextLength": 262144,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 256000,
+      "priceCategory": "free",
+      "prevInputPrice": 0.3827,
+      "prevOutputPrice": 1.72,
+      "priceChangePercent": -100.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1769487076
@@ -1407,13 +1407,13 @@
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
-      "inputPrice": 0.26,
-      "outputPrice": 0.38,
+      "inputPrice": 0.259,
+      "outputPrice": 0.42,
       "contextLength": 163840,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.26,
+      "prevOutputPrice": 0.38,
+      "priceChangePercent": -0.38,
       "isNew": false,
       "isRemoved": false,
       "created": 1764594642
@@ -2656,9 +2656,9 @@
       "outputPrice": 0.6,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.1495,
-      "prevOutputPrice": 1.495,
-      "priceChangePercent": -13.04,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1753449557
@@ -3564,21 +3564,6 @@
       "created": 1742238937
     },
     {
-      "id": "allenai/olmo-2-0325-32b-instruct",
-      "name": "AllenAI: Olmo 2 32B Instruct",
-      "provider": "allenai",
-      "inputPrice": 0.05,
-      "outputPrice": 0.2,
-      "contextLength": 128000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1741988556
-    },
-    {
       "id": "google/gemma-3-4b-it:free",
       "name": "Google: Gemma 3 4B (free)",
       "provider": "google",
@@ -3899,7 +3884,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1048576,
+      "contextLength": 1000000,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -4006,9 +3991,9 @@
       "outputPrice": 0.75,
       "contextLength": 32000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.8,
-      "prevOutputPrice": 0.8,
-      "priceChangePercent": -68.75,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1738410311
@@ -5197,6 +5182,21 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "allenai/olmo-2-0325-32b-instruct",
+      "name": "AllenAI: Olmo 2 32B Instruct",
+      "provider": "allenai",
+      "inputPrice": 0.05,
+      "outputPrice": 0.2,
+      "contextLength": 128000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1741988556
     }
   ],
   "history": {
@@ -5208,7 +5208,8 @@
       "2026-04-14",
       "2026-04-15",
       "2026-04-16",
-      "2026-04-17"
+      "2026-04-17",
+      "2026-04-18"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5220,9 +5221,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5242,9 +5245,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5264,9 +5269,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5286,9 +5293,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5308,9 +5317,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5330,9 +5341,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5352,9 +5365,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5374,9 +5389,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5396,9 +5413,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5418,9 +5437,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
