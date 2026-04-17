@@ -1,0 +1,119 @@
+name: Fetch Japan AI Adoption Daily
+
+# Track B v3 N1 — 日本企業 AI 導入事例 日次トラッカー
+# - 1日1便 (08:00 JST + 08:07 JST バックアップショット)
+#   ※ OPT=07:30 / GAJT=08:00 と時刻重なるので 08:15 に本便を置く
+# - Idempotent: 今日(JST)完了済みなら skip
+# - Internal retry: 3 attempts with exponential backoff
+
+on:
+  schedule:
+    # 本便: 08:15 JST = 23:15 UTC (前日)
+    - cron: '15 23 * * *'
+    # バックアップ: 08:22 JST = 23:22 UTC (前日)
+    - cron: '22 23 * * *'
+    # 2便目: 12:15 JST = 03:15 UTC (PR TIMES 昼の更新を拾うため)
+    - cron: '15 3 * * *'
+    - cron: '22 3 * * *'
+  workflow_dispatch:       # Manual trigger
+
+concurrency:
+  group: fetch-japan-ai-adoption
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest (prevent rebase conflicts)
+        run: git pull --rebase origin main
+
+      - name: Check idempotency (skip if today JST already done)
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          echo "JST TODAY: ${TODAY}"
+          if [ -f "data/japan-ai-adoption-daily/archive/${TODAY}.json" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "✅ Already updated today JST (${TODAY}). Skipping."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "🔄 No update yet for JST ${TODAY}. Proceeding."
+          fi
+
+      - name: Setup Python
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements_japan_ai.txt
+
+      - name: Install dependencies
+        if: steps.check.outputs.skip != 'true'
+        run: pip install -r scripts/requirements_japan_ai.txt
+
+      - name: Run fetch pipeline (retry 3 times with backoff)
+        if: steps.check.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set +e
+          MAX_ATTEMPTS=3
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Attempt $i of $MAX_ATTEMPTS ==="
+            python scripts/fetch_japan_ai_adoption.py
+            RESULT=$?
+            if [ $RESULT -eq 0 ]; then
+              echo "✅ Success on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Attempt $i failed (exit=$RESULT)"
+            if [ $i -lt $MAX_ATTEMPTS ]; then
+              SLEEP=$((i * 60))
+              echo "Sleeping ${SLEEP}s before retry..."
+              sleep $SLEEP
+            fi
+          done
+          echo "❌ All $MAX_ATTEMPTS attempts failed"
+          exit 1
+
+      - name: Commit and push with rebase retry
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          set +e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/japan-ai-adoption-daily/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          git commit -m "japan-ai-adoption daily update ${TODAY} [auto]"
+          MAX_PUSH=3
+          for i in $(seq 1 $MAX_PUSH); do
+            echo "=== Push attempt $i ==="
+            git pull --rebase origin main
+            git push origin main
+            if [ $? -eq 0 ]; then
+              echo "✅ Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "⚠️ Push attempt $i failed"
+            sleep $((i * 10))
+          done
+          echo "❌ All push attempts failed"
+          exit 1
