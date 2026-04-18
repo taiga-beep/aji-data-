@@ -5128,50 +5128,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "meta-llama/llama-guard-4-12b:free",
-    "name": "Meta: Llama Guard 4 12B (free)",
-    "provider": "meta-llama",
-    "inputPrice": 0.0,
-    "outputPrice": 0.0,
-    "contextLength": 163840,
-    "priceCategory": "free",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1745975193
-  },
-  {
-    "id": "qwen/qwen2.5-vl-32b-instruct",
-    "name": "Qwen: Qwen2.5 VL 32B Instruct",
-    "provider": "qwen",
-    "inputPrice": 0.2,
-    "outputPrice": 0.6,
-    "contextLength": 128000,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1742839838
-  },
-  {
-    "id": "openai/gpt-4o:extended",
-    "name": "OpenAI: GPT-4o (extended)",
-    "provider": "openai",
-    "inputPrice": 6.0,
-    "outputPrice": 18.0,
-    "contextLength": 128000,
-    "priceCategory": "mid",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1715558400
   }
 ]
