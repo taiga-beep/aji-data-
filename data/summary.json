@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-18T23:16:55Z",
+  "lastUpdated": "2026-04-19T22:10:40Z",
   "totalModels": 342,
   "todayChanges": {
     "priceDown": 0,
-    "priceUp": 0,
+    "priceUp": 1,
     "newModels": 0,
-    "removedModels": 3
+    "removedModels": 0
   },
   "models": [
     {
@@ -3854,7 +3854,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1048576,
+      "contextLength": 1000000,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -4212,13 +4212,13 @@
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.1,
-      "outputPrice": 0.32,
+      "inputPrice": 0.12,
+      "outputPrice": 0.38,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.1,
+      "prevOutputPrice": 0.32,
+      "priceChangePercent": 20.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1733506137
@@ -4419,8 +4419,8 @@
       "created": 1728950400
     },
     {
-      "id": "inflection/inflection-3-productivity",
-      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-pi",
+      "name": "Inflection: Inflection 3 Pi",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4434,8 +4434,8 @@
       "created": 1728604800
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-productivity",
+      "name": "Inflection: Inflection 3 Productivity",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4464,36 +4464,6 @@
       "created": 1727654400
     },
     {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "provider": "meta-llama",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 131072,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
-    },
-    {
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "name": "Meta: Llama 3.2 3B Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.051,
-      "outputPrice": 0.34,
-      "contextLength": 80000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
-    },
-    {
       "id": "meta-llama/llama-3.2-1b-instruct",
       "name": "Meta: Llama 3.2 1B Instruct",
       "provider": "meta-llama",
@@ -4515,6 +4485,36 @@
       "inputPrice": 0.245,
       "outputPrice": 0.245,
       "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "provider": "meta-llama",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 131072,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.051,
+      "outputPrice": 0.34,
+      "contextLength": 80000,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -4704,8 +4704,8 @@
       "created": 1721347200
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "provider": "openai",
       "inputPrice": 0.15,
       "outputPrice": 0.6,
@@ -4719,8 +4719,8 @@
       "created": 1721260800
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "provider": "openai",
       "inputPrice": 0.15,
       "outputPrice": 0.6,
@@ -4779,11 +4779,11 @@
       "created": 1716768000
     },
     {
-      "id": "openai/gpt-4o-2024-05-13",
-      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "id": "openai/gpt-4o",
+      "name": "OpenAI: GPT-4o",
       "provider": "openai",
-      "inputPrice": 5.0,
-      "outputPrice": 15.0,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
       "priceCategory": "mid",
       "prevInputPrice": null,
@@ -4794,11 +4794,11 @@
       "created": 1715558400
     },
     {
-      "id": "openai/gpt-4o",
-      "name": "OpenAI: GPT-4o",
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "OpenAI: GPT-4o (2024-05-13)",
       "provider": "openai",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 5.0,
+      "outputPrice": 15.0,
       "contextLength": 128000,
       "priceCategory": "mid",
       "prevInputPrice": null,
@@ -4914,13 +4914,13 @@
       "created": 1708905600
     },
     {
-      "id": "openai/gpt-4-turbo-preview",
-      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "provider": "openai",
-      "inputPrice": 10.0,
-      "outputPrice": 30.0,
-      "contextLength": 128000,
-      "priceCategory": "flagship",
+      "inputPrice": 1.0,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4929,13 +4929,13 @@
       "created": 1706140800
     },
     {
-      "id": "openai/gpt-3.5-turbo-0613",
-      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
       "provider": "openai",
-      "inputPrice": 1.0,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "inputPrice": 10.0,
+      "outputPrice": 30.0,
+      "contextLength": 128000,
+      "priceCategory": "flagship",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5094,8 +5094,8 @@
       "created": 1688256000
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5109,8 +5109,8 @@
       "created": 1685232000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5137,51 +5137,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
-    },
-    {
-      "id": "meta-llama/llama-guard-4-12b:free",
-      "name": "Meta: Llama Guard 4 12B (free)",
-      "provider": "meta-llama",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 163840,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1745975193
-    },
-    {
-      "id": "qwen/qwen2.5-vl-32b-instruct",
-      "name": "Qwen: Qwen2.5 VL 32B Instruct",
-      "provider": "qwen",
-      "inputPrice": 0.2,
-      "outputPrice": 0.6,
-      "contextLength": 128000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1742839838
-    },
-    {
-      "id": "openai/gpt-4o:extended",
-      "name": "OpenAI: GPT-4o (extended)",
-      "provider": "openai",
-      "inputPrice": 6.0,
-      "outputPrice": 18.0,
-      "contextLength": 128000,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1715558400
     }
   ],
   "history": {
@@ -5195,7 +5150,8 @@
       "2026-04-16",
       "2026-04-17",
       "2026-04-18",
-      "2026-04-19"
+      "2026-04-19",
+      "2026-04-20"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5209,9 +5165,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5235,9 +5193,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5261,9 +5221,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5287,9 +5249,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5313,9 +5277,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5339,9 +5305,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5365,9 +5333,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5391,9 +5361,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5417,9 +5389,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5443,9 +5417,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,

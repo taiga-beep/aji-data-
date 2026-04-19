@@ -1,0 +1,17 @@
+[
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "provider": "meta-llama",
+    "inputPrice": 0.12,
+    "outputPrice": 0.38,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.1,
+    "prevOutputPrice": 0.32,
+    "priceChangePercent": 20.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1733506137
+  }
+]
