@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-04-20T22:11:33Z",
-  "totalModels": 343,
+  "lastUpdated": "2026-04-21T22:08:20Z",
+  "totalModels": 344,
   "todayChanges": {
     "priceDown": 2,
-    "priceUp": 3,
-    "newModels": 1,
-    "removedModels": 0
+    "priceUp": 0,
+    "newModels": 2,
+    "removedModels": 1
   },
   "models": [
     {
-      "id": "moonshotai/kimi-k2.6",
-      "name": "MoonshotAI: Kimi K2.6",
-      "provider": "moonshotai",
+      "id": "inclusionai/ling-2.6-flash:free",
+      "name": "inclusionAI: Ling-2.6-flash (free)",
+      "provider": "inclusionai",
       "inputPrice": 0.0,
       "outputPrice": 0.0,
       "contextLength": 262144,
@@ -20,6 +20,36 @@
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": true,
+      "isRemoved": false,
+      "created": 1776795886
+    },
+    {
+      "id": "openrouter/pareto-code",
+      "name": "Pareto Code Router",
+      "provider": "openrouter",
+      "inputPrice": -1000000.0,
+      "outputPrice": -1000000.0,
+      "contextLength": 200000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1776747900
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "MoonshotAI: Kimi K2.6",
+      "provider": "moonshotai",
+      "inputPrice": 0.6,
+      "outputPrice": 2.8,
+      "contextLength": 262144,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776699402
     },
@@ -37,21 +67,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1776351100
-    },
-    {
-      "id": "openrouter/elephant-alpha",
-      "name": "Elephant",
-      "provider": "openrouter",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 262144,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1776052598
     },
     {
       "id": "anthropic/claude-opus-4.6-fast",
@@ -76,9 +91,9 @@
       "outputPrice": 3.5,
       "contextLength": 202752,
       "priceCategory": "mid",
-      "prevInputPrice": 0.95,
-      "prevOutputPrice": 3.15,
-      "priceChangePercent": 10.53,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775578025
@@ -102,13 +117,13 @@
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
-      "inputPrice": 0.08,
+      "inputPrice": 0.07,
       "outputPrice": 0.35,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.08,
+      "prevOutputPrice": 0.35,
+      "priceChangePercent": -12.5,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -751,9 +766,9 @@
       "outputPrice": 1.2,
       "contextLength": 196608,
       "priceCategory": "budget",
-      "prevInputPrice": 0.118,
-      "prevOutputPrice": 0.99,
-      "priceChangePercent": 27.12,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1770908502
@@ -762,13 +777,13 @@
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
       "provider": "z-ai",
-      "inputPrice": 0.72,
-      "outputPrice": 2.3,
-      "contextLength": 80000,
+      "inputPrice": 0.65,
+      "outputPrice": 2.08,
+      "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.72,
+      "prevOutputPrice": 2.3,
+      "priceChangePercent": -9.72,
       "isNew": false,
       "isRemoved": false,
       "created": 1770829182
@@ -871,9 +886,9 @@
       "outputPrice": 2.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.3827,
-      "prevOutputPrice": 1.72,
-      "priceChangePercent": 14.97,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1769487076
@@ -1081,9 +1096,9 @@
       "outputPrice": 1.74,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": 0.39,
-      "prevOutputPrice": 1.75,
-      "priceChangePercent": -2.56,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1766378014
@@ -1426,9 +1441,9 @@
       "outputPrice": 0.378,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.259,
-      "prevOutputPrice": 0.42,
-      "priceChangePercent": -2.7,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1764594642
@@ -5152,6 +5167,21 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "openrouter/elephant-alpha",
+      "name": "Elephant",
+      "provider": "openrouter",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 262144,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1776052598
     }
   ],
   "history": {
@@ -5167,7 +5197,8 @@
       "2026-04-18",
       "2026-04-19",
       "2026-04-20",
-      "2026-04-21"
+      "2026-04-21",
+      "2026-04-22"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5183,9 +5214,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5213,9 +5246,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5243,9 +5278,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5273,9 +5310,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5303,9 +5342,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5333,9 +5374,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5363,9 +5406,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5393,9 +5438,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5423,9 +5470,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5453,9 +5502,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,

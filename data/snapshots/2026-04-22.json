@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1776795886
   },
@@ -25,7 +25,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1776747900
   },
@@ -112,9 +112,9 @@
     "outputPrice": 0.35,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.08,
-    "prevOutputPrice": 0.35,
-    "priceChangePercent": -12.5,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1775227989
@@ -772,9 +772,9 @@
     "outputPrice": 2.08,
     "contextLength": 202752,
     "priceCategory": "budget",
-    "prevInputPrice": 0.72,
-    "prevOutputPrice": 2.3,
-    "priceChangePercent": -9.72,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1770829182
@@ -5158,20 +5158,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "openrouter/elephant-alpha",
-    "name": "Elephant",
-    "provider": "openrouter",
-    "inputPrice": 0.0,
-    "outputPrice": 0.0,
-    "contextLength": 262144,
-    "priceCategory": "free",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1776052598
   }
 ]
