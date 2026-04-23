@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-04-22T22:09:52Z",
-  "totalModels": 349,
+  "lastUpdated": "2026-04-23T22:07:58Z",
+  "totalModels": 350,
   "todayChanges": {
-    "priceDown": 1,
+    "priceDown": 4,
     "priceUp": 1,
-    "newModels": 5,
-    "removedModels": 0
+    "newModels": 3,
+    "removedModels": 2
   },
   "models": [
+    {
+      "id": "inclusionai/ling-2.6-1t:free",
+      "name": "inclusionAI: Ling-2.6-1T (free)",
+      "provider": "inclusionai",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 262144,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1776948238
+    },
+    {
+      "id": "tencent/hy3-preview:free",
+      "name": "Tencent: Hy3 preview (free)",
+      "provider": "tencent",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 262144,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1776878150
+    },
     {
       "id": "xiaomi/mimo-v2.5-pro",
       "name": "Xiaomi: MiMo-V2.5-Pro",
@@ -19,7 +49,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776874273
     },
@@ -34,7 +64,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776874269
     },
@@ -49,7 +79,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776797528
     },
@@ -79,7 +109,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776795361
     },
@@ -99,16 +129,31 @@
       "created": 1776747900
     },
     {
+      "id": "baidu/qianfan-ocr-fast:free",
+      "name": "Baidu: Qianfan-OCR-Fast (free)",
+      "provider": "baidu",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 65536,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1776707472
+    },
+    {
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
-      "inputPrice": 0.75,
-      "outputPrice": 3.5,
-      "contextLength": 262144,
+      "inputPrice": 0.7448,
+      "outputPrice": 4.655,
+      "contextLength": 256000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.6,
-      "prevOutputPrice": 2.8,
-      "priceChangePercent": 25.0,
+      "prevInputPrice": 0.75,
+      "prevOutputPrice": 3.5,
+      "priceChangePercent": -0.69,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -177,13 +222,13 @@
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
-      "inputPrice": 0.07,
-      "outputPrice": 0.34,
+      "inputPrice": 0.06,
+      "outputPrice": 0.33,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.07,
+      "prevOutputPrice": 0.34,
+      "priceChangePercent": -14.29,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -823,7 +868,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "inputPrice": 0.15,
-      "outputPrice": 1.2,
+      "outputPrice": 1.15,
       "contextLength": 196608,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -837,13 +882,13 @@
       "id": "z-ai/glm-5",
       "name": "Z.ai: GLM 5",
       "provider": "z-ai",
-      "inputPrice": 0.65,
+      "inputPrice": 0.6,
       "outputPrice": 2.08,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.65,
+      "prevOutputPrice": 2.08,
+      "priceChangePercent": -7.69,
       "isNew": false,
       "isRemoved": false,
       "created": 1770829182
@@ -924,21 +969,6 @@
       "created": 1769728337
     },
     {
-      "id": "arcee-ai/trinity-large-preview:free",
-      "name": "Arcee AI: Trinity Large Preview (free)",
-      "provider": "arcee-ai",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 131000,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1769552670
-    },
-    {
       "id": "arcee-ai/trinity-large-preview",
       "name": "Arcee AI: Trinity Large Preview",
       "provider": "arcee-ai",
@@ -949,7 +979,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1769552670
     },
@@ -1597,21 +1627,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1763587502
-    },
-    {
-      "id": "deepcogito/cogito-v2.1-671b",
-      "name": "Deep Cogito: Cogito v2.1 671B",
-      "provider": "deepcogito",
-      "inputPrice": 1.25,
-      "outputPrice": 1.25,
-      "contextLength": 128000,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1763071233
     },
     {
       "id": "openai/gpt-5.1",
@@ -2757,13 +2772,13 @@
       "id": "qwen/qwen3-235b-a22b-thinking-2507",
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "provider": "qwen",
-      "inputPrice": 0.13,
-      "outputPrice": 0.6,
-      "contextLength": 262144,
+      "inputPrice": 0.1495,
+      "outputPrice": 1.495,
+      "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.13,
+      "prevOutputPrice": 0.6,
+      "priceChangePercent": 15.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1753449557
@@ -3959,7 +3974,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1048576,
+      "contextLength": 1000000,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -4321,9 +4336,9 @@
       "outputPrice": 0.32,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.12,
-      "prevOutputPrice": 0.38,
-      "priceChangePercent": -16.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1733506137
@@ -4797,13 +4812,13 @@
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
-      "inputPrice": 0.02,
-      "outputPrice": 0.04,
+      "inputPrice": 0.01,
+      "outputPrice": 0.03,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.02,
+      "prevOutputPrice": 0.04,
+      "priceChangePercent": -50.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1721347200
@@ -5242,6 +5257,36 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "arcee-ai/trinity-large-preview:free",
+      "name": "Arcee AI: Trinity Large Preview (free)",
+      "provider": "arcee-ai",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 131000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1769552670
+    },
+    {
+      "id": "deepcogito/cogito-v2.1-671b",
+      "name": "Deep Cogito: Cogito v2.1 671B",
+      "provider": "deepcogito",
+      "inputPrice": 1.25,
+      "outputPrice": 1.25,
+      "contextLength": 128000,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1763071233
     }
   ],
   "history": {
@@ -5259,7 +5304,8 @@
       "2026-04-20",
       "2026-04-21",
       "2026-04-22",
-      "2026-04-23"
+      "2026-04-23",
+      "2026-04-24"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5277,9 +5323,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5311,9 +5359,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5345,9 +5395,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5379,9 +5431,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5413,9 +5467,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5447,9 +5503,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5481,9 +5539,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5515,9 +5575,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5549,9 +5611,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5583,9 +5647,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
