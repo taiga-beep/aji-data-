@@ -1,13 +1,73 @@
 {
-  "lastUpdated": "2026-04-23T22:07:58Z",
-  "totalModels": 350,
+  "lastUpdated": "2026-04-24T23:03:57Z",
+  "totalModels": 355,
   "todayChanges": {
-    "priceDown": 4,
-    "priceUp": 1,
-    "newModels": 3,
-    "removedModels": 2
+    "priceDown": 1,
+    "priceUp": 0,
+    "newModels": 5,
+    "removedModels": 0
   },
   "models": [
+    {
+      "id": "openai/gpt-5.5-pro",
+      "name": "OpenAI: GPT-5.5 Pro",
+      "provider": "openai",
+      "inputPrice": 30.0,
+      "outputPrice": 180.0,
+      "contextLength": 1050000,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777051896
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "OpenAI: GPT-5.5",
+      "provider": "openai",
+      "inputPrice": 5.0,
+      "outputPrice": 30.0,
+      "contextLength": 1050000,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777051893
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro",
+      "provider": "deepseek",
+      "inputPrice": 1.74,
+      "outputPrice": 3.48,
+      "contextLength": 1048576,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777000679
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash",
+      "provider": "deepseek",
+      "inputPrice": 0.14,
+      "outputPrice": 0.28,
+      "contextLength": 1048576,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777000666
+    },
     {
       "id": "inclusionai/ling-2.6-1t:free",
       "name": "inclusionAI: Ling-2.6-1T (free)",
@@ -19,7 +79,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776948238
     },
@@ -34,7 +94,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776878150
     },
@@ -139,7 +199,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776707472
     },
@@ -151,9 +211,9 @@
       "outputPrice": 4.655,
       "contextLength": 256000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.75,
-      "prevOutputPrice": 3.5,
-      "priceChangePercent": -0.69,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -226,9 +286,9 @@
       "outputPrice": 0.33,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.07,
-      "prevOutputPrice": 0.34,
-      "priceChangePercent": -14.29,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -886,9 +946,9 @@
       "outputPrice": 2.08,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": 0.65,
-      "prevOutputPrice": 2.08,
-      "priceChangePercent": -7.69,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1770829182
@@ -927,13 +987,13 @@
       "id": "qwen/qwen3-coder-next",
       "name": "Qwen: Qwen3 Coder Next",
       "provider": "qwen",
-      "inputPrice": 0.15,
+      "inputPrice": 0.14,
       "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.15,
+      "prevOutputPrice": 0.8,
+      "priceChangePercent": -6.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1770164101
@@ -1627,6 +1687,21 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1763587502
+    },
+    {
+      "id": "deepcogito/cogito-v2.1-671b",
+      "name": "Deep Cogito: Cogito v2.1 671B",
+      "provider": "deepcogito",
+      "inputPrice": 1.25,
+      "outputPrice": 1.25,
+      "contextLength": 128000,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1763071233
     },
     {
       "id": "openai/gpt-5.1",
@@ -2776,9 +2851,9 @@
       "outputPrice": 1.495,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.13,
-      "prevOutputPrice": 0.6,
-      "priceChangePercent": 15.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1753449557
@@ -4816,9 +4891,9 @@
       "outputPrice": 0.03,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.02,
-      "prevOutputPrice": 0.04,
-      "priceChangePercent": -50.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1721347200
@@ -5257,36 +5332,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
-    },
-    {
-      "id": "arcee-ai/trinity-large-preview:free",
-      "name": "Arcee AI: Trinity Large Preview (free)",
-      "provider": "arcee-ai",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 131000,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1769552670
-    },
-    {
-      "id": "deepcogito/cogito-v2.1-671b",
-      "name": "Deep Cogito: Cogito v2.1 671B",
-      "provider": "deepcogito",
-      "inputPrice": 1.25,
-      "outputPrice": 1.25,
-      "contextLength": 128000,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1763071233
     }
   ],
   "history": {
@@ -5305,7 +5350,8 @@
       "2026-04-21",
       "2026-04-22",
       "2026-04-23",
-      "2026-04-24"
+      "2026-04-24",
+      "2026-04-25"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5324,9 +5370,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5360,9 +5408,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5396,9 +5446,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5432,9 +5484,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5468,9 +5522,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5504,9 +5560,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5540,9 +5598,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5576,9 +5636,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5612,9 +5674,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5648,9 +5712,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,

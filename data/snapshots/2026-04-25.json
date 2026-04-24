@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1777051896
   },
@@ -25,7 +25,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1777051893
   },
@@ -40,7 +40,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1777000679
   },
@@ -55,7 +55,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1777000666
   },
@@ -982,9 +982,9 @@
     "outputPrice": 0.8,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.15,
-    "prevOutputPrice": 0.8,
-    "priceChangePercent": -6.67,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1770164101
@@ -1690,7 +1690,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1763071233
   },
