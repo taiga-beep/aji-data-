@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-24T23:03:57Z",
+  "lastUpdated": "2026-04-26T00:07:35Z",
   "totalModels": 355,
   "todayChanges": {
     "priceDown": 1,
     "priceUp": 0,
-    "newModels": 5,
+    "newModels": 0,
     "removedModels": 0
   },
   "models": [
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777051896
     },
@@ -34,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777051893
     },
@@ -42,14 +42,14 @@
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro",
       "provider": "deepseek",
-      "inputPrice": 1.74,
-      "outputPrice": 3.48,
+      "inputPrice": 0.435,
+      "outputPrice": 0.87,
       "contextLength": 1048576,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": true,
+      "priceCategory": "budget",
+      "prevInputPrice": 1.74,
+      "prevOutputPrice": 3.48,
+      "priceChangePercent": -75.0,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777000679
     },
@@ -64,7 +64,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777000666
     },
@@ -991,9 +991,9 @@
       "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.15,
-      "prevOutputPrice": 0.8,
-      "priceChangePercent": -6.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1770164101
@@ -1699,7 +1699,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1763071233
     },
@@ -2893,7 +2893,7 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "provider": "qwen",
       "inputPrice": 0.22,
-      "outputPrice": 1.0,
+      "outputPrice": 1.8,
       "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5351,7 +5351,8 @@
       "2026-04-22",
       "2026-04-23",
       "2026-04-24",
-      "2026-04-25"
+      "2026-04-25",
+      "2026-04-26"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5371,9 +5372,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5409,9 +5412,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5447,9 +5452,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5485,9 +5492,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5523,9 +5532,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5561,9 +5572,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5599,9 +5612,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5637,9 +5652,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5675,9 +5692,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5713,9 +5732,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
