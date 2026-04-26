@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-26T01:13:47Z",
+  "lastUpdated": "2026-04-26T22:10:32Z",
   "totalModels": 355,
   "todayChanges": {
-    "priceDown": 1,
-    "priceUp": 0,
+    "priceDown": 0,
+    "priceUp": 1,
     "newModels": 0,
     "removedModels": 0
   },
@@ -46,9 +46,9 @@
       "outputPrice": 0.87,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 1.74,
-      "prevOutputPrice": 3.48,
-      "priceChangePercent": -75.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000679
@@ -4722,13 +4722,13 @@
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
-      "inputPrice": 0.12,
-      "outputPrice": 0.39,
+      "inputPrice": 0.36,
+      "outputPrice": 0.4,
       "contextLength": 32768,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.12,
+      "prevOutputPrice": 0.39,
+      "priceChangePercent": 200.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1726704000
@@ -5352,7 +5352,8 @@
       "2026-04-23",
       "2026-04-24",
       "2026-04-25",
-      "2026-04-26"
+      "2026-04-26",
+      "2026-04-27"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5373,9 +5374,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5413,9 +5416,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5453,9 +5458,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5493,9 +5500,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5533,9 +5542,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5573,9 +5584,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5613,9 +5626,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5653,9 +5668,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5693,9 +5710,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5733,9 +5752,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,

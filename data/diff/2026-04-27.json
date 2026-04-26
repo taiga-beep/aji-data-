@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qwen/qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct",
+    "provider": "qwen",
+    "inputPrice": 0.36,
+    "outputPrice": 0.4,
+    "contextLength": 32768,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.12,
+    "prevOutputPrice": 0.39,
+    "priceChangePercent": 200.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1726704000
+  }
+]
