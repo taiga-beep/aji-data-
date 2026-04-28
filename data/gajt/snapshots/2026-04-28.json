@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-28",
+  "fetched": "2026-04-28T04:00:29.248138+00:00",
+  "sources": {
+    "remote_ok": {
+      "url": "https://remoteok.com/api",
+      "count": 99
+    },
+    "wwr": {
+      "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+      "count": 25
+    }
+  },
+  "totalJobs": 124
+}
