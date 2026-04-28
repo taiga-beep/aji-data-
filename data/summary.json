@@ -1,13 +1,58 @@
 {
-  "lastUpdated": "2026-04-27T22:06:50Z",
-  "totalModels": 367,
+  "lastUpdated": "2026-04-28T22:07:24Z",
+  "totalModels": 371,
   "todayChanges": {
-    "priceDown": 0,
-    "priceUp": 1,
-    "newModels": 12,
+    "priceDown": 2,
+    "priceUp": 0,
+    "newModels": 4,
     "removedModels": 0
   },
   "models": [
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "provider": "nvidia",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 256000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777393095
+    },
+    {
+      "id": "poolside/laguna-xs.2:free",
+      "name": "Poolside: Laguna XS.2 (free)",
+      "provider": "poolside",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 131072,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777389604
+    },
+    {
+      "id": "poolside/laguna-m.1:free",
+      "name": "Poolside: Laguna M.1 (free)",
+      "provider": "poolside",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 131072,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777388504
+    },
     {
       "id": "~anthropic/claude-haiku-latest",
       "name": "Anthropic Claude Haiku Latest",
@@ -19,7 +64,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318492
     },
@@ -34,7 +79,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318471
     },
@@ -49,7 +94,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318451
     },
@@ -64,7 +109,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318428
     },
@@ -79,7 +124,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318398
     },
@@ -94,7 +139,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318368
     },
@@ -109,7 +154,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777318334
     },
@@ -124,7 +169,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777261368
     },
@@ -139,7 +184,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777261362
     },
@@ -154,7 +199,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777260255
     },
@@ -162,14 +207,14 @@
       "id": "qwen/qwen3.6-max-preview",
       "name": "Qwen: Qwen3.6 Max Preview",
       "provider": "qwen",
-      "inputPrice": 1.3,
-      "outputPrice": 7.8,
+      "inputPrice": 1.04,
+      "outputPrice": 6.24,
       "contextLength": 262144,
       "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": true,
+      "prevInputPrice": 1.3,
+      "prevOutputPrice": 7.8,
+      "priceChangePercent": -20.0,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777260242
     },
@@ -177,14 +222,14 @@
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
-      "inputPrice": 0.5,
-      "outputPrice": 2.0,
-      "contextLength": 262144,
+      "inputPrice": 0.325,
+      "outputPrice": 3.25,
+      "contextLength": 256000,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": true,
+      "prevInputPrice": 0.5,
+      "prevOutputPrice": 2.0,
+      "priceChangePercent": -35.0,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777255064
     },
@@ -335,6 +380,21 @@
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
+      "isRemoved": false,
+      "created": 1776795886
+    },
+    {
+      "id": "inclusionai/ling-2.6-flash",
+      "name": "inclusionAI: Ling-2.6-flash",
+      "provider": "inclusionai",
+      "inputPrice": 0.08,
+      "outputPrice": 0.24,
+      "contextLength": 262144,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
       "isRemoved": false,
       "created": 1776795886
     },
@@ -4229,7 +4289,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1000000,
+      "contextLength": 1048576,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -5071,9 +5131,9 @@
       "outputPrice": 0.04,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.01,
-      "prevOutputPrice": 0.03,
-      "priceChangePercent": 100.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1721347200
@@ -5534,7 +5594,8 @@
       "2026-04-25",
       "2026-04-26",
       "2026-04-27",
-      "2026-04-28"
+      "2026-04-28",
+      "2026-04-29"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5557,9 +5618,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5601,9 +5664,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5645,9 +5710,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5689,9 +5756,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5733,9 +5802,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5777,9 +5848,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5821,9 +5894,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5865,9 +5940,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5909,9 +5986,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -5953,9 +6032,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
