@@ -5533,35 +5533,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "inclusionai/ling-2.6-flash:free",
-    "name": "inclusionAI: Ling-2.6-flash (free)",
-    "provider": "inclusionai",
-    "inputPrice": 0.0,
-    "outputPrice": 0.0,
-    "contextLength": 262144,
-    "priceCategory": "free",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1776795886
-  },
-  {
-    "id": "qwen/qwq-32b",
-    "name": "Qwen: QwQ 32B",
-    "provider": "qwen",
-    "inputPrice": 0.15,
-    "outputPrice": 0.58,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1741208814
   }
 ]
