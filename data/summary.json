@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-04-29T21:23:51Z",
-  "totalModels": 369,
+  "lastUpdated": "2026-04-30T22:09:20Z",
+  "totalModels": 370,
   "todayChanges": {
-    "priceDown": 0,
+    "priceDown": 2,
     "priceUp": 0,
-    "newModels": 0,
-    "removedModels": 2
+    "newModels": 2,
+    "removedModels": 1
   },
   "models": [
+    {
+      "id": "ibm-granite/granite-4.1-8b",
+      "name": "IBM: Granite 4.1 8B",
+      "provider": "ibm-granite",
+      "inputPrice": 0.05,
+      "outputPrice": 0.1,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777577071
+    },
+    {
+      "id": "openrouter/owl-alpha",
+      "name": "Owl Alpha",
+      "provider": "openrouter",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 1048756,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777398589
+    },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
@@ -102,13 +132,13 @@
       "id": "~moonshotai/kimi-latest",
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
-      "inputPrice": 0.7448,
-      "outputPrice": 4.655,
-      "contextLength": 256000,
+      "inputPrice": 0.74,
+      "outputPrice": 3.49,
+      "contextLength": 262142,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.7448,
+      "prevOutputPrice": 4.655,
+      "priceChangePercent": -0.64,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -432,13 +462,13 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
-      "inputPrice": 0.7448,
-      "outputPrice": 4.655,
-      "contextLength": 256000,
+      "inputPrice": 0.74,
+      "outputPrice": 3.49,
+      "contextLength": 262142,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.7448,
+      "prevOutputPrice": 4.655,
+      "priceChangePercent": -0.64,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -1507,21 +1537,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1765987078
-    },
-    {
-      "id": "mistralai/mistral-small-creative",
-      "name": "Mistral: Mistral Small Creative",
-      "provider": "mistralai",
-      "inputPrice": 0.1,
-      "outputPrice": 0.3,
-      "contextLength": 32768,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1765908653
     },
     {
       "id": "xiaomi/mimo-v2-flash",
@@ -2923,7 +2938,7 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "inputPrice": 0.039,
-      "outputPrice": 0.19,
+      "outputPrice": 0.18,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4944,13 +4959,13 @@
       "created": 1726704000
     },
     {
-      "id": "cohere/command-r-08-2024",
-      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
       "provider": "cohere",
-      "inputPrice": 0.15,
-      "outputPrice": 0.6,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
-      "priceCategory": "budget",
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4959,13 +4974,13 @@
       "created": 1724976000
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
       "provider": "cohere",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 0.15,
+      "outputPrice": 0.6,
       "contextLength": 128000,
-      "priceCategory": "mid",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5064,12 +5079,12 @@
       "created": 1722902400
     },
     {
-      "id": "meta-llama/llama-3.1-70b-instruct",
-      "name": "Meta: Llama 3.1 70B Instruct",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.4,
-      "outputPrice": 0.4,
-      "contextLength": 131072,
+      "inputPrice": 0.02,
+      "outputPrice": 0.05,
+      "contextLength": 16384,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -5079,12 +5094,12 @@
       "created": 1721692800
     },
     {
-      "id": "meta-llama/llama-3.1-8b-instruct",
-      "name": "Meta: Llama 3.1 8B Instruct",
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "name": "Meta: Llama 3.1 70B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.02,
-      "outputPrice": 0.05,
-      "contextLength": 16384,
+      "inputPrice": 0.4,
+      "outputPrice": 0.4,
+      "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -5409,13 +5424,13 @@
       "created": 1699228800
     },
     {
-      "id": "mistralai/mistral-7b-instruct-v0.1",
-      "name": "Mistral: Mistral 7B Instruct v0.1",
-      "provider": "mistralai",
-      "inputPrice": 0.11,
-      "outputPrice": 0.19,
-      "contextLength": 2824,
-      "priceCategory": "budget",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "openai",
+      "inputPrice": 1.5,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5424,13 +5439,13 @@
       "created": 1695859200
     },
     {
-      "id": "openai/gpt-3.5-turbo-instruct",
-      "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "provider": "openai",
-      "inputPrice": 1.5,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "provider": "mistralai",
+      "inputPrice": 0.11,
+      "outputPrice": 0.19,
+      "contextLength": 2824,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5499,6 +5514,21 @@
       "created": 1688256000
     },
     {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "provider": "openai",
+      "inputPrice": 30.0,
+      "outputPrice": 60.0,
+      "contextLength": 8191,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1685232000
+    },
+    {
       "id": "openai/gpt-4-0314",
       "name": "OpenAI: GPT-4 (older v0314)",
       "provider": "openai",
@@ -5529,49 +5559,19 @@
       "created": 1685232000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
-      "provider": "openai",
-      "inputPrice": 30.0,
-      "outputPrice": 60.0,
-      "contextLength": 8191,
-      "priceCategory": "flagship",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1685232000
-    },
-    {
-      "id": "inclusionai/ling-2.6-flash:free",
-      "name": "inclusionAI: Ling-2.6-flash (free)",
-      "provider": "inclusionai",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 262144,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1776795886
-    },
-    {
-      "id": "qwen/qwq-32b",
-      "name": "Qwen: QwQ 32B",
-      "provider": "qwen",
-      "inputPrice": 0.15,
-      "outputPrice": 0.58,
-      "contextLength": 131072,
+      "id": "mistralai/mistral-small-creative",
+      "name": "Mistral: Mistral Small Creative",
+      "provider": "mistralai",
+      "inputPrice": 0.1,
+      "outputPrice": 0.3,
+      "contextLength": 32768,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1741208814
+      "created": 1765908653
     }
   ],
   "history": {
@@ -5596,7 +5596,8 @@
       "2026-04-27",
       "2026-04-28",
       "2026-04-29",
-      "2026-04-30"
+      "2026-04-30",
+      "2026-05-01"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5621,9 +5622,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5669,9 +5672,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5717,9 +5722,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5765,9 +5772,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5813,9 +5822,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5861,9 +5872,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5909,9 +5922,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5957,9 +5972,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -6005,9 +6022,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -6053,9 +6072,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
