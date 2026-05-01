@@ -1,0 +1,47 @@
+[
+  {
+    "id": "x-ai/grok-4.3",
+    "name": "xAI: Grok 4.3",
+    "provider": "x-ai",
+    "inputPrice": 1.25,
+    "outputPrice": 2.5,
+    "contextLength": 1000000,
+    "priceCategory": "mid",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1777591821
+  },
+  {
+    "id": "x-ai/grok-4.20",
+    "name": "xAI: Grok 4.20",
+    "provider": "x-ai",
+    "inputPrice": 1.25,
+    "outputPrice": 2.5,
+    "contextLength": 2000000,
+    "priceCategory": "mid",
+    "prevInputPrice": 2.0,
+    "prevOutputPrice": 6.0,
+    "priceChangePercent": -37.5,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1774979019
+  },
+  {
+    "id": "qwen/qwen3-coder-next",
+    "name": "Qwen: Qwen3 Coder Next",
+    "provider": "qwen",
+    "inputPrice": 0.12,
+    "outputPrice": 0.8,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.14,
+    "prevOutputPrice": 0.8,
+    "priceChangePercent": -14.29,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1770164101
+  }
+]
