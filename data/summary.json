@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-01T22:07:03Z",
+  "lastUpdated": "2026-05-02T23:13:48Z",
   "totalModels": 371,
   "todayChanges": {
-    "priceDown": 2,
+    "priceDown": 1,
     "priceUp": 0,
-    "newModels": 1,
+    "newModels": 0,
     "removedModels": 0
   },
   "models": [
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1777591821
     },
@@ -267,13 +267,13 @@
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
-      "inputPrice": 0.325,
-      "outputPrice": 3.25,
-      "contextLength": 256000,
+      "inputPrice": 0.32,
+      "outputPrice": 3.2,
+      "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.325,
+      "prevOutputPrice": 3.25,
+      "priceChangePercent": -1.54,
       "isNew": false,
       "isRemoved": false,
       "created": 1777255064
@@ -661,9 +661,9 @@
       "outputPrice": 2.5,
       "contextLength": 2000000,
       "priceCategory": "mid",
-      "prevInputPrice": 2.0,
-      "prevOutputPrice": 6.0,
-      "priceChangePercent": -37.5,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1774979019
@@ -1261,9 +1261,9 @@
       "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.14,
-      "prevOutputPrice": 0.8,
-      "priceChangePercent": -14.29,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1770164101
@@ -4289,7 +4289,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1000000,
+      "contextLength": 1048576,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -5598,7 +5598,8 @@
       "2026-04-29",
       "2026-04-30",
       "2026-05-01",
-      "2026-05-02"
+      "2026-05-02",
+      "2026-05-03"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5625,9 +5626,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5677,9 +5680,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5729,9 +5734,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5781,9 +5788,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5833,9 +5842,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5885,9 +5896,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5937,9 +5950,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -5989,9 +6004,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -6041,9 +6058,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -6093,9 +6112,11 @@
           0.54,
           0.54,
           0.54,
+          0.54,
           0.54
         ],
         "outputPrices": [
+          0.54,
           0.54,
           0.54,
           0.54,
