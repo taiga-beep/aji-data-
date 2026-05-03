@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "provider": "deepseek",
+    "inputPrice": 0.27,
+    "outputPrice": 0.95,
+    "contextLength": 163840,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.21,
+    "prevOutputPrice": 0.79,
+    "priceChangePercent": 28.57,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1758548275
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "provider": "qwen",
+    "inputPrice": 0.09,
+    "outputPrice": 0.45,
+    "contextLength": 40960,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.08,
+    "prevOutputPrice": 0.28,
+    "priceChangePercent": 12.5,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1745878604
+  }
+]
