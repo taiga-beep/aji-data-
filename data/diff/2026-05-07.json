@@ -1,0 +1,62 @@
+[
+  {
+    "id": "deepseek/deepseek-v3.2-speciale",
+    "name": "DeepSeek: DeepSeek V3.2 Speciale",
+    "provider": "deepseek",
+    "inputPrice": 0.287,
+    "outputPrice": 0.431,
+    "contextLength": 163840,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.4,
+    "prevOutputPrice": 1.2,
+    "priceChangePercent": -28.25,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1764594837
+  },
+  {
+    "id": "meta-llama/llama-3-8b-instruct",
+    "name": "Meta: Llama 3 8B Instruct",
+    "provider": "meta-llama",
+    "inputPrice": 0.04,
+    "outputPrice": 0.04,
+    "contextLength": 8192,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.03,
+    "prevOutputPrice": 0.04,
+    "priceChangePercent": 33.33,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1713398400
+  },
+  {
+    "id": "allenai/olmo-3.1-32b-instruct",
+    "name": "AllenAI: Olmo 3.1 32B Instruct",
+    "provider": "allenai",
+    "inputPrice": 0.2,
+    "outputPrice": 0.6,
+    "contextLength": 65536,
+    "priceCategory": "budget",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": false,
+    "isRemoved": true,
+    "created": 1767728554
+  },
+  {
+    "id": "nvidia/nemotron-nano-12b-v2-vl",
+    "name": "NVIDIA: Nemotron Nano 12B 2 VL",
+    "provider": "nvidia",
+    "inputPrice": 0.2,
+    "outputPrice": 0.6,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": false,
+    "isRemoved": true,
+    "created": 1761675565
+  }
+]
