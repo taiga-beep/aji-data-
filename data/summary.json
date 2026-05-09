@@ -1,13 +1,28 @@
 {
-  "lastUpdated": "2026-05-08T05:49:34Z",
+  "lastUpdated": "2026-05-09T06:31:37Z",
   "totalModels": 367,
   "todayChanges": {
-    "priceDown": 3,
-    "priceUp": 0,
+    "priceDown": 0,
+    "priceUp": 2,
     "newModels": 2,
-    "removedModels": 3
+    "removedModels": 2
   },
   "models": [
+    {
+      "id": "inclusionai/ring-2.6-1t:free",
+      "name": "inclusionAI: Ring-2.6-1T (free)",
+      "provider": "inclusionai",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 262144,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1778247440
+    },
     {
       "id": "google/gemini-3.1-flash-lite",
       "name": "Google: Gemini 3.1 Flash Lite",
@@ -19,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1778168828
     },
@@ -409,22 +424,22 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776948238
     },
     {
-      "id": "tencent/hy3-preview:free",
-      "name": "Tencent: Hy3 preview (free)",
+      "id": "tencent/hy3-preview",
+      "name": "Tencent: Hy3 preview",
       "provider": "tencent",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
+      "inputPrice": 0.066,
+      "outputPrice": 0.26,
       "contextLength": 262144,
-      "priceCategory": "free",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": false,
+      "isNew": true,
       "isRemoved": false,
       "created": 1776878150
     },
@@ -826,9 +841,9 @@
       "outputPrice": 1.2,
       "contextLength": 196608,
       "priceCategory": "budget",
-      "prevInputPrice": 0.3,
-      "prevOutputPrice": 1.2,
-      "priceChangePercent": -0.33,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1773836697
@@ -946,9 +961,9 @@
       "outputPrice": 0.15,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.1,
-      "prevOutputPrice": 0.15,
-      "priceChangePercent": -60.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1773152396
@@ -1066,9 +1081,9 @@
       "outputPrice": 1.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.15,
-      "prevOutputPrice": 1.0,
-      "priceChangePercent": -6.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1772053822
@@ -1572,13 +1587,13 @@
       "id": "z-ai/glm-4.7",
       "name": "Z.ai: GLM 4.7",
       "provider": "z-ai",
-      "inputPrice": 0.38,
-      "outputPrice": 1.74,
+      "inputPrice": 0.4,
+      "outputPrice": 1.75,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.38,
+      "prevOutputPrice": 1.74,
+      "priceChangePercent": 5.26,
       "isNew": false,
       "isRemoved": false,
       "created": 1766378014
@@ -1602,13 +1617,13 @@
       "id": "xiaomi/mimo-v2-flash",
       "name": "Xiaomi: MiMo-V2-Flash",
       "provider": "xiaomi",
-      "inputPrice": 0.09,
-      "outputPrice": 0.29,
+      "inputPrice": 0.1,
+      "outputPrice": 0.3,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.09,
+      "prevOutputPrice": 0.29,
+      "priceChangePercent": 11.11,
       "isNew": false,
       "isRemoved": false,
       "created": 1765731308
@@ -3354,21 +3369,6 @@
       "created": 1751987664
     },
     {
-      "id": "tngtech/deepseek-r1t2-chimera",
-      "name": "TNG: DeepSeek R1T2 Chimera",
-      "provider": "tngtech",
-      "inputPrice": 0.3,
-      "outputPrice": 1.1,
-      "contextLength": 163840,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1751986985
-    },
-    {
       "id": "morph/morph-v3-large",
       "name": "Morph: Morph V3 Large",
       "provider": "morph",
@@ -3763,7 +3763,7 @@
       "name": "Qwen: Qwen3 32B",
       "provider": "qwen",
       "inputPrice": 0.08,
-      "outputPrice": 0.24,
+      "outputPrice": 0.28,
       "contextLength": 40960,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4809,8 +4809,8 @@
       "created": 1729036800
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-productivity",
+      "name": "Inflection: Inflection 3 Productivity",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4824,8 +4824,8 @@
       "created": 1728604800
     },
     {
-      "id": "inflection/inflection-3-productivity",
-      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-pi",
+      "name": "Inflection: Inflection 3 Pi",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4852,36 +4852,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1727654400
-    },
-    {
-      "id": "meta-llama/llama-3.2-11b-vision-instruct",
-      "name": "Meta: Llama 3.2 11B Vision Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.245,
-      "outputPrice": 0.245,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
-    },
-    {
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "name": "Meta: Llama 3.2 1B Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.027,
-      "outputPrice": 0.2,
-      "contextLength": 60000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
     },
     {
       "id": "meta-llama/llama-3.2-3b-instruct:free",
@@ -4914,6 +4884,36 @@
       "created": 1727222400
     },
     {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.027,
+      "outputPrice": 0.2,
+      "contextLength": 60000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.245,
+      "outputPrice": 0.245,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
@@ -4929,13 +4929,13 @@
       "created": 1726704000
     },
     {
-      "id": "cohere/command-r-08-2024",
-      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
       "provider": "cohere",
-      "inputPrice": 0.15,
-      "outputPrice": 0.6,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
-      "priceCategory": "budget",
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4944,13 +4944,13 @@
       "created": 1724976000
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
       "provider": "cohere",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 0.15,
+      "outputPrice": 0.6,
       "contextLength": 128000,
-      "priceCategory": "mid",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5169,11 +5169,11 @@
       "created": 1716768000
     },
     {
-      "id": "openai/gpt-4o",
-      "name": "OpenAI: GPT-4o",
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "OpenAI: GPT-4o (2024-05-13)",
       "provider": "openai",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 5.0,
+      "outputPrice": 15.0,
       "contextLength": 128000,
       "priceCategory": "mid",
       "prevInputPrice": null,
@@ -5184,11 +5184,11 @@
       "created": 1715558400
     },
     {
-      "id": "openai/gpt-4o-2024-05-13",
-      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "id": "openai/gpt-4o",
+      "name": "OpenAI: GPT-4o",
       "provider": "openai",
-      "inputPrice": 5.0,
-      "outputPrice": 15.0,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
       "priceCategory": "mid",
       "prevInputPrice": null,
@@ -5304,13 +5304,13 @@
       "created": 1708905600
     },
     {
-      "id": "openai/gpt-3.5-turbo-0613",
-      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
       "provider": "openai",
-      "inputPrice": 1.0,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "inputPrice": 10.0,
+      "outputPrice": 30.0,
+      "contextLength": 128000,
+      "priceCategory": "flagship",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5319,13 +5319,13 @@
       "created": 1706140800
     },
     {
-      "id": "openai/gpt-4-turbo-preview",
-      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "provider": "openai",
-      "inputPrice": 10.0,
-      "outputPrice": 30.0,
-      "contextLength": 128000,
-      "priceCategory": "flagship",
+      "inputPrice": 1.0,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5379,13 +5379,13 @@
       "created": 1699228800
     },
     {
-      "id": "mistralai/mistral-7b-instruct-v0.1",
-      "name": "Mistral: Mistral 7B Instruct v0.1",
-      "provider": "mistralai",
-      "inputPrice": 0.11,
-      "outputPrice": 0.19,
-      "contextLength": 2824,
-      "priceCategory": "budget",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "openai",
+      "inputPrice": 1.5,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5394,13 +5394,13 @@
       "created": 1695859200
     },
     {
-      "id": "openai/gpt-3.5-turbo-instruct",
-      "name": "OpenAI: GPT-3.5 Turbo Instruct",
-      "provider": "openai",
-      "inputPrice": 1.5,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "provider": "mistralai",
+      "inputPrice": 0.11,
+      "outputPrice": 0.19,
+      "contextLength": 2824,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5469,8 +5469,8 @@
       "created": 1688256000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5484,8 +5484,8 @@
       "created": 1685232000
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5514,9 +5514,9 @@
       "created": 1685232000
     },
     {
-      "id": "inclusionai/ling-2.6-1t:free",
-      "name": "inclusionAI: Ling-2.6-1T (free)",
-      "provider": "inclusionai",
+      "id": "tencent/hy3-preview:free",
+      "name": "Tencent: Hy3 preview (free)",
+      "provider": "tencent",
       "inputPrice": 0.0,
       "outputPrice": 0.0,
       "contextLength": 262144,
@@ -5526,37 +5526,22 @@
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1776948238
+      "created": 1776878150
     },
     {
-      "id": "nvidia/llama-3.1-nemotron-70b-instruct",
-      "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
-      "provider": "nvidia",
-      "inputPrice": 1.2,
-      "outputPrice": 1.2,
-      "contextLength": 131072,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1728950400
-    },
-    {
-      "id": "mistralai/mixtral-8x7b-instruct",
-      "name": "Mistral: Mixtral 8x7B Instruct",
-      "provider": "mistralai",
-      "inputPrice": 0.54,
-      "outputPrice": 0.54,
-      "contextLength": 32768,
+      "id": "tngtech/deepseek-r1t2-chimera",
+      "name": "TNG: DeepSeek R1T2 Chimera",
+      "provider": "tngtech",
+      "inputPrice": 0.3,
+      "outputPrice": 1.1,
+      "contextLength": 163840,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1702166400
+      "created": 1751986985
     }
   ],
   "history": {
@@ -5589,7 +5574,8 @@
       "2026-05-05",
       "2026-05-06",
       "2026-05-07",
-      "2026-05-08"
+      "2026-05-08",
+      "2026-05-09"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
@@ -5622,9 +5608,11 @@
           2.5,
           2.5,
           2.5,
+          2.5,
           2.5
         ],
         "outputPrices": [
+          10.0,
           10.0,
           10.0,
           10.0,
@@ -5686,9 +5674,11 @@
           0.15,
           0.15,
           0.15,
+          0.15,
           0.15
         ],
         "outputPrices": [
+          0.6,
           0.6,
           0.6,
           0.6,
@@ -5750,9 +5740,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5814,9 +5806,11 @@
           0.25,
           0.25,
           0.25,
+          0.25,
           0.25
         ],
         "outputPrices": [
+          1.25,
           1.25,
           1.25,
           1.25,
@@ -5878,9 +5872,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -5942,9 +5938,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -6006,9 +6004,11 @@
           0.4,
           0.4,
           0.4,
+          0.4,
           0.4
         ],
         "outputPrices": [
+          0.4,
           0.4,
           0.4,
           0.4,
@@ -6070,9 +6070,11 @@
           null,
           null,
           null,
+          null,
           null
         ],
         "outputPrices": [
+          null,
           null,
           null,
           null,
@@ -6134,9 +6136,11 @@
           2.0,
           2.0,
           2.0,
+          2.0,
           2.0
         ],
         "outputPrices": [
+          6.0,
           6.0,
           6.0,
           6.0,
@@ -6198,6 +6202,7 @@
           0.54,
           0.54,
           0.54,
+          null,
           null
         ],
         "outputPrices": [
@@ -6229,6 +6234,7 @@
           0.54,
           0.54,
           0.54,
+          null,
           null
         ]
       }
