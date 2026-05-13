@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-12T23:37:55Z",
-  "totalModels": 367,
+  "lastUpdated": "2026-05-13T23:37:38Z",
+  "totalModels": 364,
   "todayChanges": {
     "priceDown": 1,
-    "priceUp": 1,
-    "newModels": 2,
-    "removedModels": 0
+    "priceUp": 0,
+    "newModels": 1,
+    "removedModels": 4
   },
   "models": [
     {
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1778613011
     },
@@ -34,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1778597029
     },
@@ -429,16 +429,31 @@
       "created": 1777000679
     },
     {
-      "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek: DeepSeek V4 Flash",
+      "id": "deepseek/deepseek-v4-flash:free",
+      "name": "DeepSeek: DeepSeek V4 Flash (free)",
       "provider": "deepseek",
-      "inputPrice": 0.14,
-      "outputPrice": 0.28,
-      "contextLength": 1048576,
-      "priceCategory": "budget",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 256000,
+      "priceCategory": "free",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777000666
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash",
+      "provider": "deepseek",
+      "inputPrice": 0.126,
+      "outputPrice": 0.252,
+      "contextLength": 1048576,
+      "priceCategory": "budget",
+      "prevInputPrice": 0.14,
+      "prevOutputPrice": 0.28,
+      "priceChangePercent": -10.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -631,9 +646,9 @@
       "outputPrice": 3.5,
       "contextLength": 202752,
       "priceCategory": "mid",
-      "prevInputPrice": 0.98,
-      "prevOutputPrice": 3.08,
-      "priceChangePercent": 7.14,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775578025
@@ -886,9 +901,9 @@
       "outputPrice": 1.2,
       "contextLength": 196608,
       "priceCategory": "budget",
-      "prevInputPrice": 0.299,
-      "prevOutputPrice": 1.2,
-      "priceChangePercent": -6.35,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1773836697
@@ -4284,21 +4299,6 @@
       "created": 1738769413
     },
     {
-      "id": "qwen/qwen-vl-plus",
-      "name": "Qwen: Qwen VL Plus",
-      "provider": "qwen",
-      "inputPrice": 0.1365,
-      "outputPrice": 0.4095,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1738731255
-    },
-    {
       "id": "aion-labs/aion-1.0",
       "name": "AionLabs: Aion-1.0",
       "provider": "aion-labs",
@@ -4344,36 +4344,6 @@
       "created": 1738696718
     },
     {
-      "id": "qwen/qwen-vl-max",
-      "name": "Qwen: Qwen VL Max",
-      "provider": "qwen",
-      "inputPrice": 0.52,
-      "outputPrice": 2.08,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1738434304
-    },
-    {
-      "id": "qwen/qwen-turbo",
-      "name": "Qwen: Qwen-Turbo",
-      "provider": "qwen",
-      "inputPrice": 0.0325,
-      "outputPrice": 0.13,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1738410974
-    },
-    {
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "provider": "qwen",
@@ -4402,21 +4372,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1738409840
-    },
-    {
-      "id": "qwen/qwen-max",
-      "name": "Qwen: Qwen-Max ",
-      "provider": "qwen",
-      "inputPrice": 1.04,
-      "outputPrice": 4.16,
-      "contextLength": 32768,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1738402289
     },
     {
       "id": "openai/o3-mini",
@@ -5512,11 +5467,70 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "qwen/qwen-vl-plus",
+      "name": "Qwen: Qwen VL Plus",
+      "provider": "qwen",
+      "inputPrice": 0.1365,
+      "outputPrice": 0.4095,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1738731255
+    },
+    {
+      "id": "qwen/qwen-vl-max",
+      "name": "Qwen: Qwen VL Max",
+      "provider": "qwen",
+      "inputPrice": 0.52,
+      "outputPrice": 2.08,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1738434304
+    },
+    {
+      "id": "qwen/qwen-turbo",
+      "name": "Qwen: Qwen-Turbo",
+      "provider": "qwen",
+      "inputPrice": 0.0325,
+      "outputPrice": 0.13,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1738410974
+    },
+    {
+      "id": "qwen/qwen-max",
+      "name": "Qwen: Qwen-Max ",
+      "provider": "qwen",
+      "inputPrice": 1.04,
+      "outputPrice": 4.16,
+      "contextLength": 32768,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1738402289
     }
   ],
   "history": {
     "dates": [
-      "2026-04-14",
       "2026-04-15",
       "2026-04-16",
       "2026-04-17",
@@ -5545,7 +5559,8 @@
       "2026-05-10",
       "2026-05-11",
       "2026-05-12",
-      "2026-05-13"
+      "2026-05-13",
+      "2026-05-14"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
