@@ -1,0 +1,32 @@
+[
+  {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "provider": "google",
+    "inputPrice": 0.06,
+    "outputPrice": 0.33,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.07,
+    "prevOutputPrice": 0.34,
+    "priceChangePercent": -14.29,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775227989
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "provider": "nvidia",
+    "inputPrice": 0.09,
+    "outputPrice": 0.45,
+    "contextLength": 1000000,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.1,
+    "prevOutputPrice": 0.5,
+    "priceChangePercent": -10.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1773245239
+  }
+]

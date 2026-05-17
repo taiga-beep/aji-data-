@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-05-16T23:29:04Z",
+  "lastUpdated": "2026-05-17T23:31:05Z",
   "totalModels": 356,
   "todayChanges": {
-    "priceDown": 0,
-    "priceUp": 2,
+    "priceDown": 2,
+    "priceUp": 0,
     "newModels": 0,
     "removedModels": 0
   },
@@ -672,13 +672,13 @@
       "id": "google/gemma-4-26b-a4b-it",
       "name": "Google: Gemma 4 26B A4B ",
       "provider": "google",
-      "inputPrice": 0.07,
-      "outputPrice": 0.34,
+      "inputPrice": 0.06,
+      "outputPrice": 0.33,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.06,
-      "prevOutputPrice": 0.33,
-      "priceChangePercent": 16.67,
+      "prevInputPrice": 0.07,
+      "prevOutputPrice": 0.34,
+      "priceChangePercent": -14.29,
       "isNew": false,
       "isRemoved": false,
       "created": 1775227989
@@ -987,13 +987,13 @@
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
-      "inputPrice": 0.1,
-      "outputPrice": 0.5,
+      "inputPrice": 0.09,
+      "outputPrice": 0.45,
       "contextLength": 1000000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.09,
-      "prevOutputPrice": 0.45,
-      "priceChangePercent": 11.11,
+      "prevInputPrice": 0.1,
+      "prevOutputPrice": 0.5,
+      "priceChangePercent": -10.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1773245239
@@ -3028,7 +3028,7 @@
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
       "inputPrice": 0.039,
-      "outputPrice": 0.19,
+      "outputPrice": 0.18,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4169,7 +4169,7 @@
       "provider": "google",
       "inputPrice": 0.1,
       "outputPrice": 0.4,
-      "contextLength": 1000000,
+      "contextLength": 1048576,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -4933,7 +4933,7 @@
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
       "inputPrice": 0.02,
-      "outputPrice": 0.04,
+      "outputPrice": 0.03,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5351,7 +5351,6 @@
   ],
   "history": {
     "dates": [
-      "2026-04-18",
       "2026-04-19",
       "2026-04-20",
       "2026-04-21",
@@ -5380,7 +5379,8 @@
       "2026-05-14",
       "2026-05-15",
       "2026-05-16",
-      "2026-05-17"
+      "2026-05-17",
+      "2026-05-18"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
