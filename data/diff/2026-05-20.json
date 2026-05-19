@@ -1,0 +1,62 @@
+[
+  {
+    "id": "google/gemini-3.5-flash",
+    "name": "Google: Gemini 3.5 Flash",
+    "provider": "google",
+    "inputPrice": 1.5,
+    "outputPrice": 9.0,
+    "contextLength": 1048576,
+    "priceCategory": "mid",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1779193800
+  },
+  {
+    "id": "~google/gemini-flash-latest",
+    "name": "Google Gemini Flash Latest",
+    "provider": "~google",
+    "inputPrice": 1.5,
+    "outputPrice": 9.0,
+    "contextLength": 1048576,
+    "priceCategory": "mid",
+    "prevInputPrice": 0.5,
+    "prevOutputPrice": 3.0,
+    "priceChangePercent": 200.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777318398
+  },
+  {
+    "id": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "z-ai",
+    "inputPrice": 0.0,
+    "outputPrice": 0.0,
+    "contextLength": 202800,
+    "priceCategory": "free",
+    "prevInputPrice": 0.98,
+    "prevOutputPrice": 3.08,
+    "priceChangePercent": -100.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775578025
+  },
+  {
+    "id": "qwen/qwen3.5-35b-a3b",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "provider": "qwen",
+    "inputPrice": 0.139,
+    "outputPrice": 1.0,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.14,
+    "prevOutputPrice": 1.0,
+    "priceChangePercent": -0.71,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1772053822
+  }
+]
