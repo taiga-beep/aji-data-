@@ -1,13 +1,28 @@
 {
-  "lastUpdated": "2026-05-20T23:49:38Z",
+  "lastUpdated": "2026-05-21T23:34:57Z",
   "totalModels": 358,
   "todayChanges": {
     "priceDown": 2,
-    "priceUp": 0,
+    "priceUp": 1,
     "newModels": 1,
-    "removedModels": 0
+    "removedModels": 1
   },
   "models": [
+    {
+      "id": "qwen/qwen3.7-max",
+      "name": "Qwen: Qwen3.7 Max",
+      "provider": "qwen",
+      "inputPrice": 2.5,
+      "outputPrice": 7.5,
+      "contextLength": 1000000,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1779376861
+    },
     {
       "id": "x-ai/grok-build-0.1",
       "name": "xAI: Grok Build 0.1",
@@ -19,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1779298123
     },
@@ -372,13 +387,13 @@
       "id": "qwen/qwen3.6-35b-a3b",
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
-      "inputPrice": 0.149,
+      "inputPrice": 0.15,
       "outputPrice": 1.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.15,
+      "prevInputPrice": 0.149,
       "prevOutputPrice": 1.0,
-      "priceChangePercent": -0.67,
+      "priceChangePercent": 0.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1777260255
@@ -402,13 +417,13 @@
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
-      "inputPrice": 0.32,
+      "inputPrice": 0.317,
       "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.32,
+      "prevOutputPrice": 3.2,
+      "priceChangePercent": -0.94,
       "isNew": false,
       "isRemoved": false,
       "created": 1777255064
@@ -496,9 +511,9 @@
       "outputPrice": 0.625,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.3,
-      "prevOutputPrice": 2.5,
-      "priceChangePercent": -75.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776948238
@@ -672,10 +687,10 @@
       "id": "z-ai/glm-5.1",
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 202800,
-      "priceCategory": "free",
+      "inputPrice": 0.98,
+      "outputPrice": 3.08,
+      "contextLength": 202752,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -1452,31 +1467,16 @@
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
-      "inputPrice": 0.1,
+      "inputPrice": 0.09,
       "outputPrice": 0.3,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.1,
+      "prevOutputPrice": 0.3,
+      "priceChangePercent": -10.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1769728337
-    },
-    {
-      "id": "arcee-ai/trinity-large-preview",
-      "name": "Arcee AI: Trinity Large Preview",
-      "provider": "arcee-ai",
-      "inputPrice": 0.15,
-      "outputPrice": 0.45,
-      "contextLength": 131000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1769552670
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -5377,11 +5377,25 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "arcee-ai/trinity-large-preview",
+      "name": "Arcee AI: Trinity Large Preview",
+      "provider": "arcee-ai",
+      "inputPrice": 0.15,
+      "outputPrice": 0.45,
+      "contextLength": 131000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1769552670
     }
   ],
   "history": {
     "dates": [
-      "2026-04-22",
       "2026-04-23",
       "2026-04-24",
       "2026-04-25",
@@ -5410,7 +5424,8 @@
       "2026-05-18",
       "2026-05-19",
       "2026-05-20",
-      "2026-05-21"
+      "2026-05-21",
+      "2026-05-22"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
