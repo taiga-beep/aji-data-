@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-21T23:34:57Z",
+  "lastUpdated": "2026-05-22T23:40:01Z",
   "totalModels": 358,
   "todayChanges": {
     "priceDown": 2,
-    "priceUp": 1,
-    "newModels": 1,
-    "removedModels": 1
+    "priceUp": 0,
+    "newModels": 0,
+    "removedModels": 0
   },
   "models": [
     {
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1779376861
     },
@@ -391,9 +391,9 @@
       "outputPrice": 1.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.149,
-      "prevOutputPrice": 1.0,
-      "priceChangePercent": 0.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777260255
@@ -417,13 +417,13 @@
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
-      "inputPrice": 0.317,
+      "inputPrice": 0.3,
       "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.32,
+      "prevInputPrice": 0.317,
       "prevOutputPrice": 3.2,
-      "priceChangePercent": -0.94,
+      "priceChangePercent": -5.36,
       "isNew": false,
       "isRemoved": false,
       "created": 1777255064
@@ -492,13 +492,13 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
-      "inputPrice": 0.112,
-      "outputPrice": 0.224,
+      "inputPrice": 0.1,
+      "outputPrice": 0.2,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.112,
+      "prevOutputPrice": 0.224,
+      "priceChangePercent": -10.71,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -1471,9 +1471,9 @@
       "outputPrice": 0.3,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.1,
-      "prevOutputPrice": 0.3,
-      "priceChangePercent": -10.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1769728337
@@ -5377,26 +5377,10 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
-    },
-    {
-      "id": "arcee-ai/trinity-large-preview",
-      "name": "Arcee AI: Trinity Large Preview",
-      "provider": "arcee-ai",
-      "inputPrice": 0.15,
-      "outputPrice": 0.45,
-      "contextLength": 131000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1769552670
     }
   ],
   "history": {
     "dates": [
-      "2026-04-23",
       "2026-04-24",
       "2026-04-25",
       "2026-04-26",
@@ -5425,7 +5409,8 @@
       "2026-05-19",
       "2026-05-20",
       "2026-05-21",
-      "2026-05-22"
+      "2026-05-22",
+      "2026-05-23"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

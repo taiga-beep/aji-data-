@@ -1,0 +1,32 @@
+[
+  {
+    "id": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "provider": "qwen",
+    "inputPrice": 0.3,
+    "outputPrice": 3.2,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.317,
+    "prevOutputPrice": 3.2,
+    "priceChangePercent": -5.36,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777255064
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "inputPrice": 0.1,
+    "outputPrice": 0.2,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.112,
+    "prevOutputPrice": 0.224,
+    "priceChangePercent": -10.71,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777000666
+  }
+]
