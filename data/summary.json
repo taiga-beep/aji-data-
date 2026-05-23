@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-22T23:40:01Z",
+  "lastUpdated": "2026-05-23T23:30:51Z",
   "totalModels": 358,
   "todayChanges": {
-    "priceDown": 2,
+    "priceDown": 0,
     "priceUp": 0,
     "newModels": 0,
     "removedModels": 0
@@ -421,9 +421,9 @@
       "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.317,
-      "prevOutputPrice": 3.2,
-      "priceChangePercent": -5.36,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777255064
@@ -496,9 +496,9 @@
       "outputPrice": 0.2,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.112,
-      "prevOutputPrice": 0.224,
-      "priceChangePercent": -10.71,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -5381,7 +5381,6 @@
   ],
   "history": {
     "dates": [
-      "2026-04-24",
       "2026-04-25",
       "2026-04-26",
       "2026-04-27",
@@ -5410,7 +5409,8 @@
       "2026-05-20",
       "2026-05-21",
       "2026-05-22",
-      "2026-05-23"
+      "2026-05-23",
+      "2026-05-24"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
