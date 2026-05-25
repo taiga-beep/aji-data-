@@ -4402,9 +4402,9 @@
     "outputPrice": 0.9144,
     "contextLength": 131072,
     "priceCategory": "budget",
-    "prevInputPrice": 0.32,
-    "prevOutputPrice": 0.89,
-    "priceChangePercent": -28.5,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1735241320
@@ -5353,20 +5353,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "alibaba/tongyi-deepresearch-30b-a3b",
-    "name": "Tongyi DeepResearch 30B A3B",
-    "provider": "alibaba",
-    "inputPrice": 0.09,
-    "outputPrice": 0.45,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1758210804
   }
 ]

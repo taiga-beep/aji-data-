@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-24T23:34:17Z",
-  "totalModels": 358,
+  "lastUpdated": "2026-05-25T23:40:41Z",
+  "totalModels": 357,
   "todayChanges": {
-    "priceDown": 0,
+    "priceDown": 1,
     "priceUp": 0,
     "newModels": 0,
-    "removedModels": 0
+    "removedModels": 1
   },
   "models": [
     {
@@ -2679,21 +2679,6 @@
       "created": 1758548275
     },
     {
-      "id": "alibaba/tongyi-deepresearch-30b-a3b",
-      "name": "Tongyi DeepResearch 30B A3B",
-      "provider": "alibaba",
-      "inputPrice": 0.09,
-      "outputPrice": 0.45,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1758210804
-    },
-    {
       "id": "qwen/qwen3-coder-flash",
       "name": "Qwen: Qwen3 Coder Flash",
       "provider": "qwen",
@@ -4422,13 +4407,13 @@
       "id": "deepseek/deepseek-chat",
       "name": "DeepSeek: DeepSeek V3",
       "provider": "deepseek",
-      "inputPrice": 0.32,
-      "outputPrice": 0.89,
-      "contextLength": 163840,
+      "inputPrice": 0.2288,
+      "outputPrice": 0.9144,
+      "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.32,
+      "prevOutputPrice": 0.89,
+      "priceChangePercent": -28.5,
       "isNew": false,
       "isRemoved": false,
       "created": 1735241320
@@ -5377,11 +5362,25 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "alibaba/tongyi-deepresearch-30b-a3b",
+      "name": "Tongyi DeepResearch 30B A3B",
+      "provider": "alibaba",
+      "inputPrice": 0.09,
+      "outputPrice": 0.45,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1758210804
     }
   ],
   "history": {
     "dates": [
-      "2026-04-26",
       "2026-04-27",
       "2026-04-28",
       "2026-04-29",
@@ -5410,7 +5409,8 @@
       "2026-05-22",
       "2026-05-23",
       "2026-05-24",
-      "2026-05-25"
+      "2026-05-25",
+      "2026-05-26"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
