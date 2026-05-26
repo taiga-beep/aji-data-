@@ -1,4 +1,14 @@
 {
+  "2026-05-26": {
+    "Claude": 1,
+    "LLM": 2,
+    "RAG": 1,
+    "Kubernetes": 1,
+    "Terraform": 1,
+    "Python": 1,
+    "Docker": 1,
+    "Copilot": 1
+  },
   "2026-05-25": {
     "Claude": 1,
     "Midjourney": 1,
