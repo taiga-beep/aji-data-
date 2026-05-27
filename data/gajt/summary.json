@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-05-26T00:04:12Z",
+  "lastUpdated": "2026-05-27T00:02:41Z",
   "meta": {
-    "lastVerified": "2026-05-26",
+    "lastVerified": "2026-05-27",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
-    "totalJobsScanned": 85,
+    "totalJobsScanned": 81,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-05-27T00:04:12Z"
+    "nextUpdateISO": "2026-05-28T00:02:41Z"
   },
-  "streakDays": 1,
+  "streakDays": 2,
   "monthlyRanking": [
     {
       "rank": 1,
@@ -86,11 +86,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-04-26",
-      "totalAiJobs": 57,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-04-27",
       "totalAiJobs": 61,
@@ -240,6 +235,11 @@
       "date": "2026-05-26",
       "totalAiJobs": 18,
       "topSkill": "LLM"
+    },
+    {
+      "date": "2026-05-27",
+      "totalAiJobs": 17,
+      "topSkill": "LLM"
     }
   ],
   "weeklyTopThree": {
@@ -257,8 +257,8 @@
     "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +0.0%\n2位: Claude +0.0%\n3位: RAG +0.0%\n（2026-05-25週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 1681,
-    "aiJobRatioPct": 21.2,
+    "totalAiJobsThisMonth": 1641,
+    "aiJobRatioPct": 21.0,
     "topRisingSkill": {
       "name": "-",
       "changePct": 0
@@ -270,7 +270,7 @@
   },
   "companyWeekly": {
     "weekOf": "2026-05-25",
-    "lastVerified": "2026-05-26",
+    "lastVerified": "2026-05-27",
     "companies": [
       {
         "slug": "anthropic",
@@ -278,15 +278,15 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 392,
+        "jobCount": 390,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 392
+            "count": 390
           },
           {
             "skill": "Multimodal",
-            "count": 392
+            "count": 390
           },
           {
             "skill": "Claude",
@@ -298,27 +298,27 @@
           },
           {
             "skill": "LLM",
-            "count": 78
+            "count": 77
           },
           {
             "skill": "Kubernetes",
-            "count": 44
+            "count": 43
           },
           {
             "skill": "SQL",
-            "count": 41
+            "count": 39
           },
           {
             "skill": "PyTorch",
             "count": 16
           },
           {
-            "skill": "JAX",
+            "skill": "Fine-tuning",
             "count": 14
           },
           {
-            "skill": "Fine-tuning",
-            "count": 13
+            "skill": "JAX",
+            "count": 14
           }
         ],
         "newSkills": [],
@@ -331,11 +331,11 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 699,
+        "jobCount": 701,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 191
+            "count": 193
           },
           {
             "skill": "SQL",
@@ -351,7 +351,7 @@
           },
           {
             "skill": "Kubernetes",
-            "count": 47
+            "count": 48
           },
           {
             "skill": "Terraform",
@@ -378,8 +378,8 @@
         "droppedSkills": [],
         "trendingSkills": [
           {
-            "skill": "FastAPI",
-            "deltaPct": 20
+            "skill": "Docker",
+            "deltaPct": 40
           }
         ]
       },
@@ -389,11 +389,11 @@
         "company": "xAI",
         "atsType": "greenhouse",
         "careersUrl": "https://x.ai/careers",
-        "jobCount": 225,
+        "jobCount": 223,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 36
+            "count": 35
           },
           {
             "skill": "Kubernetes",
@@ -442,15 +442,15 @@
         "company": "Mistral AI",
         "atsType": "lever",
         "careersUrl": "https://mistral.ai/careers",
-        "jobCount": 163,
+        "jobCount": 162,
         "topSkills": [
           {
             "skill": "Mistral",
-            "count": 161
+            "count": 160
           },
           {
             "skill": "Python",
-            "count": 83
+            "count": 81
           },
           {
             "skill": "LLM",
@@ -487,7 +487,12 @@
         ],
         "newSkills": [],
         "droppedSkills": [],
-        "trendingSkills": []
+        "trendingSkills": [
+          {
+            "skill": "BigQuery",
+            "deltaPct": 33
+          }
+        ]
       },
       {
         "slug": "cohere",
@@ -495,11 +500,11 @@
         "company": "Cohere",
         "atsType": "ashby",
         "careersUrl": "https://cohere.com/careers",
-        "jobCount": 127,
+        "jobCount": 128,
         "topSkills": [
           {
             "skill": "RAG",
-            "count": 127
+            "count": 128
           },
           {
             "skill": "Python",
@@ -538,16 +543,11 @@
             "count": 5
           }
         ],
-        "newSkills": [
+        "newSkills": [],
+        "droppedSkills": [
           "Midjourney"
         ],
-        "droppedSkills": [],
-        "trendingSkills": [
-          {
-            "skill": "Prompt Engineering",
-            "deltaPct": 50
-          }
-        ]
+        "trendingSkills": []
       },
       {
         "slug": "perplexity",
@@ -629,11 +629,11 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 144,
+        "jobCount": 148,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 144
+            "count": 148
           },
           {
             "skill": "Python",
@@ -657,7 +657,7 @@
           },
           {
             "skill": "Claude",
-            "count": 7
+            "count": 6
           },
           {
             "skill": "Kubernetes",
@@ -677,17 +677,15 @@
         "trendingSkills": []
       }
     ],
-    "globalNewSkills": [
-      "Midjourney"
-    ],
+    "globalNewSkills": [],
     "globalTopRisers": [
       {
-        "skill": "Prompt Engineering",
-        "deltaPct": 50
+        "skill": "Docker",
+        "deltaPct": 40
       },
       {
-        "skill": "FastAPI",
-        "deltaPct": 20
+        "skill": "BigQuery",
+        "deltaPct": 33
       }
     ]
   },
