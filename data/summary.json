@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-05-27T23:45:12Z",
-  "totalModels": 356,
+  "lastUpdated": "2026-05-28T23:50:34Z",
+  "totalModels": 357,
   "todayChanges": {
-    "priceDown": 2,
+    "priceDown": 1,
     "priceUp": 0,
-    "newModels": 1,
+    "newModels": 2,
     "removedModels": 1
   },
   "models": [
+    {
+      "id": "anthropic/claude-opus-4.8-fast",
+      "name": "Anthropic: Claude Opus 4.8 (Fast)",
+      "provider": "anthropic",
+      "inputPrice": 10.0,
+      "outputPrice": 50.0,
+      "contextLength": 1000000,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1779913703
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "provider": "anthropic",
+      "inputPrice": 5.0,
+      "outputPrice": 25.0,
+      "contextLength": 1000000,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1779905091
+    },
     {
       "id": "qwen/qwen3.7-max",
       "name": "Qwen: Qwen3.7 Max",
@@ -376,9 +406,9 @@
       "outputPrice": 1.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.15,
-      "prevOutputPrice": 1.0,
-      "priceChangePercent": -6.67,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777260255
@@ -406,9 +436,9 @@
       "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.3,
-      "prevOutputPrice": 2.0,
-      "priceChangePercent": -3.33,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777255064
@@ -507,13 +537,13 @@
       "id": "tencent/hy3-preview",
       "name": "Tencent: Hy3 preview",
       "provider": "tencent",
-      "inputPrice": 0.066,
-      "outputPrice": 0.26,
+      "inputPrice": 0.063,
+      "outputPrice": 0.21,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.066,
+      "prevOutputPrice": 0.26,
+      "priceChangePercent": -4.55,
       "isNew": false,
       "isRemoved": false,
       "created": 1776878150
@@ -609,21 +639,6 @@
       "created": 1776747900
     },
     {
-      "id": "baidu/qianfan-ocr-fast",
-      "name": "Baidu: Qianfan-OCR-Fast",
-      "provider": "baidu",
-      "inputPrice": 0.68,
-      "outputPrice": 2.81,
-      "contextLength": 65536,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1776707472
-    },
-    {
       "id": "moonshotai/kimi-k2.6:free",
       "name": "MoonshotAI: Kimi K2.6 (free)",
       "provider": "moonshotai",
@@ -634,7 +649,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1776699402
     },
@@ -1349,7 +1364,7 @@
       "provider": "minimax",
       "inputPrice": 0.0,
       "outputPrice": 0.0,
-      "contextLength": 262144,
+      "contextLength": 204800,
       "priceCategory": "free",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -3163,7 +3178,7 @@
       "name": "Z.ai: GLM 4.5 Air",
       "provider": "z-ai",
       "inputPrice": 0.125,
-      "outputPrice": 0.84,
+      "outputPrice": 0.85,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4704,21 +4719,6 @@
       "created": 1727654400
     },
     {
-      "id": "meta-llama/llama-3.2-11b-vision-instruct",
-      "name": "Meta: Llama 3.2 11B Vision Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.245,
-      "outputPrice": 0.245,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
-    },
-    {
       "id": "meta-llama/llama-3.2-1b-instruct",
       "name": "Meta: Llama 3.2 1B Instruct",
       "provider": "meta-llama",
@@ -4764,6 +4764,21 @@
       "created": 1727222400
     },
     {
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.245,
+      "outputPrice": 0.245,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "name": "Qwen2.5 72B Instruct",
       "provider": "qwen",
@@ -4779,13 +4794,13 @@
       "created": 1726704000
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
       "provider": "cohere",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 0.15,
+      "outputPrice": 0.6,
       "contextLength": 128000,
-      "priceCategory": "mid",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4794,13 +4809,13 @@
       "created": 1724976000
     },
     {
-      "id": "cohere/command-r-08-2024",
-      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
       "provider": "cohere",
-      "inputPrice": 0.15,
-      "outputPrice": 0.6,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
-      "priceCategory": "budget",
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4899,11 +4914,11 @@
       "created": 1722902400
     },
     {
-      "id": "meta-llama/llama-3.1-70b-instruct",
-      "name": "Meta: Llama 3.1 70B Instruct",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.4,
-      "outputPrice": 0.4,
+      "inputPrice": 0.02,
+      "outputPrice": 0.05,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4914,11 +4929,11 @@
       "created": 1721692800
     },
     {
-      "id": "meta-llama/llama-3.1-8b-instruct",
-      "name": "Meta: Llama 3.1 8B Instruct",
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "name": "Meta: Llama 3.1 70B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.02,
-      "outputPrice": 0.05,
+      "inputPrice": 0.4,
+      "outputPrice": 0.4,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5049,11 +5064,11 @@
       "created": 1715558400
     },
     {
-      "id": "meta-llama/llama-3-8b-instruct",
-      "name": "Meta: Llama 3 8B Instruct",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "name": "Meta: Llama 3 70B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.04,
-      "outputPrice": 0.04,
+      "inputPrice": 0.51,
+      "outputPrice": 0.74,
       "contextLength": 8192,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5064,11 +5079,11 @@
       "created": 1713398400
     },
     {
-      "id": "meta-llama/llama-3-70b-instruct",
-      "name": "Meta: Llama 3 70B Instruct",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "name": "Meta: Llama 3 8B Instruct",
       "provider": "meta-llama",
-      "inputPrice": 0.51,
-      "outputPrice": 0.74,
+      "inputPrice": 0.04,
+      "outputPrice": 0.04,
       "contextLength": 8192,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5304,21 +5319,6 @@
       "created": 1688256000
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "provider": "openai",
-      "inputPrice": 30.0,
-      "outputPrice": 60.0,
-      "contextLength": 8191,
-      "priceCategory": "flagship",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1685232000
-    },
-    {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
       "provider": "openai",
@@ -5349,24 +5349,38 @@
       "created": 1685232000
     },
     {
-      "id": "baidu/cobuddy:free",
-      "name": "Baidu Qianfan: CoBuddy (free)",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "provider": "openai",
+      "inputPrice": 30.0,
+      "outputPrice": 60.0,
+      "contextLength": 8191,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1685232000
+    },
+    {
+      "id": "baidu/qianfan-ocr-fast",
+      "name": "Baidu: Qianfan-OCR-Fast",
       "provider": "baidu",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 131072,
-      "priceCategory": "free",
+      "inputPrice": 0.68,
+      "outputPrice": 2.81,
+      "contextLength": 65536,
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1778035480
+      "created": 1776707472
     }
   ],
   "history": {
     "dates": [
-      "2026-04-29",
       "2026-04-30",
       "2026-05-01",
       "2026-05-02",
@@ -5395,7 +5409,8 @@
       "2026-05-25",
       "2026-05-26",
       "2026-05-27",
-      "2026-05-28"
+      "2026-05-28",
+      "2026-05-29"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
