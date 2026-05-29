@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1779985069
   },
@@ -322,9 +322,9 @@
     "outputPrice": 3.42,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.73,
-    "prevOutputPrice": 3.49,
-    "priceChangePercent": -6.3,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1777318428
@@ -517,9 +517,9 @@
     "outputPrice": 0.1966,
     "contextLength": 1048576,
     "priceCategory": "budget",
-    "prevInputPrice": 0.1,
-    "prevOutputPrice": 0.2,
-    "priceChangePercent": -1.7,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1777000666
@@ -667,9 +667,9 @@
     "outputPrice": 3.42,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.73,
-    "prevOutputPrice": 3.49,
-    "priceChangePercent": -6.3,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1776699402
@@ -5338,35 +5338,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "deepseek/deepseek-v3.2-speciale",
-    "name": "DeepSeek: DeepSeek V3.2 Speciale",
-    "provider": "deepseek",
-    "inputPrice": 0.287,
-    "outputPrice": 0.431,
-    "contextLength": 163840,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1764594837
-  },
-  {
-    "id": "openai/gpt-4o-audio-preview",
-    "name": "OpenAI: GPT-4o Audio",
-    "provider": "openai",
-    "inputPrice": 2.5,
-    "outputPrice": 10.0,
-    "contextLength": 128000,
-    "priceCategory": "mid",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1755233061
   }
 ]
