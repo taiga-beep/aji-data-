@@ -1,4 +1,21 @@
 {
+  "2026-05-31": {
+    "LLM": 5,
+    "Claude": 1,
+    "MCP": 2,
+    "Redis": 1,
+    "Kubernetes": 1,
+    "AI Agent": 2,
+    "SQL": 3,
+    "Python": 5,
+    "Prompt Engineering": 2,
+    "gRPC": 1,
+    "Multimodal": 1,
+    "PyTorch": 2,
+    "TensorFlow": 1,
+    "BigQuery": 1,
+    "FastAPI": 1
+  },
   "2026-05-30": {
     "SQL": 2,
     "Python": 4,
