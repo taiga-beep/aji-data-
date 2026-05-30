@@ -1,4 +1,16 @@
 {
+  "2026-05-30": {
+    "SQL": 2,
+    "Python": 4,
+    "Claude": 3,
+    "LLM": 4,
+    "AI Agent": 1,
+    "Prompt Engineering": 1,
+    "PyTorch": 1,
+    "TensorFlow": 1,
+    "BigQuery": 1,
+    "FastAPI": 1
+  },
   "2026-05-29": {
     "Python": 2,
     "Claude": 4,
