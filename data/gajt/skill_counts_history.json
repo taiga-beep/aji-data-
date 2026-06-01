@@ -1,4 +1,21 @@
 {
+  "2026-06-01": {
+    "Claude": 5,
+    "Prompt Engineering": 5,
+    "Copilot": 4,
+    "SQL": 2,
+    "LLM": 5,
+    "MCP": 2,
+    "Redis": 1,
+    "Kubernetes": 1,
+    "AI Agent": 3,
+    "Python": 4,
+    "Spark": 1,
+    "Kafka": 1,
+    "gRPC": 1,
+    "Multimodal": 1,
+    "PyTorch": 1
+  },
   "2026-05-31": {
     "LLM": 5,
     "Claude": 1,
