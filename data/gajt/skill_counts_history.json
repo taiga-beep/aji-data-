@@ -1,4 +1,20 @@
 {
+  "2026-06-02": {
+    "Claude": 5,
+    "Prompt Engineering": 5,
+    "Copilot": 4,
+    "SQL": 2,
+    "LLM": 6,
+    "MCP": 2,
+    "Redis": 1,
+    "Kubernetes": 2,
+    "AI Agent": 3,
+    "Python": 4,
+    "Docker": 1,
+    "Terraform": 1,
+    "gRPC": 1,
+    "Multimodal": 1
+  },
   "2026-06-01": {
     "Claude": 5,
     "Prompt Engineering": 5,
