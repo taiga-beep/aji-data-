@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1780581864
   },
@@ -25,7 +25,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1780551208
   },
@@ -40,7 +40,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1780551208
   },
@@ -3112,9 +3112,9 @@
     "outputPrice": 0.19305,
     "contextLength": 131072,
     "priceCategory": "budget",
-    "prevInputPrice": 0.0428,
-    "prevOutputPrice": 0.1716,
-    "priceChangePercent": 12.5,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1753806965
@@ -5187,21 +5187,6 @@
     "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
-    "created": 1685232000
-  },
-  {
-    "id": "openai/gpt-4-0314",
-    "name": "OpenAI: GPT-4 (older v0314)",
-    "provider": "openai",
-    "inputPrice": 30.0,
-    "outputPrice": 60.0,
-    "contextLength": 8191,
-    "priceCategory": "flagship",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
     "created": 1685232000
   }
 ]

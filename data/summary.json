@@ -1,13 +1,58 @@
 {
-  "lastUpdated": "2026-06-04T00:14:24Z",
-  "totalModels": 344,
+  "lastUpdated": "2026-06-04T23:46:10Z",
+  "totalModels": 346,
   "todayChanges": {
     "priceDown": 0,
-    "priceUp": 0,
-    "newModels": 1,
-    "removedModels": 0
+    "priceUp": 1,
+    "newModels": 3,
+    "removedModels": 1
   },
   "models": [
+    {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+      "provider": "nvidia",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 128000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1780581864
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "name": "NVIDIA: Nemotron 3 Ultra (free)",
+      "provider": "nvidia",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 1000000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1780551208
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "NVIDIA: Nemotron 3 Ultra",
+      "provider": "nvidia",
+      "inputPrice": 0.5,
+      "outputPrice": 2.5,
+      "contextLength": 1000000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1780551208
+    },
     {
       "id": "qwen/qwen3.7-plus",
       "name": "Qwen: Qwen3.7 Plus",
@@ -19,7 +64,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1780491783
     },
@@ -3072,13 +3117,13 @@
       "id": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "provider": "qwen",
-      "inputPrice": 0.0428,
-      "outputPrice": 0.1716,
+      "inputPrice": 0.04815,
+      "outputPrice": 0.19305,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.0428,
+      "prevOutputPrice": 0.1716,
+      "priceChangePercent": 12.5,
       "isNew": false,
       "isRemoved": false,
       "created": 1753806965
@@ -4494,8 +4539,8 @@
       "created": 1729036800
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-productivity",
+      "name": "Inflection: Inflection 3 Productivity",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4509,8 +4554,8 @@
       "created": 1728604800
     },
     {
-      "id": "inflection/inflection-3-productivity",
-      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-pi",
+      "name": "Inflection: Inflection 3 Pi",
       "provider": "inflection",
       "inputPrice": 2.5,
       "outputPrice": 10.0,
@@ -4539,21 +4584,6 @@
       "created": 1727654400
     },
     {
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "name": "Meta: Llama 3.2 1B Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.027,
-      "outputPrice": 0.201,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1727222400
-    },
-    {
       "id": "meta-llama/llama-3.2-3b-instruct:free",
       "name": "Meta: Llama 3.2 3B Instruct (free)",
       "provider": "meta-llama",
@@ -4574,6 +4604,21 @@
       "provider": "meta-llama",
       "inputPrice": 0.0509,
       "outputPrice": 0.335,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1727222400
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.027,
+      "outputPrice": 0.201,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4614,13 +4659,13 @@
       "created": 1726704000
     },
     {
-      "id": "cohere/command-r-08-2024",
-      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
       "provider": "cohere",
-      "inputPrice": 0.15,
-      "outputPrice": 0.6,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
-      "priceCategory": "budget",
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4629,13 +4674,13 @@
       "created": 1724976000
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
       "provider": "cohere",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 0.15,
+      "outputPrice": 0.6,
       "contextLength": 128000,
-      "priceCategory": "mid",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4738,7 +4783,7 @@
       "name": "Meta: Llama 3.1 8B Instruct",
       "provider": "meta-llama",
       "inputPrice": 0.02,
-      "outputPrice": 0.05,
+      "outputPrice": 0.03,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -4989,13 +5034,13 @@
       "created": 1708905600
     },
     {
-      "id": "openai/gpt-3.5-turbo-0613",
-      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-4-turbo-preview",
+      "name": "OpenAI: GPT-4 Turbo Preview",
       "provider": "openai",
-      "inputPrice": 1.0,
-      "outputPrice": 2.0,
-      "contextLength": 4095,
-      "priceCategory": "mid",
+      "inputPrice": 10.0,
+      "outputPrice": 30.0,
+      "contextLength": 128000,
+      "priceCategory": "flagship",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5004,13 +5049,13 @@
       "created": 1706140800
     },
     {
-      "id": "openai/gpt-4-turbo-preview",
-      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
       "provider": "openai",
-      "inputPrice": 10.0,
-      "outputPrice": 30.0,
-      "contextLength": 128000,
-      "priceCategory": "flagship",
+      "inputPrice": 1.0,
+      "outputPrice": 2.0,
+      "contextLength": 4095,
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -5124,8 +5169,8 @@
       "created": 1688256000
     },
     {
-      "id": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5154,8 +5199,8 @@
       "created": 1685232000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4-0314",
+      "name": "OpenAI: GPT-4 (older v0314)",
       "provider": "openai",
       "inputPrice": 30.0,
       "outputPrice": 60.0,
@@ -5165,13 +5210,12 @@
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
-      "isRemoved": false,
+      "isRemoved": true,
       "created": 1685232000
     }
   ],
   "history": {
     "dates": [
-      "2026-05-06",
       "2026-05-07",
       "2026-05-08",
       "2026-05-09",
@@ -5200,7 +5244,8 @@
       "2026-06-01",
       "2026-06-02",
       "2026-06-03",
-      "2026-06-04"
+      "2026-06-04",
+      "2026-06-05"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
