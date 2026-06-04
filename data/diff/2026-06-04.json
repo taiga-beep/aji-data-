@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qwen/qwen3.7-plus",
+    "name": "Qwen: Qwen3.7 Plus",
+    "provider": "qwen",
+    "inputPrice": 0.4,
+    "outputPrice": 1.6,
+    "contextLength": 1000000,
+    "priceCategory": "budget",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1780491783
+  }
+]
