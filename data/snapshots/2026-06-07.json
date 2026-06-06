@@ -4867,9 +4867,9 @@
     "outputPrice": 0.14,
     "contextLength": 8192,
     "priceCategory": "budget",
-    "prevInputPrice": 0.04,
-    "prevOutputPrice": 0.04,
-    "priceChangePercent": 250.0,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1713398400
@@ -5113,50 +5113,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "baidu/ernie-4.5-vl-28b-a3b",
-    "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-    "provider": "baidu",
-    "inputPrice": 0.14,
-    "outputPrice": 0.56,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1755032836
-  },
-  {
-    "id": "arcee-ai/spotlight",
-    "name": "Arcee AI: Spotlight",
-    "provider": "arcee-ai",
-    "inputPrice": 0.18,
-    "outputPrice": 0.18,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1746481552
-  },
-  {
-    "id": "openai/gpt-4-1106-preview",
-    "name": "OpenAI: GPT-4 Turbo (older v1106)",
-    "provider": "openai",
-    "inputPrice": 10.0,
-    "outputPrice": 30.0,
-    "contextLength": 128000,
-    "priceCategory": "flagship",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1699228800
   }
 ]
