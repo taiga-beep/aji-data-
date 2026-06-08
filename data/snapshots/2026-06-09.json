@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1780937140
   },
@@ -427,9 +427,9 @@
     "outputPrice": 3.41,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.684,
-    "prevOutputPrice": 3.42,
-    "priceChangePercent": -0.58,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1777318428
@@ -757,9 +757,9 @@
     "outputPrice": 3.41,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.684,
-    "prevOutputPrice": 3.42,
-    "priceChangePercent": -0.58,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1776699402
@@ -5113,20 +5113,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "nex-agi/deepseek-v3.1-nex-n1",
-    "name": "Nex AGI: DeepSeek V3.1 Nex N1",
-    "provider": "nex-agi",
-    "inputPrice": 0.135,
-    "outputPrice": 0.5,
-    "contextLength": 131072,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1765204393
   }
 ]

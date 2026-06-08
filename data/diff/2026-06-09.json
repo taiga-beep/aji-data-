@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nex-agi/nex-n2-pro:free",
+    "name": "Nex AGI: Nex-N2-Pro (free)",
+    "provider": "nex-agi",
+    "inputPrice": 0.0,
+    "outputPrice": 0.0,
+    "contextLength": 262144,
+    "priceCategory": "free",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": true,
+    "isRemoved": false,
+    "created": 1780937140
+  },
+  {
+    "id": "~moonshotai/kimi-latest",
+    "name": "MoonshotAI Kimi Latest",
+    "provider": "~moonshotai",
+    "inputPrice": 0.68,
+    "outputPrice": 3.41,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.684,
+    "prevOutputPrice": 3.42,
+    "priceChangePercent": -0.58,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777318428
+  },
+  {
+    "id": "moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "provider": "moonshotai",
+    "inputPrice": 0.68,
+    "outputPrice": 3.41,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.684,
+    "prevOutputPrice": 3.42,
+    "priceChangePercent": -0.58,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1776699402
+  },
+  {
+    "id": "nex-agi/deepseek-v3.1-nex-n1",
+    "name": "Nex AGI: DeepSeek V3.1 Nex N1",
+    "provider": "nex-agi",
+    "inputPrice": 0.135,
+    "outputPrice": 0.5,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
+    "isNew": false,
+    "isRemoved": true,
+    "created": 1765204393
+  }
+]
