@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-06-08T23:47:47Z",
-  "totalModels": 341,
+  "lastUpdated": "2026-06-09T23:52:29Z",
+  "totalModels": 339,
   "todayChanges": {
-    "priceDown": 2,
+    "priceDown": 1,
     "priceUp": 0,
-    "newModels": 1,
-    "removedModels": 1
+    "newModels": 2,
+    "removedModels": 4
   },
   "models": [
+    {
+      "id": "~anthropic/claude-fable-latest",
+      "name": "Anthropic: Claude Fable Latest",
+      "provider": "~anthropic",
+      "inputPrice": 10.0,
+      "outputPrice": 50.0,
+      "contextLength": 1000000,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1781029944
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "inputPrice": 10.0,
+      "outputPrice": 50.0,
+      "contextLength": 1000000,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1781007515
+    },
     {
       "id": "nex-agi/nex-n2-pro:free",
       "name": "Nex AGI: Nex-N2-Pro (free)",
@@ -19,7 +49,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1780937140
     },
@@ -436,9 +466,9 @@
       "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.684,
-      "prevOutputPrice": 3.42,
-      "priceChangePercent": -0.58,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -766,9 +796,9 @@
       "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.684,
-      "prevOutputPrice": 3.42,
-      "priceChangePercent": -0.58,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -894,21 +924,6 @@
       "created": 1775133557
     },
     {
-      "id": "z-ai/glm-5v-turbo",
-      "name": "Z.ai: GLM 5V Turbo",
-      "provider": "z-ai",
-      "inputPrice": 1.2,
-      "outputPrice": 4.0,
-      "contextLength": 202752,
-      "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1775061458
-    },
-    {
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
@@ -1017,13 +1032,13 @@
       "id": "minimax/minimax-m2.7",
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
-      "inputPrice": 0.279,
-      "outputPrice": 1.2,
+      "inputPrice": 0.27,
+      "outputPrice": 1.08,
       "contextLength": 204800,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.279,
+      "prevOutputPrice": 1.2,
+      "priceChangePercent": -3.23,
       "isNew": false,
       "isRemoved": false,
       "created": 1773836697
@@ -1079,7 +1094,7 @@
       "provider": "z-ai",
       "inputPrice": 1.2,
       "outputPrice": 4.0,
-      "contextLength": 202752,
+      "contextLength": 262144,
       "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -1438,7 +1453,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
       "inputPrice": 0.15,
-      "outputPrice": 1.15,
+      "outputPrice": 0.9,
       "contextLength": 204800,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -3129,21 +3144,6 @@
       "created": 1753471347
     },
     {
-      "id": "z-ai/glm-4.5-air:free",
-      "name": "Z.ai: GLM 4.5 Air (free)",
-      "provider": "z-ai",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
-      "contextLength": 131072,
-      "priceCategory": "free",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1753471258
-    },
-    {
       "id": "z-ai/glm-4.5-air",
       "name": "Z.ai: GLM 4.5 Air",
       "provider": "z-ai",
@@ -3172,21 +3172,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1753449557
-    },
-    {
-      "id": "z-ai/glm-4-32b",
-      "name": "Z.ai: GLM 4 32B ",
-      "provider": "z-ai",
-      "inputPrice": 0.1,
-      "outputPrice": 0.1,
-      "contextLength": 128000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1753376617
     },
     {
       "id": "qwen/qwen3-coder:free",
@@ -3547,21 +3532,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1746578513
-    },
-    {
-      "id": "arcee-ai/maestro-reasoning",
-      "name": "Arcee AI: Maestro Reasoning",
-      "provider": "arcee-ai",
-      "inputPrice": 0.9,
-      "outputPrice": 3.3,
-      "contextLength": 131072,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1746481269
     },
     {
       "id": "arcee-ai/virtuoso-large",
@@ -5124,11 +5094,56 @@
       "created": 1685232000
     },
     {
-      "id": "nex-agi/deepseek-v3.1-nex-n1",
-      "name": "Nex AGI: DeepSeek V3.1 Nex N1",
-      "provider": "nex-agi",
-      "inputPrice": 0.135,
-      "outputPrice": 0.5,
+      "id": "z-ai/glm-5v-turbo",
+      "name": "Z.ai: GLM 5V Turbo",
+      "provider": "z-ai",
+      "inputPrice": 1.2,
+      "outputPrice": 4.0,
+      "contextLength": 202752,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1775061458
+    },
+    {
+      "id": "z-ai/glm-4.5-air:free",
+      "name": "Z.ai: GLM 4.5 Air (free)",
+      "provider": "z-ai",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 131072,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1753471258
+    },
+    {
+      "id": "z-ai/glm-4-32b",
+      "name": "Z.ai: GLM 4 32B ",
+      "provider": "z-ai",
+      "inputPrice": 0.1,
+      "outputPrice": 0.1,
+      "contextLength": 128000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1753376617
+    },
+    {
+      "id": "arcee-ai/maestro-reasoning",
+      "name": "Arcee AI: Maestro Reasoning",
+      "provider": "arcee-ai",
+      "inputPrice": 0.9,
+      "outputPrice": 3.3,
       "contextLength": 131072,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -5136,12 +5151,11 @@
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1765204393
+      "created": 1746481269
     }
   ],
   "history": {
     "dates": [
-      "2026-05-11",
       "2026-05-12",
       "2026-05-13",
       "2026-05-14",
@@ -5170,7 +5184,8 @@
       "2026-06-06",
       "2026-06-07",
       "2026-06-08",
-      "2026-06-09"
+      "2026-06-09",
+      "2026-06-10"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
