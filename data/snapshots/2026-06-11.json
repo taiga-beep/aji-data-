@@ -5068,20 +5068,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "moonshotai/kimi-k2.6:free",
-    "name": "MoonshotAI: Kimi K2.6 (free)",
-    "provider": "moonshotai",
-    "inputPrice": 0.0,
-    "outputPrice": 0.0,
-    "contextLength": 262144,
-    "priceCategory": "free",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1776699402
   }
 ]
