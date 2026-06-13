@@ -1,0 +1,47 @@
+[
+  {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "provider": "moonshotai",
+    "inputPrice": 0.75,
+    "outputPrice": 3.5,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.95,
+    "prevOutputPrice": 4.0,
+    "priceChangePercent": -21.05,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1781266361
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "inputPrice": 0.09,
+    "outputPrice": 0.18,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.098,
+    "prevOutputPrice": 0.196,
+    "priceChangePercent": -8.16,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777000666
+  },
+  {
+    "id": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "provider": "moonshotai",
+    "inputPrice": 0.375,
+    "outputPrice": 2.025,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.4,
+    "prevOutputPrice": 1.9,
+    "priceChangePercent": -6.25,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1769487076
+  }
+]
