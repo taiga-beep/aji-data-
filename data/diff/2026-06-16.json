@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "inputPrice": 0.098,
+    "outputPrice": 0.196,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.09,
+    "prevOutputPrice": 0.18,
+    "priceChangePercent": 8.89,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777000666
+  },
+  {
+    "id": "x-ai/grok-4.20-multi-agent",
+    "name": "xAI: Grok 4.20 Multi-Agent",
+    "provider": "x-ai",
+    "inputPrice": 1.25,
+    "outputPrice": 2.5,
+    "contextLength": 2000000,
+    "priceCategory": "mid",
+    "prevInputPrice": 2.0,
+    "prevOutputPrice": 6.0,
+    "priceChangePercent": -37.5,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1774979158
+  }
+]

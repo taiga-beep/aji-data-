@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-14T23:46:32Z",
+  "lastUpdated": "2026-06-16T00:12:29Z",
   "totalModels": 337,
   "todayChanges": {
-    "priceDown": 0,
-    "priceUp": 0,
+    "priceDown": 1,
+    "priceUp": 1,
     "newModels": 0,
     "removedModels": 0
   },
@@ -14,7 +14,7 @@
       "provider": "openrouter",
       "inputPrice": -1000000.0,
       "outputPrice": -1000000.0,
-      "contextLength": 128000,
+      "contextLength": 1000000,
       "priceCategory": "free",
       "prevInputPrice": null,
       "prevOutputPrice": null,
@@ -657,13 +657,13 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
-      "inputPrice": 0.09,
-      "outputPrice": 0.18,
+      "inputPrice": 0.098,
+      "outputPrice": 0.196,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.09,
+      "prevOutputPrice": 0.18,
+      "priceChangePercent": 8.89,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -942,13 +942,13 @@
       "id": "x-ai/grok-4.20-multi-agent",
       "name": "xAI: Grok 4.20 Multi-Agent",
       "provider": "x-ai",
-      "inputPrice": 2.0,
-      "outputPrice": 6.0,
+      "inputPrice": 1.25,
+      "outputPrice": 2.5,
       "contextLength": 2000000,
       "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 2.0,
+      "prevOutputPrice": 6.0,
+      "priceChangePercent": -37.5,
       "isNew": false,
       "isRemoved": false,
       "created": 1774979158
@@ -5066,7 +5066,6 @@
   ],
   "history": {
     "dates": [
-      "2026-05-17",
       "2026-05-18",
       "2026-05-19",
       "2026-05-20",
@@ -5095,7 +5094,8 @@
       "2026-06-12",
       "2026-06-13",
       "2026-06-14",
-      "2026-06-15"
+      "2026-06-15",
+      "2026-06-16"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
