@@ -1,13 +1,28 @@
 {
-  "lastUpdated": "2026-06-16T23:57:03Z",
+  "lastUpdated": "2026-06-17T23:57:47Z",
   "totalModels": 337,
   "todayChanges": {
-    "priceDown": 3,
-    "priceUp": 2,
+    "priceDown": 0,
+    "priceUp": 0,
     "newModels": 1,
     "removedModels": 1
   },
   "models": [
+    {
+      "id": "cohere/north-mini-code:free",
+      "name": "Cohere: North Mini Code (free)",
+      "provider": "cohere",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 256000,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1781723748
+    },
     {
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
@@ -19,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1781631930
     },
@@ -46,9 +61,9 @@
       "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.75,
-      "prevOutputPrice": 3.5,
-      "priceChangePercent": -1.33,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1781266361
@@ -676,9 +691,9 @@
       "outputPrice": 0.18,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.098,
-      "prevOutputPrice": 0.196,
-      "priceChangePercent": -8.16,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -706,9 +721,9 @@
       "outputPrice": 0.26,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.063,
-      "prevOutputPrice": 0.21,
-      "priceChangePercent": 4.76,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776878150
@@ -1456,9 +1471,9 @@
       "outputPrice": 2.45,
       "contextLength": 256000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.39,
-      "prevOutputPrice": 2.34,
-      "priceChangePercent": -1.28,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1771223018
@@ -1792,21 +1807,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1765987078
-    },
-    {
-      "id": "xiaomi/mimo-v2-flash",
-      "name": "Xiaomi: MiMo-V2-Flash",
-      "provider": "xiaomi",
-      "inputPrice": 0.1,
-      "outputPrice": 0.3,
-      "contextLength": 262144,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1765731308
     },
     {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -3151,9 +3151,9 @@
       "outputPrice": 0.85,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.125,
-      "prevOutputPrice": 0.85,
-      "priceChangePercent": 4.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1753471258
@@ -5064,24 +5064,23 @@
       "created": 1685232000
     },
     {
-      "id": "deepseek/deepseek-r1-distill-qwen-32b",
-      "name": "DeepSeek: R1 Distill Qwen 32B",
-      "provider": "deepseek",
-      "inputPrice": 0.29,
-      "outputPrice": 0.29,
-      "contextLength": 128000,
+      "id": "xiaomi/mimo-v2-flash",
+      "name": "Xiaomi: MiMo-V2-Flash",
+      "provider": "xiaomi",
+      "inputPrice": 0.1,
+      "outputPrice": 0.3,
+      "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1738194830
+      "created": 1765731308
     }
   ],
   "history": {
     "dates": [
-      "2026-05-19",
       "2026-05-20",
       "2026-05-21",
       "2026-05-22",
@@ -5110,7 +5109,8 @@
       "2026-06-14",
       "2026-06-15",
       "2026-06-16",
-      "2026-06-17"
+      "2026-06-17",
+      "2026-06-18"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

@@ -10,7 +10,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1781723748
   },
@@ -5053,20 +5053,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "xiaomi/mimo-v2-flash",
-    "name": "Xiaomi: MiMo-V2-Flash",
-    "provider": "xiaomi",
-    "inputPrice": 0.1,
-    "outputPrice": 0.3,
-    "contextLength": 262144,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1765731308
   }
 ]
