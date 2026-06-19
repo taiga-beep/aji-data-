@@ -82,9 +82,9 @@
     "outputPrice": 3.41,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.74,
-    "prevOutputPrice": 3.5,
-    "priceChangePercent": -8.11,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1781266361
@@ -5098,20 +5098,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "meta-llama/llama-3-70b-instruct",
-    "name": "Meta: Llama 3 70B Instruct",
-    "provider": "meta-llama",
-    "inputPrice": 0.51,
-    "outputPrice": 0.74,
-    "contextLength": 8192,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1713398400
   }
 ]
