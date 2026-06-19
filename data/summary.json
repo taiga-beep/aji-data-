@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-06-17T23:57:47Z",
-  "totalModels": 337,
+  "lastUpdated": "2026-06-19T00:10:36Z",
+  "totalModels": 341,
   "todayChanges": {
-    "priceDown": 0,
+    "priceDown": 4,
     "priceUp": 0,
-    "newModels": 1,
-    "removedModels": 1
+    "newModels": 4,
+    "removedModels": 0
   },
   "models": [
+    {
+      "id": "google/gemini-3.1-flash-image",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "provider": "google",
+      "inputPrice": 0.5,
+      "outputPrice": 3.0,
+      "contextLength": 131072,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1781754065
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+      "provider": "google",
+      "inputPrice": 2.0,
+      "outputPrice": 12.0,
+      "contextLength": 65536,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1781754054
+    },
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
@@ -19,7 +49,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1781723748
     },
@@ -27,13 +57,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 1.4,
-      "outputPrice": 4.4,
+      "inputPrice": 1.2,
+      "outputPrice": 4.1,
       "contextLength": 1048576,
       "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 1.4,
+      "prevOutputPrice": 4.4,
+      "priceChangePercent": -14.29,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -444,6 +474,21 @@
       "created": 1777389604
     },
     {
+      "id": "poolside/laguna-xs.2",
+      "name": "Poolside: Laguna XS.2",
+      "provider": "poolside",
+      "inputPrice": 0.1,
+      "outputPrice": 0.2,
+      "contextLength": 262144,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1777389604
+    },
+    {
       "id": "poolside/laguna-m.1:free",
       "name": "Poolside: Laguna M.1 (free)",
       "provider": "poolside",
@@ -455,6 +500,21 @@
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
+      "isRemoved": false,
+      "created": 1777388504
+    },
+    {
+      "id": "poolside/laguna-m.1",
+      "name": "Poolside: Laguna M.1",
+      "provider": "poolside",
+      "inputPrice": 0.2,
+      "outputPrice": 0.4,
+      "contextLength": 262144,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
       "isRemoved": false,
       "created": 1777388504
     },
@@ -507,13 +567,13 @@
       "id": "~moonshotai/kimi-latest",
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
-      "inputPrice": 0.68,
-      "outputPrice": 3.41,
+      "inputPrice": 0.67,
+      "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.68,
+      "prevOutputPrice": 3.41,
+      "priceChangePercent": -1.47,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -597,13 +657,13 @@
       "id": "qwen/qwen3.6-35b-a3b",
       "name": "Qwen: Qwen3.6 35B A3B",
       "provider": "qwen",
-      "inputPrice": 0.15,
+      "inputPrice": 0.14,
       "outputPrice": 1.0,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.15,
+      "prevOutputPrice": 1.0,
+      "priceChangePercent": -6.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1777260255
@@ -822,13 +882,13 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
-      "inputPrice": 0.68,
-      "outputPrice": 3.41,
+      "inputPrice": 0.67,
+      "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.68,
+      "prevOutputPrice": 3.41,
+      "priceChangePercent": -1.47,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -5062,26 +5122,10 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
-    },
-    {
-      "id": "xiaomi/mimo-v2-flash",
-      "name": "Xiaomi: MiMo-V2-Flash",
-      "provider": "xiaomi",
-      "inputPrice": 0.1,
-      "outputPrice": 0.3,
-      "contextLength": 262144,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1765731308
     }
   ],
   "history": {
     "dates": [
-      "2026-05-20",
       "2026-05-21",
       "2026-05-22",
       "2026-05-23",
@@ -5110,7 +5154,8 @@
       "2026-06-15",
       "2026-06-16",
       "2026-06-17",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-06-19"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
