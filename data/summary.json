@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-19T23:37:34Z",
+  "lastUpdated": "2026-06-20T23:46:00Z",
   "totalModels": 340,
   "todayChanges": {
-    "priceDown": 1,
-    "priceUp": 0,
+    "priceDown": 4,
+    "priceUp": 1,
     "newModels": 0,
-    "removedModels": 1
+    "removedModels": 0
   },
   "models": [
     {
@@ -87,13 +87,13 @@
       "id": "moonshotai/kimi-k2.7-code",
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
-      "inputPrice": 0.68,
-      "outputPrice": 3.41,
+      "inputPrice": 0.612,
+      "outputPrice": 3.069,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.74,
-      "prevOutputPrice": 3.5,
-      "priceChangePercent": -8.11,
+      "prevInputPrice": 0.68,
+      "prevOutputPrice": 3.41,
+      "priceChangePercent": -10.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1781266361
@@ -567,13 +567,13 @@
       "id": "~moonshotai/kimi-latest",
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
-      "inputPrice": 0.67,
+      "inputPrice": 0.66,
       "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.67,
+      "prevOutputPrice": 3.5,
+      "priceChangePercent": -1.49,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -777,13 +777,13 @@
       "id": "tencent/hy3-preview",
       "name": "Tencent: Hy3 preview",
       "provider": "tencent",
-      "inputPrice": 0.066,
-      "outputPrice": 0.26,
+      "inputPrice": 0.063,
+      "outputPrice": 0.21,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.066,
+      "prevOutputPrice": 0.26,
+      "priceChangePercent": -4.55,
       "isNew": false,
       "isRemoved": false,
       "created": 1776878150
@@ -882,13 +882,13 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
-      "inputPrice": 0.67,
+      "inputPrice": 0.66,
       "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.67,
+      "prevOutputPrice": 3.5,
+      "priceChangePercent": -1.49,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -1017,13 +1017,13 @@
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
-      "inputPrice": 0.22,
-      "outputPrice": 0.85,
+      "inputPrice": 0.25,
+      "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.22,
+      "prevOutputPrice": 0.85,
+      "priceChangePercent": 13.64,
       "isNew": false,
       "isRemoved": false,
       "created": 1775058318
@@ -5107,26 +5107,10 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
-    },
-    {
-      "id": "meta-llama/llama-3-70b-instruct",
-      "name": "Meta: Llama 3 70B Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.51,
-      "outputPrice": 0.74,
-      "contextLength": 8192,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": true,
-      "created": 1713398400
     }
   ],
   "history": {
     "dates": [
-      "2026-05-22",
       "2026-05-23",
       "2026-05-24",
       "2026-05-25",
@@ -5155,7 +5139,8 @@
       "2026-06-17",
       "2026-06-18",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
