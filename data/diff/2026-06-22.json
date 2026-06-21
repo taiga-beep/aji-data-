@@ -1,0 +1,17 @@
+[
+  {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "inputPrice": 1.0,
+    "outputPrice": 4.0,
+    "contextLength": 1048576,
+    "priceCategory": "mid",
+    "prevInputPrice": 1.2,
+    "prevOutputPrice": 4.1,
+    "priceChangePercent": -16.67,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1781631930
+  }
+]

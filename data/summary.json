@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-20T23:46:00Z",
+  "lastUpdated": "2026-06-21T23:51:32Z",
   "totalModels": 340,
   "todayChanges": {
-    "priceDown": 4,
-    "priceUp": 1,
+    "priceDown": 1,
+    "priceUp": 0,
     "newModels": 0,
     "removedModels": 0
   },
@@ -57,13 +57,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 1.2,
-      "outputPrice": 4.1,
+      "inputPrice": 1.0,
+      "outputPrice": 4.0,
       "contextLength": 1048576,
       "priceCategory": "mid",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 1.2,
+      "prevOutputPrice": 4.1,
+      "priceChangePercent": -16.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -91,9 +91,9 @@
       "outputPrice": 3.069,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.68,
-      "prevOutputPrice": 3.41,
-      "priceChangePercent": -10.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1781266361
@@ -571,9 +571,9 @@
       "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.67,
-      "prevOutputPrice": 3.5,
-      "priceChangePercent": -1.49,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -781,9 +781,9 @@
       "outputPrice": 0.21,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.066,
-      "prevOutputPrice": 0.26,
-      "priceChangePercent": -4.55,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776878150
@@ -886,9 +886,9 @@
       "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.67,
-      "prevOutputPrice": 3.5,
-      "priceChangePercent": -1.49,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -1021,9 +1021,9 @@
       "outputPrice": 0.8,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.22,
-      "prevOutputPrice": 0.85,
-      "priceChangePercent": 13.64,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775058318
@@ -5111,7 +5111,6 @@
   ],
   "history": {
     "dates": [
-      "2026-05-23",
       "2026-05-24",
       "2026-05-25",
       "2026-05-26",
@@ -5140,7 +5139,8 @@
       "2026-06-18",
       "2026-06-19",
       "2026-06-20",
-      "2026-06-21"
+      "2026-06-21",
+      "2026-06-22"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
