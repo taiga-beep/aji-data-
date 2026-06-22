@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-21T23:51:32Z",
+  "lastUpdated": "2026-06-22T23:51:00Z",
   "totalModels": 340,
   "todayChanges": {
     "priceDown": 1,
     "priceUp": 0,
-    "newModels": 0,
-    "removedModels": 0
+    "newModels": 2,
+    "removedModels": 2
   },
   "models": [
     {
@@ -57,13 +57,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 1.0,
-      "outputPrice": 4.0,
+      "inputPrice": 0.98,
+      "outputPrice": 3.08,
       "contextLength": 1048576,
-      "priceCategory": "mid",
-      "prevInputPrice": 1.2,
-      "prevOutputPrice": 4.1,
-      "priceChangePercent": -16.67,
+      "priceCategory": "budget",
+      "prevInputPrice": 1.0,
+      "prevOutputPrice": 4.0,
+      "priceChangePercent": -2.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -129,17 +129,17 @@
       "created": 1781007515
     },
     {
-      "id": "nex-agi/nex-n2-pro:free",
-      "name": "Nex AGI: Nex-N2-Pro (free)",
+      "id": "nex-agi/nex-n2-pro",
+      "name": "Nex AGI: Nex-N2-Pro",
       "provider": "nex-agi",
-      "inputPrice": 0.0,
-      "outputPrice": 0.0,
+      "inputPrice": 0.5,
+      "outputPrice": 2.5,
       "contextLength": 262144,
-      "priceCategory": "free",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": false,
+      "isNew": true,
       "isRemoved": false,
       "created": 1780937140
     },
@@ -568,7 +568,7 @@
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
       "inputPrice": 0.66,
-      "outputPrice": 3.5,
+      "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -883,7 +883,7 @@
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
       "inputPrice": 0.66,
-      "outputPrice": 3.5,
+      "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -1012,6 +1012,21 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1775133557
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "name": "Z.ai: GLM 5V Turbo",
+      "provider": "z-ai",
+      "inputPrice": 1.2,
+      "outputPrice": 4.0,
+      "contextLength": 202752,
+      "priceCategory": "mid",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": true,
+      "isRemoved": false,
+      "created": 1775061458
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
@@ -4464,21 +4479,6 @@
       "created": 1731103448
     },
     {
-      "id": "anthropic/claude-3.5-haiku",
-      "name": "Anthropic: Claude 3.5 Haiku",
-      "provider": "anthropic",
-      "inputPrice": 0.8,
-      "outputPrice": 4.0,
-      "contextLength": 200000,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1730678400
-    },
-    {
       "id": "anthracite-org/magnum-v4-72b",
       "name": "Magnum v4 72B",
       "provider": "anthracite-org",
@@ -5107,11 +5107,40 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "nex-agi/nex-n2-pro:free",
+      "name": "Nex AGI: Nex-N2-Pro (free)",
+      "provider": "nex-agi",
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "contextLength": 262144,
+      "priceCategory": "free",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1780937140
+    },
+    {
+      "id": "anthropic/claude-3.5-haiku",
+      "name": "Anthropic: Claude 3.5 Haiku",
+      "provider": "anthropic",
+      "inputPrice": 0.8,
+      "outputPrice": 4.0,
+      "contextLength": 200000,
+      "priceCategory": "budget",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1730678400
     }
   ],
   "history": {
     "dates": [
-      "2026-05-24",
       "2026-05-25",
       "2026-05-26",
       "2026-05-27",
@@ -5140,7 +5169,8 @@
       "2026-06-19",
       "2026-06-20",
       "2026-06-21",
-      "2026-06-22"
+      "2026-06-22",
+      "2026-06-23"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

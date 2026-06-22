@@ -52,9 +52,9 @@
     "outputPrice": 3.08,
     "contextLength": 1048576,
     "priceCategory": "budget",
-    "prevInputPrice": 1.0,
-    "prevOutputPrice": 4.0,
-    "priceChangePercent": -2.0,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1781631930
@@ -130,7 +130,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1780937140
   },
@@ -1015,7 +1015,7 @@
     "prevInputPrice": null,
     "prevOutputPrice": null,
     "priceChangePercent": null,
-    "isNew": true,
+    "isNew": false,
     "isRemoved": false,
     "created": 1775061458
   },
@@ -5098,35 +5098,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "nex-agi/nex-n2-pro:free",
-    "name": "Nex AGI: Nex-N2-Pro (free)",
-    "provider": "nex-agi",
-    "inputPrice": 0.0,
-    "outputPrice": 0.0,
-    "contextLength": 262144,
-    "priceCategory": "free",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1780937140
-  },
-  {
-    "id": "anthropic/claude-3.5-haiku",
-    "name": "Anthropic: Claude 3.5 Haiku",
-    "provider": "anthropic",
-    "inputPrice": 0.8,
-    "outputPrice": 4.0,
-    "contextLength": 200000,
-    "priceCategory": "budget",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1730678400
   }
 ]
