@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-24T23:44:26Z",
+  "lastUpdated": "2026-06-25T23:53:33Z",
   "totalModels": 339,
   "todayChanges": {
-    "priceDown": 1,
+    "priceDown": 4,
     "priceUp": 0,
-    "newModels": 1,
+    "newModels": 0,
     "removedModels": 0
   },
   "models": [
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1782276303
     },
@@ -826,9 +826,9 @@
       "outputPrice": 0.28,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.14,
-      "prevOutputPrice": 0.28,
-      "priceChangePercent": -25.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776874269
@@ -1152,13 +1152,13 @@
       "id": "minimax/minimax-m2.7",
       "name": "MiniMax: MiniMax M2.7",
       "provider": "minimax",
-      "inputPrice": 0.24,
-      "outputPrice": 0.96,
+      "inputPrice": 0.18,
+      "outputPrice": 0.72,
       "contextLength": 204800,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.24,
+      "prevOutputPrice": 0.96,
+      "priceChangePercent": -25.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1773836697
@@ -1242,13 +1242,13 @@
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
-      "inputPrice": 0.09,
-      "outputPrice": 0.45,
+      "inputPrice": 0.085,
+      "outputPrice": 0.4,
       "contextLength": 1000000,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.09,
+      "prevOutputPrice": 0.45,
+      "priceChangePercent": -5.56,
       "isNew": false,
       "isRemoved": false,
       "created": 1773245239
@@ -1572,13 +1572,13 @@
       "id": "minimax/minimax-m2.5",
       "name": "MiniMax: MiniMax M2.5",
       "provider": "minimax",
-      "inputPrice": 0.15,
-      "outputPrice": 0.9,
+      "inputPrice": 0.12,
+      "outputPrice": 0.48,
       "contextLength": 204800,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.15,
+      "prevOutputPrice": 0.9,
+      "priceChangePercent": -20.0,
       "isNew": false,
       "isRemoved": false,
       "created": 1770908502
@@ -3087,13 +3087,13 @@
       "id": "openai/gpt-oss-120b",
       "name": "OpenAI: gpt-oss-120b",
       "provider": "openai",
-      "inputPrice": 0.039,
-      "outputPrice": 0.18,
+      "inputPrice": 0.03,
+      "outputPrice": 0.15,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.039,
+      "prevOutputPrice": 0.18,
+      "priceChangePercent": -23.08,
       "isNew": false,
       "isRemoved": false,
       "created": 1754414231
@@ -4614,13 +4614,13 @@
       "created": 1726704000
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
       "provider": "cohere",
-      "inputPrice": 2.5,
-      "outputPrice": 10.0,
+      "inputPrice": 0.15,
+      "outputPrice": 0.6,
       "contextLength": 128000,
-      "priceCategory": "mid",
+      "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4629,13 +4629,13 @@
       "created": 1724976000
     },
     {
-      "id": "cohere/command-r-08-2024",
-      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
       "provider": "cohere",
-      "inputPrice": 0.15,
-      "outputPrice": 0.6,
+      "inputPrice": 2.5,
+      "outputPrice": 10.0,
       "contextLength": 128000,
-      "priceCategory": "budget",
+      "priceCategory": "mid",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
@@ -4779,8 +4779,8 @@
       "created": 1721347200
     },
     {
-      "id": "openai/gpt-4o-mini-2024-07-18",
-      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
       "provider": "openai",
       "inputPrice": 0.15,
       "outputPrice": 0.6,
@@ -4794,8 +4794,8 @@
       "created": 1721260800
     },
     {
-      "id": "openai/gpt-4o-mini",
-      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
       "provider": "openai",
       "inputPrice": 0.15,
       "outputPrice": 0.6,
@@ -5064,21 +5064,6 @@
       "created": 1688256000
     },
     {
-      "id": "openai/gpt-4",
-      "name": "OpenAI: GPT-4",
-      "provider": "openai",
-      "inputPrice": 30.0,
-      "outputPrice": 60.0,
-      "contextLength": 8191,
-      "priceCategory": "flagship",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1685232000
-    },
-    {
       "id": "openai/gpt-3.5-turbo",
       "name": "OpenAI: GPT-3.5 Turbo",
       "provider": "openai",
@@ -5092,11 +5077,25 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "provider": "openai",
+      "inputPrice": 30.0,
+      "outputPrice": 60.0,
+      "contextLength": 8191,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": false,
+      "created": 1685232000
     }
   ],
   "history": {
     "dates": [
-      "2026-05-27",
       "2026-05-28",
       "2026-05-29",
       "2026-05-30",
@@ -5125,7 +5124,8 @@
       "2026-06-22",
       "2026-06-23",
       "2026-06-24",
-      "2026-06-25"
+      "2026-06-25",
+      "2026-06-26"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

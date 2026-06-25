@@ -1,0 +1,62 @@
+[
+  {
+    "id": "minimax/minimax-m2.7",
+    "name": "MiniMax: MiniMax M2.7",
+    "provider": "minimax",
+    "inputPrice": 0.18,
+    "outputPrice": 0.72,
+    "contextLength": 204800,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.24,
+    "prevOutputPrice": 0.96,
+    "priceChangePercent": -25.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1773836697
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "provider": "nvidia",
+    "inputPrice": 0.085,
+    "outputPrice": 0.4,
+    "contextLength": 1000000,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.09,
+    "prevOutputPrice": 0.45,
+    "priceChangePercent": -5.56,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1773245239
+  },
+  {
+    "id": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "provider": "minimax",
+    "inputPrice": 0.12,
+    "outputPrice": 0.48,
+    "contextLength": 204800,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.15,
+    "prevOutputPrice": 0.9,
+    "priceChangePercent": -20.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1770908502
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "provider": "openai",
+    "inputPrice": 0.03,
+    "outputPrice": 0.15,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.039,
+    "prevOutputPrice": 0.18,
+    "priceChangePercent": -23.08,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1754414231
+  }
+]
