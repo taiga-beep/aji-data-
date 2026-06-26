@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-25T23:53:33Z",
+  "lastUpdated": "2026-06-26T23:43:54Z",
   "totalModels": 339,
   "todayChanges": {
-    "priceDown": 4,
+    "priceDown": 0,
     "priceUp": 0,
     "newModels": 0,
     "removedModels": 0
@@ -703,7 +703,7 @@
       "name": "Qwen: Qwen3.6 27B",
       "provider": "qwen",
       "inputPrice": 0.2885,
-      "outputPrice": 3.17,
+      "outputPrice": 2.65,
       "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -1156,9 +1156,9 @@
       "outputPrice": 0.72,
       "contextLength": 204800,
       "priceCategory": "budget",
-      "prevInputPrice": 0.24,
-      "prevOutputPrice": 0.96,
-      "priceChangePercent": -25.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1773836697
@@ -1246,9 +1246,9 @@
       "outputPrice": 0.4,
       "contextLength": 1000000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.09,
-      "prevOutputPrice": 0.45,
-      "priceChangePercent": -5.56,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1773245239
@@ -1576,9 +1576,9 @@
       "outputPrice": 0.48,
       "contextLength": 204800,
       "priceCategory": "budget",
-      "prevInputPrice": 0.15,
-      "prevOutputPrice": 0.9,
-      "priceChangePercent": -20.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1770908502
@@ -3091,9 +3091,9 @@
       "outputPrice": 0.15,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.039,
-      "prevOutputPrice": 0.18,
-      "priceChangePercent": -23.08,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1754414231
@@ -5096,7 +5096,6 @@
   ],
   "history": {
     "dates": [
-      "2026-05-28",
       "2026-05-29",
       "2026-05-30",
       "2026-05-31",
@@ -5125,7 +5124,8 @@
       "2026-06-23",
       "2026-06-24",
       "2026-06-25",
-      "2026-06-26"
+      "2026-06-26",
+      "2026-06-27"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
