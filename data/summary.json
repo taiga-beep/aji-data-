@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-28T23:39:36Z",
-  "totalModels": 339,
+  "lastUpdated": "2026-06-29T23:34:43Z",
+  "totalModels": 338,
   "todayChanges": {
-    "priceDown": 0,
-    "priceUp": 0,
+    "priceDown": 3,
+    "priceUp": 1,
     "newModels": 0,
-    "removedModels": 0
+    "removedModels": 1
   },
   "models": [
     {
@@ -72,13 +72,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 0.95,
+      "inputPrice": 0.94,
       "outputPrice": 3.0,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.95,
+      "prevOutputPrice": 3.0,
+      "priceChangePercent": -1.05,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -582,13 +582,13 @@
       "id": "~moonshotai/kimi-latest",
       "name": "MoonshotAI Kimi Latest",
       "provider": "~moonshotai",
-      "inputPrice": 0.66,
-      "outputPrice": 3.41,
+      "inputPrice": 0.55,
+      "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.66,
+      "prevOutputPrice": 3.41,
+      "priceChangePercent": -16.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -897,13 +897,13 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "MoonshotAI: Kimi K2.6",
       "provider": "moonshotai",
-      "inputPrice": 0.66,
-      "outputPrice": 3.41,
+      "inputPrice": 0.55,
+      "outputPrice": 3.2,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.66,
+      "prevOutputPrice": 3.41,
+      "priceChangePercent": -16.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -922,21 +922,6 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1776351100
-    },
-    {
-      "id": "anthropic/claude-opus-4.6-fast",
-      "name": "Anthropic: Claude Opus 4.6 (Fast)",
-      "provider": "anthropic",
-      "inputPrice": 30.0,
-      "outputPrice": 150.0,
-      "contextLength": 1000000,
-      "priceCategory": "flagship",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1775592472
     },
     {
       "id": "z-ai/glm-5.1",
@@ -1662,13 +1647,13 @@
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "provider": "stepfun",
-      "inputPrice": 0.09,
+      "inputPrice": 0.1,
       "outputPrice": 0.3,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.09,
+      "prevOutputPrice": 0.3,
+      "priceChangePercent": 11.11,
       "isNew": false,
       "isRemoved": false,
       "created": 1769728337
@@ -5092,11 +5077,25 @@
       "isNew": false,
       "isRemoved": false,
       "created": 1685232000
+    },
+    {
+      "id": "anthropic/claude-opus-4.6-fast",
+      "name": "Anthropic: Claude Opus 4.6 (Fast)",
+      "provider": "anthropic",
+      "inputPrice": 30.0,
+      "outputPrice": 150.0,
+      "contextLength": 1000000,
+      "priceCategory": "flagship",
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
+      "isNew": false,
+      "isRemoved": true,
+      "created": 1775592472
     }
   ],
   "history": {
     "dates": [
-      "2026-05-31",
       "2026-06-01",
       "2026-06-02",
       "2026-06-03",
@@ -5125,7 +5124,8 @@
       "2026-06-26",
       "2026-06-27",
       "2026-06-28",
-      "2026-06-29"
+      "2026-06-29",
+      "2026-06-30"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

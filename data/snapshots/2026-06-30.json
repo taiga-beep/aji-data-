@@ -67,9 +67,9 @@
     "outputPrice": 3.0,
     "contextLength": 1048576,
     "priceCategory": "budget",
-    "prevInputPrice": 0.95,
-    "prevOutputPrice": 3.0,
-    "priceChangePercent": -1.05,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1781631930
@@ -577,9 +577,9 @@
     "outputPrice": 3.2,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.66,
-    "prevOutputPrice": 3.41,
-    "priceChangePercent": -16.67,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1777318428
@@ -892,9 +892,9 @@
     "outputPrice": 3.2,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.66,
-    "prevOutputPrice": 3.41,
-    "priceChangePercent": -16.67,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1776699402
@@ -1642,9 +1642,9 @@
     "outputPrice": 0.3,
     "contextLength": 262144,
     "priceCategory": "budget",
-    "prevInputPrice": 0.09,
-    "prevOutputPrice": 0.3,
-    "priceChangePercent": 11.11,
+    "prevInputPrice": null,
+    "prevOutputPrice": null,
+    "priceChangePercent": null,
     "isNew": false,
     "isRemoved": false,
     "created": 1769728337
@@ -5068,20 +5068,5 @@
     "isNew": false,
     "isRemoved": false,
     "created": 1685232000
-  },
-  {
-    "id": "anthropic/claude-opus-4.6-fast",
-    "name": "Anthropic: Claude Opus 4.6 (Fast)",
-    "provider": "anthropic",
-    "inputPrice": 30.0,
-    "outputPrice": 150.0,
-    "contextLength": 1000000,
-    "priceCategory": "flagship",
-    "prevInputPrice": null,
-    "prevOutputPrice": null,
-    "priceChangePercent": null,
-    "isNew": false,
-    "isRemoved": true,
-    "created": 1775592472
   }
 ]
