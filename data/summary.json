@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-02T23:39:17Z",
+  "lastUpdated": "2026-07-03T23:36:21Z",
   "totalModels": 340,
   "todayChanges": {
     "priceDown": 1,
-    "priceUp": 3,
-    "newModels": 2,
+    "priceUp": 1,
+    "newModels": 0,
     "removedModels": 0
   },
   "models": [
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1783002429
     },
@@ -34,7 +34,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1783002429
     },
@@ -631,9 +631,9 @@
       "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.55,
-      "prevOutputPrice": 3.2,
-      "priceChangePercent": 20.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777318428
@@ -807,13 +807,13 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
-      "inputPrice": 0.089,
+      "inputPrice": 0.09,
       "outputPrice": 0.18,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.09,
+      "prevInputPrice": 0.089,
       "prevOutputPrice": 0.18,
-      "priceChangePercent": -1.11,
+      "priceChangePercent": 1.12,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -946,9 +946,9 @@
       "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.55,
-      "prevOutputPrice": 3.2,
-      "priceChangePercent": 20.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -972,13 +972,13 @@
       "id": "z-ai/glm-5.1",
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
-      "inputPrice": 0.975,
-      "outputPrice": 4.3,
+      "inputPrice": 0.966,
+      "outputPrice": 3.036,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.975,
+      "prevOutputPrice": 4.3,
+      "priceChangePercent": -0.92,
       "isNew": false,
       "isRemoved": false,
       "created": 1775578025
@@ -2491,9 +2491,9 @@
       "outputPrice": 0.455,
       "contextLength": 256000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.08,
-      "prevOutputPrice": 0.5,
-      "priceChangePercent": 46.25,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1760463308
@@ -5111,7 +5111,6 @@
   ],
   "history": {
     "dates": [
-      "2026-06-04",
       "2026-06-05",
       "2026-06-06",
       "2026-06-07",
@@ -5140,7 +5139,8 @@
       "2026-06-30",
       "2026-07-01",
       "2026-07-02",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-04"
     ],
     "trackedModels": {
       "openai/gpt-4o": {

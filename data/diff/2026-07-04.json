@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "inputPrice": 0.09,
+    "outputPrice": 0.18,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.089,
+    "prevOutputPrice": 0.18,
+    "priceChangePercent": 1.12,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1777000666
+  },
+  {
+    "id": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "z-ai",
+    "inputPrice": 0.966,
+    "outputPrice": 3.036,
+    "contextLength": 202752,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.975,
+    "prevOutputPrice": 4.3,
+    "priceChangePercent": -0.92,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1775578025
+  }
+]
