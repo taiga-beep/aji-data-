@@ -1,0 +1,32 @@
+[
+  {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "inputPrice": 0.756,
+    "outputPrice": 2.376,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.93,
+    "prevOutputPrice": 3.0,
+    "priceChangePercent": -18.71,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1781631930
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "provider": "nvidia",
+    "inputPrice": 0.08,
+    "outputPrice": 0.45,
+    "contextLength": 1000000,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.085,
+    "prevOutputPrice": 0.4,
+    "priceChangePercent": -5.88,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1773245239
+  }
+]

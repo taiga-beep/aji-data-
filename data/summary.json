@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-07-03T23:36:21Z",
+  "lastUpdated": "2026-07-04T23:33:02Z",
   "totalModels": 340,
   "todayChanges": {
-    "priceDown": 1,
-    "priceUp": 1,
+    "priceDown": 2,
+    "priceUp": 0,
     "newModels": 0,
     "removedModels": 0
   },
@@ -132,13 +132,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 0.93,
-      "outputPrice": 3.0,
+      "inputPrice": 0.756,
+      "outputPrice": 2.376,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.93,
+      "prevOutputPrice": 3.0,
+      "priceChangePercent": -18.71,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -811,9 +811,9 @@
       "outputPrice": 0.18,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.089,
-      "prevOutputPrice": 0.18,
-      "priceChangePercent": 1.12,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -976,9 +976,9 @@
       "outputPrice": 3.036,
       "contextLength": 202752,
       "priceCategory": "budget",
-      "prevInputPrice": 0.975,
-      "prevOutputPrice": 4.3,
-      "priceChangePercent": -0.92,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1775578025
@@ -1272,13 +1272,13 @@
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "NVIDIA: Nemotron 3 Super",
       "provider": "nvidia",
-      "inputPrice": 0.085,
-      "outputPrice": 0.4,
+      "inputPrice": 0.08,
+      "outputPrice": 0.45,
       "contextLength": 1000000,
       "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
+      "prevInputPrice": 0.085,
+      "prevOutputPrice": 0.4,
+      "priceChangePercent": -5.88,
       "isNew": false,
       "isRemoved": false,
       "created": 1773245239
@@ -5111,7 +5111,6 @@
   ],
   "history": {
     "dates": [
-      "2026-06-05",
       "2026-06-06",
       "2026-06-07",
       "2026-06-08",
@@ -5140,7 +5139,8 @@
       "2026-07-01",
       "2026-07-02",
       "2026-07-03",
-      "2026-07-04"
+      "2026-07-04",
+      "2026-07-05"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
