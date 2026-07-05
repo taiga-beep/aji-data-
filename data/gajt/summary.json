@@ -1,34 +1,34 @@
 {
-  "lastUpdated": "2026-07-04T00:02:47Z",
+  "lastUpdated": "2026-07-04T23:59:55Z",
   "meta": {
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-05",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-07-05T00:02:47Z"
+    "nextUpdateISO": "2026-07-05T23:59:55Z"
   },
-  "streakDays": 10,
+  "streakDays": 11,
   "monthlyRanking": [
     {
       "rank": 1,
-      "skill": "Claude",
-      "category": "LLM・基盤モデル",
-      "currentMonth": 4,
-      "prevMonth": 3,
-      "changePct": 33.3,
-      "changeDir": "up"
+      "skill": "SQL",
+      "category": "データ・インフラ",
+      "currentMonth": 3,
+      "prevMonth": 4,
+      "changePct": -25.0,
+      "changeDir": "down"
     },
     {
       "rank": 2,
-      "skill": "SQL",
-      "category": "データ・インフラ",
-      "currentMonth": 4,
+      "skill": "Claude",
+      "category": "LLM・基盤モデル",
+      "currentMonth": 3,
       "prevMonth": 4,
-      "changePct": 0.0,
-      "changeDir": "flat"
+      "changePct": -25.0,
+      "changeDir": "down"
     },
     {
       "rank": 3,
@@ -43,9 +43,9 @@
       "rank": 4,
       "skill": "Python",
       "category": "データ・インフラ",
-      "currentMonth": 3,
-      "prevMonth": 4,
-      "changePct": -25.0,
+      "currentMonth": 2,
+      "prevMonth": 3,
+      "changePct": -33.3,
       "changeDir": "down"
     },
     {
@@ -59,19 +59,19 @@
     },
     {
       "rank": 6,
-      "skill": "PostgreSQL",
-      "category": "データ・インフラ",
-      "currentMonth": 2,
-      "prevMonth": 3,
-      "changePct": -33.3,
-      "changeDir": "down"
+      "skill": "ElevenLabs",
+      "category": "エージェント・マルチモーダル",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 7,
       "skill": "RAG",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -80,7 +80,7 @@
       "skill": "LangChain",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -89,7 +89,7 @@
       "skill": "Pinecone",
       "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -98,7 +98,7 @@
       "skill": "Weaviate",
       "category": "データ・インフラ",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -116,7 +116,7 @@
       "skill": "Multi-Agent",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -125,9 +125,9 @@
       "skill": "Prompt Engineering",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 2,
-      "changePct": -50.0,
-      "changeDir": "down"
+      "prevMonth": 1,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 14,
@@ -152,22 +152,22 @@
       "skill": "Copilot",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 1,
-      "prevMonth": 2,
-      "changePct": -50.0,
-      "changeDir": "down"
-    },
-    {
-      "rank": 17,
-      "skill": "Terraform",
-      "category": "クラウド・デプロイ",
-      "currentMonth": 1,
       "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
     {
+      "rank": 17,
+      "skill": "PostgreSQL",
+      "category": "データ・インフラ",
+      "currentMonth": 1,
+      "prevMonth": 2,
+      "changePct": -50.0,
+      "changeDir": "down"
+    },
+    {
       "rank": 18,
-      "skill": "Docker",
+      "skill": "Terraform",
       "category": "クラウド・デプロイ",
       "currentMonth": 1,
       "prevMonth": 1,
@@ -176,11 +176,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-06-04",
-      "totalAiJobs": 24,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-06-05",
       "totalAiJobs": 23,
@@ -330,37 +325,42 @@
       "date": "2026-07-04",
       "totalAiJobs": 30,
       "topSkill": "Claude"
+    },
+    {
+      "date": "2026-07-05",
+      "totalAiJobs": 35,
+      "topSkill": "SQL"
     }
   ],
   "weeklyTopThree": {
     "weekOf": "2026-06-29",
     "skills": [
-      "Claude",
       "SQL",
+      "Claude",
       "LLM"
     ],
     "percentages": [
-      33.3,
-      0.0,
+      -25.0,
+      -25.0,
       0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Claude +33.3%\n2位: SQL +0.0%\n3位: LLM +0.0%\n（2026-06-29週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: SQL -25.0%\n2位: Claude -25.0%\n3位: LLM +0.0%\n（2026-06-29週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 944,
-    "aiJobRatioPct": 24.0,
+    "totalAiJobsThisMonth": 955,
+    "aiJobRatioPct": 28.0,
     "topRisingSkill": {
-      "name": "Claude",
-      "changePct": 33.3
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
-      "name": "Prompt Engineering",
+      "name": "PostgreSQL",
       "changePct": -50.0
     }
   },
   "companyWeekly": {
     "weekOf": "2026-06-29",
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-05",
     "companies": [
       {
         "slug": "anthropic",
@@ -421,7 +421,7 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 724,
+        "jobCount": 723,
         "topSkills": [
           {
             "skill": "Python",
@@ -527,11 +527,11 @@
         "company": "Mistral AI",
         "atsType": "lever",
         "careersUrl": "https://mistral.ai/careers",
-        "jobCount": 175,
+        "jobCount": 176,
         "topSkills": [
           {
             "skill": "Mistral",
-            "count": 174
+            "count": 175
           },
           {
             "skill": "Python",
