@@ -1,4 +1,23 @@
 {
+  "2026-07-06": {
+    "Python": 3,
+    "SQL": 4,
+    "Claude": 4,
+    "ElevenLabs": 1,
+    "LLM": 3,
+    "RAG": 1,
+    "LangChain": 1,
+    "Pinecone": 1,
+    "Weaviate": 1,
+    "AI Agent": 1,
+    "Multi-Agent": 1,
+    "Prompt Engineering": 1,
+    "Snowflake": 1,
+    "Cursor": 2,
+    "Copilot": 1,
+    "PostgreSQL": 1,
+    "Terraform": 1
+  },
   "2026-07-05": {
     "ElevenLabs": 1,
     "SQL": 3,
@@ -1366,30 +1385,5 @@
     "RAG": 1,
     "Terraform": 1,
     "FastAPI": 1
-  },
-  "2026-05-07": {
-    "SQL": 8,
-    "Kafka": 1,
-    "Redis": 3,
-    "Python": 12,
-    "Docker": 8,
-    "BigQuery": 2,
-    "LLM": 3,
-    "Spark": 2,
-    "Terraform": 4,
-    "PyTorch": 2,
-    "Kubernetes": 5,
-    "Claude": 1,
-    "PostgreSQL": 5,
-    "Copilot": 1,
-    "Fine-tuning": 1,
-    "AI Agent": 1,
-    "Prompt Engineering": 1,
-    "MCP": 2,
-    "RAG": 1,
-    "Cursor": 2,
-    "FastAPI": 2,
-    "TensorFlow": 1,
-    "Computer Vision": 1
   }
 }
