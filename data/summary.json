@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-10T23:31:10Z",
-  "totalModels": 346,
+  "lastUpdated": "2026-07-11T23:29:11Z",
+  "totalModels": 345,
   "todayChanges": {
-    "priceDown": 3,
+    "priceDown": 2,
     "priceUp": 0,
-    "newModels": 1,
+    "newModels": 0,
     "removedModels": 1
   },
   "models": [
@@ -327,13 +327,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 0.42,
-      "outputPrice": 1.32,
+      "inputPrice": 0.35,
+      "outputPrice": 1.1,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.532,
-      "prevOutputPrice": 1.672,
-      "priceChangePercent": -21.05,
+      "prevInputPrice": 0.42,
+      "prevOutputPrice": 1.32,
+      "priceChangePercent": -16.67,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -358,7 +358,7 @@
       "name": "MoonshotAI: Kimi K2.7 Code",
       "provider": "moonshotai",
       "inputPrice": 0.72,
-      "outputPrice": 3.49,
+      "outputPrice": 3.5,
       "contextLength": 262144,
       "priceCategory": "budget",
       "prevInputPrice": null,
@@ -972,13 +972,13 @@
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash",
       "provider": "deepseek",
-      "inputPrice": 0.084,
-      "outputPrice": 0.168,
+      "inputPrice": 0.077,
+      "outputPrice": 0.154,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.09,
-      "prevOutputPrice": 0.18,
-      "priceChangePercent": -6.67,
+      "prevInputPrice": 0.084,
+      "prevOutputPrice": 0.168,
+      "priceChangePercent": -8.33,
       "isNew": false,
       "isRemoved": false,
       "created": 1777000666
@@ -2311,9 +2311,9 @@
       "outputPrice": 0.32175,
       "contextLength": 131072,
       "priceCategory": "budget",
-      "prevInputPrice": 0.2288,
-      "prevOutputPrice": 0.3432,
-      "priceChangePercent": -6.25,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1764594642
@@ -3484,7 +3484,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1752094966
     },
@@ -4959,21 +4959,6 @@
       "created": 1715558400
     },
     {
-      "id": "meta-llama/llama-3-8b-instruct",
-      "name": "Meta: Llama 3 8B Instruct",
-      "provider": "meta-llama",
-      "inputPrice": 0.14,
-      "outputPrice": 0.14,
-      "contextLength": 8192,
-      "priceCategory": "budget",
-      "prevInputPrice": null,
-      "prevOutputPrice": null,
-      "priceChangePercent": null,
-      "isNew": false,
-      "isRemoved": false,
-      "created": 1713398400
-    },
-    {
       "id": "mistralai/mixtral-8x22b-instruct",
       "name": "Mistral: Mixtral 8x22B Instruct",
       "provider": "mistralai",
@@ -5199,24 +5184,23 @@
       "created": 1685232000
     },
     {
-      "id": "arcee-ai/trinity-mini",
-      "name": "Arcee AI: Trinity Mini",
-      "provider": "arcee-ai",
-      "inputPrice": 0.045,
-      "outputPrice": 0.15,
-      "contextLength": 131072,
+      "id": "meta-llama/llama-3-8b-instruct",
+      "name": "Meta: Llama 3 8B Instruct",
+      "provider": "meta-llama",
+      "inputPrice": 0.14,
+      "outputPrice": 0.14,
+      "contextLength": 8192,
       "priceCategory": "budget",
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
       "isNew": false,
       "isRemoved": true,
-      "created": 1764601720
+      "created": 1713398400
     }
   ],
   "history": {
     "dates": [
-      "2026-06-12",
       "2026-06-13",
       "2026-06-14",
       "2026-06-15",
@@ -5245,7 +5229,8 @@
       "2026-07-08",
       "2026-07-09",
       "2026-07-10",
-      "2026-07-11"
+      "2026-07-11",
+      "2026-07-12"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
