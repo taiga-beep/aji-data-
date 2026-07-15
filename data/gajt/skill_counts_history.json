@@ -1,4 +1,17 @@
 {
+  "2026-07-16": {
+    "Fine-tuning": 1,
+    "Python": 9,
+    "Gemini": 1,
+    "LLM": 4,
+    "Prompt Engineering": 2,
+    "AI Agent": 1,
+    "SQL": 3,
+    "PostgreSQL": 3,
+    "FastAPI": 2,
+    "Claude": 2,
+    "Docker": 2
+  },
   "2026-07-15": {
     "Python": 8,
     "Gemini": 1,
@@ -1226,37 +1239,6 @@
     "Weaviate": 1,
     "FastAPI": 1,
     "dbt": 1,
-    "Airflow": 1
-  },
-  "2026-05-17": {
-    "Snowflake": 1,
-    "Kubernetes": 6,
-    "Terraform": 4,
-    "Redis": 4,
-    "Docker": 5,
-    "LLM": 8,
-    "Claude": 4,
-    "Copilot": 1,
-    "Gemini": 1,
-    "Spark": 3,
-    "Voice AI": 2,
-    "RAG": 1,
-    "Prompt Engineering": 2,
-    "PostgreSQL": 4,
-    "Kafka": 2,
-    "GPT": 1,
-    "Midjourney": 1,
-    "ElevenLabs": 1,
-    "Python": 10,
-    "Cursor": 3,
-    "Replit": 1,
-    "SQL": 3,
-    "dbt": 2,
-    "BigQuery": 1,
-    "AI Agent": 2,
-    "Pinecone": 1,
-    "Weaviate": 1,
-    "FastAPI": 1,
     "Airflow": 1
   }
 }
