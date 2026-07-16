@@ -1,4 +1,21 @@
 {
+  "2026-07-17": {
+    "Claude": 4,
+    "Midjourney": 1,
+    "Python": 11,
+    "Fine-tuning": 1,
+    "PyTorch": 1,
+    "TensorFlow": 1,
+    "SQL": 5,
+    "Spark": 1,
+    "Kafka": 1,
+    "LLM": 4,
+    "Prompt Engineering": 2,
+    "AI Agent": 1,
+    "PostgreSQL": 3,
+    "FastAPI": 2,
+    "Docker": 2
+  },
   "2026-07-16": {
     "Fine-tuning": 1,
     "Python": 9,
@@ -1210,35 +1227,5 @@
     "dbt": 1,
     "Airflow": 1,
     "AI Agent": 1
-  },
-  "2026-05-18": {
-    "Claude": 6,
-    "SQL": 3,
-    "Redis": 5,
-    "PostgreSQL": 5,
-    "Terraform": 5,
-    "RAG": 2,
-    "Python": 10,
-    "Snowflake": 1,
-    "Kubernetes": 6,
-    "Docker": 5,
-    "LLM": 8,
-    "Copilot": 1,
-    "Gemini": 1,
-    "Spark": 3,
-    "Voice AI": 2,
-    "Prompt Engineering": 2,
-    "Kafka": 2,
-    "GPT": 1,
-    "Midjourney": 1,
-    "ElevenLabs": 1,
-    "Cursor": 3,
-    "Replit": 1,
-    "AI Agent": 2,
-    "Pinecone": 1,
-    "Weaviate": 1,
-    "FastAPI": 1,
-    "dbt": 1,
-    "Airflow": 1
   }
 }
