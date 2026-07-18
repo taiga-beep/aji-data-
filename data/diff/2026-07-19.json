@@ -1,0 +1,62 @@
+[
+  {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "inputPrice": 0.266,
+    "outputPrice": 0.836,
+    "contextLength": 1048576,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.91,
+    "prevOutputPrice": 2.86,
+    "priceChangePercent": -70.77,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1781631930
+  },
+  {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "provider": "moonshotai",
+    "inputPrice": 0.74,
+    "outputPrice": 3.49,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 1.0,
+    "prevOutputPrice": 4.4,
+    "priceChangePercent": -26.0,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1781266361
+  },
+  {
+    "id": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "provider": "qwen",
+    "inputPrice": 0.26,
+    "outputPrice": 2.6,
+    "contextLength": 262144,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.195,
+    "prevOutputPrice": 1.56,
+    "priceChangePercent": 33.33,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1772053810
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "provider": "qwen",
+    "inputPrice": 0.13,
+    "outputPrice": 0.52,
+    "contextLength": 131072,
+    "priceCategory": "budget",
+    "prevInputPrice": 0.12,
+    "prevOutputPrice": 0.5,
+    "priceChangePercent": 8.33,
+    "isNew": false,
+    "isRemoved": false,
+    "created": 1745878604
+  }
+]
