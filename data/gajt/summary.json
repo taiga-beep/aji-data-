@@ -1,55 +1,64 @@
 {
-  "lastUpdated": "2026-07-25T23:59:12Z",
+  "lastUpdated": "2026-07-26T23:57:38Z",
   "meta": {
-    "lastVerified": "2026-07-26",
+    "lastVerified": "2026-07-27",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-07-26T23:59:12Z"
+    "nextUpdateISO": "2026-07-27T23:57:38Z"
   },
-  "streakDays": 2,
+  "streakDays": 1,
   "monthlyRanking": [
     {
       "rank": 1,
       "skill": "Claude",
       "category": "LLM・基盤モデル",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 2,
       "skill": "Prompt Engineering",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 1,
-      "changePct": 100.0,
-      "changeDir": "up"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
       "skill": "LLM",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 3,
-      "changePct": -33.3,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 4,
       "skill": "Python",
       "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 4,
-      "changePct": -50.0,
-      "changeDir": "down"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 5,
+      "skill": "Gemini",
+      "category": "LLM・基盤モデル",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 6,
       "skill": "Docker",
       "category": "クラウド・デプロイ",
       "currentMonth": 1,
@@ -58,16 +67,16 @@
       "changeDir": "flat"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "skill": "PyTorch",
       "category": "MLエンジニアリング",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "skill": "ElevenLabs",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 1,
@@ -77,11 +86,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-06-26",
-      "totalAiJobs": 26,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-06-27",
       "totalAiJobs": 29,
@@ -231,37 +235,42 @@
       "date": "2026-07-26",
       "totalAiJobs": 24,
       "topSkill": "Claude"
+    },
+    {
+      "date": "2026-07-27",
+      "totalAiJobs": 23,
+      "topSkill": "Claude"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-07-20",
+    "weekOf": "2026-07-27",
     "skills": [
       "Claude",
       "Prompt Engineering",
       "LLM"
     ],
     "percentages": [
-      50.0,
-      100.0,
-      -33.3
+      0.0,
+      0.0,
+      0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Claude +50.0%\n2位: Prompt Engineering +100.0%\n3位: LLM -33.3%\n（2026-07-20週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Claude +0.0%\n2位: Prompt Engineering +0.0%\n3位: LLM +0.0%\n（2026-07-27週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 836,
-    "aiJobRatioPct": 19.2,
+    "totalAiJobsThisMonth": 833,
+    "aiJobRatioPct": 18.4,
     "topRisingSkill": {
-      "name": "Prompt Engineering",
-      "changePct": 100.0
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
-      "name": "Python",
-      "changePct": -50.0
+      "name": "-",
+      "changePct": 0
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-07-20",
-    "lastVerified": "2026-07-26",
+    "weekOf": "2026-07-27",
+    "lastVerified": "2026-07-27",
     "companies": [
       {
         "slug": "anthropic",
@@ -322,7 +331,7 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 753,
+        "jobCount": 752,
         "topSkills": [
           {
             "skill": "Python",
@@ -334,7 +343,7 @@
           },
           {
             "skill": "LLM",
-            "count": 52
+            "count": 51
           },
           {
             "skill": "Kubernetes",
@@ -375,7 +384,7 @@
         "company": "xAI",
         "atsType": "greenhouse",
         "careersUrl": "https://x.ai/careers",
-        "jobCount": 223,
+        "jobCount": 222,
         "topSkills": [
           {
             "skill": "Python",
@@ -567,11 +576,11 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 215,
+        "jobCount": 214,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 215
+            "count": 214
           },
           {
             "skill": "Python",
