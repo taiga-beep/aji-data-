@@ -1,4 +1,13 @@
 {
+  "2026-07-28": {
+    "LLM": 3,
+    "Gemini": 1,
+    "Prompt Engineering": 2,
+    "Claude": 2,
+    "PyTorch": 1,
+    "ElevenLabs": 1,
+    "Python": 2
+  },
   "2026-07-27": {
     "Gemini": 1,
     "Prompt Engineering": 2,
@@ -1101,13 +1110,5 @@
     "TensorFlow": 1,
     "BigQuery": 1,
     "FastAPI": 1
-  },
-  "2026-05-29": {
-    "Python": 2,
-    "Claude": 4,
-    "LLM": 3,
-    "AI Agent": 1,
-    "SQL": 2,
-    "RAG": 1
   }
 }
