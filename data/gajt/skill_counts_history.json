@@ -1,4 +1,12 @@
 {
+  "2026-07-29": {
+    "LLM": 3,
+    "PyTorch": 1,
+    "ElevenLabs": 1,
+    "Python": 2,
+    "Claude": 1,
+    "Prompt Engineering": 1
+  },
   "2026-07-28": {
     "LLM": 3,
     "Gemini": 1,
@@ -1095,18 +1103,6 @@
     "gRPC": 1,
     "Multimodal": 1,
     "PyTorch": 2,
-    "TensorFlow": 1,
-    "BigQuery": 1,
-    "FastAPI": 1
-  },
-  "2026-05-30": {
-    "SQL": 2,
-    "Python": 4,
-    "Claude": 3,
-    "LLM": 4,
-    "AI Agent": 1,
-    "Prompt Engineering": 1,
-    "PyTorch": 1,
     "TensorFlow": 1,
     "BigQuery": 1,
     "FastAPI": 1
