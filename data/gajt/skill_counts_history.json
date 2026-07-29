@@ -1,4 +1,20 @@
 {
+  "2026-07-30": {
+    "LLM": 4,
+    "Python": 4,
+    "SQL": 2,
+    "Kubernetes": 1,
+    "Terraform": 1,
+    "AI Agent": 1,
+    "RAG": 1,
+    "Pinecone": 1,
+    "MLflow": 1,
+    "BigQuery": 1,
+    "PyTorch": 1,
+    "ElevenLabs": 1,
+    "Claude": 1,
+    "Prompt Engineering": 1
+  },
   "2026-07-29": {
     "LLM": 3,
     "PyTorch": 1,
@@ -1089,22 +1105,5 @@
     "gRPC": 1,
     "Multimodal": 1,
     "PyTorch": 1
-  },
-  "2026-05-31": {
-    "LLM": 5,
-    "Claude": 1,
-    "MCP": 2,
-    "Redis": 1,
-    "Kubernetes": 1,
-    "AI Agent": 2,
-    "SQL": 3,
-    "Python": 5,
-    "Prompt Engineering": 2,
-    "gRPC": 1,
-    "Multimodal": 1,
-    "PyTorch": 2,
-    "TensorFlow": 1,
-    "BigQuery": 1,
-    "FastAPI": 1
   }
 }
