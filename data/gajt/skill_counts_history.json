@@ -1,4 +1,23 @@
 {
+  "2026-08-02": {
+    "LLM": 7,
+    "GPT": 1,
+    "Claude": 5,
+    "Gemini": 1,
+    "Llama": 1,
+    "RAG": 3,
+    "Prompt Engineering": 1,
+    "MCP": 2,
+    "Python": 7,
+    "AI Agent": 3,
+    "Multi-Agent": 1,
+    "Cursor": 1,
+    "LangChain": 1,
+    "SQL": 4,
+    "Docker": 1,
+    "BigQuery": 2,
+    "Midjourney": 1
+  },
   "2026-08-01": {
     "Python": 8,
     "SQL": 7,
@@ -1085,24 +1104,6 @@
     "Docker": 1,
     "LLM": 5,
     "Prompt Engineering": 1,
-    "MCP": 1,
-    "gRPC": 1,
-    "Multimodal": 1
-  },
-  "2026-06-03": {
-    "Claude": 5,
-    "Prompt Engineering": 5,
-    "Copilot": 5,
-    "SQL": 2,
-    "Python": 5,
-    "PostgreSQL": 1,
-    "Terraform": 2,
-    "Cursor": 1,
-    "Ray": 1,
-    "Kubernetes": 1,
-    "Docker": 1,
-    "LLM": 5,
-    "AI Agent": 2,
     "MCP": 1,
     "gRPC": 1,
     "Multimodal": 1
