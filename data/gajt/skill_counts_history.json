@@ -1,4 +1,20 @@
 {
+  "2026-08-01": {
+    "Python": 8,
+    "SQL": 7,
+    "LLM": 6,
+    "Claude": 4,
+    "RLHF": 1,
+    "Kubernetes": 1,
+    "Terraform": 1,
+    "AI Agent": 2,
+    "RAG": 2,
+    "Pinecone": 1,
+    "Docker": 1,
+    "MCP": 1,
+    "BigQuery": 2,
+    "Midjourney": 1
+  },
   "2026-07-31": {
     "Python": 8,
     "LLM": 6,
@@ -1088,22 +1104,6 @@
     "LLM": 5,
     "AI Agent": 2,
     "MCP": 1,
-    "gRPC": 1,
-    "Multimodal": 1
-  },
-  "2026-06-02": {
-    "Claude": 5,
-    "Prompt Engineering": 5,
-    "Copilot": 4,
-    "SQL": 2,
-    "LLM": 6,
-    "MCP": 2,
-    "Redis": 1,
-    "Kubernetes": 2,
-    "AI Agent": 3,
-    "Python": 4,
-    "Docker": 1,
-    "Terraform": 1,
     "gRPC": 1,
     "Multimodal": 1
   }
