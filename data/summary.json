@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-01T23:29:28Z",
+  "lastUpdated": "2026-08-02T23:29:59Z",
   "totalModels": 337,
   "todayChanges": {
-    "priceDown": 2,
-    "priceUp": 2,
-    "newModels": 1,
+    "priceDown": 1,
+    "priceUp": 0,
+    "newModels": 0,
     "removedModels": 0
   },
   "models": [
@@ -19,7 +19,7 @@
       "prevInputPrice": null,
       "prevOutputPrice": null,
       "priceChangePercent": null,
-      "isNew": true,
+      "isNew": false,
       "isRemoved": false,
       "created": 1785606009
     },
@@ -31,9 +31,9 @@
       "outputPrice": 0.18,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 0.14,
-      "prevOutputPrice": 0.28,
-      "priceChangePercent": -35.71,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1785478908
@@ -582,13 +582,13 @@
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
-      "inputPrice": 0.42,
-      "outputPrice": 1.32,
+      "inputPrice": 0.2842,
+      "outputPrice": 0.8932,
       "contextLength": 1048576,
       "priceCategory": "budget",
-      "prevInputPrice": 1.12,
-      "prevOutputPrice": 3.52,
-      "priceChangePercent": -62.5,
+      "prevInputPrice": 0.42,
+      "prevOutputPrice": 1.32,
+      "priceChangePercent": -32.33,
       "isNew": false,
       "isRemoved": false,
       "created": 1781631930
@@ -1336,9 +1336,9 @@
       "outputPrice": 3.41,
       "contextLength": 262144,
       "priceCategory": "budget",
-      "prevInputPrice": 0.589,
-      "prevOutputPrice": 2.48,
-      "priceChangePercent": 1.87,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1776699402
@@ -4216,9 +4216,9 @@
       "outputPrice": 1.0,
       "contextLength": 128000,
       "priceCategory": "budget",
-      "prevInputPrice": 0.25,
-      "prevOutputPrice": 0.75,
-      "priceChangePercent": 220.0,
+      "prevInputPrice": null,
+      "prevOutputPrice": null,
+      "priceChangePercent": null,
       "isNew": false,
       "isRemoved": false,
       "created": 1738410311
@@ -5066,7 +5066,6 @@
   ],
   "history": {
     "dates": [
-      "2026-07-04",
       "2026-07-05",
       "2026-07-06",
       "2026-07-07",
@@ -5095,7 +5094,8 @@
       "2026-07-30",
       "2026-07-31",
       "2026-08-01",
-      "2026-08-02"
+      "2026-08-02",
+      "2026-08-03"
     ],
     "trackedModels": {
       "openai/gpt-4o": {
