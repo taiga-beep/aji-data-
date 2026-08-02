@@ -1,79 +1,79 @@
 {
-  "lastUpdated": "2026-08-01T23:55:32Z",
+  "lastUpdated": "2026-08-02T23:57:11Z",
   "meta": {
-    "lastVerified": "2026-08-02",
+    "lastVerified": "2026-08-03",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-08-02T23:55:32Z"
+    "nextUpdateISO": "2026-08-03T23:57:11Z"
   },
-  "streakDays": 2,
+  "streakDays": 1,
   "monthlyRanking": [
     {
       "rank": 1,
       "skill": "LLM",
       "category": "LLM・基盤モデル",
-      "currentMonth": 7,
-      "prevMonth": 6,
-      "changePct": 16.7,
-      "changeDir": "up"
+      "currentMonth": 6,
+      "prevMonth": 7,
+      "changePct": -14.3,
+      "changeDir": "down"
     },
     {
       "rank": 2,
       "skill": "Python",
       "category": "データ・インフラ",
-      "currentMonth": 7,
-      "prevMonth": 8,
-      "changePct": -12.5,
+      "currentMonth": 6,
+      "prevMonth": 7,
+      "changePct": -14.3,
       "changeDir": "down"
     },
     {
       "rank": 3,
       "skill": "Claude",
       "category": "LLM・基盤モデル",
-      "currentMonth": 5,
-      "prevMonth": 4,
-      "changePct": 25.0,
-      "changeDir": "up"
-    },
-    {
-      "rank": 4,
-      "skill": "SQL",
-      "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 7,
-      "changePct": -42.9,
+      "prevMonth": 5,
+      "changePct": -20.0,
       "changeDir": "down"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "skill": "RAG",
       "category": "LLM・基盤モデル",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "skill": "AI Agent",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "skill": "MCP",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
-      "prevMonth": 1,
-      "changePct": 100.0,
-      "changeDir": "up"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 7,
+      "skill": "SQL",
+      "category": "データ・インフラ",
+      "currentMonth": 2,
+      "prevMonth": 4,
+      "changePct": -50.0,
+      "changeDir": "down"
     },
     {
       "rank": 8,
@@ -89,7 +89,7 @@
       "skill": "GPT",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -98,7 +98,7 @@
       "skill": "Gemini",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -107,7 +107,7 @@
       "skill": "Llama",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -116,7 +116,7 @@
       "skill": "Prompt Engineering",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -125,7 +125,7 @@
       "skill": "Multi-Agent",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -134,7 +134,7 @@
       "skill": "Cursor",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -143,7 +143,7 @@
       "skill": "LangChain",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
-      "prevMonth": 0,
+      "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -167,11 +167,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-07-03",
-      "totalAiJobs": 27,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-07-04",
       "totalAiJobs": 30,
@@ -321,37 +316,42 @@
       "date": "2026-08-02",
       "totalAiJobs": 29,
       "topSkill": "LLM"
+    },
+    {
+      "date": "2026-08-03",
+      "totalAiJobs": 25,
+      "topSkill": "LLM"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-07-27",
+    "weekOf": "2026-08-03",
     "skills": [
       "LLM",
       "Python",
       "Claude"
     ],
     "percentages": [
-      16.7,
-      -12.5,
-      25.0
+      -14.3,
+      -14.3,
+      -20.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +16.7%\n2位: Python -12.5%\n3位: Claude +25.0%\n（2026-07-27週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM -14.3%\n2位: Python -14.3%\n3位: Claude -20.0%\n（2026-08-03週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 807,
-    "aiJobRatioPct": 23.2,
+    "totalAiJobsThisMonth": 805,
+    "aiJobRatioPct": 20.0,
     "topRisingSkill": {
-      "name": "MCP",
-      "changePct": 100.0
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
       "name": "SQL",
-      "changePct": -42.9
+      "changePct": -50.0
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-07-27",
-    "lastVerified": "2026-08-02",
+    "weekOf": "2026-08-03",
+    "lastVerified": "2026-08-03",
     "companies": [
       {
         "slug": "anthropic",
@@ -412,7 +412,7 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 754,
+        "jobCount": 752,
         "topSkills": [
           {
             "skill": "Python",
@@ -657,11 +657,11 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 224,
+        "jobCount": 223,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 224
+            "count": 223
           },
           {
             "skill": "Python",
