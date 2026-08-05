@@ -1,4 +1,19 @@
 {
+  "2026-08-05": {
+    "Multi-Agent": 1,
+    "LLM": 6,
+    "Claude": 4,
+    "Gemini": 1,
+    "Prompt Engineering": 1,
+    "MCP": 2,
+    "Python": 3,
+    "Docker": 1,
+    "AI Agent": 1,
+    "RAG": 1,
+    "BigQuery": 2,
+    "SQL": 1,
+    "Midjourney": 1
+  },
   "2026-08-04": {
     "LLM": 6,
     "GPT": 1,
@@ -1087,25 +1102,5 @@
     "Copilot": 1,
     "LLM": 1,
     "AI Agent": 1
-  },
-  "2026-06-06": {
-    "Python": 8,
-    "ElevenLabs": 1,
-    "Claude": 8,
-    "Cursor": 2,
-    "Gemini": 1,
-    "Computer Vision": 1,
-    "PostgreSQL": 2,
-    "RAG": 1,
-    "Triton": 1,
-    "Pinecone": 1,
-    "Weaviate": 1,
-    "Kubernetes": 2,
-    "Terraform": 3,
-    "Ray": 2,
-    "Copilot": 1,
-    "Docker": 1,
-    "LLM": 3,
-    "AI Agent": 2
   }
 }
