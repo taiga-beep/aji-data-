@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-08-08T23:26:11Z",
+  "lastUpdated": "2026-08-09T23:29:08Z",
   "meta": {
-    "lastVerified": "2026-08-09",
+    "lastVerified": "2026-08-10",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-08-09T23:26:11Z"
+    "nextUpdateISO": "2026-08-10T23:29:08Z"
   },
   "streakDays": 1,
   "monthlyRanking": [
@@ -17,27 +17,27 @@
       "skill": "LLM",
       "category": "LLM・基盤モデル",
       "currentMonth": 4,
-      "prevMonth": 3,
-      "changePct": 33.3,
-      "changeDir": "up"
+      "prevMonth": 4,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 2,
       "skill": "Python",
       "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 3,
-      "changePct": 33.3,
-      "changeDir": "up"
+      "prevMonth": 4,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
       "skill": "AI Agent",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 2,
-      "prevMonth": 1,
-      "changePct": 100.0,
-      "changeDir": "up"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 4,
@@ -53,9 +53,9 @@
       "skill": "SQL",
       "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 1,
-      "changePct": 100.0,
-      "changeDir": "up"
+      "prevMonth": 2,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 6,
@@ -158,11 +158,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-07-10",
-      "totalAiJobs": 16,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-07-11",
       "totalAiJobs": 14,
@@ -312,28 +307,33 @@
       "date": "2026-08-09",
       "totalAiJobs": 23,
       "topSkill": "LLM"
+    },
+    {
+      "date": "2026-08-10",
+      "totalAiJobs": 21,
+      "topSkill": "LLM"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-08-03",
+    "weekOf": "2026-08-10",
     "skills": [
       "LLM",
       "Python",
       "AI Agent"
     ],
     "percentages": [
-      33.3,
-      33.3,
-      100.0
+      0.0,
+      0.0,
+      0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +33.3%\n2位: Python +33.3%\n3位: AI Agent +100.0%\n（2026-08-03週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +0.0%\n2位: Python +0.0%\n3位: AI Agent +0.0%\n（2026-08-10週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 779,
-    "aiJobRatioPct": 18.4,
+    "totalAiJobsThisMonth": 784,
+    "aiJobRatioPct": 16.8,
     "topRisingSkill": {
-      "name": "AI Agent",
-      "changePct": 100.0
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
       "name": "-",
@@ -341,8 +341,8 @@
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-08-03",
-    "lastVerified": "2026-08-09",
+    "weekOf": "2026-08-10",
+    "lastVerified": "2026-08-10",
     "companies": [
       {
         "slug": "anthropic",
@@ -350,19 +350,19 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 392,
+        "jobCount": 391,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 392
+            "count": 391
           },
           {
             "skill": "Multimodal",
-            "count": 392
+            "count": 391
           },
           {
             "skill": "Claude",
-            "count": 212
+            "count": 211
           },
           {
             "skill": "Python",
@@ -403,7 +403,7 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 747,
+        "jobCount": 750,
         "topSkills": [
           {
             "skill": "Python",
@@ -456,7 +456,7 @@
         "company": "xAI",
         "atsType": "greenhouse",
         "careersUrl": "https://x.ai/careers",
-        "jobCount": 218,
+        "jobCount": 217,
         "topSkills": [
           {
             "skill": "Python",
