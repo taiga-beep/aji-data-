@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-08-15T23:17:54Z",
+  "lastUpdated": "2026-08-16T23:17:13Z",
   "meta": {
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-08-17",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-08-16T23:17:54Z"
+    "nextUpdateISO": "2026-08-17T23:17:13Z"
   },
   "streakDays": 1,
   "monthlyRanking": [
@@ -17,45 +17,45 @@
       "skill": "Gemini",
       "category": "LLM・基盤モデル",
       "currentMonth": 10,
-      "prevMonth": 9,
-      "changePct": 11.1,
-      "changeDir": "up"
+      "prevMonth": 10,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 2,
       "skill": "Claude",
       "category": "LLM・基盤モデル",
       "currentMonth": 9,
-      "prevMonth": 8,
-      "changePct": 12.5,
-      "changeDir": "up"
+      "prevMonth": 9,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
       "skill": "GPT",
       "category": "LLM・基盤モデル",
       "currentMonth": 8,
-      "prevMonth": 7,
-      "changePct": 14.3,
-      "changeDir": "up"
+      "prevMonth": 8,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 4,
       "skill": "SQL",
       "category": "データ・インフラ",
       "currentMonth": 4,
-      "prevMonth": 3,
-      "changePct": 33.3,
-      "changeDir": "up"
+      "prevMonth": 4,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 5,
       "skill": "LLM",
       "category": "LLM・基盤モデル",
       "currentMonth": 3,
-      "prevMonth": 4,
-      "changePct": -25.0,
-      "changeDir": "down"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 6,
@@ -71,9 +71,9 @@
       "skill": "Snowflake",
       "category": "データ・インフラ",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 8,
@@ -194,11 +194,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-07-17",
-      "totalAiJobs": 35,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-07-18",
       "totalAiJobs": 29,
@@ -348,37 +343,42 @@
       "date": "2026-08-16",
       "totalAiJobs": 39,
       "topSkill": "Gemini"
+    },
+    {
+      "date": "2026-08-17",
+      "totalAiJobs": 39,
+      "topSkill": "Gemini"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-08-10",
+    "weekOf": "2026-08-17",
     "skills": [
       "Gemini",
       "Claude",
       "GPT"
     ],
     "percentages": [
-      11.1,
-      12.5,
-      14.3
+      0.0,
+      0.0,
+      0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Gemini +11.1%\n2位: Claude +12.5%\n3位: GPT +14.3%\n（2026-08-10週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Gemini +0.0%\n2位: Claude +0.0%\n3位: GPT +0.0%\n（2026-08-17週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 831,
+    "totalAiJobsThisMonth": 835,
     "aiJobRatioPct": 31.2,
     "topRisingSkill": {
-      "name": "Snowflake",
-      "changePct": 50.0
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
-      "name": "LLM",
-      "changePct": -25.0
+      "name": "-",
+      "changePct": 0
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-08-10",
-    "lastVerified": "2026-08-16",
+    "weekOf": "2026-08-17",
+    "lastVerified": "2026-08-17",
     "companies": [
       {
         "slug": "anthropic",
@@ -684,11 +684,11 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 242,
+        "jobCount": 243,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 242
+            "count": 243
           },
           {
             "skill": "Python",
@@ -696,7 +696,7 @@
           },
           {
             "skill": "LLM",
-            "count": 45
+            "count": 46
           },
           {
             "skill": "Voice AI",

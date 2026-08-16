@@ -1,4 +1,26 @@
 {
+  "2026-08-17": {
+    "LLM": 3,
+    "Python": 3,
+    "SQL": 4,
+    "dbt": 2,
+    "Airflow": 2,
+    "Snowflake": 3,
+    "AI Agent": 2,
+    "Kubernetes": 2,
+    "Terraform": 1,
+    "GPT": 8,
+    "Claude": 9,
+    "Gemini": 10,
+    "RAG": 1,
+    "Fine-tuning": 1,
+    "Prompt Engineering": 2,
+    "Multi-Agent": 1,
+    "MCP": 1,
+    "LangChain": 1,
+    "Semantic Kernel": 1,
+    "Docker": 1
+  },
   "2026-08-16": {
     "LLM": 3,
     "Python": 3,
@@ -1011,28 +1033,5 @@
     "PostgreSQL": 2,
     "Cursor": 1,
     "Copilot": 1
-  },
-  "2026-06-18": {
-    "Terraform": 4,
-    "Python": 5,
-    "Kubernetes": 4,
-    "Docker": 3,
-    "LLM": 3,
-    "Claude": 4,
-    "Multi-Agent": 1,
-    "SQL": 2,
-    "Gemini": 1,
-    "PyTorch": 1,
-    "RAG": 1,
-    "Fine-tuning": 1,
-    "MCP": 1,
-    "LangChain": 2,
-    "RLHF": 1,
-    "Prompt Engineering": 1,
-    "Kafka": 2,
-    "PostgreSQL": 3,
-    "Cursor": 1,
-    "Copilot": 1,
-    "Redis": 1
   }
 }
