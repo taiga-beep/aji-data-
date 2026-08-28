@@ -1,19 +1,28 @@
 {
-  "lastUpdated": "2026-08-27T16:12:06Z",
+  "lastUpdated": "2026-08-28T17:11:39Z",
   "meta": {
-    "lastVerified": "2026-08-28",
+    "lastVerified": "2026-08-29",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
-    "totalJobsScanned": 124,
+    "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-08-28T16:12:06Z"
+    "nextUpdateISO": "2026-08-29T17:11:39Z"
   },
-  "streakDays": 2,
+  "streakDays": 1,
   "monthlyRanking": [
     {
       "rank": 1,
+      "skill": "Python",
+      "category": "データ・インフラ",
+      "currentMonth": 7,
+      "prevMonth": 6,
+      "changePct": 16.7,
+      "changeDir": "up"
+    },
+    {
+      "rank": 2,
       "skill": "SQL",
       "category": "データ・インフラ",
       "currentMonth": 7,
@@ -22,31 +31,22 @@
       "changeDir": "flat"
     },
     {
-      "rank": 2,
-      "skill": "Python",
-      "category": "データ・インフラ",
-      "currentMonth": 6,
-      "prevMonth": 6,
-      "changePct": 0.0,
-      "changeDir": "flat"
-    },
-    {
       "rank": 3,
-      "skill": "LLM",
-      "category": "LLM・基盤モデル",
-      "currentMonth": 4,
-      "prevMonth": 4,
-      "changePct": 0.0,
-      "changeDir": "flat"
+      "skill": "Snowflake",
+      "category": "データ・インフラ",
+      "currentMonth": 3,
+      "prevMonth": 2,
+      "changePct": 50.0,
+      "changeDir": "up"
     },
     {
       "rank": 4,
-      "skill": "Spark",
-      "category": "データ・インフラ",
+      "skill": "LLM",
+      "category": "LLM・基盤モデル",
       "currentMonth": 3,
-      "prevMonth": 3,
-      "changePct": 0.0,
-      "changeDir": "flat"
+      "prevMonth": 4,
+      "changePct": -25.0,
+      "changeDir": "down"
     },
     {
       "rank": 5,
@@ -68,15 +68,6 @@
     },
     {
       "rank": 7,
-      "skill": "AI Agent",
-      "category": "エージェント・マルチモーダル",
-      "currentMonth": 2,
-      "prevMonth": 2,
-      "changePct": 0.0,
-      "changeDir": "flat"
-    },
-    {
-      "rank": 8,
       "skill": "RLHF",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
@@ -85,7 +76,7 @@
       "changeDir": "flat"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "skill": "Fine-tuning",
       "category": "LLM・基盤モデル",
       "currentMonth": 2,
@@ -94,16 +85,16 @@
       "changeDir": "flat"
     },
     {
-      "rank": 10,
-      "skill": "Snowflake",
+      "rank": 9,
+      "skill": "Spark",
       "category": "データ・インフラ",
       "currentMonth": 2,
-      "prevMonth": 2,
-      "changePct": 0.0,
-      "changeDir": "flat"
+      "prevMonth": 3,
+      "changePct": -33.3,
+      "changeDir": "down"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "skill": "RAG",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
@@ -112,7 +103,7 @@
       "changeDir": "flat"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "skill": "LangChain",
       "category": "LLM・基盤モデル",
       "currentMonth": 1,
@@ -121,7 +112,7 @@
       "changeDir": "flat"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "skill": "Pinecone",
       "category": "データ・インフラ",
       "currentMonth": 1,
@@ -130,13 +121,22 @@
       "changeDir": "flat"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "skill": "Weaviate",
       "category": "データ・インフラ",
       "currentMonth": 1,
       "prevMonth": 1,
       "changePct": 0.0,
       "changeDir": "flat"
+    },
+    {
+      "rank": 14,
+      "skill": "AI Agent",
+      "category": "エージェント・マルチモーダル",
+      "currentMonth": 1,
+      "prevMonth": 2,
+      "changePct": -50.0,
+      "changeDir": "down"
     },
     {
       "rank": 15,
@@ -194,11 +194,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-07-29",
-      "totalAiJobs": 19,
-      "topSkill": "LLM"
-    },
     {
       "date": "2026-07-30",
       "totalAiJobs": 21,
@@ -348,37 +343,42 @@
       "date": "2026-08-28",
       "totalAiJobs": 31,
       "topSkill": "SQL"
+    },
+    {
+      "date": "2026-08-29",
+      "totalAiJobs": 32,
+      "topSkill": "Python"
     }
   ],
   "weeklyTopThree": {
     "weekOf": "2026-08-24",
     "skills": [
-      "SQL",
       "Python",
-      "LLM"
+      "SQL",
+      "Snowflake"
     ],
     "percentages": [
+      16.7,
       0.0,
-      0.0,
-      0.0
+      50.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: SQL +0.0%\n2位: Python +0.0%\n3位: LLM +0.0%\n（2026-08-24週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Python +16.7%\n2位: SQL +0.0%\n3位: Snowflake +50.0%\n（2026-08-24週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 939,
-    "aiJobRatioPct": 25.0,
+    "totalAiJobsThisMonth": 952,
+    "aiJobRatioPct": 25.6,
     "topRisingSkill": {
-      "name": "-",
-      "changePct": 0
+      "name": "Snowflake",
+      "changePct": 50.0
     },
     "topFallingSkill": {
-      "name": "-",
-      "changePct": 0
+      "name": "AI Agent",
+      "changePct": -50.0
     }
   },
   "companyWeekly": {
     "weekOf": "2026-08-24",
-    "lastVerified": "2026-08-28",
+    "lastVerified": "2026-08-29",
     "companies": [
       {
         "slug": "anthropic",
@@ -386,19 +386,19 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 561,
+        "jobCount": 566,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 561
+            "count": 566
           },
           {
             "skill": "Multimodal",
-            "count": 561
+            "count": 566
           },
           {
             "skill": "Claude",
-            "count": 295
+            "count": 298
           },
           {
             "skill": "Python",
@@ -410,7 +410,7 @@
           },
           {
             "skill": "SQL",
-            "count": 76
+            "count": 77
           },
           {
             "skill": "Kubernetes",
@@ -418,7 +418,7 @@
           },
           {
             "skill": "MCP",
-            "count": 23
+            "count": 24
           },
           {
             "skill": "Fine-tuning",
@@ -431,12 +431,7 @@
         ],
         "newSkills": [],
         "droppedSkills": [],
-        "trendingSkills": [
-          {
-            "skill": "RLHF",
-            "deltaPct": 29
-          }
-        ]
+        "trendingSkills": []
       },
       {
         "slug": "openai",
@@ -444,27 +439,27 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 742,
+        "jobCount": 752,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 199
+            "count": 203
           },
           {
             "skill": "SQL",
-            "count": 57
+            "count": 61
           },
           {
             "skill": "OpenAI API",
-            "count": 43
+            "count": 46
           },
           {
             "skill": "LLM",
-            "count": 43
+            "count": 44
           },
           {
             "skill": "Kubernetes",
-            "count": 42
+            "count": 43
           },
           {
             "skill": "GPT",
@@ -476,7 +471,7 @@
           },
           {
             "skill": "Terraform",
-            "count": 22
+            "count": 23
           },
           {
             "skill": "Multi-Agent",
@@ -497,15 +492,15 @@
         "company": "xAI",
         "atsType": "greenhouse",
         "careersUrl": "https://x.ai/careers",
-        "jobCount": 247,
+        "jobCount": 252,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 44
+            "count": 45
           },
           {
             "skill": "SQL",
-            "count": 15
+            "count": 16
           },
           {
             "skill": "Kubernetes",
@@ -540,7 +535,9 @@
             "count": 6
           }
         ],
-        "newSkills": [],
+        "newSkills": [
+          "BERT"
+        ],
         "droppedSkills": [],
         "trendingSkills": []
       },
@@ -562,7 +559,7 @@
         "company": "Cohere",
         "atsType": "ashby",
         "careersUrl": "https://cohere.com/careers",
-        "jobCount": 145,
+        "jobCount": 146,
         "topSkills": [
           {
             "skill": "Python",
@@ -615,19 +612,19 @@
         "company": "Perplexity",
         "atsType": "ashby",
         "careersUrl": "https://www.perplexity.ai/careers",
-        "jobCount": 101,
+        "jobCount": 99,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 43
+            "count": 40
           },
           {
             "skill": "LLM",
-            "count": 24
+            "count": 23
           },
           {
             "skill": "Kubernetes",
-            "count": 16
+            "count": 15
           },
           {
             "skill": "SQL",
@@ -642,10 +639,6 @@
             "count": 7
           },
           {
-            "skill": "MCP",
-            "count": 7
-          },
-          {
             "skill": "TensorFlow",
             "count": 6
           },
@@ -654,15 +647,22 @@
             "count": 6
           },
           {
-            "skill": "PostgreSQL",
+            "skill": "Terraform",
+            "count": 5
+          },
+          {
+            "skill": "RAG",
             "count": 5
           }
         ],
         "newSkills": [],
-        "droppedSkills": [
-          "Multi-Agent"
-        ],
-        "trendingSkills": []
+        "droppedSkills": [],
+        "trendingSkills": [
+          {
+            "skill": "Spark",
+            "deltaPct": 33
+          }
+        ]
       },
       {
         "slug": "runway",
@@ -691,15 +691,15 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 248,
+        "jobCount": 250,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 248
+            "count": 250
           },
           {
             "skill": "Python",
-            "count": 70
+            "count": 68
           },
           {
             "skill": "LLM",
@@ -707,7 +707,7 @@
           },
           {
             "skill": "Voice AI",
-            "count": 41
+            "count": 40
           },
           {
             "skill": "SQL",
@@ -719,7 +719,7 @@
           },
           {
             "skill": "Kubernetes",
-            "count": 3
+            "count": 5
           },
           {
             "skill": "dbt",
@@ -734,16 +734,34 @@
             "count": 2
           }
         ],
-        "newSkills": [],
+        "newSkills": [
+          "TensorRT",
+          "vLLM",
+          "Triton"
+        ],
         "droppedSkills": [],
-        "trendingSkills": []
+        "trendingSkills": [
+          {
+            "skill": "Kubernetes",
+            "deltaPct": 67
+          }
+        ]
       }
     ],
-    "globalNewSkills": [],
+    "globalNewSkills": [
+      "BERT",
+      "TensorRT",
+      "vLLM",
+      "Triton"
+    ],
     "globalTopRisers": [
       {
-        "skill": "RLHF",
-        "deltaPct": 29
+        "skill": "Kubernetes",
+        "deltaPct": 67
+      },
+      {
+        "skill": "Spark",
+        "deltaPct": 33
       }
     ]
   },
