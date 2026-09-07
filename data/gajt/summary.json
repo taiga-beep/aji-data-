@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-06T00:33:55Z",
+  "lastUpdated": "2026-09-07T00:41:02Z",
   "meta": {
-    "lastVerified": "2026-09-06",
+    "lastVerified": "2026-09-07",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 125,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-09-07T00:33:55Z"
+    "nextUpdateISO": "2026-09-08T00:41:02Z"
   },
-  "streakDays": 8,
+  "streakDays": 9,
   "monthlyRanking": [
     {
       "rank": 1,
@@ -195,11 +195,6 @@
   ],
   "calendarHeatmap": [
     {
-      "date": "2026-08-07",
-      "totalAiJobs": 30,
-      "topSkill": "LLM"
-    },
-    {
       "date": "2026-08-08",
       "totalAiJobs": 26,
       "topSkill": "LLM"
@@ -348,10 +343,15 @@
       "date": "2026-09-06",
       "totalAiJobs": 26,
       "topSkill": "LLM"
+    },
+    {
+      "date": "2026-09-07",
+      "totalAiJobs": 26,
+      "topSkill": "LLM"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-08-31",
+    "weekOf": "2026-09-07",
     "skills": [
       "LLM",
       "Python",
@@ -362,10 +362,10 @@
       0.0,
       0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +0.0%\n2位: Python +0.0%\n3位: Claude +0.0%\n（2026-08-31週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM +0.0%\n2位: Python +0.0%\n3位: Claude +0.0%\n（2026-09-07週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 970,
+    "totalAiJobsThisMonth": 966,
     "aiJobRatioPct": 20.8,
     "topRisingSkill": {
       "name": "-",
@@ -377,8 +377,8 @@
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-08-31",
-    "lastVerified": "2026-09-06",
+    "weekOf": "2026-09-07",
+    "lastVerified": "2026-09-07",
     "companies": [
       {
         "slug": "anthropic",
@@ -386,31 +386,31 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 594,
+        "jobCount": 591,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 594
+            "count": 591
           },
           {
             "skill": "Multimodal",
-            "count": 594
+            "count": 591
           },
           {
             "skill": "Claude",
-            "count": 307
+            "count": 305
           },
           {
             "skill": "Python",
-            "count": 177
+            "count": 176
           },
           {
             "skill": "LLM",
-            "count": 117
+            "count": 116
           },
           {
             "skill": "SQL",
-            "count": 84
+            "count": 83
           },
           {
             "skill": "Kubernetes",
@@ -425,7 +425,7 @@
             "count": 15
           },
           {
-            "skill": "Fine-tuning",
+            "skill": "BigQuery",
             "count": 14
           }
         ],
@@ -439,11 +439,11 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 779,
+        "jobCount": 781,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 205
+            "count": 206
           },
           {
             "skill": "SQL",
