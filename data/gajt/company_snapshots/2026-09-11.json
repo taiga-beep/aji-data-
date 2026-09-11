@@ -1,0 +1,554 @@
+{
+  "anthropic": {
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "company": "Anthropic",
+    "atsType": "greenhouse",
+    "careersUrl": "https://www.anthropic.com/jobs",
+    "jobCount": 594,
+    "topSkills": [
+      {
+        "skill": "GPT",
+        "count": 594
+      },
+      {
+        "skill": "Multimodal",
+        "count": 594
+      },
+      {
+        "skill": "Claude",
+        "count": 315
+      },
+      {
+        "skill": "Python",
+        "count": 182
+      },
+      {
+        "skill": "LLM",
+        "count": 122
+      },
+      {
+        "skill": "SQL",
+        "count": 84
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 50
+      },
+      {
+        "skill": "MCP",
+        "count": 25
+      },
+      {
+        "skill": "Transformer",
+        "count": 18
+      },
+      {
+        "skill": "PyTorch",
+        "count": 15
+      }
+    ],
+    "skillCounts": {
+      "GPT": 594,
+      "Multimodal": 594,
+      "Claude": 315,
+      "Python": 182,
+      "LLM": 122,
+      "SQL": 84,
+      "Kubernetes": 50,
+      "MCP": 25,
+      "Transformer": 18,
+      "PyTorch": 15,
+      "BigQuery": 14,
+      "Fine-tuning": 13,
+      "Terraform": 12,
+      "JAX": 11,
+      "dbt": 9,
+      "RLHF": 9,
+      "Prompt Engineering": 8,
+      "Airflow": 7,
+      "Multi-Agent": 7,
+      "Spark": 6,
+      "Snowflake": 5,
+      "Docker": 5,
+      "Google Vertex AI": 4,
+      "Triton": 3,
+      "TensorFlow": 3,
+      "PostgreSQL": 3,
+      "Cursor": 2,
+      "Copilot": 2,
+      "Anthropic API": 2,
+      "Redis": 2,
+      "Kafka": 1,
+      "RAG": 1,
+      "Computer Vision": 1,
+      "AI Agent": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "openai": {
+    "slug": "openai",
+    "name": "OpenAI",
+    "company": "OpenAI",
+    "atsType": "ashby",
+    "careersUrl": "https://openai.com/careers",
+    "jobCount": 784,
+    "topSkills": [
+      {
+        "skill": "Python",
+        "count": 206
+      },
+      {
+        "skill": "SQL",
+        "count": 57
+      },
+      {
+        "skill": "OpenAI API",
+        "count": 52
+      },
+      {
+        "skill": "LLM",
+        "count": 45
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 43
+      },
+      {
+        "skill": "GPT",
+        "count": 24
+      },
+      {
+        "skill": "Multimodal",
+        "count": 24
+      },
+      {
+        "skill": "Terraform",
+        "count": 22
+      },
+      {
+        "skill": "RLHF",
+        "count": 14
+      },
+      {
+        "skill": "PyTorch",
+        "count": 14
+      }
+    ],
+    "skillCounts": {
+      "Python": 206,
+      "SQL": 57,
+      "OpenAI API": 52,
+      "LLM": 45,
+      "Kubernetes": 43,
+      "GPT": 24,
+      "Multimodal": 24,
+      "Terraform": 22,
+      "RLHF": 14,
+      "PyTorch": 14,
+      "Multi-Agent": 12,
+      "Fine-tuning": 9,
+      "Transformer": 7,
+      "Kafka": 6,
+      "Spark": 6,
+      "FastAPI": 6,
+      "TensorFlow": 6,
+      "Airflow": 5,
+      "Docker": 5,
+      "Triton": 5,
+      "vLLM": 4,
+      "MCP": 4,
+      "Computer Vision": 3,
+      "RAG": 3,
+      "JAX": 3,
+      "Sora": 2,
+      "Redis": 2,
+      "gRPC": 1,
+      "Claude": 1,
+      "TensorRT": 1,
+      "Retrieval Augmented Generation": 1,
+      "PostgreSQL": 1,
+      "Prompt Engineering": 1,
+      "Snowflake": 1,
+      "Ray": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "xai": {
+    "slug": "xai",
+    "name": "xAI",
+    "company": "xAI",
+    "atsType": "greenhouse",
+    "careersUrl": "https://x.ai/careers",
+    "jobCount": 252,
+    "topSkills": [
+      {
+        "skill": "Python",
+        "count": 50
+      },
+      {
+        "skill": "SQL",
+        "count": 15
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 13
+      },
+      {
+        "skill": "Spark",
+        "count": 8
+      },
+      {
+        "skill": "Kafka",
+        "count": 8
+      },
+      {
+        "skill": "LLM",
+        "count": 7
+      },
+      {
+        "skill": "Terraform",
+        "count": 7
+      },
+      {
+        "skill": "JAX",
+        "count": 7
+      },
+      {
+        "skill": "Docker",
+        "count": 6
+      },
+      {
+        "skill": "Transformer",
+        "count": 6
+      }
+    ],
+    "skillCounts": {
+      "Python": 50,
+      "SQL": 15,
+      "Kubernetes": 13,
+      "Spark": 8,
+      "Kafka": 8,
+      "LLM": 7,
+      "Terraform": 7,
+      "JAX": 7,
+      "Docker": 6,
+      "Transformer": 6,
+      "Multimodal": 6,
+      "PyTorch": 6,
+      "gRPC": 5,
+      "Ray": 4,
+      "vLLM": 3,
+      "Airflow": 3,
+      "Fine-tuning": 3,
+      "TensorRT": 2,
+      "PostgreSQL": 2,
+      "Sora": 1,
+      "RAG": 1,
+      "RLHF": 1,
+      "BERT": 1,
+      "Redis": 1,
+      "Triton": 1,
+      "Voice AI": 1,
+      "BigQuery": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "mistral": {
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "company": "Mistral AI",
+    "atsType": "lever",
+    "careersUrl": "https://mistral.ai/careers",
+    "jobCount": 0,
+    "topSkills": [],
+    "skillCounts": {},
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "cohere": {
+    "slug": "cohere",
+    "name": "Cohere",
+    "company": "Cohere",
+    "atsType": "ashby",
+    "careersUrl": "https://cohere.com/careers",
+    "jobCount": 142,
+    "topSkills": [
+      {
+        "skill": "Python",
+        "count": 46
+      },
+      {
+        "skill": "LLM",
+        "count": 29
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 28
+      },
+      {
+        "skill": "RAG",
+        "count": 15
+      },
+      {
+        "skill": "JAX",
+        "count": 14
+      },
+      {
+        "skill": "PyTorch",
+        "count": 14
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 10
+      },
+      {
+        "skill": "SQL",
+        "count": 7
+      },
+      {
+        "skill": "Fine-tuning",
+        "count": 6
+      },
+      {
+        "skill": "Multimodal",
+        "count": 5
+      }
+    ],
+    "skillCounts": {
+      "Python": 46,
+      "LLM": 29,
+      "Kubernetes": 28,
+      "RAG": 15,
+      "JAX": 14,
+      "PyTorch": 14,
+      "TensorFlow": 10,
+      "SQL": 7,
+      "Fine-tuning": 6,
+      "Multimodal": 5,
+      "Ray": 5,
+      "Spark": 5,
+      "vLLM": 5,
+      "BigQuery": 5,
+      "dbt": 4,
+      "Airflow": 4,
+      "Docker": 3,
+      "Claude": 3,
+      "MCP": 3,
+      "TensorRT": 2,
+      "AWS SageMaker": 2,
+      "Google Vertex AI": 2,
+      "Prompt Engineering": 2,
+      "Llama": 1,
+      "Mistral": 1,
+      "Triton": 1,
+      "Transformer": 1,
+      "GPT": 1,
+      "Gemini": 1,
+      "Multi-Agent": 1,
+      "Retrieval Augmented Generation": 1,
+      "Computer Vision": 1,
+      "Cursor": 1,
+      "AI Agent": 1,
+      "LangChain": 1,
+      "LlamaIndex": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [
+      "Terraform"
+    ],
+    "trendingSkills": []
+  },
+  "perplexity": {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "company": "Perplexity",
+    "atsType": "ashby",
+    "careersUrl": "https://www.perplexity.ai/careers",
+    "jobCount": 114,
+    "topSkills": [
+      {
+        "skill": "Python",
+        "count": 42
+      },
+      {
+        "skill": "LLM",
+        "count": 26
+      },
+      {
+        "skill": "SQL",
+        "count": 18
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 15
+      },
+      {
+        "skill": "PyTorch",
+        "count": 8
+      },
+      {
+        "skill": "Snowflake",
+        "count": 8
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 6
+      },
+      {
+        "skill": "Multimodal",
+        "count": 6
+      },
+      {
+        "skill": "MCP",
+        "count": 6
+      },
+      {
+        "skill": "RAG",
+        "count": 5
+      }
+    ],
+    "skillCounts": {
+      "Python": 42,
+      "LLM": 26,
+      "SQL": 18,
+      "Kubernetes": 15,
+      "PyTorch": 8,
+      "Snowflake": 8,
+      "TensorFlow": 6,
+      "Multimodal": 6,
+      "MCP": 6,
+      "RAG": 5,
+      "Spark": 5,
+      "dbt": 5,
+      "PostgreSQL": 4,
+      "JAX": 4,
+      "Terraform": 4,
+      "Transformer": 2,
+      "Triton": 2,
+      "AI Agent": 2,
+      "Docker": 1,
+      "Fine-tuning": 1,
+      "Airflow": 1,
+      "Kafka": 1,
+      "gRPC": 1,
+      "Computer Vision": 1,
+      "Prompt Engineering": 1,
+      "Multi-Agent": 1
+    },
+    "newSkills": [
+      "Multi-Agent"
+    ],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "runway": {
+    "slug": "runway",
+    "name": "Runway",
+    "company": "Runway",
+    "atsType": "ashby",
+    "careersUrl": "https://runwayml.com/careers",
+    "jobCount": 4,
+    "topSkills": [
+      {
+        "skill": "Kubernetes",
+        "count": 1
+      },
+      {
+        "skill": "SQL",
+        "count": 1
+      }
+    ],
+    "skillCounts": {
+      "Kubernetes": 1,
+      "SQL": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  },
+  "elevenlabs": {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "company": "ElevenLabs",
+    "atsType": "ashby",
+    "careersUrl": "https://elevenlabs.io/careers",
+    "jobCount": 248,
+    "topSkills": [
+      {
+        "skill": "ElevenLabs",
+        "count": 248
+      },
+      {
+        "skill": "Python",
+        "count": 72
+      },
+      {
+        "skill": "LLM",
+        "count": 48
+      },
+      {
+        "skill": "Voice AI",
+        "count": 41
+      },
+      {
+        "skill": "AI Agent",
+        "count": 17
+      },
+      {
+        "skill": "SQL",
+        "count": 14
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 5
+      },
+      {
+        "skill": "Terraform",
+        "count": 3
+      },
+      {
+        "skill": "dbt",
+        "count": 3
+      },
+      {
+        "skill": "Docker",
+        "count": 2
+      }
+    ],
+    "skillCounts": {
+      "ElevenLabs": 248,
+      "Python": 72,
+      "LLM": 48,
+      "Voice AI": 41,
+      "AI Agent": 17,
+      "SQL": 14,
+      "Kubernetes": 5,
+      "Terraform": 3,
+      "dbt": 3,
+      "Docker": 2,
+      "MCP": 2,
+      "Spark": 1,
+      "Claude": 1,
+      "RAG": 1,
+      "TensorRT": 1,
+      "vLLM": 1,
+      "Triton": 1,
+      "Kafka": 1,
+      "Redis": 1,
+      "Multimodal": 1,
+      "Snowflake": 1,
+      "Gemini": 1
+    },
+    "newSkills": [],
+    "droppedSkills": [],
+    "trendingSkills": []
+  }
+}
