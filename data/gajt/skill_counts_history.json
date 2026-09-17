@@ -1,4 +1,25 @@
 {
+  "2026-09-17": {
+    "LLM": 3,
+    "Kubernetes": 8,
+    "Docker": 5,
+    "Terraform": 3,
+    "gRPC": 1,
+    "Python": 6,
+    "dbt": 1,
+    "Snowflake": 1,
+    "PostgreSQL": 1,
+    "SQL": 3,
+    "RLHF": 1,
+    "Claude": 5,
+    "FastAPI": 2,
+    "Kafka": 1,
+    "Redis": 1,
+    "AI Agent": 1,
+    "Cursor": 3,
+    "MCP": 2,
+    "MLflow": 1
+  },
   "2026-09-16": {
     "LLM": 8,
     "Kubernetes": 10,
@@ -1238,16 +1259,6 @@
     "LLM": 5,
     "Python": 6,
     "SQL": 4,
-    "Prompt Engineering": 2,
-    "AI Agent": 1,
-    "PostgreSQL": 1,
-    "FastAPI": 1
-  },
-  "2026-07-19": {
-    "LLM": 5,
-    "Python": 6,
-    "SQL": 4,
-    "Claude": 1,
     "Prompt Engineering": 2,
     "AI Agent": 1,
     "PostgreSQL": 1,
