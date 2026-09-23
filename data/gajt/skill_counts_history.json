@@ -1,4 +1,23 @@
 {
+  "2026-09-23": {
+    "SQL": 3,
+    "AI Agent": 6,
+    "Redis": 1,
+    "PostgreSQL": 3,
+    "Kubernetes": 8,
+    "Claude": 4,
+    "LLM": 10,
+    "Docker": 2,
+    "Terraform": 3,
+    "gRPC": 2,
+    "Python": 12,
+    "dbt": 1,
+    "Snowflake": 2,
+    "Kafka": 1,
+    "Copilot": 2,
+    "BigQuery": 1,
+    "Cursor": 1
+  },
   "2026-09-22": {
     "SQL": 4,
     "AI Agent": 5,
@@ -1289,14 +1308,5 @@
     "ElevenLabs": 1,
     "LLM": 2,
     "Python": 2
-  },
-  "2026-07-25": {
-    "Claude": 2,
-    "Docker": 1,
-    "Python": 4,
-    "ElevenLabs": 1,
-    "LLM": 3,
-    "Prompt Engineering": 1,
-    "AI Agent": 1
   }
 }
