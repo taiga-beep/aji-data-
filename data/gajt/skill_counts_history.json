@@ -1,4 +1,20 @@
 {
+  "2026-09-26": {
+    "LLM": 9,
+    "SQL": 2,
+    "AI Agent": 7,
+    "Redis": 1,
+    "PostgreSQL": 3,
+    "Kubernetes": 7,
+    "Claude": 2,
+    "Docker": 2,
+    "Terraform": 2,
+    "gRPC": 2,
+    "Python": 9,
+    "dbt": 1,
+    "Snowflake": 1,
+    "Kafka": 1
+  },
   "2026-09-25": {
     "LLM": 11,
     "SQL": 3,
@@ -1318,14 +1334,5 @@
     "Python": 2,
     "Claude": 1,
     "Prompt Engineering": 1
-  },
-  "2026-07-28": {
-    "LLM": 3,
-    "Gemini": 1,
-    "Prompt Engineering": 2,
-    "Claude": 2,
-    "PyTorch": 1,
-    "ElevenLabs": 1,
-    "Python": 2
   }
 }
