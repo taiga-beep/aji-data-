@@ -1,34 +1,34 @@
 {
-  "lastUpdated": "2026-09-27T01:04:56Z",
+  "lastUpdated": "2026-09-28T01:24:11Z",
   "meta": {
-    "lastVerified": "2026-09-27",
+    "lastVerified": "2026-09-28",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 124,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-09-28T01:04:56Z"
+    "nextUpdateISO": "2026-09-29T01:24:11Z"
   },
-  "streakDays": 29,
+  "streakDays": 30,
   "monthlyRanking": [
     {
       "rank": 1,
-      "skill": "LLM",
-      "category": "LLM・基盤モデル",
-      "currentMonth": 8,
-      "prevMonth": 9,
-      "changePct": -11.1,
-      "changeDir": "down"
+      "skill": "Python",
+      "category": "データ・インフラ",
+      "currentMonth": 9,
+      "prevMonth": 8,
+      "changePct": 12.5,
+      "changeDir": "up"
     },
     {
       "rank": 2,
-      "skill": "Python",
-      "category": "データ・インフラ",
+      "skill": "LLM",
+      "category": "LLM・基盤モデル",
       "currentMonth": 8,
-      "prevMonth": 9,
-      "changePct": -11.1,
-      "changeDir": "down"
+      "prevMonth": 8,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
@@ -44,25 +44,25 @@
       "skill": "AI Agent",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 6,
-      "prevMonth": 7,
-      "changePct": -14.3,
-      "changeDir": "down"
-    },
-    {
-      "rank": 5,
-      "skill": "PostgreSQL",
-      "category": "データ・インフラ",
-      "currentMonth": 3,
-      "prevMonth": 3,
+      "prevMonth": 6,
       "changePct": 0.0,
       "changeDir": "flat"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "skill": "SQL",
       "category": "データ・インフラ",
-      "currentMonth": 2,
+      "currentMonth": 3,
       "prevMonth": 2,
+      "changePct": 50.0,
+      "changeDir": "up"
+    },
+    {
+      "rank": 6,
+      "skill": "PostgreSQL",
+      "category": "データ・インフラ",
+      "currentMonth": 3,
+      "prevMonth": 3,
       "changePct": 0.0,
       "changeDir": "flat"
     },
@@ -131,6 +131,51 @@
     },
     {
       "rank": 14,
+      "skill": "PyTorch",
+      "category": "MLエンジニアリング",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 15,
+      "skill": "WandB",
+      "category": "MLエンジニアリング",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 16,
+      "skill": "Spark",
+      "category": "データ・インフラ",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 17,
+      "skill": "Airflow",
+      "category": "データ・インフラ",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 18,
+      "skill": "Ray",
+      "category": "MLエンジニアリング",
+      "currentMonth": 1,
+      "prevMonth": 0,
+      "changePct": 0.0,
+      "changeDir": "flat"
+    },
+    {
+      "rank": 19,
       "skill": "Kafka",
       "category": "データ・インフラ",
       "currentMonth": 1,
@@ -140,11 +185,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-08-28",
-      "totalAiJobs": 31,
-      "topSkill": "SQL"
-    },
     {
       "date": "2026-08-29",
       "totalAiJobs": 32,
@@ -294,37 +334,42 @@
       "date": "2026-09-27",
       "totalAiJobs": 59,
       "topSkill": "LLM"
+    },
+    {
+      "date": "2026-09-28",
+      "totalAiJobs": 60,
+      "topSkill": "Python"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "skills": [
-      "LLM",
       "Python",
+      "LLM",
       "Kubernetes"
     ],
     "percentages": [
-      -11.1,
-      -11.1,
+      12.5,
+      0.0,
       0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: LLM -11.1%\n2位: Python -11.1%\n3位: Kubernetes +0.0%\n（2026-09-21週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Python +12.5%\n2位: LLM +0.0%\n3位: Kubernetes +0.0%\n（2026-09-28週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 1403,
-    "aiJobRatioPct": 47.6,
+    "totalAiJobsThisMonth": 1432,
+    "aiJobRatioPct": 48.4,
     "topRisingSkill": {
-      "name": "-",
-      "changePct": 0
+      "name": "SQL",
+      "changePct": 50.0
     },
     "topFallingSkill": {
-      "name": "AI Agent",
-      "changePct": -14.3
+      "name": "-",
+      "changePct": 0
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-09-21",
-    "lastVerified": "2026-09-27",
+    "weekOf": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "companies": [
       {
         "slug": "anthropic",
@@ -332,15 +377,15 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 618,
+        "jobCount": 619,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 618
+            "count": 619
           },
           {
             "skill": "Multimodal",
-            "count": 618
+            "count": 619
           },
           {
             "skill": "Claude",
@@ -356,7 +401,7 @@
           },
           {
             "skill": "SQL",
-            "count": 76
+            "count": 77
           },
           {
             "skill": "Kubernetes",
@@ -385,7 +430,7 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 830,
+        "jobCount": 829,
         "topSkills": [
           {
             "skill": "Python",
@@ -601,12 +646,7 @@
         ],
         "newSkills": [],
         "droppedSkills": [],
-        "trendingSkills": [
-          {
-            "skill": "Computer Vision",
-            "deltaPct": 100
-          }
-        ]
+        "trendingSkills": []
       },
       {
         "slug": "runway",
@@ -684,12 +724,7 @@
       }
     ],
     "globalNewSkills": [],
-    "globalTopRisers": [
-      {
-        "skill": "Computer Vision",
-        "deltaPct": 100
-      }
-    ]
+    "globalTopRisers": []
   },
   "japanLag": {
     "entries": [
