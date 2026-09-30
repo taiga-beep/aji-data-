@@ -1,4 +1,19 @@
 {
+  "2026-09-30": {
+    "LLM": 8,
+    "SQL": 3,
+    "AI Agent": 6,
+    "Redis": 1,
+    "PostgreSQL": 3,
+    "Kubernetes": 7,
+    "Claude": 2,
+    "Terraform": 2,
+    "gRPC": 1,
+    "Python": 7,
+    "dbt": 1,
+    "Snowflake": 1,
+    "Docker": 1
+  },
   "2026-09-29": {
     "LLM": 8,
     "SQL": 3,
@@ -1332,22 +1347,6 @@
     "LangChain": 1,
     "SQL": 4,
     "Docker": 1,
-    "BigQuery": 2,
-    "Midjourney": 1
-  },
-  "2026-08-01": {
-    "Python": 8,
-    "SQL": 7,
-    "LLM": 6,
-    "Claude": 4,
-    "RLHF": 1,
-    "Kubernetes": 1,
-    "Terraform": 1,
-    "AI Agent": 2,
-    "RAG": 2,
-    "Pinecone": 1,
-    "Docker": 1,
-    "MCP": 1,
     "BigQuery": 2,
     "Midjourney": 1
   }
