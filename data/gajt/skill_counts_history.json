@@ -1,4 +1,23 @@
 {
+  "2026-10-04": {
+    "LLM": 9,
+    "SQL": 4,
+    "AI Agent": 7,
+    "Redis": 3,
+    "PostgreSQL": 3,
+    "Kubernetes": 7,
+    "Claude": 4,
+    "Terraform": 3,
+    "gRPC": 1,
+    "Python": 8,
+    "dbt": 1,
+    "Snowflake": 1,
+    "Docker": 1,
+    "Cursor": 1,
+    "Copilot": 1,
+    "Spark": 1,
+    "Kafka": 1
+  },
   "2026-10-03": {
     "LLM": 8,
     "SQL": 5,
@@ -1333,21 +1352,6 @@
     "Docker": 1,
     "RAG": 1,
     "BigQuery": 2,
-    "Midjourney": 1
-  },
-  "2026-08-05": {
-    "Multi-Agent": 1,
-    "LLM": 6,
-    "Claude": 4,
-    "Gemini": 1,
-    "Prompt Engineering": 1,
-    "MCP": 2,
-    "Python": 3,
-    "Docker": 1,
-    "AI Agent": 1,
-    "RAG": 1,
-    "BigQuery": 2,
-    "SQL": 1,
     "Midjourney": 1
   }
 }
