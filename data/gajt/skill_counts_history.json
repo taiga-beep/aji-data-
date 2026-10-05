@@ -1,4 +1,24 @@
 {
+  "2026-10-05": {
+    "LLM": 8,
+    "SQL": 4,
+    "AI Agent": 5,
+    "Redis": 4,
+    "PostgreSQL": 2,
+    "Kubernetes": 9,
+    "Claude": 5,
+    "Terraform": 4,
+    "gRPC": 1,
+    "Python": 8,
+    "dbt": 1,
+    "Snowflake": 1,
+    "Docker": 1,
+    "Cursor": 2,
+    "Copilot": 2,
+    "Fine-tuning": 1,
+    "Spark": 1,
+    "Kafka": 1
+  },
   "2026-10-04": {
     "LLM": 9,
     "SQL": 4,
@@ -1336,22 +1356,5 @@
     "Semantic Kernel": 1,
     "Python": 4,
     "Claude": 1
-  },
-  "2026-08-06": {
-    "SQL": 2,
-    "Multi-Agent": 1,
-    "LLM": 6,
-    "Claude": 4,
-    "Gemini": 2,
-    "Prompt Engineering": 2,
-    "MCP": 3,
-    "LangChain": 1,
-    "Semantic Kernel": 1,
-    "Python": 4,
-    "AI Agent": 2,
-    "Docker": 1,
-    "RAG": 1,
-    "BigQuery": 2,
-    "Midjourney": 1
   }
 }
