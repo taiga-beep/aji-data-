@@ -1,4 +1,24 @@
 {
+  "2026-10-11": {
+    "LLM": 7,
+    "Python": 7,
+    "AI Agent": 5,
+    "Claude": 5,
+    "Cursor": 3,
+    "Copilot": 3,
+    "SQL": 5,
+    "Redis": 4,
+    "PostgreSQL": 2,
+    "Kubernetes": 10,
+    "Terraform": 5,
+    "gRPC": 1,
+    "dbt": 1,
+    "Snowflake": 1,
+    "Docker": 2,
+    "Spark": 2,
+    "Fine-tuning": 1,
+    "Kafka": 1
+  },
   "2026-10-10": {
     "LLM": 5,
     "SQL": 5,
@@ -1347,22 +1367,5 @@
     "LangChain": 1,
     "Semantic Kernel": 1,
     "Docker": 1
-  },
-  "2026-08-12": {
-    "LLM": 4,
-    "Python": 4,
-    "AI Agent": 2,
-    "GPT": 1,
-    "Kubernetes": 1,
-    "Docker": 2,
-    "SQL": 1,
-    "dbt": 1,
-    "Airflow": 1,
-    "Snowflake": 1,
-    "Gemini": 1,
-    "Prompt Engineering": 1,
-    "MCP": 1,
-    "LangChain": 1,
-    "Semantic Kernel": 1
   }
 }
