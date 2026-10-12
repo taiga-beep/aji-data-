@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-11T01:33:11Z",
+  "lastUpdated": "2026-10-12T02:03:19Z",
   "meta": {
-    "lastVerified": "2026-10-11",
+    "lastVerified": "2026-10-12",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 124,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-10-12T01:33:11Z"
+    "nextUpdateISO": "2026-10-13T02:03:19Z"
   },
-  "streakDays": 43,
+  "streakDays": 44,
   "monthlyRanking": [
     {
       "rank": 1,
@@ -25,9 +25,9 @@
       "rank": 2,
       "skill": "LLM",
       "category": "LLM・基盤モデル",
-      "currentMonth": 7,
-      "prevMonth": 5,
-      "changePct": 40.0,
+      "currentMonth": 8,
+      "prevMonth": 7,
+      "changePct": 14.3,
       "changeDir": "up"
     },
     {
@@ -35,32 +35,32 @@
       "skill": "Python",
       "category": "データ・インフラ",
       "currentMonth": 7,
-      "prevMonth": 6,
-      "changePct": 16.7,
-      "changeDir": "up"
+      "prevMonth": 7,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 4,
-      "skill": "AI Agent",
-      "category": "エージェント・マルチモーダル",
-      "currentMonth": 5,
-      "prevMonth": 4,
-      "changePct": 25.0,
+      "skill": "SQL",
+      "category": "データ・インフラ",
+      "currentMonth": 6,
+      "prevMonth": 5,
+      "changePct": 20.0,
       "changeDir": "up"
     },
     {
       "rank": 5,
-      "skill": "Claude",
-      "category": "LLM・基盤モデル",
+      "skill": "AI Agent",
+      "category": "エージェント・マルチモーダル",
       "currentMonth": 5,
-      "prevMonth": 4,
-      "changePct": 25.0,
-      "changeDir": "up"
+      "prevMonth": 5,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 6,
-      "skill": "SQL",
-      "category": "データ・インフラ",
+      "skill": "Claude",
+      "category": "LLM・基盤モデル",
       "currentMonth": 5,
       "prevMonth": 5,
       "changePct": 0.0,
@@ -89,18 +89,18 @@
       "skill": "Cursor",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 10,
       "skill": "Copilot",
       "category": "エージェント・マルチモーダル",
       "currentMonth": 3,
-      "prevMonth": 2,
-      "changePct": 50.0,
-      "changeDir": "up"
+      "prevMonth": 3,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 11,
@@ -176,11 +176,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-09-11",
-      "totalAiJobs": 54,
-      "topSkill": "Python"
-    },
     {
       "date": "2026-09-12",
       "totalAiJobs": 53,
@@ -330,10 +325,15 @@
       "date": "2026-10-11",
       "totalAiJobs": 64,
       "topSkill": "Kubernetes"
+    },
+    {
+      "date": "2026-10-12",
+      "totalAiJobs": 64,
+      "topSkill": "Kubernetes"
     }
   ],
   "weeklyTopThree": {
-    "weekOf": "2026-10-05",
+    "weekOf": "2026-10-12",
     "skills": [
       "Kubernetes",
       "LLM",
@@ -341,17 +341,17 @@
     ],
     "percentages": [
       0.0,
-      40.0,
-      16.7
+      14.3,
+      0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Kubernetes +0.0%\n2位: LLM +40.0%\n3位: Python +16.7%\n（2026-10-05週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Kubernetes +0.0%\n2位: LLM +14.3%\n3位: Python +0.0%\n（2026-10-12週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 1824,
+    "totalAiJobsThisMonth": 1834,
     "aiJobRatioPct": 51.6,
     "topRisingSkill": {
-      "name": "Cursor",
-      "changePct": 50.0
+      "name": "SQL",
+      "changePct": 20.0
     },
     "topFallingSkill": {
       "name": "-",
@@ -359,8 +359,8 @@
     }
   },
   "companyWeekly": {
-    "weekOf": "2026-10-05",
-    "lastVerified": "2026-10-11",
+    "weekOf": "2026-10-12",
+    "lastVerified": "2026-10-12",
     "companies": [
       {
         "slug": "anthropic",
@@ -421,11 +421,11 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 815,
+        "jobCount": 812,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 226
+            "count": 225
           },
           {
             "skill": "OpenAI API",
@@ -433,7 +433,7 @@
           },
           {
             "skill": "SQL",
-            "count": 59
+            "count": 58
           },
           {
             "skill": "LLM",
@@ -674,7 +674,7 @@
           },
           {
             "skill": "LLM",
-            "count": 25
+            "count": 24
           },
           {
             "skill": "Voice AI",
