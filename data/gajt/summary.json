@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-10-12T02:03:19Z",
+  "lastUpdated": "2026-10-13T03:20:57Z",
   "meta": {
-    "lastVerified": "2026-10-12",
+    "lastVerified": "2026-10-13",
     "sourceUrls": [
       "https://remoteok.com/api",
       "https://weworkremotely.com/categories/remote-programming-jobs.rss"
     ],
     "totalJobsScanned": 124,
     "updateCycleHours": 24,
-    "nextUpdateISO": "2026-10-13T02:03:19Z"
+    "nextUpdateISO": "2026-10-14T03:20:57Z"
   },
-  "streakDays": 44,
+  "streakDays": 45,
   "monthlyRanking": [
     {
       "rank": 1,
@@ -26,9 +26,9 @@
       "skill": "LLM",
       "category": "LLM・基盤モデル",
       "currentMonth": 8,
-      "prevMonth": 7,
-      "changePct": 14.3,
-      "changeDir": "up"
+      "prevMonth": 8,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 3,
@@ -44,9 +44,9 @@
       "skill": "SQL",
       "category": "データ・インフラ",
       "currentMonth": 6,
-      "prevMonth": 5,
-      "changePct": 20.0,
-      "changeDir": "up"
+      "prevMonth": 6,
+      "changePct": 0.0,
+      "changeDir": "flat"
     },
     {
       "rank": 5,
@@ -176,11 +176,6 @@
     }
   ],
   "calendarHeatmap": [
-    {
-      "date": "2026-09-12",
-      "totalAiJobs": 53,
-      "topSkill": "LLM"
-    },
     {
       "date": "2026-09-13",
       "totalAiJobs": 54,
@@ -330,6 +325,11 @@
       "date": "2026-10-12",
       "totalAiJobs": 64,
       "topSkill": "Kubernetes"
+    },
+    {
+      "date": "2026-10-13",
+      "totalAiJobs": 66,
+      "topSkill": "Kubernetes"
     }
   ],
   "weeklyTopThree": {
@@ -341,17 +341,17 @@
     ],
     "percentages": [
       0.0,
-      14.3,
+      0.0,
       0.0
     ],
-    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Kubernetes +0.0%\n2位: LLM +14.3%\n3位: Python +0.0%\n（2026-10-12週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
+    "xPostTemplate": "今週の海外AI求人スキルTop3\n1位: Kubernetes +0.0%\n2位: LLM +0.0%\n3位: Python +0.0%\n（2026-10-12週 / Remote OK+WWR集計）\n#AIスキル #生成AI"
   },
   "kpi": {
-    "totalAiJobsThisMonth": 1834,
-    "aiJobRatioPct": 51.6,
+    "totalAiJobsThisMonth": 1847,
+    "aiJobRatioPct": 53.2,
     "topRisingSkill": {
-      "name": "SQL",
-      "changePct": 20.0
+      "name": "-",
+      "changePct": 0
     },
     "topFallingSkill": {
       "name": "-",
@@ -360,7 +360,7 @@
   },
   "companyWeekly": {
     "weekOf": "2026-10-12",
-    "lastVerified": "2026-10-12",
+    "lastVerified": "2026-10-13",
     "companies": [
       {
         "slug": "anthropic",
@@ -368,31 +368,31 @@
         "company": "Anthropic",
         "atsType": "greenhouse",
         "careersUrl": "https://www.anthropic.com/jobs",
-        "jobCount": 645,
+        "jobCount": 647,
         "topSkills": [
           {
             "skill": "GPT",
-            "count": 645
+            "count": 647
           },
           {
             "skill": "Multimodal",
-            "count": 645
+            "count": 647
           },
           {
             "skill": "Claude",
-            "count": 348
+            "count": 347
           },
           {
             "skill": "Python",
-            "count": 192
+            "count": 193
           },
           {
             "skill": "LLM",
-            "count": 137
+            "count": 138
           },
           {
             "skill": "SQL",
-            "count": 77
+            "count": 78
           },
           {
             "skill": "Kubernetes",
@@ -421,11 +421,11 @@
         "company": "OpenAI",
         "atsType": "ashby",
         "careersUrl": "https://openai.com/careers",
-        "jobCount": 812,
+        "jobCount": 808,
         "topSkills": [
           {
             "skill": "Python",
-            "count": 225
+            "count": 223
           },
           {
             "skill": "OpenAI API",
@@ -433,11 +433,11 @@
           },
           {
             "skill": "SQL",
-            "count": 58
+            "count": 56
           },
           {
             "skill": "LLM",
-            "count": 48
+            "count": 46
           },
           {
             "skill": "Kubernetes",
@@ -474,7 +474,7 @@
         "company": "xAI",
         "atsType": "greenhouse",
         "careersUrl": "https://x.ai/careers",
-        "jobCount": 305,
+        "jobCount": 307,
         "topSkills": [
           {
             "skill": "Python",
@@ -539,7 +539,7 @@
         "company": "Cohere",
         "atsType": "ashby",
         "careersUrl": "https://cohere.com/careers",
-        "jobCount": 119,
+        "jobCount": 118,
         "topSkills": [
           {
             "skill": "Python",
@@ -551,7 +551,7 @@
           },
           {
             "skill": "Kubernetes",
-            "count": 23
+            "count": 22
           },
           {
             "skill": "PyTorch",
@@ -592,7 +592,7 @@
         "company": "Perplexity",
         "atsType": "ashby",
         "careersUrl": "https://www.perplexity.ai/careers",
-        "jobCount": 132,
+        "jobCount": 134,
         "topSkills": [
           {
             "skill": "Python",
@@ -662,23 +662,23 @@
         "company": "ElevenLabs",
         "atsType": "ashby",
         "careersUrl": "https://elevenlabs.io/careers",
-        "jobCount": 124,
+        "jobCount": 132,
         "topSkills": [
           {
             "skill": "ElevenLabs",
-            "count": 124
+            "count": 132
           },
           {
             "skill": "Python",
-            "count": 30
+            "count": 31
           },
           {
             "skill": "LLM",
-            "count": 24
+            "count": 23
           },
           {
             "skill": "Voice AI",
-            "count": 16
+            "count": 18
           },
           {
             "skill": "SQL",
@@ -701,17 +701,27 @@
             "count": 4
           },
           {
-            "skill": "Multimodal",
-            "count": 3
+            "skill": "Terraform",
+            "count": 4
           }
         ],
         "newSkills": [],
         "droppedSkills": [],
-        "trendingSkills": []
+        "trendingSkills": [
+          {
+            "skill": "Terraform",
+            "deltaPct": 100
+          }
+        ]
       }
     ],
     "globalNewSkills": [],
-    "globalTopRisers": []
+    "globalTopRisers": [
+      {
+        "skill": "Terraform",
+        "deltaPct": 100
+      }
+    ]
   },
   "japanLag": {
     "entries": [
