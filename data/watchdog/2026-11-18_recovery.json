@@ -1,0 +1,7 @@
+{
+  "date_jst": "2026-11-18",
+  "triggered_at_jst": "00:06:46",
+  "opt_stale": true,
+  "gajt_stale": true,
+  "action": "forced workflow_dispatch"
+}
